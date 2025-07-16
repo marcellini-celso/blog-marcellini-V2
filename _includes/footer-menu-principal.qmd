@@ -5,6 +5,6 @@
 ## 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
-- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

@@ -47,7 +47,7 @@ format: html
 
 - [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
 - [Contato por E-mail](mailto:prof.marcellini@gmail.com)
-- [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
 
 ## 🏷️ Tags
 

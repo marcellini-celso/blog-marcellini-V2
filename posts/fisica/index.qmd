@@ -1,0 +1,53 @@
+---
+title: "⚛️ Física"
+description: "Reflexões e conteúdos sobre Mecânica Quântica e Relatividade Especial, com abordagens didáticas e acadêmicas, organizadas em partes e guias temáticos."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [física]
+tags: [física, mecânica quântica, relatividade especial, Einstein, quanta, teoria da relatividade, guia de leitura]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# ⚛️ Física
+</div>
+
+---
+
+Reflexões sobre os fundamentos da Física Moderna, com foco na Mecânica Quântica e na Relatividade Especial, apresentadas de forma acessível e progressiva.
+
+## 📘 Artigos e Reflexões
+
+### [Relatividade Especial (Versão Leve)](relatividade-especial.qmd)
+Introdução didática aos conceitos de espaço-tempo, transformações de Lorentz e o paradoxo dos gêmeos.
+
+### [Relatividade Especial — Uma Visão Acadêmica](relatividade-especial-academico.qmd)
+Versão mais formal e aprofundada da teoria da relatividade restrita, com base em fontes como Resnick.
+
+### [100 Anos da Mecânica Quântica](100-anos-mecanica-quantica.qmd)
+Introdução histórica e conceitual sobre os cem anos da teoria quântica.
+
+## 📖 Guia de Leitura
+
+1. **[Guia de Leitura da Relatividade Especial](guia-relatividade-especial.qmd)** — Uma rota de leitura progressiva entre a versão introdutória e a acadêmica.
+2. **[100 Anos da Mecânica Quântica](100-anos-mecanica-quantica.qmd)** — Uma Visão Geral.
+3. **[Guia de Leitura da Série 100 Anos da Mecânica Quântica](guia-100-anos-mecanica-quantica.qmd)** — Um Aprofundamento.
+
+🔸 *A série está em andamento. Apenas a Parte 1 está publicada até o momento.*
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

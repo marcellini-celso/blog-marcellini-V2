@@ -1,0 +1,47 @@
+---
+title: "📐 LaTeX"
+description: "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [programação, LaTeX]
+tags: [LaTeX, matemática, formatação, escrita científica, Beamer, fórmulas matemáticas]
+---
+
+<div class="invisivel">
+# 📐 LaTeX
+</div>
+
+---
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.
+
+## 📘 Artigos e Reflexões
+
+### [Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)
+Exemplos e explicações sobre como usar LaTeX no Quarto, com foco em formatação matemática, ambientes e personalização.
+
+## 📖 Guia de Leitura
+
+1. **[Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)** — Comece por aqui para explorar como LaTeX pode ser integrado ao Quarto para produção científica elegante e estruturada.
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../../_includes/footer.qmd >}}
+

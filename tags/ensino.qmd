@@ -1,0 +1,11 @@
+---
+title: "ensino"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **ensino**
+
+- [🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [Sobre o Blog e Sobre Mim](/posts/pessoal/sobre-o-blog.html)

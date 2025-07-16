@@ -1,0 +1,49 @@
+---
+title: "📖 Guia de Leitura — Estatística"
+description: "Trilha de leitura recomendada para a seção Estatística do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [estatística]
+tags: [estatística, guia de leitura, cursos, visualização de dados, R, Excel, análise estatística]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 📖 Guia de Leitura — Estatística
+</div>
+
+---
+
+{{< include ../../_includes/link-retorno-estatistica.qmd >}}
+
+Este guia oferece uma ordem de leitura sugerida para quem deseja estudar estatística de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
+
+---
+
+## ✅ Ordem Sugerida
+
+1. **[Distribuição Normal (Curso)](distribuicao-normal.qmd)**  
+   Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
+
+*[Outros conteúdos serão adicionados conforme novos materiais forem publicados.]*
+
+---
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+
+🔝 [Voltar ao Topo](guia-estatistica.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

@@ -1,0 +1,10 @@
+---
+title: "matematica"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **matematica**
+
+- [📖 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)

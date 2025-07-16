@@ -1,0 +1,98 @@
+---
+title: "✨ Fórmulas que Marcaram a História"
+description: "Uma seleção das equações mais belas e influentes da matemática e da física, com explicações acessíveis e visualização clara."
+author: "Blog do Marcellini"
+date: 2025-07-12
+lang: pt-BR
+categories: [matemática, física, história da ciência]
+tags: [equações históricas, Euler, Ramanujan, onda, Schrödinger, Maxwell, Newton, Gauss]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class=invisivel>
+## ✨ Fórmulas que Marcaram a História
+</div>
+
+---
+
+{{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Esta seção celebra essas joias da matemática e da física.
+
+---
+
+### 🧠 A Identidade de Euler
+
+$$
+e^{i\pi} + 1 = 0
+$$
+
+Conecta os cinco números mais fundamentais da matemática: $e$, $i$, $\pi$, $1$, e $0$. Considerada por muitos a equação mais bela de todas.
+
+---
+
+### 📡 A Equação de Onda
+
+$$
+\frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
+$$
+
+Modela vibrações em cordas, som, luz e outras ondas. Aparece naturalmente na física, na engenharia e em equações diferenciais parciais (PDEs).
+
+---
+
+### 🔢 A Fórmula de Ramanujan para $\frac{1}{\pi}$
+
+$$
+\frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^\infty \frac{(4k)!\,(1103 + 26390k)}{(k!)^4\,396^{4k}}
+$$
+
+Essa série converge extremamente rápido e foi usada em algoritmos modernos de alta precisão para calcular $\pi$. Descoberta por Ramanujan com pura intuição matemática.
+
+---
+
+### 🌌 Equação da Gravitação Universal de Newton
+
+$$
+F = G \frac{m_1 m_2}{r^2}
+$$
+
+Descreve a atração gravitacional entre dois corpos massivos. Fundamento da mecânica clássica e da astronomia.
+
+---
+
+### 🌊 Equação de Schrödinger (Forma Independente do Tempo)
+
+$$
+-\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi = E \psi
+$$
+
+Equação fundamental da mecânica quântica. Determina o comportamento da função de onda $\psi$ de uma partícula quântica.
+
+---
+
+### ⚡ Equação de Maxwell para o Campo Elétrico (Forma Diferencial)
+
+$$
+\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}
+$$
+
+Uma das quatro equações de Maxwell que governam eletromagnetismo. Essa descreve como cargas geram campos elétricos.
+
+{{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+🔝 [Voltar ao Topo](equacoes-historicas.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

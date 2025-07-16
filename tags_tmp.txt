@@ -1,0 +1,90 @@
+física
+velocidade
+albert einstein
+artigos de 1905
+ano milagroso
+relatividade especial
+luz
+espaço-tempo
+física
+transformação de lorentz
+referencial inercial
+velocidade da luz
+contração do comprimento
+simultaneidade
+tempo dilatado
+espaço-tempo
+matemática
+estética matemática
+beleza matemática
+demonstrações elegantes
+g.h. hardy
+arte e matemática
+filosofia da matemática
+matemática
+fatorial de zero
+análise combinatória
+definição recursiva
+justificativa lógica
+números fatoriais
+princípio multiplicativo
+pessoal
+sobre o blog
+propósito do blog
+matemática
+quarto
+latex
+ensino
+divulgação científica
+programação
+index.qmd
+estrutura de site
+cabeçalho yaml
+quarto
+html
+projetos científicos
+organização de capítulos
+programação
+modelos latex
+templates quarto
+cabeçalho yaml
+fórmulas matemáticas
+documentos científicos
+renderização latex
+estrutura de documentos
+programação
+markdown
+quarto
+python
+latex
+html
+epub
+slides
+documentos científicos
+formatação de texto
+programação
+python
+quarto
+relatórios automatizados
+visualização de dados
+gráficos com python
+tabulate
+blocos de código
+análise de dados
+programação
+R
+quarto
+relatórios em R
+blocos de código
+gráficos com ggplot2
+análise de dados
+integração R e Quarto
+programação
+yaml no quarto
+cabeçalho yaml
+html
+metadados
+estrutura de documento
+formatação
+parâmetros yaml
+configuração de post

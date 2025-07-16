@@ -1,0 +1,10 @@
+---
+title: "sobre mim"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **sobre mim**
+
+- [🧑‍💻 Blog Pessoal](/posts/pessoal/index.html)

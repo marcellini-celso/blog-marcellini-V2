@@ -1,0 +1,13 @@
+---
+title: "guia de leitura"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **guia de leitura**
+
+- [📖 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
+- [📖 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)
+- [⚛️ Física](/posts/fisica/index.html)
+- [Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)

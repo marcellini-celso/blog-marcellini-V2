@@ -1,0 +1,53 @@
+![](images/banner.png){width=100% style="margin-bottom: 2rem;"}
+
+::: {.columns}
+::: {.column width="65%"}
+
+# 🧮 Sobre o Blog
+
+Neste espaço compartilho reflexões, visualizações matemáticas, explicações acessíveis e conteúdos escritos com LaTeX e Quarto.  
+É uma forma de explorar a beleza da matemática com clareza, propósito e intuição.
+
+### 🌟 O que você vai encontrar aqui:
+
+- ✨ Dicas de LaTeX e Quarto para visualizações
+- 🧠 Conceitos matemáticos ilustrados passo a passo
+- 📘 Experimentos com ensino visual e gráfico
+- 🧮 Matemática acessível e rigorosa
+- 🔭 Física explicada com contexto e história
+- 📊 Estatística com foco em aplicações reais
+- 💻 Programação em R, Python, Julia e Shell
+- 📝 Reflexões sobre ciência, método e linguagem
+
+:::
+
+::: {.column width="35%"}
+
+> **"A beleza é o primeiro teste: não há lugar permanente no mundo para matemática feia"**  
+> — G. H. Hardy
+
+:::
+:::
+
+---
+
+## 🆕 Últimos Posts
+
+<!-- inicio-ultimos-posts -->
+- [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](posts/matematica/beleza-matematica.html)
+- [Por que 0! = 1?](posts/matematica/fatorial-zero.html)
+- [Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](posts/fisica/relatividade-especial.html)
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](posts/fisica/relatividade-especial-academico.html)
+- [Estilo Visual Personalizado](posts/programacao/exemplo.html)
+<!-- fim-ultimos-posts -->
+
+> Esta seção é atualizada automaticamente a cada nova publicação.
+
+---
+
+## 🔗 Links Úteis
+
+- 🔗 [Sobre o Blog](posts/pessoal/sobre-o-blog.html)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

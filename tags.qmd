@@ -1,0 +1,197 @@
+---
+title: "Tags"
+format: html
+page-layout: full
+---
+
+::: {.tag-nuvem}
+![](nuvem_tags.png){width=100%}
+:::
+
+## 📚 Todas as Tags
+
+::: {.tag-grid}
+
+<a href="/tags/r.html" class="tag-card">R (7)</a>
+<a href="/tags/analise-de-dados.html" class="tag-card">análise de dados (7)</a>
+<a href="/tags/fisica.html" class="tag-card">física (7)</a>
+<a href="/tags/programacao.html" class="tag-card">programação (6)</a>
+<a href="/tags/albert-einstein.html" class="tag-card">Albert Einstein (5)</a>
+<a href="/tags/matematica.html" class="tag-card">matemática (5)</a>
+<a href="/tags/quarto.html" class="tag-card">quarto (5)</a>
+<a href="/tags/estatistica.html" class="tag-card">estatística (4)</a>
+<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (4)</a>
+<a href="/tags/mecanica-quantica.html" class="tag-card">mecânica quântica (4)</a>
+<a href="/tags/excel.html" class="tag-card">Excel (3)</a>
+<a href="/tags/maxwell.html" class="tag-card">Maxwell (3)</a>
+<a href="/tags/cabecalho-yaml.html" class="tag-card">cabeçalho yaml (3)</a>
+<a href="/tags/contracao-do-comprimento.html" class="tag-card">contração do comprimento (3)</a>
+<a href="/tags/espaco-tempo.html" class="tag-card">espaço-tempo (3)</a>
+<a href="/tags/historia-da-fisica.html" class="tag-card">história da física (3)</a>
+<a href="/tags/html.html" class="tag-card">html (3)</a>
+<a href="/tags/python.html" class="tag-card">python (3)</a>
+<a href="/tags/quanta.html" class="tag-card">quanta (3)</a>
+<a href="/tags/referencial-inercial.html" class="tag-card">referencial inercial (3)</a>
+<a href="/tags/simultaneidade.html" class="tag-card">simultaneidade (3)</a>
+<a href="/tags/tempo-dilatado.html" class="tag-card">tempo dilatado (3)</a>
+<a href="/tags/teoria-quantica.html" class="tag-card">teoria quântica (3)</a>
+<a href="/tags/transformacao-de-lorentz.html" class="tag-card">transformação de Lorentz (3)</a>
+<a href="/tags/velocidade-da-luz.html" class="tag-card">velocidade da luz (3)</a>
+<a href="/tags/alain-aspect.html" class="tag-card">Alain Aspect (2)</a>
+<a href="/tags/erwin-schrodinger.html" class="tag-card">Erwin Schrödinger (2)</a>
+<a href="/tags/euler.html" class="tag-card">Euler (2)</a>
+<a href="/tags/feynman.html" class="tag-card">Feynman (2)</a>
+<a href="/tags/hugh-everett-iii.html" class="tag-card">Hugh Everett III (2)</a>
+<a href="/tags/john-bell.html" class="tag-card">John Bell (2)</a>
+<a href="/tags/latex.html" class="tag-card">LaTeX (2)</a>
+<a href="/tags/lord-kelvin.html" class="tag-card">Lord Kelvin (2)</a>
+<a href="/tags/max-born.html" class="tag-card">Max Born (2)</a>
+<a href="/tags/max-planck.html" class="tag-card">Max Planck (2)</a>
+<a href="/tags/niels-bohr.html" class="tag-card">Niels Bohr (2)</a>
+<a href="/tags/pascual-jordan.html" class="tag-card">Pascual Jordan (2)</a>
+<a href="/tags/paul-dirac.html" class="tag-card">Paul Dirac (2)</a>
+<a href="/tags/python.html" class="tag-card">Python (2)</a>
+<a href="/tags/qed.html" class="tag-card">QED (2)</a>
+<a href="/tags/quarto.html" class="tag-card">Quarto (2)</a>
+<a href="/tags/ramanujan.html" class="tag-card">Ramanujan (2)</a>
+<a href="/tags/rayleigh-jeans.html" class="tag-card">Rayleigh-Jeans (2)</a>
+<a href="/tags/schwinger.html" class="tag-card">Schwinger (2)</a>
+<a href="/tags/tomonaga.html" class="tag-card">Tomonaga (2)</a>
+<a href="/tags/werner-heisenberg.html" class="tag-card">Werner Heisenberg (2)</a>
+<a href="/tags/automacao.html" class="tag-card">automação (2)</a>
+<a href="/tags/blocos-de-codigo.html" class="tag-card">blocos de código (2)</a>
+<a href="/tags/catastrofe-do-ultravioleta.html" class="tag-card">catástrofe do ultravioleta (2)</a>
+<a href="/tags/ciencia-de-dados.html" class="tag-card">ciência de dados (2)</a>
+<a href="/tags/computacao-quantica.html" class="tag-card">computação quântica (2)</a>
+<a href="/tags/congresso-de-solvay.html" class="tag-card">congresso de Solvay (2)</a>
+<a href="/tags/corpo-negro.html" class="tag-card">corpo negro (2)</a>
+<a href="/tags/criptografia-quantica.html" class="tag-card">criptografia quântica (2)</a>
+<a href="/tags/cursos.html" class="tag-card">cursos (2)</a>
+<a href="/tags/decoerencia-quantica.html" class="tag-card">decoerência quântica (2)</a>
+<a href="/tags/demonstracoes.html" class="tag-card">demonstrações (2)</a>
+<a href="/tags/desigualdades-de-bell.html" class="tag-card">desigualdades de Bell (2)</a>
+<a href="/tags/distribuicao-normal.html" class="tag-card">distribuição normal (2)</a>
+<a href="/tags/documentos-cientificos.html" class="tag-card">documentos científicos (2)</a>
+<a href="/tags/efeito-fotoeletrico.html" class="tag-card">efeito fotoelétrico (2)</a>
+<a href="/tags/eletrodinamica-quantica.html" class="tag-card">eletrodinâmica quântica (2)</a>
+<a href="/tags/emaranhamento-quantico.html" class="tag-card">emaranhamento quântico (2)</a>
+<a href="/tags/ensino.html" class="tag-card">ensino (2)</a>
+<a href="/tags/espacos-de-hilbert.html" class="tag-card">espaços de Hilbert (2)</a>
+<a href="/tags/estetica-matematica.html" class="tag-card">estética matemática (2)</a>
+<a href="/tags/formatacao.html" class="tag-card">formatação (2)</a>
+<a href="/tags/funcao-de-onda.html" class="tag-card">função de onda (2)</a>
+<a href="/tags/formulas-matematicas.html" class="tag-card">fórmulas matemáticas (2)</a>
+<a href="/tags/gato-de-schrodinger.html" class="tag-card">gato de Schrödinger (2)</a>
+<a href="/tags/gravidade-quantica-em-loop.html" class="tag-card">gravidade quântica em loop (2)</a>
+<a href="/tags/graficos.html" class="tag-card">gráficos (2)</a>
+<a href="/tags/interpretacao-de-copenhague.html" class="tag-card">interpretação de Copenhague (2)</a>
+<a href="/tags/interpretacao-de-muitos-mundos.html" class="tag-card">interpretação de muitos mundos (2)</a>
+<a href="/tags/interpretacao-estatistica.html" class="tag-card">interpretação estatística (2)</a>
+<a href="/tags/latex.html" class="tag-card">latex (2)</a>
+<a href="/tags/logica.html" class="tag-card">lógica (2)</a>
+<a href="/tags/markdown.html" class="tag-card">markdown (2)</a>
+<a href="/tags/mecanica-estatistica.html" class="tag-card">mecânica estatística (2)</a>
+<a href="/tags/mecanica-matricial.html" class="tag-card">mecânica matricial (2)</a>
+<a href="/tags/principio-da-incerteza.html" class="tag-card">princípio da incerteza (2)</a>
+<a href="/tags/quantizacao-da-radiacao.html" class="tag-card">quantização da radiação (2)</a>
+<a href="/tags/qubits.html" class="tag-card">qubits (2)</a>
+<a href="/tags/relatividade-geral.html" class="tag-card">relatividade geral (2)</a>
+<a href="/tags/relatorios-dinamicos.html" class="tag-card">relatórios dinâmicos (2)</a>
+<a href="/tags/segunda-revolucao-quantica.html" class="tag-card">segunda revolução quântica (2)</a>
+<a href="/tags/teleportacao-quantica.html" class="tag-card">teleportação quântica (2)</a>
+<a href="/tags/teorema-epr.html" class="tag-card">teorema EPR (2)</a>
+<a href="/tags/teorema-de-bell.html" class="tag-card">teorema de Bell (2)</a>
+<a href="/tags/teoria-das-cordas.html" class="tag-card">teoria das cordas (2)</a>
+<a href="/tags/teoria-de-campos-quanticos.html" class="tag-card">teoria de campos quânticos (2)</a>
+<a href="/tags/teoria-quantica-da-gravidade.html" class="tag-card">teoria quântica da gravidade (2)</a>
+<a href="/tags/universos-paralelos.html" class="tag-card">universos paralelos (2)</a>
+<a href="/tags/variaveis-ocultas-locais.html" class="tag-card">variáveis ocultas locais (2)</a>
+<a href="/tags/visualizacao-de-dados.html" class="tag-card">visualização de dados (2)</a>
+<a href="/tags/beamer.html" class="tag-card">Beamer (1)</a>
+<a href="/tags/einstein.html" class="tag-card">Einstein (1)</a>
+<a href="/tags/euclides.html" class="tag-card">Euclides (1)</a>
+<a href="/tags/fermat.html" class="tag-card">Fermat (1)</a>
+<a href="/tags/gauss.html" class="tag-card">Gauss (1)</a>
+<a href="/tags/hardy.html" class="tag-card">Hardy (1)</a>
+<a href="/tags/littlewood.html" class="tag-card">Littlewood (1)</a>
+<a href="/tags/minkowski.html" class="tag-card">Minkowski (1)</a>
+<a href="/tags/newton.html" class="tag-card">Newton (1)</a>
+<a href="/tags/rmarkdown.html" class="tag-card">RMarkdown (1)</a>
+<a href="/tags/schrodinger.html" class="tag-card">Schrödinger (1)</a>
+<a href="/tags/taniyama-shimura.html" class="tag-card">Taniyama–Shimura (1)</a>
+<a href="/tags/taylor.html" class="tag-card">Taylor (1)</a>
+<a href="/tags/wiles.html" class="tag-card">Wiles (1)</a>
+<a href="/tags/analise-combinatoria.html" class="tag-card">análise combinatória (1)</a>
+<a href="/tags/analise-estatistica.html" class="tag-card">análise estatística (1)</a>
+<a href="/tags/arte-e-matematica.html" class="tag-card">arte e matemática (1)</a>
+<a href="/tags/aula.html" class="tag-card">aula (1)</a>
+<a href="/tags/autor.html" class="tag-card">autor (1)</a>
+<a href="/tags/bastidores.html" class="tag-card">bastidores (1)</a>
+<a href="/tags/beleza-matematica.html" class="tag-card">beleza matemática (1)</a>
+<a href="/tags/computacao-cientifica.html" class="tag-card">computação científica (1)</a>
+<a href="/tags/configuracao-de-post.html" class="tag-card">configuração de post (1)</a>
+<a href="/tags/cotidiano.html" class="tag-card">cotidiano (1)</a>
+<a href="/tags/curiosidades.html" class="tag-card">curiosidades (1)</a>
+<a href="/tags/curso.html" class="tag-card">curso (1)</a>
+<a href="/tags/curso-de-estatistica.html" class="tag-card">curso de estatística (1)</a>
+<a href="/tags/curso-de-matematica.html" class="tag-card">curso de matemática (1)</a>
+<a href="/tags/definicao-recursiva.html" class="tag-card">definição recursiva (1)</a>
+<a href="/tags/demonstracoes-elegantes.html" class="tag-card">demonstrações elegantes (1)</a>
+<a href="/tags/divulgacao-cientifica.html" class="tag-card">divulgação científica (1)</a>
+<a href="/tags/documentacao-tecnica.html" class="tag-card">documentação técnica (1)</a>
+<a href="/tags/epub.html" class="tag-card">epub (1)</a>
+<a href="/tags/equacoes-historicas.html" class="tag-card">equações históricas (1)</a>
+<a href="/tags/escrita-cientifica.html" class="tag-card">escrita científica (1)</a>
+<a href="/tags/estrutura-de-documento.html" class="tag-card">estrutura de documento (1)</a>
+<a href="/tags/estrutura-de-documentos.html" class="tag-card">estrutura de documentos (1)</a>
+<a href="/tags/estrutura-de-site.html" class="tag-card">estrutura de site (1)</a>
+<a href="/tags/experiencias.html" class="tag-card">experiências (1)</a>
+<a href="/tags/fatorial-de-zero.html" class="tag-card">fatorial de zero (1)</a>
+<a href="/tags/filosofia-da-matematica.html" class="tag-card">filosofia da matemática (1)</a>
+<a href="/tags/formatacao-de-texto.html" class="tag-card">formatação de texto (1)</a>
+<a href="/tags/funcao-gama.html" class="tag-card">função gama (1)</a>
+<a href="/tags/funcoes.html" class="tag-card">funções (1)</a>
+<a href="/tags/ggplot2.html" class="tag-card">ggplot2 (1)</a>
+<a href="/tags/graficos-com-ggplot2.html" class="tag-card">gráficos com ggplot2 (1)</a>
+<a href="/tags/graficos-com-python.html" class="tag-card">gráficos com python (1)</a>
+<a href="/tags/index.qmd.html" class="tag-card">index.qmd (1)</a>
+<a href="/tags/integracao-r-e-quarto.html" class="tag-card">integração R e Quarto (1)</a>
+<a href="/tags/intervalo-de-confianca.html" class="tag-card">intervalo de confiança (1)</a>
+<a href="/tags/justificativa-logica.html" class="tag-card">justificativa lógica (1)</a>
+<a href="/tags/matematica.html" class="tag-card">matematica (1)</a>
+<a href="/tags/matematica-basica.html" class="tag-card">matemática básica (1)</a>
+<a href="/tags/matplotlib.html" class="tag-card">matplotlib (1)</a>
+<a href="/tags/metadados.html" class="tag-card">metadados (1)</a>
+<a href="/tags/modelos-latex.html" class="tag-card">modelos latex (1)</a>
+<a href="/tags/notas-do-blog.html" class="tag-card">notas do blog (1)</a>
+<a href="/tags/numeros-fatoriais.html" class="tag-card">números fatoriais (1)</a>
+<a href="/tags/onda.html" class="tag-card">onda (1)</a>
+<a href="/tags/organizacao-de-capitulos.html" class="tag-card">organização de capítulos (1)</a>
+<a href="/tags/pandas.html" class="tag-card">pandas (1)</a>
+<a href="/tags/parametros-yaml.html" class="tag-card">parâmetros yaml (1)</a>
+<a href="/tags/pessoal.html" class="tag-card">pessoal (1)</a>
+<a href="/tags/principio-multiplicativo.html" class="tag-card">princípio multiplicativo (1)</a>
+<a href="/tags/projeto.html" class="tag-card">projeto (1)</a>
+<a href="/tags/projetos-cientificos.html" class="tag-card">projetos científicos (1)</a>
+<a href="/tags/raciocinio-matematico.html" class="tag-card">raciocínio matemático (1)</a>
+<a href="/tags/reflexoes-pessoais.html" class="tag-card">reflexões pessoais (1)</a>
+<a href="/tags/relatividade-especial.html" class="tag-card">relatividade especial (1)</a>
+<a href="/tags/relatorios-automatizados.html" class="tag-card">relatórios automatizados (1)</a>
+<a href="/tags/relatorios-em-r.html" class="tag-card">relatórios em R (1)</a>
+<a href="/tags/relatorios-reprodutiveis.html" class="tag-card">relatórios reprodutíveis (1)</a>
+<a href="/tags/renderizacao-latex.html" class="tag-card">renderização latex (1)</a>
+<a href="/tags/scripts-uteis.html" class="tag-card">scripts úteis (1)</a>
+<a href="/tags/site-estatico.html" class="tag-card">site estático (1)</a>
+<a href="/tags/slides.html" class="tag-card">slides (1)</a>
+<a href="/tags/sobre-mim.html" class="tag-card">sobre mim (1)</a>
+<a href="/tags/sobre-o-blog.html" class="tag-card">sobre o blog (1)</a>
+<a href="/tags/serie-de-taylor.html" class="tag-card">série de Taylor (1)</a>
+<a href="/tags/tabulate.html" class="tag-card">tabulate (1)</a>
+<a href="/tags/templates-quarto.html" class="tag-card">templates quarto (1)</a>
+<a href="/tags/teoria-da-relatividade.html" class="tag-card">teoria da relatividade (1)</a>
+<a href="/tags/testes-de-hipotese.html" class="tag-card">testes de hipótese (1)</a>
+<a href="/tags/variabilidade.html" class="tag-card">variabilidade (1)</a>
+<a href="/tags/visualizacao.html" class="tag-card">visualização (1)</a>
+<a href="/tags/yaml-no-quarto.html" class="tag-card">yaml no quarto (1)</a>
+<a href="/tags/algebra.html" class="tag-card">álgebra (1)</a>
+:::

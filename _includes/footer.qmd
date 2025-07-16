@@ -1,0 +1,10 @@
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

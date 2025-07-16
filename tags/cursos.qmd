@@ -1,0 +1,11 @@
+---
+title: "cursos"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **cursos**
+
+- [📖 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
+- [📖 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)

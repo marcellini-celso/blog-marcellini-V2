@@ -1,0 +1,11 @@
+---
+title: "Python"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **Python**
+
+- [🐍 Python](/posts/programacao/python/index.html)
+- [📄 Quarto](/posts/programacao/quarto/index.html)

@@ -1,0 +1,10 @@
+---
+title: "raciocínio matemático"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **raciocínio matemático**
+
+- [🧮 Matemática](/posts/matematica/index.html)

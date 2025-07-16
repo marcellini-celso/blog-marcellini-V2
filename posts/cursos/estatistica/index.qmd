@@ -1,0 +1,45 @@
+---
+title: "📊 Cursos de Estatística"
+description: "Cursos completos de Estatística com teoria, aplicações práticas, visualizações e exercícios resolvidos no R e no Excel."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [estatística, cursos]
+tags: [curso de estatística, R, Excel, distribuição normal, análise de dados, gráficos, interpretação estatística]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 📊 Cursos de Estatística
+</div>
+
+---
+
+{{< include ../../../_includes/link-retorno-estatistica.qmd >}}
+
+Conteúdos completos para quem deseja aprender Estatística com exemplos práticos, visualizações, teoria acessível e exercícios aplicados.
+
+## 🎓 Cursos Disponíveis
+
+### [Distribuição Normal](../../estatistica/distribuicao-normal.qmd)
+Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
+
+## 📖 Guia de Leitura
+
+1. **[Distribuição Normal](../../estatistica/distribuicao-normal.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+{{< include ../../../_includes/footer.qmd >}}
+
+

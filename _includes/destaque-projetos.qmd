@@ -1,0 +1,9 @@
+::: {.callout-important}
+
+### 📘 Projetos Especiais
+
+- 🔭 [100 Anos da Mecânica Quântica](/posts/especiais/100-anos-mecanica-quantica/)
+- 🧠 [Relatividade Especial — Série Completa](/posts/relatividade-especial/)
+
+:::
+

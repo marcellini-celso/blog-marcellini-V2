@@ -1,0 +1,49 @@
+---
+title: "📖 Guia de Leitura — Matemática"
+description: "Trilha de leitura recomendada para a seção Matemática do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [matematica]
+tags: [matematica, guia de leitura, cursos]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 📖 Guia de Leitura — Matemática
+</div>
+
+---
+
+{{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemática de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
+
+---
+
+## ✅ Ordem Sugerida
+
+1. **[Por que \(0! = 1\)?](fatorial-zero.qmd)** — Comece por esse post para explorar a consistência matemática da definição de fatorial.
+2. **[A Beleza é o Primeiro Teste](beleza-matematica.qmd)** — Uma leitura inspiradora para apreciar a matemática como forma de arte.
+
+*[Outros conteúdos serão adicionados conforme novos materiais forem publicados.]*
+
+---
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+
+🔝 [Voltar ao Topo](guia-matematica.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

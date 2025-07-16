@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "href": "posts/fisica/relatividade-especial.qmd",
+    "tags": [
+      "Einstein",
+      "física",
+      "relatividade",
+      "espaço-tempo"
+    ]
+  },
+  {
+    "title": "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "href": "posts/fisica/relatividade-especial-academico.qmd",
+    "tags": [
+      "Einstein",
+      "física",
+      "relatividade",
+      "espaço-tempo",
+      "Lorentz",
+      "Galileu",
+      "Newton"
+    ]
+  },
+  {
+    "title": "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "href": "posts/matematica/beleza-matematica.qmd",
+    "tags": [
+      "Hardy",
+      "estética matemática",
+      "relatividade",
+      "quadrivetores",
+      "espaço-tempo",
+      "Euclides",
+      "Euler",
+      "Fermat",
+      "Wiles"
+    ]
+  },
+  {
+    "title": "Por que 0! = 1?",
+    "href": "posts/matematica/fatorial-zero.qmd",
+    "tags": [
+      "fatorial",
+      "função gama",
+      "série de Taylor"
+    ]
+  },
+  {
+    "title": "Sobre o Blog",
+    "href": "posts/pessoal/sobre-o-blog.qmd",
+    "tags": [
+      "blog",
+      "quarto",
+      "latex",
+      "python",
+      "R"
+    ]
+  },
+  {
+    "title": "Modelos de LaTeX para Usar com Quarto",
+    "href": "posts/programacao/modelos-latex-quarto.qmd",
+    "tags": [
+      "programação",
+      "quarto",
+      "latex",
+      "python",
+      "R",
+      "markdown"
+    ]
+  }
+]

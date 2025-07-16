@@ -1,0 +1,44 @@
+---
+title: "📊 R"
+description: "Publicações sobre a linguagem R com foco em estatística, gráficos, análise de dados e produção de relatórios reprodutíveis."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    fig-align: center
+    code-overflow: scroll
+    highlight-style: github
+page-layout: full
+categories: [programação, R]
+tags: [R, estatística, análise de dados, visualização, ggplot2, RMarkdown, relatórios dinâmicos]
+---
+
+<div class="invisivel">
+# 📊 R
+</div>
+
+---
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis.
+
+## 📘 Artigos e Reflexões
+
+### [Modelos R para Quarto](../modelos-r-quarto.qmd)
+Uso da linguagem R em documentos Quarto, com foco em análise de dados, gráficos e reprodutibilidade.
+
+## 📖 Guia de Leitura
+
+1. **[Modelos R para Quarto](../modelos-r-quarto.qmd)** — Inicie com este material para aprender a usar R no contexto do Quarto e criar documentos interativos e bem estruturados.
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../../_includes/footer.qmd >}}
+

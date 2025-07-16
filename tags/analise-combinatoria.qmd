@@ -1,0 +1,10 @@
+---
+title: "análise combinatória"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **análise combinatória**
+
+- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

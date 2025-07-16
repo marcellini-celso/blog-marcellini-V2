@@ -1,0 +1,12 @@
+---
+title: "cabeçalho yaml"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **cabeçalho yaml**
+
+- [Modelos de index.qmd para Projetos Quarto](/posts/programacao/modelos-index-quarto.html)
+- [YAML no Quarto: O Coração Invisível dos Seus Documentos](/posts/programacao/yaml-no-quarto.html)
+- [Modelos de LaTeX para Usar com Quarto](/posts/programacao/modelos-latex-quarto.html)

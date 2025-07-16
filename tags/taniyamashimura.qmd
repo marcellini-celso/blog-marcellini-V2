@@ -1,0 +1,10 @@
+---
+title: "Taniyama–Shimura"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **Taniyama–Shimura**
+
+- [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](/posts/matematica/beleza-matematica.html)

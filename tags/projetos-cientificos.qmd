@@ -1,0 +1,10 @@
+---
+title: "projetos científicos"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **projetos científicos**
+
+- [Modelos de index.qmd para Projetos Quarto](/posts/programacao/modelos-index-quarto.html)

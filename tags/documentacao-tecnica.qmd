@@ -1,0 +1,10 @@
+---
+title: "documentação técnica"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **documentação técnica**
+
+- [📄 Quarto](/posts/programacao/quarto/index.html)

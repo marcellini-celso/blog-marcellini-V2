@@ -1,0 +1,9 @@
+::: {.callout-tip appearance="card"}
+
+### 📚 Cursos em Destaque
+
+- 👉 [Cursos de Estatística](/posts/cursos/estatistica/)
+- 🧮 [Cursos de Matemática](/posts/cursos/matematica/)
+
+:::
+

@@ -1,0 +1,10 @@
+---
+title: "modelos latex"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **modelos latex**
+
+- [Modelos de LaTeX para Usar com Quarto](/posts/programacao/modelos-latex-quarto.html)

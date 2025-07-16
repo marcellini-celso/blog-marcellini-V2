@@ -1,0 +1,10 @@
+---
+title: "gráficos com python"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **gráficos com python**
+
+- [Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)

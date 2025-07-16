@@ -1,0 +1,54 @@
+---
+title: "🧮 Matemática"
+description: "Reflexões e conteúdos fundamentais da matemática, com foco na beleza, lógica e estrutura dos principais conceitos da área."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [matemática]
+tags: [matemática, demonstrações, estética matemática, lógica, curiosidades, raciocínio matemático]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 🧮 Matemática
+</div>
+
+---
+
+Reflexões e conceitos fundamentais da matemática, com foco na beleza, lógica e estrutura dos principais temas da área.
+
+## 📘 Artigos e Reflexões
+
+### [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](beleza-matematica.qmd)
+Uma reflexão sobre o famoso ensaio de G. H. Hardy, destacando a conexão entre estética e matemática pura.
+
+### [Por que \(0! = 1\)?](fatorial-zero.qmd)
+Explicação intuitiva e formal sobre por que o fatorial de zero é igual a 1.
+
+### [Equações Históricas](equacoes-historicas.qmd)
+Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Este post celebra essas joias da matemática e da física.
+
+## 🎓 Cursos Disponíveis
+
+**⏳ Em Breve!**
+
+## 📖 Guia de Leitura
+
+1. **[Guia de Leitura da Seção de Matemática](guia-matematica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender matemática passo a passo.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+
+

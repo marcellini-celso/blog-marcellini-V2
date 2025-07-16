@@ -1,0 +1,11 @@
+---
+title: "automação"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **automação**
+
+- [👨‍💻 Programação](/posts/programacao/index.html)
+- [🐍 Python](/posts/programacao/python/index.html)

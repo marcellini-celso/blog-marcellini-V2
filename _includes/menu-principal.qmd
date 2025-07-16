@@ -1,0 +1,20 @@
+::: {.panel-tabset}
+
+
+## 🎓 Cursos
+
+- 🧮 [Matemática](posts/cursos/matematica/)
+- 👉 [Estatística](posts/cursos/estatistica/)
+
+## 📘 Projetos Especiais
+
+- 🔭 [100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
+- 🧠 [Relatividade Especial — Série Completa](posts/fisica/guia-relatividade-especial.qmd)
+
+## 🏷️ Tags e Mapa do Site
+
+- [Tags](tags.qmd)
+- [Mapa do Site](guia.qmd)
+
+:::
+

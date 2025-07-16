@@ -1,0 +1,87 @@
+---
+title: "Sobre o Blog e Sobre Mim"
+description: "Saiba mais sobre o autor, a proposta do blog, como ele foi feito e os bastidores técnicos do projeto."
+author: "Blog do Marcellini"
+date: 2025-07-05
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [pessoal]
+tags: [pessoal, sobre o blog, matemática, quarto, latex, ensino, divulgação científica, projeto]
+---
+
+---
+
+{{< include ../../_includes/link-retorno-pessoal.qmd >}}
+
+# 👋 Sobre Mim
+
+::: {.callout-tip collapse=false icon='🌟'}
+Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.
+:::
+
+Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX, Quarto e programação de forma acessível e visual.
+
+---
+
+# 💡 Sobre o Blog
+
+Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
+
+## Tecnologias utilizadas
+
+- **Quarto**: para renderização de arquivos `.qmd` em HTML
+- **RevealJS**: para apresentações interativas
+- **MathJax**: para fórmulas matemáticas
+- **AWS S3** ou **GitHub Pages**: para hospedagem como site estático
+- **TikZ + PNG**: diagramas convertidos e incorporados
+- **Tema Bootstrap `flatly`** e `styles.scss` customizado
+
+## Estrutura geral
+
+- `index.qmd`: página inicial
+- `posts/*.qmd`: cada post individual
+- `sobre.qmd`: sobre o autor
+- `images/`: imagens utilizadas
+- `_quarto.yml`: configurações do site
+
+---
+
+# 🛠️ Como Este Projeto Funciona
+
+
+## 📜 Scripts ativos
+
+- `atualizar-ultimos-posts.sh`:  
+  Gera a lista dos últimos posts publicados com base na data e salva em um bloco reutilizável (por exemplo, `ultimos_posts.qmd`).
+
+- `gerar_posts_json.py`:  
+  Percorre todos os arquivos `.qmd` do blog e extrai metadados (título, tags, caminho) para gerar o arquivo `docs/posts.json`, que é usado em scripts de tags e navegação.
+
+- `gerar_tags.py`:  
+  Lê o arquivo `posts.json` e gera os arquivos `tags_freq.txt`, `tags.qmd`, `lista_tags_gerada.html` com a contagem de cada tag usada no blog.
+
+- `nuvem_tags.py`:  
+  Gera a imagem `nuvem_tags.png` com uma nuvem de palavras baseada na frequência das tags, usada no post de navegação por tags.
+
+- `atualizar_tags.sh`:  
+  Gera as páginas individuais para cada tag (`tags/*.qmd`), atualiza o arquivo `tags.qmd` com links, e executa a geração da nuvem de tags.
+
+- `atualizar_tudo.sh`:  
+  Executa todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.
+
+
+🔝 [Voltar ao Topo](sobre-o-blog.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

@@ -1,0 +1,11 @@
+---
+title: "gráficos"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **gráficos**
+
+- [📊 Estatística](/posts/estatistica/index.html)
+- [📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)

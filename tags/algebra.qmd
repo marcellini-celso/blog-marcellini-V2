@@ -1,0 +1,10 @@
+---
+title: "álgebra"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **álgebra**
+
+- [🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)

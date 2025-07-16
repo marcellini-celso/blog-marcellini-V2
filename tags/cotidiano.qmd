@@ -1,0 +1,10 @@
+---
+title: "cotidiano"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **cotidiano**
+
+- [🧑‍💻 Blog Pessoal](/posts/pessoal/index.html)

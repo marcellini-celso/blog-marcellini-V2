@@ -1,0 +1,10 @@
+---
+title: "escrita científica"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **escrita científica**
+
+- [📐 LaTeX](/posts/programacao/latex/index.html)

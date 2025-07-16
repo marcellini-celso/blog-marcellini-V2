@@ -1,0 +1,149 @@
+---
+title: "Modelos de index.qmd para Projetos Quarto"
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programação]
+tags: [programação, index.qmd, estrutura de site, cabeçalho yaml, quarto, html, projetos científicos, organização de capítulos]
+---
+
+---
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+# Introdução
+
+O arquivo `index.qmd` é geralmente o **ponto de entrada principal** de um projeto Quarto.  
+Ele pode ser usado como a **página inicial de um site ou livro**, e seu cabeçalho YAML define o título global, a formatação e outras configurações do projeto.
+
+A seguir, veja modelos de uso de `index.qmd` em diferentes tipos de projetos.
+
+---
+
+# 1. Modelo básico de `index.qmd` para um site
+
+```yaml
+---
+title: "Meu Site com Quarto"
+format: html
+site:
+  title: "Blog de Matemática"
+  navbar:
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Artigos"
+        href: artigos.qmd
+    right:
+      - icon: github
+        href: https://github.com/usuario
+---
+```
+
+Conteúdo do corpo:
+
+```markdown
+# Bem-vindo!
+
+Este é o site oficial do meu blog pessoal com posts sobre matemática, estatística e ciência de dados.
+```
+
+---
+
+# 2. Modelo de `index.qmd` para um livro com Quarto
+
+```yaml
+---
+title: "Introdução à Estatística"
+author: "Blog do Marcellini"
+format: html
+book:
+  chapters:
+    - index.qmd
+    - capitulo-1.qmd
+    - capitulo-2.qmd
+    - referencias.qmd
+---
+```
+
+Conteúdo do corpo:
+
+```markdown
+# Introdução
+
+Este livro foi desenvolvido para ajudar estudantes a entender os conceitos fundamentais de estatística com exemplos práticos em R e Python.
+```
+
+---
+
+# 3. `index.qmd` para um projeto técnico ou relatório
+
+```yaml
+---
+title: "Relatório Técnico de Análise"
+author: "Blog do Marcellini"
+format: html
+toc: true
+number-sections: true
+execute:
+  echo: false
+---
+```
+
+Conteúdo:
+
+```markdown
+# Visão Geral
+
+Este relatório apresenta os resultados da análise exploratória e inferência estatística aplicada ao conjunto de dados X.
+```
+
+---
+
+# 4. Adicionando imagem de capa e resumo (para EPUB ou livro)
+
+```yaml
+---
+title: "Estética e Matemática"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: epub
+cover-image: capa-ebook.jpg
+description: "Um breve ensaio sobre a beleza na matemática pura."
+toc: true
+number-sections: true
+lang: pt-BR
+---
+```
+
+---
+
+# Conclusão
+
+O arquivo `index.qmd` funciona como a porta de entrada de um projeto Quarto — seja ele um site, um livro, um relatório ou um eBook.  
+Esses modelos servem como ponto de partida para estruturar projetos reutilizáveis e organizados.
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](modelos-index-quarto.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+
+

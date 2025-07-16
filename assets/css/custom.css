@@ -1,0 +1,29 @@
+.tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: 1em;
+}
+
+.tag-card {
+  background-color: #eef;
+  border: 1px solid #ccd;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.tag-card:hover {
+  background-color: #dde;
+  border-color: #99c;
+  color: #111;
+}
+
+.tag-nuvem {
+  margin-bottom: 2em;
+  text-align: center;
+}
+

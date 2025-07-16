@@ -1,0 +1,281 @@
+---
+title: "Modelo de Markdown com Quarto"
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programação]
+tags: [programação, markdown, quarto, python, latex, html, epub, slides, documentos científicos, formatação de texto]
+---
+
+---
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+# O que é Quarto Markdown?
+
+
+**Quarto Markdown** é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade.  
+Ele permite misturar **texto formatado**, **código executável** (em linguagens como R, Python, Julia), **equações matemáticas** com LaTeX, **gráficos** e **tabelas**, tudo em um só arquivo `.qmd`.
+
+Com Quarto você pode gerar automaticamente documentos nos formatos:
+
+- HTML interativo
+- PDF com qualidade tipográfica
+- EPUB para eBooks
+- Slides (Reveal.js, Beamer)
+
+
+- Apresentações interativas e muito mais.
+
+
+# Diferença entre Markdown e Quarto Markdown
+
+
+| Característica               | Markdown (.md)                       | Quarto Markdown (.qmd)                          |
+|--|--|--|
+| Formatação básica de texto  | ✅                                    | ✅                                                |
+| Suporte a HTML              | ✅                                    | ✅                                                |
+| Equações com LaTeX          | ❌ (exceto em extensões específicas) | ✅                                                |
+| Código executável           | ❌                                    | ✅ (R, Python, Julia, Observable)                |
+| Geração de EPUB/PDF/Slides  | ❌                                    | ✅                                                |
+| Suporte a YAML              | Parcial                              | ✅ (usado extensivamente para metadados)         |
+| Foco principal              | Simplicidade e legibilidade          | Publicações científicas e técnicas com código    |
+
+
+**Resumo**: o Markdown tradicional é excelente para textos simples, enquanto o Quarto Markdown é ideal para conteúdos técnicos e científicos que combinam texto, código e gráficos em um único documento.
+
+
+# Introdução
+
+
+Este é um exemplo de documento escrito em **Markdown** com Quarto. Ele mostra como formatar textos, inserir imagens, escrever equações e exibir código de forma elegante e simples.
+
+
+
+```markdown
+# Títulos e Texto
+```
+- Visualização: 
+
+# Títulos e Texto
+
+
+```markdown
+## Nível 2
+```
+- Visualização:
+
+## Nível 2
+
+```markdown
+### Nível 3
+```
+- Visualização:
+
+### Nível 3
+
+```markdown
+Você pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.
+```
+
+- Visualização:
+
+Você pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.
+
+
+Você também pode criar citações:
+
+
+```markdown
+> A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
+```
+- Visualização:
+
+> A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
+
+
+# Listas
+
+
+```markdown
+## Lista com marcadores:
+
+
+- Item A
+- Item B
+  - Subitem B.1
+  - Subitem B.2
+```
+
+
+- Visualização:
+
+## Lista com marcadores:
+
+
+- Item A
+- Item B
+  - Subitem B.1
+  - Subitem B.2
+
+
+```markdown
+## Lista numerada:
+
+
+1. Primeiro
+2. Segundo
+3. Terceiro
+```
+
+- Visualização:
+
+## Lista numerada:
+
+
+1. Primeiro
+2. Segundo
+3. Terceiro
+
+
+# Links e Imagens
+
+
+
+```markdown
+## Link:
+
+
+[Site oficial do Quarto](https://quarto.org)
+```
+
+- Visualização:
+
+## Link:
+
+
+[Site oficial do Quarto](https://quarto.org)
+
+
+```markdown
+## Imagem:
+
+
+![Imagem exemplo](images/exemplo.png)
+```
+
+- Visualização:
+
+
+## Imagem:
+
+
+![Imagem exemplo](images/exemplo.png)
+
+
+```markdown
+# Tabelas
+
+
+| Nome     | Idade | Cidade      |
+|-|-|-|
+| Alice    | 25    | São Paulo   |
+| Bernardo | 30    | Salvador    |
+| Carla    | 22    | Curitiba    |
+```
+
+- Visualização:
+
+
+# Tabelas
+
+
+| Nome     | Idade | Cidade      |
+|-|-|-|
+| Alice    | 25    | São Paulo   |
+| Bernardo | 30    | Salvador    |
+| Carla    | 22    | Curitiba    |
+
+
+# Equações com LaTeX
+
+
+### Equação inline:
+
+
+```markdown
+A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
+```
+
+- Visualização:
+
+A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
+
+
+### Equação em bloco:
+
+
+```markdown
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+```
+
+- Visualização:
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+
+# Código
+
+### Bloco em R:
+
+
+```{r plotar em R}
+x <- seq(0, 2*pi, length.out = 100)
+plot(x, sin(x), type = "l", col = "blue", lwd = 2)
+```
+
+
+### Bloco em Python:
+
+
+```{python plotar em Python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2*np.pi, 100)
+plt.plot(x, np.sin(x))
+plt.title("Seno")
+plt.show()
+```
+
+# Conclusão
+
+Este modelo mostra o poder do Markdown aliado ao Quarto para produzir documentos claros, científicos e elegantes — prontos para HTML, PDF, EPUB ou slides.
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](modelos-markdown.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

@@ -1,0 +1,10 @@
+---
+title: "autor"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **autor**
+
+- [🧑‍💻 Blog Pessoal](/posts/pessoal/index.html)

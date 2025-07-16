@@ -1,0 +1,11 @@
+---
+title: "relatórios dinâmicos"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **relatórios dinâmicos**
+
+- [📊 R](/posts/programacao/r/index.html)
+- [📄 Quarto](/posts/programacao/quarto/index.html)

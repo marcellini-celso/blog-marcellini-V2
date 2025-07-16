@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.24">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Blog do Marcellini">
+<meta name="description" content="Série especial sobre os 100 anos da Mecânica Quântica. Parte 1: Antes da Revolução Quântica.">
+<title>Parte 1 — Antes da Revolução Quântica (Aprofundamento) – Blog do Marcellini</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/banner.jpeg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-b7eda2101a7a109d5067cba531cf9672.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-2009ae1e4bc0b71a32727ad7f2a18ef9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script><!-- Google tag (gtag.js) --><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-P2KY6K26MG"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2KY6K26MG');
+</script><link href="../../site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="../../site_libs/pagedtable-1.1/js/pagedtable.js"></script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script><link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../assets/css/custom.css">
+</head>
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg " data-bs-theme="dark"><div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Blog do Marcellini</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tags.html"> 
+<span class="menu-text">🌐 Navegue por Tags</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ciências-exatas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧠 Ciências Exatas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ciências-exatas">
+<li>
+    <a class="dropdown-item" href="../../posts/matematica/index.html">
+ <span class="dropdown-text">🧮 Matemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/estatistica/index.html">
+ <span class="dropdown-text">📊 Estatística</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/fisica/index.html">
+ <span class="dropdown-text">🔭 Física</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">💻 Programação</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">
+<li>
+    <a class="dropdown-item" href="../../posts/programacao/index.html">
+ <span class="dropdown-text">💻 Programação</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/programacao/quarto/index.html">
+ <span class="dropdown-text">🧾 Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/programacao/latex/index.html">
+ <span class="dropdown-text">✍️ LaTeX</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/programacao/python/index.html">
+ <span class="dropdown-text">🐍 Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/programacao/r/index.html">
+ <span class="dropdown-text">📊 R</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog-pessoal" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📝 Blog Pessoal</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog-pessoal">
+<li>
+    <a class="dropdown-item" href="../../posts/pessoal/index.html">
+ <span class="dropdown-text">📝 Blog Pessoal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/pessoal/sobre-o-blog.html">
+ <span class="dropdown-text">👤 Sobre Mim e Sobre o Blog</span></a>
+  </li>  
+    </ul>
+</li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📘 Cursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">
+<li>
+    <a class="dropdown-item" href="../../posts/cursos/matematica/index.html">
+ <span class="dropdown-text">🧮 Cursos de Matemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../posts/cursos/estatistica/index.html">
+ <span class="dropdown-text">📊 Cursos de Estatística</span></a>
+  </li>  
+    </ul>
+</li>
+</ul>
+</div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+<li>
+<a href="#antes-da-revolu%C3%A7%C3%A3o-qu%C3%A2ntica" id="toc-antes-da-revolução-quântica" class="nav-link active" data-scroll-target="#antes-da-revolu%C3%A7%C3%A3o-qu%C3%A2ntica"><span class="header-section-number">1</span> Antes da Revolução Quântica</a>
+  <ul class="collapse">
+<li><a href="#introdu%C3%A7%C3%A3o" id="toc-introdução" class="nav-link" data-scroll-target="#introdu%C3%A7%C3%A3o"><span class="header-section-number">1.1</span> Introdução</a></li>
+  <li>
+<a href="#as-duas-nuvens-de-lord-kelvin-1900" id="toc-as-duas-nuvens-de-lord-kelvin-1900" class="nav-link" data-scroll-target="#as-duas-nuvens-de-lord-kelvin-1900"><span class="header-section-number">1.2</span> 🌥️ As “duas nuvens” de Lord Kelvin (1900)</a>
+  <ul class="collapse">
+<li><a href="#primeira-nuvem-a-radia%C3%A7%C3%A3o-do-corpo-negro" id="toc-primeira-nuvem-a-radiação-do-corpo-negro" class="nav-link" data-scroll-target="#primeira-nuvem-a-radia%C3%A7%C3%A3o-do-corpo-negro"><span class="header-section-number">1.2.1</span> ☁️ Primeira nuvem: a radiação do corpo negro</a></li>
+  <li><a href="#segunda-nuvem-o-%C3%A9ter-lumin%C3%ADfero-e-a-transforma%C3%A7%C3%A3o-de-lorentz" id="toc-segunda-nuvem-o-éter-luminífero-e-a-transformação-de-lorentz" class="nav-link" data-scroll-target="#segunda-nuvem-o-%C3%A9ter-lumin%C3%ADfero-e-a-transforma%C3%A7%C3%A3o-de-lorentz"><span class="header-section-number">1.2.2</span> ☁️ Segunda nuvem: o éter luminífero e a transformação de Lorentz</a></li>
+  <li><a href="#resumo" id="toc-resumo" class="nav-link" data-scroll-target="#resumo"><span class="header-section-number">1.2.3</span> 🧠 Resumo</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#a-cat%C3%A1strofe-do-ultravioleta" id="toc-a-catástrofe-do-ultravioleta" class="nav-link" data-scroll-target="#a-cat%C3%A1strofe-do-ultravioleta"><span class="header-section-number">1.3</span> A Catástrofe do Ultravioleta</a>
+  <ul class="collapse">
+<li><a href="#evid%C3%AAncia-experimental-vs.-teoria-cl%C3%A1ssica" id="toc-evidência-experimental-vs.-teoria-clássica" class="nav-link" data-scroll-target="#evid%C3%AAncia-experimental-vs.-teoria-cl%C3%A1ssica"><span class="header-section-number">1.3.1</span> 🔬 Evidência experimental vs.&nbsp;teoria clássica</a></li>
+  <li><a href="#uma-crise-conceitual" id="toc-uma-crise-conceitual" class="nav-link" data-scroll-target="#uma-crise-conceitual"><span class="header-section-number">1.3.2</span> 🧠 Uma crise conceitual</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#a-quantiza%C3%A7%C3%A3o-de-planck" id="toc-a-quantização-de-planck" class="nav-link" data-scroll-target="#a-quantiza%C3%A7%C3%A3o-de-planck"><span class="header-section-number">1.4</span> A Quantização de Planck</a>
+  <ul class="collapse">
+<li><a href="#a-revolu%C3%A7%C3%A3o-disfar%C3%A7ada" id="toc-a-revolução-disfarçada" class="nav-link" data-scroll-target="#a-revolu%C3%A7%C3%A3o-disfar%C3%A7ada"><span class="header-section-number">1.4.1</span> 🔍 A revolução disfarçada</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#o-efeito-fotoel%C3%A9trico-e-os-f%C3%B3tons-de-einstein" id="toc-o-efeito-fotoelétrico-e-os-fótons-de-einstein" class="nav-link" data-scroll-target="#o-efeito-fotoel%C3%A9trico-e-os-f%C3%B3tons-de-einstein"><span class="header-section-number">1.5</span> O efeito fotoelétrico e os fótons de Einstein</a>
+  <ul class="collapse">
+<li><a href="#o-que-%C3%A9-o-efeito-fotoel%C3%A9trico" id="toc-o-que-é-o-efeito-fotoelétrico" class="nav-link" data-scroll-target="#o-que-%C3%A9-o-efeito-fotoel%C3%A9trico"><span class="header-section-number">1.5.1</span> ⚡ O que é o efeito fotoelétrico?</a></li>
+  <li><a href="#a-hip%C3%B3tese-de-einstein-luz-como-pacote-de-energia" id="toc-a-hipótese-de-einstein-luz-como-pacote-de-energia" class="nav-link" data-scroll-target="#a-hip%C3%B3tese-de-einstein-luz-como-pacote-de-energia"><span class="header-section-number">1.5.2</span> 💡 A hipótese de Einstein: luz como pacote de energia</a></li>
+  <li><a href="#equa%C3%A7%C3%A3o-fotoel%C3%A9trica-de-einstein" id="toc-equação-fotoelétrica-de-einstein" class="nav-link" data-scroll-target="#equa%C3%A7%C3%A3o-fotoel%C3%A9trica-de-einstein"><span class="header-section-number">1.5.3</span> 🧮 Equação fotoelétrica de Einstein</a></li>
+  <li><a href="#reconhecimento-e-impacto" id="toc-reconhecimento-e-impacto" class="nav-link" data-scroll-target="#reconhecimento-e-impacto"><span class="header-section-number">1.5.4</span> 🏅 Reconhecimento e impacto</a></li>
+  </ul>
+</li>
+  <li><a href="#o-%C3%A1tomo-de-bohr" id="toc-o-átomo-de-bohr" class="nav-link" data-scroll-target="#o-%C3%A1tomo-de-bohr"><span class="header-section-number">1.6</span> 🌌 O Átomo de Bohr</a></li>
+  <li><a href="#um-sistema-em-crise" id="toc-um-sistema-em-crise" class="nav-link" data-scroll-target="#um-sistema-em-crise"><span class="header-section-number">1.7</span> 🧨 Um Sistema em Crise</a></li>
+  <li><a href="#conclus%C3%A3o-da-parte-1-o-limite-da-f%C3%ADsica-cl%C3%A1ssica" id="toc-conclusão-da-parte-1-o-limite-da-física-clássica" class="nav-link" data-scroll-target="#conclus%C3%A3o-da-parte-1-o-limite-da-f%C3%ADsica-cl%C3%A1ssica"><span class="header-section-number">1.8</span> 🔚 Conclusão da Parte 1 — O Limite da Física Clássica</a></li>
+  <li><a href="#leitura-seguinte" id="toc-leitura-seguinte" class="nav-link" data-scroll-target="#leitura-seguinte"><span class="header-section-number">1.9</span> Leitura Seguinte</a></li>
+  <li><a href="#voltar-ao-topo" id="toc-voltar-ao-topo" class="nav-link" data-scroll-target="#voltar-ao-topo"><span class="header-section-number">1.10</span> 🔝 Voltar ao Topo</a></li>
+  <li><a href="#links-%C3%BAteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-%C3%BAteis"><span class="header-section-number">1.11</span> 🔗 Links Úteis</a></li>
+  </ul>
+</li>
+  </ul></nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<h1 class="title">Parte 1 — Antes da Revolução Quântica (Aprofundamento)</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">física</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Série especial sobre os 100 anos da Mecânica Quântica. Parte 1: Antes da Revolução Quântica.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Blog do Marcellini </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">5 de julho de 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header><section id="antes-da-revolução-quântica" class="level1" data-number="1"><h1 data-number="1">
+<span class="header-section-number">1</span> Antes da Revolução Quântica</h1>
+<blockquote class="blockquote">
+<p><em>Este post faz parte da série especial “100 Anos da Mecânica Quântica”.</em></p>
+</blockquote>
+<p>⚛️ <a href="../../posts/fisica/guia-100-anos-mecanica-quantica.html">Voltar ao Guia de Leitura da Série</a></p>
+<hr>
+<section id="introdução" class="level2" data-number="1.1"><h2 data-number="1.1" class="anchored" data-anchor-id="introdução">
+<span class="header-section-number">1.1</span> Introdução</h2>
+<p>No final do século XIX, a física parecia completa. As equações de Newton descreviam com precisão o movimento de corpos — desde a queda de uma maçã até a órbita dos planetas — com base em forças e acelerações. A dinâmica clássica se apoiava nas <strong>leis do movimento</strong>:</p>
+<p><span class="math display">\[
+\text{1ª Lei:} \quad \vec{F}_\text{resultante} = 0 \Rightarrow \vec{v} = \text{constante}
+\]</span> <span class="math display">\[
+\text{2ª Lei:} \quad \vec{F} = m \cdot \vec{a}
+\]</span> <span class="math display">\[
+\text{3ª Lei:} \quad \vec{F}_{AB} = -\vec{F}_{BA}
+\]</span></p>
+<p>E, especialmente, na <strong>lei da gravitação universal</strong>, que descrevia a atração entre massas:</p>
+<p><span class="math display">\[
+F = G \cdot \frac{m_1 m_2}{r^2}
+\]</span></p>
+<p>Enquanto isso, James Clerk Maxwell havia consolidado o conhecimento sobre eletricidade e magnetismo nas <strong>equações de Maxwell</strong>, que descrevem como campos elétricos e magnéticos se inter-relacionam e se propagam:</p>
+<p><span class="math display">\[
+\begin{aligned}
+&amp;\text{(1) Gauss para o elétrico:} &amp;&amp; \nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0} \\
+&amp;\text{(2) Gauss para o magnético:} &amp;&amp; \nabla \cdot \vec{B} = 0 \\
+&amp;\text{(3) Lei de Faraday:} &amp;&amp; \nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t} \\
+&amp;\text{(4) Lei de Ampère-Maxwell:} &amp;&amp; \nabla \times \vec{B} = \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
+\end{aligned}
+\]</span></p>
+<p>Essas equações não só explicavam os fenômenos eletromagnéticos como também previam a existência de ondas eletromagnéticas, cuja velocidade coincidia com a da luz. Isso levou à interpretação revolucionária de que <strong>a luz é uma onda eletromagnética</strong>.</p>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/retratos-newton-maxwell.png" class="img-fluid figure-img"></p>
+<figcaption>Retratos de Isaac Newton e James Clerk Maxwell</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>Sir Isaac Newton (1643–1727) e James Clerk Maxwell (1831–1879) — dois pilares da física clássica.</em></p>
+</div>
+</div>
+</div>
+<p>A harmonia entre essas leis — a mecânica de Newton e o eletromagnetismo de Maxwell — dava aos cientistas da época a sensação de que o universo era completamente compreendido.</p>
+<p>Em 1900, Lord Kelvin afirmou que <strong>os fundamentos da física estavam estabelecidos</strong>, restando apenas <strong>duas pequenas nuvens no horizonte</strong> — referindo-se a pequenas discrepâncias experimentais.</p>
+<p>Essas “nuvens”, no entanto, anunciavam uma <strong>tempestade teórica</strong> que alteraria para sempre nossa compreensão da realidade.</p>
+</section><section id="as-duas-nuvens-de-lord-kelvin-1900" class="level2" data-number="1.2"><h2 data-number="1.2" class="anchored" data-anchor-id="as-duas-nuvens-de-lord-kelvin-1900">
+<span class="header-section-number">1.2</span> 🌥️ As “duas nuvens” de Lord Kelvin (1900)</h2>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/kelvin-retrato.png" class="img-fluid figure-img"></p>
+<figcaption>Retrato de Lord Kelvin (1824–1907)</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>Lord Kelvin (William Thomson), físico escocês conhecido por suas contribuições à termodinâmica e por identificar, em 1900, duas “pequenas nuvens” no horizonte da física. Essas nuvens seriam o prenúncio das maiores revoluções científicas do século XX.</em></p>
+</div>
+</div>
+</div>
+<p>Em uma palestra na Royal Institution em 27 de abril de 1900, o físico britânico <strong>Lord Kelvin</strong> afirmou que havia apenas “duas pequenas nuvens no horizonte da física”:</p>
+<blockquote class="blockquote">
+<p><em>“Nuvens no horizonte da física”</em><br>
+— Lord Kelvin, 1900</p>
+</blockquote>
+<hr>
+<section id="primeira-nuvem-a-radiação-do-corpo-negro" class="level3" data-number="1.2.1"><h3 data-number="1.2.1" class="anchored" data-anchor-id="primeira-nuvem-a-radiação-do-corpo-negro">
+<span class="header-section-number">1.2.1</span> ☁️ Primeira nuvem: a radiação do corpo negro</h3>
+<blockquote class="blockquote">
+<p><em>“A falha da teoria para explicar a distribuição da energia da radiação térmica.”</em></p>
+</blockquote>
+<p>Esse era o problema que hoje chamamos de <strong>catástrofe do ultravioleta</strong>:</p>
+<ul>
+<li>A <strong>lei de Rayleigh–Jeans</strong>, derivada da física clássica, previa que a energia irradiada por um corpo negro <strong>crescia indefinidamente com a frequência</strong>.</li>
+<li>A <strong>experiência mostrava o contrário</strong>: a energia cresce, atinge um pico, e depois <strong>decai em altas frequências</strong>.</li>
+<li>Kelvin percebeu que esse desvio não era trivial — mas <strong>não imaginava que exigiria abandonar o paradigma da energia contínua</strong>.</li>
+<li>Essa “nuvem” foi dissipada por <strong>Planck</strong>, com sua hipótese da <strong>quantização da energia</strong> (1900).</li>
+</ul>
+<p>🔁 <em>Essa é a origem da mecânica quântica.</em></p>
+<hr></section><section id="segunda-nuvem-o-éter-luminífero-e-a-transformação-de-lorentz" class="level3" data-number="1.2.2"><h3 data-number="1.2.2" class="anchored" data-anchor-id="segunda-nuvem-o-éter-luminífero-e-a-transformação-de-lorentz">
+<span class="header-section-number">1.2.2</span> ☁️ Segunda nuvem: o éter luminífero e a transformação de Lorentz</h3>
+<blockquote class="blockquote">
+<p><em>“A inconsistência entre as equações de Maxwell e a ausência de detecção do éter.”</em></p>
+</blockquote>
+<ul>
+<li>Na época, acreditava-se que a <strong>luz precisava de um meio para se propagar</strong>: o chamado <strong>éter luminífero</strong>.</li>
+<li>As <strong>equações de Maxwell</strong> previam a velocidade da luz <span class="math inline">\(c\)</span>, mas <strong>não deixavam claro em qual referencial essa velocidade era válida</strong>.</li>
+<li>O <strong>experimento de Michelson–Morley (1887)</strong> mostrou que <strong>não era possível detectar o movimento da Terra em relação ao éter</strong>.</li>
+<li>Isso colocava em dúvida toda a <strong>mecânica clássica</strong>, baseada em referenciais absolutos.</li>
+<li>A “nuvem” só foi dissipada quando <strong>Einstein propôs a Teoria da Relatividade Restrita</strong> (1905), eliminando o éter e postulando que <strong>a velocidade da luz é a mesma para todos os referenciais inerciais</strong>.</li>
+</ul>
+<p>🔁 <em>Essa é a origem da relatividade restrita.</em></p>
+<hr></section><section id="resumo" class="level3" data-number="1.2.3"><h3 data-number="1.2.3" class="anchored" data-anchor-id="resumo">
+<span class="header-section-number">1.2.3</span> 🧠 Resumo</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 29%">
+<col style="width: 30%">
+<col style="width: 16%">
+</colgroup>
+<thead><tr class="header">
+<th>☁️ Nuvem</th>
+<th>Problema</th>
+<th>Solução histórica</th>
+<th>Nova teoria</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Radiação térmica</td>
+<td>Divergência nas altas frequências</td>
+<td>Quantização da energia (Planck, 1900)</td>
+<td>Mecânica Quântica</td>
+</tr>
+<tr class="even">
+<td>Éter e velocidade da luz</td>
+<td>Falha na detecção do éter</td>
+<td>Postulados de Einstein (1905)</td>
+<td>Relatividade Restrita</td>
+</tr>
+</tbody>
+</table>
+<hr></section></section><section id="a-catástrofe-do-ultravioleta" class="level2" data-number="1.3"><h2 data-number="1.3" class="anchored" data-anchor-id="a-catástrofe-do-ultravioleta">
+<span class="header-section-number">1.3</span> A Catástrofe do Ultravioleta</h2>
+<p>No final do século XIX, um dos grandes desafios da física teórica era entender como objetos aquecidos — chamados <strong>corpos negros</strong> — emitem radiação térmica. Um <strong>corpo negro</strong> é um objeto idealizado que absorve toda a radiação incidente e reemite energia em função apenas de sua temperatura.</p>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/cavidade-corpo-negro.png" class="img-fluid figure-img"></p>
+<figcaption>Modelo idealizado de um corpo negro</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>Modelo idealizado de um corpo negro: uma cavidade com paredes internas refletoras e uma pequena abertura. A radiação que entra pela abertura sofre múltiplas reflexões no interior da cavidade, sendo quase totalmente absorvida. A radiação emitida pela fenda representa com alta precisão o espectro da radiação de corpo negro. Esse modelo foi fundamental para os experimentos que levaram ao nascimento da mecânica quântica.</em></p>
+</div>
+</div>
+</div>
+<p>O problema era descrever com precisão a distribuição da energia emitida em diferentes frequências (ou comprimentos de onda). A <strong>física clássica</strong>, utilizando a teoria do eletromagnetismo e a estatística de Boltzmann, levou à chamada <strong>lei de Rayleigh–Jeans</strong>, que previa:</p>
+<p><span class="math display">\[
+E(\nu, T) \propto \nu^2 \cdot kT
+\]</span></p>
+<p>onde:</p>
+<ul>
+<li><p><span class="math inline">\(\nu\)</span> é a frequência da radiação,</p></li>
+<li><p><span class="math inline">\(k\)</span> é a constante de Boltzmann,</p></li>
+<li><p><span class="math inline">\(T\)</span> é a temperatura do corpo.</p></li>
+</ul>
+<p>Essa expressão funciona bem para frequências baixas (infravermelho), mas apresenta um problema grave em altas frequências: ela cresce indefinidamente à medida que <span class="math inline">\(\nu \to \infty\)</span>. Isso implicaria que um corpo negro emitiria energia infinita — um absurdo físico.</p>
+<p>Esse impasse ficou conhecido como a <strong>catástrofe do ultravioleta</strong>. O termo foi cunhado porque o erro da teoria clássica se tornava dramático na região ultravioleta do espectro eletromagnético, onde a energia predita divergia totalmente das observações experimentais.</p>
+<hr>
+<section id="evidência-experimental-vs.-teoria-clássica" class="level3" data-number="1.3.1"><h3 data-number="1.3.1" class="anchored" data-anchor-id="evidência-experimental-vs.-teoria-clássica">
+<span class="header-section-number">1.3.1</span> 🔬 Evidência experimental vs.&nbsp;teoria clássica</h3>
+<p>Os experimentos com cavidades de corpo negro mostravam um comportamento muito diferente. A energia emitida crescia até certo ponto, atingia um pico e depois <strong>caía rapidamente</strong> em frequências altas. A curva observada era semelhante a esta:</p>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/Black_body.svg" class="img-fluid figure-img"></p>
+<figcaption>Gráfico da radiação do corpo negro e a catástrofe do ultravioleta</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>A catástrofe do ultravioleta é o erro da teoria clássica ao prever que a radiação de um corpo negro aumenta sem limite em frequências altas. No gráfico, a curva preta mostra essa previsão (lei de Rayleigh–Jeans), enquanto a curva azul representa os dados reais, explicados corretamente pela teoria de Planck.</em></p>
+</div>
+</div>
+</div>
+<hr></section><section id="uma-crise-conceitual" class="level3" data-number="1.3.2"><h3 data-number="1.3.2" class="anchored" data-anchor-id="uma-crise-conceitual">
+<span class="header-section-number">1.3.2</span> 🧠 Uma crise conceitual</h3>
+<p>Esse problema não era apenas técnico — era <strong>conceitual</strong>. Se a física clássica falhava em algo tão fundamental como a radiação térmica, talvez seus próprios alicerces estivessem incompletos. A solução exigiria abandonar a suposição de continuidade da energia.</p>
+<p>Esse momento marcou o início de uma profunda <strong>revolução no pensamento físico</strong>. Em 1900, Max Planck ousaria uma hipótese radical: a energia só podia ser emitida em quantidades discretas, ou <em>quanta</em>. Essa ideia daria origem a toda a estrutura da mecânica quântica.</p>
+</section></section><section id="a-quantização-de-planck" class="level2" data-number="1.4"><h2 data-number="1.4" class="anchored" data-anchor-id="a-quantização-de-planck">
+<span class="header-section-number">1.4</span> A Quantização de Planck</h2>
+<p>Em 1900, diante do impasse da radiação do corpo negro, <strong>Max Planck</strong> propôs uma solução revolucionária — embora ele mesmo não tivesse plena consciência da profundidade de sua proposta. Para ajustar a curva de emissão aos dados experimentais, Planck introduziu uma hipótese radical: <strong>a energia não pode ser emitida de forma contínua</strong>, mas sim em múltiplos discretos de uma quantidade elementar.</p>
+<p>Essa quantidade elementar de energia é proporcional à frequência da radiação:</p>
+<p><span class="math display">\[
+E = h \cdot \nu
+\]</span></p>
+<p>onde:</p>
+<ul>
+<li><p><span class="math inline">\(E\)</span> é a energia do quantum de radiação,</p></li>
+<li><p><span class="math inline">\(\nu\)</span> é a frequência da radiação,</p></li>
+<li><p><span class="math inline">\(h\)</span> é a <strong>constante de Planck</strong>, introduzida por ele: <span class="math display">\[
+h = 6{,}626 \times 10^{-34} \ \text{J·s}
+\]</span></p></li>
+</ul>
+<p>Planck obteve essa fórmula ajustando a distribuição de energia emitida por um corpo negro a partir de princípios estatísticos e termodinâmicos. A nova <strong>lei de Planck</strong> para a densidade espectral de energia é:</p>
+<p><span class="math display">\[
+E(\nu, T) = \frac{8\pi h \nu^3}{c^3} \cdot \frac{1}{e^{h\nu / kT} - 1}
+\]</span></p>
+<p>Essa equação resolve os dois extremos:</p>
+<ul>
+<li><p>Para baixas frequências (<span class="math inline">\(h\nu \ll kT\)</span>), ela se aproxima da fórmula de Rayleigh–Jeans.</p></li>
+<li><p>Para altas frequências (<span class="math inline">\(h\nu \gg kT\)</span>), o termo exponencial domina, e a energia tende a zero, como observado experimentalmente.</p></li>
+</ul>
+<hr>
+<section id="a-revolução-disfarçada" class="level3" data-number="1.4.1"><h3 data-number="1.4.1" class="anchored" data-anchor-id="a-revolução-disfarçada">
+<span class="header-section-number">1.4.1</span> 🔍 A revolução disfarçada</h3>
+<p>Curiosamente, Planck considerava sua proposta um “truque matemático”. Ele mesmo era cético quanto à ideia de que a energia <strong>fosse de fato quantizada na natureza</strong>. Ainda assim, sua fórmula funcionava — com precisão surpreendente.</p>
+<p>Com isso, surgia a <strong>primeira expressão física envolvendo a constante <span class="math inline">\(h\)</span></strong>, que mais tarde se tornaria o símbolo universal da mecânica quântica.</p>
+<hr>
+<div class="callout callout-style-simple callout-tip" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Você sabia?</strong><br>
+Planck só adotou a quantização como última alternativa, pois tentou, sem sucesso, justificar os dados com métodos clássicos. Sua hesitação inicial é um exemplo de como as maiores revoluções científicas às vezes surgem a contragosto.</p>
+</div>
+</div>
+</div>
+<hr>
+<blockquote class="blockquote">
+<p>“Foi uma questão de desespero. Eu estava tentando ajustar os dados e tive que inventar algo completamente novo.”<br>
+— <em>Max Planck (relato retrospectivo sobre 1900)</em></p>
+</blockquote>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/planck-retrato.png" class="img-fluid figure-img"></p>
+<figcaption>Retrato de Max Planck</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>Max Planck (1858–1947), o físico que propôs a quantização da energia e deu origem à constante <span class="math inline">\(h\)</span>. A fórmula <span class="math inline">\(E = h \nu\)</span> tornou-se o alicerce da física quântica.</em></p>
+</div>
+</div>
+</div>
+<hr>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🔬 O “truque matemático” de Planck — a revolução discreta via séries
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Para resolver a crise da radiação do corpo negro, Max Planck propôs em 1900 uma hipótese ousada: a energia dos osciladores que compõem a radiação térmica só poderia ser emitida em <strong>quantidades discretas</strong>, chamadas <strong>quanta</strong>:</p>
+<p><span class="math display">\[
+E_n = n h \nu, \quad \text{com } n = 0, 1, 2, \dots
+\]</span></p>
+<hr>
+<section id="modelo-físico-osciladores-quantizados" class="level3" data-number="1.4.2"><h3 data-number="1.4.2" class="anchored" data-anchor-id="modelo-físico-osciladores-quantizados">
+<span class="header-section-number">1.4.2</span> 🧱 Modelo físico: osciladores quantizados</h3>
+<p>Planck imaginou que a radiação era produzida por <strong>osciladores harmônicos</strong> — pequenas cargas elétricas vibrando nas paredes da cavidade. Na física clássica, esses osciladores poderiam ter qualquer energia contínua. Planck, no entanto, propôs:</p>
+<blockquote class="blockquote">
+<p>⚠️ A energia de cada oscilador não varia de forma contínua, mas apenas em múltiplos inteiros de uma quantidade elementar <span class="math inline">\(h \nu\)</span>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>💡 <strong>Nota</strong>: Planck modelou os constituintes da cavidade como <strong>osciladores harmônicos clássicos</strong> — ou seja, pequenas cargas elétricas vibrando sob forças restauradoras (como elétrons presos em ligações). Esses osciladores absorvem e emitem radiação eletromagnética, e sua distribuição estatística de energia foi a base para a dedução da fórmula da radiação do corpo negro. Essa idealização era compatível com os conhecimentos da época e essencial para introduzir a quantização de energia.</p>
+</blockquote>
+<hr></section><section id="entropia-e-estatística-de-boltzmann" class="level3" data-number="1.4.3"><h3 data-number="1.4.3" class="anchored" data-anchor-id="entropia-e-estatística-de-boltzmann">
+<span class="header-section-number">1.4.3</span> 📊 Entropia e estatística de Boltzmann</h3>
+<div class="callout-theorem" data-appearance="simple">
+<section id="a-fórmula-s-k-ln-w-e-sua-aplicação-por-planck" class="level4" data-number="1.4.3.1"><h4 data-number="1.4.3.1" class="anchored" data-anchor-id="a-fórmula-s-k-ln-w-e-sua-aplicação-por-planck">
+<span class="header-section-number">1.4.3.1</span> 📊 A fórmula <span class="math inline">\(S = k \ln W\)</span> e sua aplicação por Planck</h4>
+<p>Para deduzir sua fórmula da radiação do corpo negro, Max Planck utilizou um conceito-chave da mecânica estatística: a <strong>relação entre entropia e número de microestados</strong>, proposta por Ludwig Boltzmann:</p>
+<p><span class="math display">\[
+S = k \ln W
+\]</span></p>
+<p>Essa equação relaciona:</p>
+<ul>
+<li><p><span class="math inline">\(S\)</span>: a <strong>entropia</strong> de um sistema — uma medida da desordem ou da quantidade de possibilidades microscópicas para um mesmo estado macroscópico;</p></li>
+<li><p><span class="math inline">\(k\)</span>: a <strong>constante de Boltzmann</strong>, <span class="math inline">\(k = 1{,}38 \times 10^{-23} \ \text{J/K}\)</span>;</p></li>
+<li><p><span class="math inline">\(W\)</span>: o <strong>número de microestados</strong> possíveis — isto é, quantas maneiras os quanta de energia podem ser distribuídos entre os osciladores do sistema.</p></li>
+</ul>
+<p>A função logarítmica garante que a entropia seja <strong>proporcional ao tamanho do sistema</strong>: dobrar o número de microestados dobra <span class="math inline">\(\ln W\)</span>, mas não multiplica diretamente <span class="math inline">\(W\)</span>.</p>
+<hr></section><section id="como-planck-usou-isso" class="level3" data-number="1.4.4"><h3 data-number="1.4.4" class="anchored" data-anchor-id="como-planck-usou-isso">
+<span class="header-section-number">1.4.4</span> 🧠 Como Planck usou isso?</h3>
+<p>Planck assumiu que a energia era composta por múltiplos discretos de <span class="math inline">\(h \nu\)</span>. Ele então calculou:</p>
+<ol type="1">
+<li><p><strong>Quantas maneiras <span class="math inline">\(W\)</span></strong> havia de distribuir os <span class="math inline">\(n\)</span> quanta de energia entre <span class="math inline">\(N\)</span> osciladores;</p></li>
+<li><p>Aplicou a relação de Boltzmann para obter a <strong>entropia do sistema</strong>: <span class="math inline">\(S = k \ln W\)</span>;</p></li>
+<li><p>Relacionou entropia e temperatura pela identidade termodinâmica <span class="math inline">\(\frac{dS}{dE} = \frac{1}{T}\)</span>;</p></li>
+<li><p>Obteve, por fim, a <strong>energia média</strong> <span class="math inline">\(\langle E \rangle\)</span>, que leva à fórmula correta da radiação térmica.</p></li>
+</ol>
+<hr>
+<blockquote class="blockquote">
+<p>Essa foi a primeira vez em que se aplicou <strong>estatística com energia quantizada</strong> — e o início da transição da física clássica para a mecânica quântica.</p>
+</blockquote>
+</section>
+</div>
+<p>A inovação estava em <strong>como contar <span class="math inline">\(W\)</span></strong>: assumindo que a energia total era composta por <span class="math inline">\(n\)</span> quanta <span class="math inline">\(h\nu\)</span>, ele utilizou <strong>combinatória estatística</strong> para determinar a energia média dos osciladores:</p>
+<p><span class="math display">\[
+\langle E \rangle = \frac{\sum\limits_{n=0}^\infty E_n e^{-E_n / kT}}{\sum\limits_{n=0}^\infty e^{-E_n / kT}} = \frac{\sum\limits_{n=0}^\infty n h \nu \cdot e^{-n h \nu / kT}}{\sum\limits_{n=0}^\infty e^{-n h \nu / kT}}
+\]</span></p>
+<p>Com <span class="math inline">\(x = e^{-h \nu / kT}\)</span>, isso vira:</p>
+<p><span class="math display">\[
+\langle E \rangle = h \nu \cdot \frac{\sum\limits_{n=0}^\infty n x^n}{\sum\limits_{n=0}^\infty x^n}
+\]</span></p>
+<p>Aplicando as séries geométricas conhecidas:</p>
+<ul>
+<li><p><span class="math inline">\(\sum_{n=0}^{\infty} x^n = \frac{1}{1 - x}\)</span></p></li>
+<li><p><span class="math inline">\(\sum_{n=0}^{\infty} n x^n = \frac{x}{(1 - x)^2}\)</span></p></li>
+</ul>
+<p>Obtemos:</p>
+<p><span class="math display">\[
+\langle E \rangle = h \nu \cdot \frac{x}{1 - x} = \frac{h \nu}{e^{h \nu / kT} - 1}
+\]</span></p>
+<hr></section><section id="a-fórmula-final-lei-de-planck" class="level3" data-number="1.4.5"><h3 data-number="1.4.5" class="anchored" data-anchor-id="a-fórmula-final-lei-de-planck">
+<span class="header-section-number">1.4.5</span> 📈 A fórmula final: lei de Planck</h3>
+<p>Multiplicando a energia média pelo número de modos <span class="math inline">\(\propto \nu^2\)</span>, Planck chegou à <strong>fórmula completa da radiação do corpo negro</strong>:</p>
+<p><span class="math display">\[
+E(\nu, T) = \frac{8\pi h \nu^3}{c^3} \cdot \frac{1}{e^{h \nu / kT} - 1}
+\]</span></p>
+<p>Essa fórmula <strong>corrige a divergência da lei de Rayleigh–Jeans</strong> e coincide perfeitamente com os dados experimentais.</p>
+<hr></section><section id="resumo-do-truque" class="level3" data-number="1.4.6"><h3 data-number="1.4.6" class="anchored" data-anchor-id="resumo-do-truque">
+<span class="header-section-number">1.4.6</span> 📌 Resumo do “truque”:</h3>
+<ul>
+<li>
+<strong>Hipótese:</strong> energia quantizada <span class="math inline">\(E = n h \nu\)</span>
+</li>
+<li>
+<strong>Cálculo:</strong> estatística de Boltzmann com contagem discreta</li>
+<li>
+<strong>Resultado:</strong> energia média correta</li>
+<li>
+<strong>Conclusão:</strong> fórmula da radiação do corpo negro validada experimentalmente</li>
+</ul>
+<hr></section><section id="reflexão" class="level3" data-number="1.4.7"><h3 data-number="1.4.7" class="anchored" data-anchor-id="reflexão">
+<span class="header-section-number">1.4.7</span> 🧠 Reflexão</h3>
+<blockquote class="blockquote">
+<p>“Planck tratou a quantização como um artifício matemático para ajustar os dados. Ele não acreditava que os osciladores físicos tivessem realmente energia discreta.<br>
+Mas Einstein, pouco depois, levaria essa ideia a sério — e mostraria que a luz realmente se comporta como partícula.”</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>“Foi uma questão de desespero. Eu estava tentando ajustar os dados e tive que inventar algo completamente novo.”<br>
+— <em>Max Planck</em></p>
+</blockquote>
+</section>
+</div>
+</div>
+<p><em>Na próxima seção, veremos como Einstein levou a ideia de Planck a sério — aplicando a quantização da luz para explicar o efeito fotoelétrico — e como essa ideia se tornaria o alicerce da nova física.</em></p>
+</section></section><section id="o-efeito-fotoelétrico-e-os-fótons-de-einstein" class="level2" data-number="1.5"><h2 data-number="1.5" class="anchored" data-anchor-id="o-efeito-fotoelétrico-e-os-fótons-de-einstein">
+<span class="header-section-number">1.5</span> O efeito fotoelétrico e os fótons de Einstein</h2>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/einstein.png" class="img-fluid figure-img"></p>
+<figcaption>Albert Einstein (1879–1955)</figcaption></figure>
+</div>
+<p>Albert Einstein (1879–1955), o físico que explicou o efeito fotoelétrico com a hipótese dos fótons, inaugurando uma nova era na física.</p>
+</div>
+</div>
+</div>
+<p>Em 1905, Albert Einstein publicou um artigo revolucionário intitulado <em>“Sobre um ponto de vista heurístico relativo à produção e transformação da luz”</em>. Nele, propôs que a luz não apenas <strong>se comportava como uma onda</strong>, mas também como um <strong>feixe de partículas discretas de energia</strong> — os <strong>quanta de luz</strong>, hoje chamados de <strong>fótons</strong>.</p>
+<p>Para Einstein, a quantização proposta por Planck não era apenas um artifício matemático. Ela representava uma <strong>propriedade física fundamental</strong> da radiação eletromagnética. A evidência empírica mais clara disso vinha de um fenômeno intrigante: o <strong>efeito fotoelétrico</strong>.</p>
+<hr>
+<section id="o-que-é-o-efeito-fotoelétrico" class="level3" data-number="1.5.1"><h3 data-number="1.5.1" class="anchored" data-anchor-id="o-que-é-o-efeito-fotoelétrico">
+<span class="header-section-number">1.5.1</span> ⚡ O que é o efeito fotoelétrico?</h3>
+<p>O efeito fotoelétrico é a <strong>emissão de elétrons por uma superfície metálica quando esta é iluminada por luz de frequência suficientemente alta</strong>.</p>
+<section id="observações-experimentais" class="level4" data-number="1.5.1.1"><h4 data-number="1.5.1.1" class="anchored" data-anchor-id="observações-experimentais">
+<span class="header-section-number">1.5.1.1</span> 🔍 Observações experimentais:</h4>
+<ul>
+<li>A emissão de elétrons <strong>só ocorre acima de uma frequência mínima</strong> <span class="math inline">\(\nu_0\)</span> — chamada <strong>frequência de corte</strong>.</li>
+<li>A <strong>intensidade da luz</strong> afeta o <strong>número</strong> de elétrons emitidos, mas <strong>não</strong> sua <strong>energia cinética</strong>.</li>
+<li>A <strong>energia dos elétrons emitidos aumenta com a frequência da luz</strong>, não com sua intensidade.</li>
+</ul>
+<p>Esses resultados eram <strong>incompatíveis com a teoria ondulatória clássica</strong>, que previa que uma luz intensa (mesmo de baixa frequência) poderia fornecer energia suficiente para liberar elétrons — o que não ocorre na prática.</p>
+<hr></section></section><section id="a-hipótese-de-einstein-luz-como-pacote-de-energia" class="level3" data-number="1.5.2"><h3 data-number="1.5.2" class="anchored" data-anchor-id="a-hipótese-de-einstein-luz-como-pacote-de-energia">
+<span class="header-section-number">1.5.2</span> 💡 A hipótese de Einstein: luz como pacote de energia</h3>
+<p>Einstein propôs que a luz é composta por partículas — <strong>fótons</strong> —, e que cada fóton transporta uma quantidade discreta de energia:</p>
+<p><span class="math display">\[
+E = h \nu
+\]</span></p>
+<p>Quando um fóton atinge um elétron na superfície do metal:</p>
+<ul>
+<li><p>Parte da energia é usada para superar o <strong>trabalho de extração</strong> do material (<strong>função trabalho</strong>), denotado por <span class="math inline">\(\phi\)</span>;</p></li>
+<li><p>O restante aparece como <strong>energia cinética <span class="math inline">\(K\)</span></strong> do elétron emitido.</p></li>
+</ul>
+<hr></section><section id="equação-fotoelétrica-de-einstein" class="level3" data-number="1.5.3"><h3 data-number="1.5.3" class="anchored" data-anchor-id="equação-fotoelétrica-de-einstein">
+<span class="header-section-number">1.5.3</span> 🧮 Equação fotoelétrica de Einstein</h3>
+<p>A equação que resume esse processo é:</p>
+<p><span class="math display">\[
+h \nu = \phi + K
+\quad \Rightarrow \quad K = h \nu - \phi
+\]</span></p>
+<p>Essa equação foi <strong>verificada experimentalmente</strong> por Robert Millikan entre 1905 e 1915 — ironicamente, ele esperava refutar Einstein, mas acabou confirmando sua teoria com precisão notável.</p>
+<hr>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/efeito-fotoeletrico.png" class="img-fluid figure-img"></p>
+<figcaption>Esquema do efeito fotoelétrico</figcaption></figure>
+</div>
+<p><strong>Figura</strong>: <em>No efeito fotoelétrico, a luz incide sobre uma superfície metálica. Se a frequência for suficientemente alta, os fótons transferem sua energia para os elétrons, que são ejetados com energia cinética proporcional à frequência da luz.</em></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/efeito_fotoeletrico-1.png" class="img-fluid figure-img"></p>
+<figcaption>Efeito Fotoelétrico explicado por Einstein (1905)</figcaption></figure>
+</div>
+<p><strong>Figura — O efeito fotoelétrico explicado por Einstein (1905):</strong><br>
+A luz incide sobre uma superfície metálica em forma de fótons, cada um com energia <span class="math inline">\(E = h\nu\)</span>. Quando a energia do fóton supera o trabalho de extração <span class="math inline">\(\phi\)</span>, um elétron é ejetado com energia cinética <span class="math inline">\(K = h\nu - \phi\)</span>. Esse fenômeno confirma a natureza corpuscular da luz.</p>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co"># Código R:</span></span>
+<span></span>
+<span><span class="co"># Gráfico do efeito fotoelétrico: K = hν − φ</span></span>
+<span></span>
+<span><span class="co"># Constantes</span></span>
+<span><span class="va">h</span> <span class="op">&lt;-</span> <span class="fl">6.626e-34</span>  <span class="co"># constante de Planck (J·s)</span></span>
+<span><span class="va">phi</span> <span class="op">&lt;-</span> <span class="fl">2.2e-19</span>  <span class="co"># função trabalho (J)</span></span>
+<span></span>
+<span><span class="co"># Frequências (Hz)</span></span>
+<span><span class="va">nu</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/seq.html">seq</a></span><span class="op">(</span><span class="fl">4e14</span>, <span class="fl">1.2e15</span>, length.out <span class="op">=</span> <span class="fl">100</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Energia cinética (J)</span></span>
+<span><span class="va">K</span> <span class="op">&lt;-</span> <span class="va">h</span> <span class="op">*</span> <span class="va">nu</span> <span class="op">-</span> <span class="va">phi</span></span>
+<span><span class="va">K</span><span class="op">[</span><span class="va">K</span> <span class="op">&lt;</span> <span class="fl">0</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fl">0</span>  <span class="co"># energia negativa não faz sentido físico</span></span>
+<span></span>
+<span><span class="co"># Frequência de corte</span></span>
+<span><span class="va">nu_0</span> <span class="op">&lt;-</span> <span class="va">phi</span> <span class="op">/</span> <span class="va">h</span>  <span class="co"># ≈ 3.32e14 Hz</span></span>
+<span></span>
+<span><span class="co"># Plot</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html">plot</a></span><span class="op">(</span><span class="va">nu</span>, <span class="va">K</span>,</span>
+<span>     type <span class="op">=</span> <span class="st">"l"</span>, col <span class="op">=</span> <span class="st">"blue"</span>, lwd <span class="op">=</span> <span class="fl">2</span>,</span>
+<span>     xlab <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="st">"Frequência da luz ("</span><span class="op">*</span><span class="va">nu</span><span class="op">*</span><span class="st">") [Hz]"</span><span class="op">)</span>,</span>
+<span>     ylab <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="st">"Energia cinética ("</span><span class="op">*</span><span class="va">K</span><span class="op">*</span><span class="st">") [J]"</span><span class="op">)</span>,</span>
+<span>     main <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="st">"Efeito fotoelétrico: "</span><span class="op">*</span><span class="va">K</span> <span class="op">==</span> <span class="va">h</span> <span class="op">*</span> <span class="va">nu</span> <span class="op">-</span> <span class="va">phi</span><span class="op">)</span>,</span>
+<span>     xlim <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">3e14</span>, <span class="fl">1.2e15</span><span class="op">)</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Linha da frequência de corte</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/abline.html">abline</a></span><span class="op">(</span>v <span class="op">=</span> <span class="va">nu_0</span>, lty <span class="op">=</span> <span class="fl">2</span>, col <span class="op">=</span> <span class="st">"gray"</span>, lwd <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Destaque visual do ponto de corte</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/points.html">points</a></span><span class="op">(</span><span class="va">nu_0</span>, <span class="fl">0</span>, pch <span class="op">=</span> <span class="fl">19</span>, col <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/text.html">text</a></span><span class="op">(</span><span class="va">nu_0</span>, <span class="fl">0</span>, labels <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="va">nu</span><span class="op">[</span><span class="fl">0</span><span class="op">]</span><span class="op">)</span>, pos <span class="op">=</span> <span class="fl">4</span>, col <span class="op">=</span> <span class="st">"red"</span>, cex <span class="op">=</span> <span class="fl">0.9</span><span class="op">)</span></span>
+<span></span>
+<span><span class="co"># Legenda</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/graphics/legend.html">legend</a></span><span class="op">(</span><span class="st">"topleft"</span>,</span>
+<span>       legend <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="va">K</span> <span class="op">==</span> <span class="va">h</span> <span class="op">*</span> <span class="va">nu</span> <span class="op">-</span> <span class="va">phi</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/r/base/expression.html">expression</a></span><span class="op">(</span><span class="va">nu</span><span class="op">[</span><span class="fl">0</span><span class="op">]</span> <span class="op">==</span> <span class="va">phi</span> <span class="op">/</span> <span class="va">h</span><span class="op">)</span><span class="op">)</span>,</span>
+<span>       col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"blue"</span>, <span class="st">"gray"</span><span class="op">)</span>, lwd <span class="op">=</span> <span class="fl">2</span>, lty <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">2</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="parte-1-mecanica-quantica_files/figure-html/gráfico do efeito fotoelétrico-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note" data-align="center">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Figura: Gráfico do efeito fotoelétrico previsto por Einstein. A linha azul representa a equação <span class="math inline">\(K = h\nu − \phi\)</span>, que relaciona a energia cinética dos elétrons com a frequência da luz. A linha cinza tracejada marca a frequência de corte <span class="math inline">\(\nu_0 = \frac{\phi}{h}\)</span>, abaixo da qual não há emissão de elétrons.</p>
+</div>
+</div>
+</div>
+<hr></section><section id="reconhecimento-e-impacto" class="level3" data-number="1.5.4"><h3 data-number="1.5.4" class="anchored" data-anchor-id="reconhecimento-e-impacto">
+<span class="header-section-number">1.5.4</span> 🏅 Reconhecimento e impacto</h3>
+<p>Einstein foi agraciado com o <strong>Prêmio Nobel de Física em 1921</strong> — <strong>não</strong> por sua teoria da relatividade, mas <strong>pela explicação do efeito fotoelétrico</strong>. Sua proposta consolidou a ideia de que a luz possui <strong>natureza dual</strong>: ora se comporta como onda, ora como partícula.</p>
+<p>Essa descoberta abriu caminho para toda a <strong>formulação da mecânica quântica moderna</strong>, mostrando que <strong>a quantização não era apenas da matéria — mas também da própria radiação</strong>.</p>
+<hr>
+<blockquote class="blockquote">
+<p><em>“É a teoria que decide o que podemos observar.”</em><br>
+— Albert Einstein</p>
+</blockquote>
+</section></section><section id="o-átomo-de-bohr" class="level2" data-number="1.6"><h2 data-number="1.6" class="anchored" data-anchor-id="o-átomo-de-bohr">
+<span class="header-section-number">1.6</span> 🌌 O Átomo de Bohr</h2>
+<div class="callout callout-style-simple callout-note callout-titled" title="Niels Bohr (1885–1962)" data-align="center">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Niels Bohr (1885–1962)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/bohr-retrato.png" class="img-fluid figure-img"></p>
+<figcaption>Retrato de Niels Bohr</figcaption></figure>
+</div>
+<p>Figura: Niels Bohr propôs, em 1913, um modelo atômico com níveis quantizados de energia — um marco na construção da teoria quântica.</p>
+</div>
+</div>
+<p>O espectro de emissão do hidrogênio exibia linhas finas e bem definidas, como se os elétrons só pudessem ocupar níveis específicos de energia.</p>
+<p>➡️ Em 1913, <strong>Niels Bohr</strong> propôs um modelo atômico radical para a época. Segundo ele, os elétrons:</p>
+<ul>
+<li>Orbitam o núcleo apenas em órbitas permitidas, com energias <strong>quantizadas</strong>;</li>
+<li>Só emitem ou absorvem luz ao <strong>saltarem</strong> entre esses níveis.</li>
+</ul>
+<p>Com isso, Bohr conseguia explicar o espectro do hidrogênio: os fótons emitidos possuem uma energia determinada pela diferença entre os níveis:</p>
+<p><span class="math display">\[
+\Delta E = E_2 - E_1 = h\nu
+\]</span></p>
+<p>📌 Sua proposta conectava diretamente o conceito de <strong>quantização</strong> à estrutura do átomo — um duro golpe nas bases contínuas da física clássica.</p>
+<div class="panel-caption">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="../../images/modelo-bohr.png" class="img-fluid figure-img"></p>
+<figcaption>Modelo de Bohr: níveis quantizados</figcaption></figure>
+</div>
+<p>Figura: O elétron salta do segundo para o primeiro nível de energia, emitindo um fóton (representado pela seta roxa).</p>
+</div>
+<hr></section><section id="um-sistema-em-crise" class="level2" data-number="1.7"><h2 data-number="1.7" class="anchored" data-anchor-id="um-sistema-em-crise">
+<span class="header-section-number">1.7</span> 🧨 Um Sistema em Crise</h2>
+<p>Os fenômenos analisados até aqui — corpo negro, efeito fotoelétrico e espectros atômicos — colocaram a física clássica contra a parede:</p>
+<ul>
+<li>A luz se comportava como <strong>partícula</strong>;</li>
+<li>A energia era emitida e absorvida em <strong>quantidades discretas</strong>;</li>
+<li>Os átomos exibiam <strong>estruturas quantizadas</strong>, e não contínuas.</li>
+</ul>
+<p>Esses resultados não podiam mais ser ignorados.</p>
+<p>🧩 A consistência entre essas ideias e os experimentos era indiscutível — estava surgindo uma <strong>nova descrição da realidade</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="O século XX exigia uma nova teoria">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+O século XX exigia uma nova teoria
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Essa nova teoria surgiria em <strong>1925</strong>, rompendo com séculos de intuições clássicas.</p>
+<p>Com contribuições decisivas de <strong>Heisenberg</strong>, <strong>Schrödinger</strong>, <strong>Born</strong>, <strong>Dirac</strong> e outros, nascia a <strong>Mecânica Quântica</strong> — uma revolução científica comparável à de <strong>Copérnico</strong> ou <strong>Newton</strong>.</p>
+<p>Com ela, compreender o átomo passou a significar <strong>repensar a própria natureza da realidade</strong>.</p>
+</div>
+</div>
+<hr></section><section id="conclusão-da-parte-1-o-limite-da-física-clássica" class="level2" data-number="1.8"><h2 data-number="1.8" class="anchored" data-anchor-id="conclusão-da-parte-1-o-limite-da-física-clássica">
+<span class="header-section-number">1.8</span> 🔚 Conclusão da Parte 1 — O Limite da Física Clássica</h2>
+<p>Ao final do século XIX, a física parecia completa — mas os fenômenos do corpo negro, do efeito fotoelétrico e dos espectros atômicos expuseram rachaduras profundas na teoria clássica.</p>
+<p>Cada um desses fenômenos revelava algo que a física vigente não conseguia explicar:</p>
+<ul>
+<li><p>A radiação térmica exigia uma nova forma de distribuir energia;</p></li>
+<li><p>A luz parecia ter comportamento de partícula, não apenas de onda;</p></li>
+<li><p>A estrutura dos átomos não era contínua, mas quantizada.</p></li>
+</ul>
+<p>Esses desafios abriram caminho para uma nova forma de pensar — uma revolução conceitual que exigia abandonar certezas antigas.</p>
+<blockquote class="blockquote">
+<p>A realidade microscópica revelava regras próprias, e entender o mundo atômico passaria a exigir <strong>novas ferramentas matemáticas, novos princípios e uma nova física</strong>.</p>
+</blockquote>
+<hr>
+<div class="callout callout-style-default callout-note callout-titled" title="Próxima parte: A Revolução Começa (1925)">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Próxima parte: A Revolução Começa (1925)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A jornada da Mecânica Quântica está apenas começando.<br>
+Na Parte 2, veremos como <strong>Werner Heisenberg</strong>, <strong>Erwin Schrödinger</strong> e outros arquitetaram a nova teoria quântica.</p>
+<!-- [Leia a Parte 2 — A Revolução Começa (1925)](parte-2-revolucao-quantica.qmd) -->
+</div>
+</div>
+<hr></section><section id="leitura-seguinte" class="level2" data-number="1.9"><h2 data-number="1.9" class="anchored" data-anchor-id="leitura-seguinte">
+<span class="header-section-number">1.9</span> Leitura Seguinte</h2>
+<p>➡️ Próxima parte: [Parte 2 — A Revolução Começa (1925)]</p>
+<p>🔸<strong>Em Breve!</strong></p>
+<p>📚 <a href="../../posts/fisica/guia-100-anos-mecanica-quantica.html">Voltar ao Guia de Leitura da Série</a></p>
+</section><section id="voltar-ao-topo" class="level2" data-number="1.10"><h2 data-number="1.10" class="anchored" data-anchor-id="voltar-ao-topo">
+<span class="header-section-number">1.10</span> 🔝 <a href="../../posts/fisica/parte-1-mecanica-quantica.html">Voltar ao Topo</a>
+</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
+</div>
+</div>
+</section><section id="links-úteis" class="level2" data-number="1.11"><h2 data-number="1.11" class="anchored" data-anchor-id="links-úteis">
+<span class="header-section-number">1.11</span> 🔗 Links Úteis</h2>
+<ul>
+<li>🧑‍🏫 <a href="../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a>
+</li>
+<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2">Repositório no GitHub</a>
+</li>
+<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a>
+</li>
+</ul>
+
+
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/blogdomarcellini\.com\.br");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 - Blog do Marcellini</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a><br> 💻 <a href="https://github.com/marcellini-celso">GitHub do Projeto</a></p>
+</div>
+  </div>
+</footer>
+
+
+</body></html>

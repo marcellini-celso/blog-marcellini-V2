@@ -1,0 +1,45 @@
+---
+title: "🧮 Cursos de Matemática"
+description: "Conteúdos organizados em formato de curso, com foco em temas fundamentais da matemática, explicações passo a passo, exemplos resolvidos e exercícios aplicados."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [matemática, cursos]
+tags: [curso de matemática, ensino, matemática básica, lógica, álgebra, funções, demonstrações]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 🧮 Cursos de Matemática
+</div>
+
+---
+
+{{< include ../../../_includes/link-retorno-matematica.qmd >}}
+
+Esta seção reúne conteúdos completos de matemática organizados como cursos, com teoria clara, exemplos resolvidos e atividades práticas.
+
+## 🎓 Cursos Disponíveis
+
+*[Ainda não há cursos publicados]*
+
+## 📖 Guia de Leitura
+
+Este guia será atualizado conforme novos cursos forem disponibilizados.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../../_includes/footer.qmd >}}
+
+

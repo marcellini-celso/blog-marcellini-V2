@@ -1,0 +1,47 @@
+---
+title: "📊 Estatística"
+description: "Explore conceitos estatísticos essenciais com foco em aplicações, interpretação de dados, visualizações e fundamentos teóricos. Inclui cursos completos, exemplos resolvidos e guias de leitura."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [estatística]
+tags: [estatística, análise de dados, gráficos, distribuição normal, variabilidade, interpretação estatística, curso, R, Excel]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 📊 Estatística
+</div>
+
+---
+
+Explore conceitos estatísticos essenciais, com foco em aplicações, análise de dados e interpretação prática.
+
+## 📘 Artigos e Reflexões
+
+Ainda não há artigos disponíveis nesta seção.
+
+## 🎓 Cursos Disponíveis
+
+### [Distribuição Normal (Curso)](distribuicao-normal.qmd)
+Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
+
+## 📖 Guia de Leitura
+
+1. **[Guia de Leitura da Seção de Estatística](guia-estatistica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender estatística passo a passo.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

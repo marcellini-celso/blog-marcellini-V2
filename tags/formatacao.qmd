@@ -1,0 +1,11 @@
+---
+title: "formatação"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **formatação**
+
+- [YAML no Quarto: O Coração Invisível dos Seus Documentos](/posts/programacao/yaml-no-quarto.html)
+- [📐 LaTeX](/posts/programacao/latex/index.html)

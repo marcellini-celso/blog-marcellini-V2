@@ -1,0 +1,127 @@
+---
+title: "YAML no Quarto: O Coração Invisível dos Seus Documentos"
+author: "Blog do Marcellini"
+date: 2025-06-29
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programação]
+tags: [programação, yaml no quarto, cabeçalho yaml, html, metadados, estrutura de documento, formatação, parâmetros yaml, configuração de post]
+---
+
+---
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+# Introdução
+
+O YAML é a primeira coisa que aparece em um documento `.qmd` — mas para muitos, é também a mais misteriosa.
+
+> Neste post, vamos entender:
+> - O que é YAML
+> - Como ele funciona nos arquivos `.qmd`
+> - Principais campos usados em projetos com Quarto
+> - Exemplos práticos de cabeçalhos YAML
+
+---
+
+# O que é YAML?
+
+YAML significa **“YAML Ain’t Markup Language”**, ou seja, **“YAML não é uma linguagem de marcação”** — embora se pareça com uma.
+
+Ele é um formato **legível por humanos**, usado para declarar configurações.  
+É simples, indentado com **espaços** (não tabulações), e usa **pares chave:valor**.
+
+---
+
+# Exemplo mínimo
+
+```yaml
+---
+title: "Meu Documento"
+author: "Blog do Marcellini"
+format: html
+---
+```
+
+---
+
+# Onde o YAML é usado no Quarto?
+
+No **topo de qualquer arquivo `.qmd`**, entre `---` e `---`.
+
+> O YAML define **como o documento será processado e renderizado**: título, autor, formato de saída, opções de execução de código, capa, sumário e muito mais.
+
+---
+
+# Campos comuns no YAML do Quarto
+
+| Campo         | Descrição                                        |
+|---------------|--------------------------------------------------|
+| `title`       | Título do documento                              |
+| `author`      | Nome do(s) autor(es)                             |
+| `date`        | Data de criação ou publicação                    |
+| `format`      | Formato de saída: `html`, `pdf`, `epub`, `docx`  |
+| `editor`      | Tipo de editor usado (ex: `visual`)              |
+| `lang`        | Idioma do documento (ex: `pt-BR`)                |
+| `cover-image` | Capa usada para EPUB ou PDF                      |
+| `toc`         | Mostra o sumário (`true` ou `false`)             |
+| `execute`     | Regras de execução do código                     |
+
+---
+
+# Exemplo completo
+
+```yaml
+---
+title: "Análise de Dados com R"
+author: "Blog do Marcellini"
+date: 2025-06-23
+format: html
+lang: pt-BR
+toc: true
+execute:
+  engine: knitr
+  echo: true
+  warning: false
+  message: false
+---
+```
+
+---
+
+# Cuidados ao usar YAML
+
+- ✅ **Use espaços, nunca TAB**.
+- ✅ A identação deve ser **consistente**.
+- ✅ Listas são feitas com `- item`.
+- ✅ Blocos de texto longos podem usar `|` (para manter quebras) ou `>` (para unir linhas).
+
+---
+
+# Conclusão
+
+O YAML pode parecer apenas um bloco técnico no início do `.qmd`, mas ele é a **alma da configuração** no Quarto.  
+Dominar o YAML é essencial para personalizar seus documentos, projetos, sites e livros.
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](yaml-no-quarto.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

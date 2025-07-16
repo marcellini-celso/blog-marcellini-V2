@@ -1,0 +1,13 @@
+---
+title: "estatística"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **estatística**
+
+- [📊 Estatística](/posts/estatistica/index.html)
+- [Curso de Estatística: A Distribuição Normal (Parte 1)](/posts/estatistica/distribuicao-normal.html)
+- [📖 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
+- [📊 R](/posts/programacao/r/index.html)

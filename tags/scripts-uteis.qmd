@@ -1,0 +1,10 @@
+---
+title: "scripts úteis"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **scripts úteis**
+
+- [🐍 Python](/posts/programacao/python/index.html)

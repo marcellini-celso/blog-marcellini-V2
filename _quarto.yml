@@ -1,0 +1,74 @@
+project:
+  type: website
+  output-dir: docs
+  pre-render: "python3 gerar_posts_json.py"
+
+website:
+  title: "Blog do Marcellini"
+  favicon: images/banner.jpeg
+  site-url: https://blogdomarcellini.com.br
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: tags.qmd
+        text: 🌐 Navegue por Tags
+      - text: "🧠 Ciências Exatas"
+        menu:
+          - text: "🧮 Matemática"
+            href: posts/matematica/index.qmd
+          - text: "📊 Estatística"
+            href: posts/estatistica/index.qmd
+          - text: "🔭 Física"
+            href: posts/fisica/index.qmd
+      - text: "💻 Programação"
+        menu:
+          - text: "💻 Programação"
+            href: posts/programacao/index.qmd
+          - text: "🧾 Quarto"
+            href: posts/programacao/quarto/index.qmd
+          - text: "✍️ LaTeX"
+            href: posts/programacao/latex/index.qmd
+          - text: "🐍 Python"
+            href: posts/programacao/python/index.qmd
+          - text: "📊 R"
+            href: posts/programacao/r/index.qmd
+      - text: "📝 Blog Pessoal"
+        menu:
+          - text: "📝 Blog Pessoal"
+            href: posts/pessoal/index.qmd
+          - text: "👤 Sobre Mim e Sobre o Blog"
+            href: posts/pessoal/sobre-o-blog.qmd
+      - text: "📘 Cursos"
+        menu:
+          - text: "🧮 Cursos de Matemática"
+            href: posts/cursos/matematica/index.qmd
+          - text: "📊 Cursos de Estatística"
+            href: posts/cursos/estatistica/index.qmd
+
+  page-footer:
+    left: "© 2025 - Blog do Marcellini"
+    right: >
+      📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)<br>
+      💻 [GitHub do Projeto](https://github.com/marcellini-celso)
+
+format:
+  html:
+    theme: cosmo
+    css: 
+      - styles.css
+      - assets/css/custom.css
+    toc: true
+    toc-title: "Nesta página"
+    highlight-style: github
+    include-in-header: analytics.html
+
+search: true
+
+publish:
+  provider: gh-pages
+
+resources:
+  - posts.json
+

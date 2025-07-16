@@ -1,0 +1,10 @@
+---
+title: "justificativa lógica"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **justificativa lógica**
+
+- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

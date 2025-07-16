@@ -1,0 +1,10 @@
+---
+title: "site estático"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **site estático**
+
+- [📄 Quarto](/posts/programacao/quarto/index.html)

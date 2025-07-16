@@ -1,0 +1,10 @@
+---
+title: "funções"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **funções**
+
+- [🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)

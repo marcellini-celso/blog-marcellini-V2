@@ -1,0 +1,10 @@
+---
+title: "Einstein"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **Einstein**
+
+- [⚛️ Física](/posts/fisica/index.html)

@@ -1,0 +1,10 @@
+---
+title: "integração R e Quarto"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **integração R e Quarto**
+
+- [Modelos de Código em R para Usar com Quarto](/posts/programacao/modelos-r-quarto.html)

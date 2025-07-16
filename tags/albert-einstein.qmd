@@ -1,0 +1,14 @@
+---
+title: "Albert Einstein"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **Albert Einstein**
+
+- [Guia de Leitura — Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
+- [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)
+- [Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/fisica/relatividade-especial.html)
+- [Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)
+- [100 Anos da Mecânica Quântica (1925–2025)](/posts/fisica/100-anos-mecanica-quantica.html)

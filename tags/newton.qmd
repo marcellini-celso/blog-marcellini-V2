@@ -1,0 +1,10 @@
+---
+title: "Newton"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **Newton**
+
+- [✨ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)

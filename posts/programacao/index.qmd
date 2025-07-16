@@ -1,0 +1,56 @@
+---
+title: "👨‍💻 Programação"
+description: "Conteúdos sobre linguagens e ferramentas como Python, R, LaTeX e Quarto, voltados à documentação técnica, análise de dados e ciência computacional."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [programação]
+tags: [python, R, LaTeX, Quarto, ciência de dados, automação, computação científica, relatórios reprodutíveis]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 👨‍💻 Programação
+</div>
+
+---
+
+Nesta seção você encontrará conteúdos sobre linguagens e ferramentas utilizadas em ciência de dados, automação, documentação técnica e computação em geral.
+
+## 📘 Artigos e Reflexões
+
+### [📐 LaTeX](latex/index.qmd)
+Dicas sobre como escrever documentos científicos com LaTeX: fórmulas matemáticas, apresentações e artigos bem formatados.
+
+### [📄 Quarto](quarto/index.qmd)
+Publicações sobre a ferramenta Quarto para criação de sites, artigos dinâmicos e relatórios reprodutíveis.
+
+### [🐍 Python](python/index.qmd)
+Conteúdos introdutórios e práticos sobre Python com foco em automação e análise de dados.
+
+### [📊 R](r/index.qmd)
+Dicas e exemplos com a linguagem R voltada à estatística, gráficos e relatórios interativos.
+
+## 📖 Guia de Leitura
+
+1. **[📐 LaTeX](latex/index.qmd)** — Ideal para quem deseja começar a escrever bem em ambiente técnico-científico.
+2. **[📄 Quarto](quarto/index.qmd)** — Pode ser explorado em paralelo com LaTeX, especialmente para quem quer produzir conteúdo reprodutível.
+3. **[🐍 Python](python/index.qmd)** — Comece aqui se seu foco for programação e automação prática.
+4. **[📊 R](r/index.qmd)** — Recomendado após ter noções básicas de estatística ou como apoio aos cursos dessa área.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+
+

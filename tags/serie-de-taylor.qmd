@@ -1,0 +1,10 @@
+---
+title: "série de Taylor"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **série de Taylor**
+
+- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

@@ -1,0 +1,55 @@
+---
+title: "Guia de Leitura — Relatividade Especial"
+description: "Organização dos posts sobre Relatividade Especial: uma introdução didática e um aprofundamento acadêmico."
+author: "Blog do Marcellini"
+date: 2025-07-06
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+categories: [física]
+tags: [física, Albert Einstein, transformação de Lorentz, referencial inercial, velocidade da luz, contração do comprimento, simultaneidade, tempo dilatado, espaço-tempo]
+---
+---
+
+{{< include ../../_includes/link-retorno-fisica.qmd >}}
+
+# 🛰️ Guia de Leitura — Relatividade Especial
+
+## 🌟 Visão Geral
+
+Se você está começando agora ou quer uma leitura mais leve e contextual, comece com o post introdutório:
+
+👉 **[Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](relatividade-especial.qmd)**  
+Uma introdução visual, histórica e acessível.
+
+---
+
+## 📚 Aprofundamento Acadêmico
+
+Pronto para uma leitura mais técnica, com fórmulas, postulados e análises conceituais?
+
+👉 **[A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](relatividade-especial-academico.qmd)**
+
+Ideal para estudantes e professores que desejam uma base sólida e estruturada.
+
+---
+
+*Este guia faz parte da série de organização temática do Blog do Marcellini.*  
+*Posts adicionais podem ser integrados conforme novos conteúdos forem publicados.*
+
+{{< include ../../_includes/link-retorno-fisica.qmd >}}
+
+🔝 [Voltar ao Topo](guia-relatividade-especial.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

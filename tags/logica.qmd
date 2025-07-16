@@ -1,0 +1,11 @@
+---
+title: "lógica"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **lógica**
+
+- [🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [🧮 Matemática](/posts/matematica/index.html)

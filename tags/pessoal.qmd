@@ -1,0 +1,10 @@
+---
+title: "pessoal"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **pessoal**
+
+- [Sobre o Blog e Sobre Mim](/posts/pessoal/sobre-o-blog.html)

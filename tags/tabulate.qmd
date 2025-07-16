@@ -1,0 +1,10 @@
+---
+title: "tabulate"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **tabulate**
+
+- [Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)

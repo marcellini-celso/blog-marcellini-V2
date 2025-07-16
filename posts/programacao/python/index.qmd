@@ -1,0 +1,47 @@
+---
+title: "🐍 Python"
+description: "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [programação, Python]
+tags: [Python, automação, análise de dados, pandas, matplotlib, scripts úteis, ciência de dados]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 🐍 Python
+</div>
+
+---
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica.
+
+## 📘 Artigos e Reflexões
+
+### [Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)
+Exemplos de uso do Python com Quarto, integração de código com visualizações e análise de dados.
+
+## 📖 Guia de Leitura
+
+1. **[Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)** — Veja como utilizar Python para gerar visualizações e resultados dinâmicos dentro de documentos Quarto.
+
+{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../../_includes/footer.qmd >}}
+

@@ -1,0 +1,45 @@
+---
+title: "🧑‍💻 Blog Pessoal"
+description: "Espaço para textos mais pessoais, reflexões livres, relatos de experiências, bastidores do blog e notas do autor."
+author: "Blog do Marcellini"
+date: 2025-07-11
+lang: pt-BR
+categories: [pessoal]
+tags: [reflexões pessoais, bastidores, autor, notas do blog, sobre mim, cotidiano, experiências]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+<div class="invisivel">
+# 🧑‍💻 Blog Pessoal
+</div>
+
+---
+
+Neste espaço estão reunidos textos mais livres, anotações do autor, bastidores do blog e reflexões pessoais relacionadas à produção de conteúdo, ensino, leitura e tecnologia.
+
+## 📘 Artigos e Reflexões
+
+### [Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
+Apresentação do propósito, estrutura e linha editorial do Blog do Marcellini.
+
+Breve apresentação do autor, formação, interesses e motivações.
+
+## 📖 Guia de Leitura
+
+1. **[Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)** — Ideal para novos visitantes que desejam entender o projeto. Conheça um pouco mais sobre o autor e sua trajetória.
+
+🔝 [Voltar ao Topo](index.qmd)
+---
+
+{{< include ../../_includes/footer.qmd >}}
+

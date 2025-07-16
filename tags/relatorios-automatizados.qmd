@@ -1,0 +1,10 @@
+---
+title: "relatórios automatizados"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **relatórios automatizados**
+
+- [Modelos de Código em Python para Usar com Quarto](/posts/programacao/modelos-python-quarto.html)

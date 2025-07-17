@@ -296,7 +296,10 @@ $$
 **1. Quando** $t \to \infty$:
 
 $$
-\frac{t^x}{e^t} \to 0 \quad \text{pois a exponencial domina qualquer potência}
+\frac{t^x}{e^t} \to 0
+$$
+$$
+ \quad \text{pois a exponencial domina qualquer potência}
 $$
 
 Portanto:

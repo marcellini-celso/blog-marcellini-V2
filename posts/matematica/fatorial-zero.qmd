@@ -47,7 +47,10 @@ O fatorial $n!$ representa o número de maneiras de organizar $n$ elementos dist
 
 
 Resposta: 
-$$\boxed{1 \text{ permutação (o conjunto vazio em si)}}
+$$
+\boxed{1 \text{ permutação (o conjunto vazio em si)}}
+$$
+$$
 \Rightarrow \boxed{0! = 1}
 $$
 

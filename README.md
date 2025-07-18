@@ -46,7 +46,7 @@ Confirme se o post aparece corretamente, com tags e layout funcionando.
 ### 3. Publicar no GitHub Pages
 
 ```bash
-./publicar_blog_otimizado.sh
+./publicar-blog.sh
 ```
 
 Esse script realiza:

@@ -70,3 +70,11 @@ code {
   border-color: #93c5fd;
 }
 
+.callout.bemvindo {
+  background-color: #f0f8ff;
+  border-left: 6px solid #1e90ff;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+

@@ -18,17 +18,14 @@ format:
 ::: {.columns}
 ::: {.column width="65%"}
 
-<div class=invisivel>
-
-</div>
-
-::: {.callout-note title="Bem-vindo ao Blog do Marcellini"}
+::: {.callout-note title="👋 Bem-vindo ao Blog do Marcellini"}
 
 Neste blog, você encontrará conteúdos de **Matemática**, **Estatística** e **Física** desenvolvidos com **rigor**, **fundamentação teórica** e uma abordagem **didática**. A proposta é combinar clareza conceitual com uma apresentação visual profissional, utilizando ferramentas como **LaTeX**, **Quarto**, **Python** e **R**.
 
 O objetivo é explorar ideias profundas com **simplicidade**, **intuição** e **beleza** — por meio de explicações acessíveis, **visualizações gráficas**, **cursos completos com exercícios resolvidos** e **guias de leitura estruturados**.
 
 :::
+
 
 ### 🌟 O que você vai encontrar aqui:
 

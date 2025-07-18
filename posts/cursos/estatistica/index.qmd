@@ -4,8 +4,8 @@ description: "Cursos completos de Estatística com teoria, aplicações prática
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [estatística, cursos]
-tags: [curso de estatística, R, Excel, distribuição normal, análise de dados, gráficos, interpretação estatística]
+categories: [estatística, cursos, sumário]
+tags: [estatística, cursos, sumário]
 format:
   html:
     toc: true

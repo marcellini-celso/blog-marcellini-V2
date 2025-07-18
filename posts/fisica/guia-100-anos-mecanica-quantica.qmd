@@ -4,8 +4,8 @@ description: "Organização da série comemorativa dos 100 anos da Mecânica Qu�
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [física]
-tags: [física, mecânica quântica, teoria quântica, história da física, guia de leitura]
+categories: [física, mecânica quântica, guia de leitura]
+tags: [física, mecânica quântica, guia de leitura]
 format:
   html:
     toc: true
@@ -24,6 +24,8 @@ page-layout: full
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 # 🧭 Guia de Leitura da Série 100 Anos da Mecânica Quântica
+
+![](../../images/quantum500.jpg)
 
 Este guia organiza a série especial que celebra os 100 anos da Mecânica Quântica. A série está sendo publicada em partes, e cada etapa traz reflexões sobre os marcos históricos, conceituais e tecnológicos dessa teoria fundamental da física moderna.
 

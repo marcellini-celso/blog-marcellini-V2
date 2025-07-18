@@ -1,0 +1,10 @@
+---
+title: "sumário de LaTeX"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **sumário de LaTeX**
+
+- [📐 LaTeX](/posts/programacao/latex/index.html)

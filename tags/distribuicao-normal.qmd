@@ -7,5 +7,4 @@ format: html
 
 ## Posts com a tag **distribuição normal**
 
-- [📊 Estatística](/posts/estatistica/index.html)
-- [📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)
+- [Curso de Estatística: A Distribuição Normal (Parte 1)](/posts/estatistica/distribuicao-normal.html)

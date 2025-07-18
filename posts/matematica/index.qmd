@@ -4,8 +4,8 @@ description: "Reflexões e conteúdos fundamentais da matemática, com foco na b
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [matemática]
-tags: [matemática, demonstrações, estética matemática, lógica, curiosidades, raciocínio matemático]
+categories: [matemática, sumário de matemática, sumário]
+tags: [matemática, sumário de matemática, sumário]
 format:
   html:
     toc: true

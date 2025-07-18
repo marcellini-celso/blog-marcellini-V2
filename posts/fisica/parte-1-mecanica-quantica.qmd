@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física]
-tags: [física, mecânica quântica, Werner Heisenberg, Erwin Schrödinger, teoria quântica, computação quântica, história da física, catástrofe do ultravioleta, Max Planck, efeito fotoelétrico, Albert Einstein, Niels Bohr, corpo negro, Lord Kelvin, Maxwell, Paul Dirac, Pascual Jordan, Max Born, mecânica matricial, princípio da incerteza, função de onda, interpretação de Copenhague, gato de Schrödinger, Hugh Everett III, emaranhamento quântico, interpretação de muitos mundos, John Bell, Alain Aspect, criptografia quântica, teleportação quântica, eletrodinâmica quântica, QED, Feynman, Schwinger, Tomonaga, teorema EPR, teorema de Bell, congresso de Solvay, relatividade geral, teoria quântica da gravidade, gravidade quântica em loop, teoria das cordas, segunda revolução quântica, Rayleigh-Jeans, quanta, quantização da radiação, espaços de Hilbert, mecânica estatística, teoria de campos quânticos, universos paralelos, desigualdades de Bell, variáveis ocultas locais, qubits, decoerência quântica]
+categories: [física, mecânica quântica, guia de leitura]
+tags: [física, mecânica quântica, guia de leitura]
 
 execute:
   engine: knitr

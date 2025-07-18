@@ -1,0 +1,10 @@
+---
+title: "fatorial"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **fatorial**
+
+- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

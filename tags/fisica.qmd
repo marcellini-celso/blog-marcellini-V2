@@ -7,6 +7,7 @@ format: html
 
 ## Posts com a tag **física**
 
+- [✨ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)
 - [⚛️ Física](/posts/fisica/index.html)
 - [Guia de Leitura — Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
 - [A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)

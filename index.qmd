@@ -18,7 +18,9 @@ format:
 ::: {.columns}
 ::: {.column width="65%"}
 
-# 🧮 Sobre o Blog
+<div class=invisivel>
+
+</div>
 
 ::: {.callout-note title="Bem-vindo ao Blog do Marcellini"}
 

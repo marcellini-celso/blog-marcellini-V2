@@ -4,14 +4,8 @@
     "href": "posts/estatistica/index.html",
     "tags": [
       "estatística",
-      "análise de dados",
-      "gráficos",
-      "distribuição normal",
-      "variabilidade",
-      "interpretação estatística",
-      "curso",
-      "R",
-      "Excel"
+      "sumário de estatística",
+      "sumário"
     ]
   },
   {
@@ -19,10 +13,8 @@
     "href": "posts/estatistica/distribuicao-normal.html",
     "tags": [
       "estatística",
-      "intervalo de confiança",
-      "testes de hipótese",
-      "aula",
-      "análise de dados"
+      "distribuição normal",
+      "cursos"
     ]
   },
   {
@@ -30,38 +22,25 @@
     "href": "posts/estatistica/guia-estatistica.html",
     "tags": [
       "estatística",
-      "guia de leitura",
-      "cursos",
-      "visualização de dados",
-      "R",
-      "Excel",
-      "análise estatística"
+      "guia de leitura"
     ]
   },
   {
     "title": "📊 Cursos de Estatística",
     "href": "posts/cursos/estatistica/index.html",
     "tags": [
-      "curso de estatística",
-      "R",
-      "Excel",
-      "distribuição normal",
-      "análise de dados",
-      "gráficos",
-      "interpretação estatística"
+      "estatística",
+      "cursos",
+      "sumário"
     ]
   },
   {
     "title": "🧮 Cursos de Matemática",
     "href": "posts/cursos/matematica/index.html",
     "tags": [
-      "curso de matemática",
-      "ensino",
-      "matemática básica",
-      "lógica",
-      "álgebra",
-      "funções",
-      "demonstrações"
+      "matemática",
+      "cursos",
+      "sumário"
     ]
   },
   {
@@ -69,34 +48,25 @@
     "href": "posts/matematica/index.html",
     "tags": [
       "matemática",
-      "demonstrações",
-      "estética matemática",
-      "lógica",
-      "curiosidades",
-      "raciocínio matemático"
+      "sumário de matemática",
+      "sumário"
     ]
   },
   {
     "title": "✨ Fórmulas que Marcaram a História",
     "href": "posts/matematica/equacoes-historicas.html",
     "tags": [
-      "equações históricas",
-      "Euler",
-      "Ramanujan",
-      "onda",
-      "Schrödinger",
-      "Maxwell",
-      "Newton",
-      "Gauss"
+      "matemática",
+      "física",
+      "história da ciência"
     ]
   },
   {
     "title": "📖 Guia de Leitura — Matemática",
     "href": "posts/matematica/guia-matematica.html",
     "tags": [
-      "matematica",
-      "guia de leitura",
-      "cursos"
+      "matemática",
+      "guia de leitura"
     ]
   },
   {
@@ -104,21 +74,7 @@
     "href": "posts/matematica/beleza-matematica.html",
     "tags": [
       "matemática",
-      "estética matemática",
-      "beleza matemática",
-      "demonstrações elegantes",
-      "Hardy",
-      "arte e matemática",
-      "filosofia da matemática",
-      "Minkowski",
-      "Littlewood",
-      "Ramanujan",
-      "Euclides",
-      "Euler",
-      "Fermat",
-      "Wiles",
-      "Taniyama–Shimura",
-      "Taylor"
+      "filosofia da matemática"
     ]
   },
   {
@@ -126,27 +82,20 @@
     "href": "posts/matematica/fatorial-zero.html",
     "tags": [
       "matemática",
-      "fatorial de zero",
       "análise combinatória",
-      "definição recursiva",
-      "justificativa lógica",
-      "números fatoriais",
-      "princípio multiplicativo",
-      "função gama",
-      "série de Taylor"
+      "fatorial"
     ]
   },
   {
     "title": "🧑‍💻 Blog Pessoal",
     "href": "posts/pessoal/index.html",
     "tags": [
-      "reflexões pessoais",
-      "bastidores",
-      "autor",
-      "notas do blog",
-      "sobre mim",
-      "cotidiano",
-      "experiências"
+      "pessoal",
+      "sumário do blog pessoal",
+      "sumário",
+      "sobre",
+      "sobre o blog",
+      "sobre mim"
     ]
   },
   {
@@ -154,13 +103,9 @@
     "href": "posts/pessoal/sobre-o-blog.html",
     "tags": [
       "pessoal",
+      "sobre",
       "sobre o blog",
-      "matemática",
-      "quarto",
-      "latex",
-      "ensino",
-      "divulgação científica",
-      "projeto"
+      "sobre mim"
     ]
   },
   {
@@ -168,12 +113,8 @@
     "href": "posts/fisica/index.html",
     "tags": [
       "física",
-      "mecânica quântica",
-      "relatividade especial",
-      "Einstein",
-      "quanta",
-      "teoria da relatividade",
-      "guia de leitura"
+      "sumário de física",
+      "sumário"
     ]
   },
   {
@@ -181,14 +122,8 @@
     "href": "posts/fisica/guia-relatividade-especial.html",
     "tags": [
       "física",
-      "Albert Einstein",
-      "transformação de Lorentz",
-      "referencial inercial",
-      "velocidade da luz",
-      "contração do comprimento",
-      "simultaneidade",
-      "tempo dilatado",
-      "espaço-tempo"
+      "relatividade especial",
+      "guia de leitura"
     ]
   },
   {
@@ -196,14 +131,7 @@
     "href": "posts/fisica/relatividade-especial-academico.html",
     "tags": [
       "física",
-      "Albert Einstein",
-      "transformação de Lorentz",
-      "referencial inercial",
-      "velocidade da luz",
-      "contração do comprimento",
-      "simultaneidade",
-      "tempo dilatado",
-      "espaço-tempo"
+      "relatividade especial"
     ]
   },
   {
@@ -212,8 +140,6 @@
     "tags": [
       "física",
       "mecânica quântica",
-      "teoria quântica",
-      "história da física",
       "guia de leitura"
     ]
   },
@@ -222,14 +148,7 @@
     "href": "posts/fisica/relatividade-especial.html",
     "tags": [
       "física",
-      "Albert Einstein",
-      "transformação de Lorentz",
-      "referencial inercial",
-      "velocidade da luz",
-      "contração do comprimento",
-      "simultaneidade",
-      "tempo dilatado",
-      "espaço-tempo"
+      "relatividade especial"
     ]
   },
   {
@@ -238,58 +157,7 @@
     "tags": [
       "física",
       "mecânica quântica",
-      "Werner Heisenberg",
-      "Erwin Schrödinger",
-      "teoria quântica",
-      "computação quântica",
-      "história da física",
-      "catástrofe do ultravioleta",
-      "Max Planck",
-      "efeito fotoelétrico",
-      "Albert Einstein",
-      "Niels Bohr",
-      "corpo negro",
-      "Lord Kelvin",
-      "Maxwell",
-      "Paul Dirac",
-      "Pascual Jordan",
-      "Max Born",
-      "mecânica matricial",
-      "princípio da incerteza",
-      "função de onda",
-      "interpretação de Copenhague",
-      "gato de Schrödinger",
-      "Hugh Everett III",
-      "emaranhamento quântico",
-      "interpretação de muitos mundos",
-      "John Bell",
-      "Alain Aspect",
-      "criptografia quântica",
-      "teleportação quântica",
-      "eletrodinâmica quântica",
-      "QED",
-      "Feynman",
-      "Schwinger",
-      "Tomonaga",
-      "teorema EPR",
-      "teorema de Bell",
-      "congresso de Solvay",
-      "relatividade geral",
-      "teoria quântica da gravidade",
-      "gravidade quântica em loop",
-      "teoria das cordas",
-      "segunda revolução quântica",
-      "Rayleigh-Jeans",
-      "quanta",
-      "quantização da radiação",
-      "espaços de Hilbert",
-      "mecânica estatística",
-      "teoria de campos quânticos",
-      "universos paralelos",
-      "desigualdades de Bell",
-      "variáveis ocultas locais",
-      "qubits",
-      "decoerência quântica"
+      "guia de leitura"
     ]
   },
   {
@@ -297,73 +165,21 @@
     "href": "posts/fisica/100-anos-mecanica-quantica.html",
     "tags": [
       "física",
-      "mecânica quântica",
-      "Werner Heisenberg",
-      "Erwin Schrödinger",
-      "teoria quântica",
-      "computação quântica",
-      "história da física",
-      "catástrofe do ultravioleta",
-      "Max Planck",
-      "efeito fotoelétrico",
-      "Albert Einstein",
-      "Niels Bohr",
-      "corpo negro",
-      "Lord Kelvin",
-      "Maxwell",
-      "Paul Dirac",
-      "Pascual Jordan",
-      "Max Born",
-      "mecânica matricial",
-      "princípio da incerteza",
-      "função de onda",
-      "interpretação de Copenhague",
-      "gato de Schrödinger",
-      "Hugh Everett III",
-      "emaranhamento quântico",
-      "interpretação de muitos mundos",
-      "John Bell",
-      "Alain Aspect",
-      "criptografia quântica",
-      "teleportação quântica",
-      "eletrodinâmica quântica",
-      "QED",
-      "Feynman",
-      "Schwinger",
-      "Tomonaga",
-      "teorema EPR",
-      "teorema de Bell",
-      "congresso de Solvay",
-      "relatividade geral",
-      "teoria quântica da gravidade",
-      "gravidade quântica em loop",
-      "teoria das cordas",
-      "segunda revolução quântica",
-      "Rayleigh-Jeans",
-      "quanta",
-      "quantização da radiação",
-      "espaços de Hilbert",
-      "mecânica estatística",
-      "teoria de campos quânticos",
-      "universos paralelos",
-      "desigualdades de Bell",
-      "variáveis ocultas locais",
-      "qubits",
-      "decoerência quântica"
+      "mecânica quântica"
     ]
   },
   {
     "title": "👨‍💻 Programação",
     "href": "posts/programacao/index.html",
     "tags": [
-      "python",
+      "programação",
+      "sumário de programação",
+      "sumário",
+      "Python",
       "R",
       "LaTeX",
       "Quarto",
-      "ciência de dados",
-      "automação",
-      "computação científica",
-      "relatórios reprodutíveis"
+      "YAML"
     ]
   },
   {
@@ -372,12 +188,7 @@
     "tags": [
       "programação",
       "R",
-      "quarto",
-      "relatórios em R",
-      "blocos de código",
-      "gráficos com ggplot2",
-      "análise de dados",
-      "integração R e Quarto"
+      "Quarto"
     ]
   },
   {
@@ -385,14 +196,8 @@
     "href": "posts/programacao/modelos-python-quarto.html",
     "tags": [
       "programação",
-      "python",
-      "quarto",
-      "relatórios automatizados",
-      "visualização de dados",
-      "gráficos com python",
-      "tabulate",
-      "blocos de código",
-      "análise de dados"
+      "Python",
+      "Quarto"
     ]
   },
   {
@@ -400,13 +205,8 @@
     "href": "posts/programacao/modelos-index-quarto.html",
     "tags": [
       "programação",
-      "index.qmd",
-      "estrutura de site",
-      "cabeçalho yaml",
-      "quarto",
-      "html",
-      "projetos científicos",
-      "organização de capítulos"
+      "Quarto",
+      "YAML"
     ]
   },
   {
@@ -414,14 +214,8 @@
     "href": "posts/programacao/yaml-no-quarto.html",
     "tags": [
       "programação",
-      "yaml no quarto",
-      "cabeçalho yaml",
-      "html",
-      "metadados",
-      "estrutura de documento",
-      "formatação",
-      "parâmetros yaml",
-      "configuração de post"
+      "YAML",
+      "Quarto"
     ]
   },
   {
@@ -429,15 +223,7 @@
     "href": "posts/programacao/modelos-markdown.html",
     "tags": [
       "programação",
-      "markdown",
-      "quarto",
-      "python",
-      "latex",
-      "html",
-      "epub",
-      "slides",
-      "documentos científicos",
-      "formatação de texto"
+      "Quarto"
     ]
   },
   {
@@ -445,64 +231,52 @@
     "href": "posts/programacao/modelos-latex-quarto.html",
     "tags": [
       "programação",
-      "modelos latex",
-      "templates quarto",
-      "cabeçalho yaml",
-      "fórmulas matemáticas",
-      "documentos científicos",
-      "renderização latex",
-      "estrutura de documentos"
+      "LaTeX",
+      "Quarto"
     ]
   },
   {
     "title": "📐 LaTeX",
     "href": "posts/programacao/latex/index.html",
     "tags": [
+      "programação",
       "LaTeX",
-      "matemática",
-      "formatação",
-      "escrita científica",
-      "Beamer",
-      "fórmulas matemáticas"
+      "sumário de LaTeX",
+      "sumário",
+      "Quarto"
     ]
   },
   {
     "title": "🐍 Python",
     "href": "posts/programacao/python/index.html",
     "tags": [
+      "programação",
       "Python",
-      "automação",
-      "análise de dados",
-      "pandas",
-      "matplotlib",
-      "scripts úteis",
-      "ciência de dados"
+      "sumário de Python",
+      "sumário",
+      "Quarto"
     ]
   },
   {
     "title": "📊 R",
     "href": "posts/programacao/r/index.html",
     "tags": [
+      "programação",
       "R",
-      "estatística",
-      "análise de dados",
-      "visualização",
-      "ggplot2",
-      "RMarkdown",
-      "relatórios dinâmicos"
+      "sumário de R",
+      "sumário",
+      "Quarto"
     ]
   },
   {
     "title": "📄 Quarto",
     "href": "posts/programacao/quarto/index.html",
     "tags": [
+      "programação",
       "Quarto",
-      "markdown",
-      "site estático",
-      "R",
-      "Python",
-      "documentação técnica",
-      "relatórios dinâmicos"
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
     ]
   }
 ]

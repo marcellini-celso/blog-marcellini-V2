@@ -15,14 +15,17 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física]
-tags: [física, Albert Einstein, transformação de Lorentz, referencial inercial, velocidade da luz, contração do comprimento, simultaneidade, tempo dilatado, espaço-tempo]
+categories: [física, relatividade especial, guia de leitura]
+tags: [física, relatividade especial, guia de leitura]
 ---
+
 ---
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 # 🛰️ Guia de Leitura — Relatividade Especial
+
+![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
 
 ## 🌟 Visão Geral
 

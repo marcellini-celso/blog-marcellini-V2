@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [estatística]
-tags: [estatística, intervalo de confiança, testes de hipótese, aula, análise de dados]
+categories: [estatística, distribuição normal, cursos]
+tags: [estatística, distribuição normal, cursos]
 ---
 
 <div class="invisivel">
@@ -29,9 +29,8 @@ tags: [estatística, intervalo de confiança, testes de hipótese, aula, anális
 
 {{< include ../../_includes/link-retorno-curso-estatistica.qmd >}}
 
-<div style="text-align: center;">
-  <img src="../../images/curva-normal-fundo-preto.png" width="100%">
-</div>
+![Distribuição Normal](../../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
+
 ---
 
 ::: {.callout-note collapse=false icon="🌐"}

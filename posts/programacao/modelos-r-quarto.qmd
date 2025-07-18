@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, R, quarto, relatórios em R, blocos de código, gráficos com ggplot2, análise de dados, integração R e Quarto]
+categories: [programação, R, Quarto]
+tags: [programação, R, Quarto]
 
 execute:
   engine: knitr
@@ -30,6 +30,8 @@ execute:
 {{< include ../../_includes/link-retorno-r.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![Linguagem R](../../images/R_logo.svg.png){width=30% style="margin-bottom: 2rem;"}
 
 # Introdução
 

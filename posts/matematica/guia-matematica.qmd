@@ -4,8 +4,8 @@ description: "Trilha de leitura recomendada para a seção Matemática do Blog d
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [matematica]
-tags: [matematica, guia de leitura, cursos]
+categories: [matemática, guia de leitura]
+tags: [matemática, guia de leitura]
 format:
   html:
     toc: true
@@ -26,6 +26,8 @@ page-layout: full
 ---
 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+![Carl Friedrich Gauss](../../images/250px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg){width=40% style="margin-bottom: 2rem;"}
 
 Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemática de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
 

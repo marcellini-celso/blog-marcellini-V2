@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [pessoal]
-tags: [pessoal, sobre o blog, matemática, quarto, latex, ensino, divulgação científica, projeto]
+categories: [pessoal, sobre, sobre o blog, sobre mim]
+tags: [pessoal, sobre, sobre o blog, sobre mim]
 ---
 
 ---

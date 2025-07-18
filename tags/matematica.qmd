@@ -1,10 +1,15 @@
 ---
-title: "matematica"
+title: "matemática"
 format: html
 ---
 
 [⬅ Voltar para Todas as Tags](../tags.qmd)
 
-## Posts com a tag **matematica**
+## Posts com a tag **matemática**
 
+- [🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [🧮 Matemática](/posts/matematica/index.html)
+- [✨ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)
 - [📖 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)
+- [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](/posts/matematica/beleza-matematica.html)
+- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

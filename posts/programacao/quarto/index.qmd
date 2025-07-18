@@ -12,8 +12,8 @@ format:
     code-overflow: scroll
     highlight-style: github
 page-layout: full
-categories: [programação, Quarto]
-tags: [Quarto, markdown, site estático, R, Python, documentação técnica, relatórios dinâmicos]
+categories: [programação, Quarto, sumário de Quarto, sumário, YAML]
+tags: [programação, Quarto, sumário de Quarto, sumário, YAML]
 ---
 
 <div class="invisivel">

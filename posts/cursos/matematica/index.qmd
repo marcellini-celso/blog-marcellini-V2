@@ -4,8 +4,8 @@ description: "Conteúdos organizados em formato de curso, com foco em temas fund
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [matemática, cursos]
-tags: [curso de matemática, ensino, matemática básica, lógica, álgebra, funções, demonstrações]
+categories: [matemática, cursos, sumário]
+tags: [matemática, cursos, sumário]
 format:
   html:
     toc: true

@@ -12,8 +12,8 @@ format:
     code-overflow: scroll
     highlight-style: github
 page-layout: full
-categories: [programação, R]
-tags: [R, estatística, análise de dados, visualização, ggplot2, RMarkdown, relatórios dinâmicos]
+categories: [programação, R, sumário de R, sumário, Quarto]
+tags: [programação, R, sumário de R, sumário, Quarto]
 ---
 
 <div class="invisivel">

@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, yaml no quarto, cabeçalho yaml, html, metadados, estrutura de documento, formatação, parâmetros yaml, configuração de post]
+categories: [programação, YAML, Quarto]
+tags: [programação, YAML, Quarto]
 ---
 
 ---
@@ -24,6 +24,8 @@ tags: [programação, yaml no quarto, cabeçalho yaml, html, metadados, estrutur
 {{< include ../../_includes/link-retorno-quarto.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![YAML](../../images/Yaml_logo.png){width=30% style="margin-bottom: 2rem;"}
 
 # Introdução
 

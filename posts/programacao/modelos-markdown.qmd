@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, markdown, quarto, python, latex, html, epub, slides, documentos científicos, formatação de texto]
+categories: [programação, Quarto]
+tags: [programação, Quarto]
 ---
 
 ---
@@ -24,6 +24,8 @@ tags: [programação, markdown, quarto, python, latex, html, epub, slides, docum
 {{< include ../../_includes/link-retorno-quarto.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
 # O que é Quarto Markdown?
 
@@ -175,7 +177,7 @@ Você também pode criar citações:
 ## Imagem:
 
 
-![Imagem exemplo](images/exemplo.png)
+![Imagem exemplo](images/exemplo.png){width=20% style="margin-bottom: 2rem;"}
 ```
 
 - Visualização:

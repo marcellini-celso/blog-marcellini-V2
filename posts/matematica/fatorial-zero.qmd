@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [matemática]
-tags: [matemática, fatorial de zero, análise combinatória, definição recursiva, justificativa lógica, números fatoriais, princípio multiplicativo, função gama, série de Taylor]
+categories: [matemática, análise combinatória, fatorial]
+tags: [matemática, análise combinatória, fatorial]
 execute:
   echo: false
   warning: false
@@ -31,6 +31,8 @@ execute:
 ---
 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+![Tabela de Fatoriais](../../images/tabela-fatorial.png){width=40% style="margin-bottom: 2rem;"}
 
 Nesta publicação exploramos **10 justificativas distintas** para o valor de $0!$. Cada seção abaixo foi adaptada de uma apresentação original em LaTeX Beamer e mantém o espírito didático com fórmulas matemáticas e exemplos.
 

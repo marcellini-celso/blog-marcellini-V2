@@ -4,8 +4,8 @@ description: "Conteúdos sobre a linguagem Python aplicados à análise de dados
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [programação, Python]
-tags: [Python, automação, análise de dados, pandas, matplotlib, scripts úteis, ciência de dados]
+categories: [programação, Python, sumário de Python, sumário, Quarto]
+tags: [programação, Python, sumário de Python, sumário, Quarto]
 format:
   html:
     toc: true

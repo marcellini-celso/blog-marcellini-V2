@@ -16,8 +16,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, modelos latex, templates quarto, cabeçalho yaml, fórmulas matemáticas, documentos científicos, renderização latex, estrutura de documentos]
+categories: [programação, LaTeX, Quarto]
+tags: [programação, LaTeX, Quarto]
 ---
 
 ---
@@ -25,6 +25,8 @@ tags: [programação, modelos latex, templates quarto, cabeçalho yaml, fórmula
 {{< include ../../_includes/link-retorno-latex.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![LaTeX](../../images/LaTeX_logo.svg.png){width=50% style="margin-bottom: 2rem;"}
 
 # Introdução
 

@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, python, quarto, relatórios automatizados, visualização de dados, gráficos com python, tabulate, blocos de código, análise de dados]
+categories: [programação, Python, Quarto]
+tags: [programação, Python, Quarto]
 
 execute:
   echo: true
@@ -29,6 +29,8 @@ execute:
 {{< include ../../_includes/link-retorno-python.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![Python](../../images/Python.svg.png){width=30% style="margin-bottom: 2rem;"}
 
 # Introdução
 

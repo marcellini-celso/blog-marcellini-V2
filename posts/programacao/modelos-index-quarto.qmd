@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação]
-tags: [programação, index.qmd, estrutura de site, cabeçalho yaml, quarto, html, projetos científicos, organização de capítulos]
+categories: [programação, Quarto, YAML]
+tags: [programação, Quarto, YAML]
 ---
 
 ---
@@ -24,6 +24,8 @@ tags: [programação, index.qmd, estrutura de site, cabeçalho yaml, quarto, htm
 {{< include ../../_includes/link-retorno-quarto.qmd >}}
 
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
 # Introdução
 

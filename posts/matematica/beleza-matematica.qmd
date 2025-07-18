@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [matemática]
-tags: [matemática, estética matemática, beleza matemática, demonstrações elegantes, Hardy, arte e matemática, filosofia da matemática, Minkowski, Littlewood, Ramanujan, Euclides, Euler, Fermat, Wiles, Taniyama–Shimura, Taylor]
+categories: [matemática, filosofia da matemática]
+tags: [matemática, filosofia da matemática]
 execute:
   echo: false
   warning: false

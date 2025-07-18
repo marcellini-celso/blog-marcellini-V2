@@ -13,7 +13,9 @@ website:
       - href: index.qmd
         text: Início
       - href: tags.qmd
-        text: 🌐 Navegue por Tags
+        text: 🏷️ Tags
+      - href: categories.qmd
+        text: 📂 Categorias
       - text: "🧠 Ciências Exatas"
         menu:
           - text: "🧮 Matemática"
@@ -75,4 +77,5 @@ publish:
 
 resources:
   - posts.json
+
 

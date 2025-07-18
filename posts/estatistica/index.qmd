@@ -4,8 +4,8 @@ description: "Explore conceitos estatísticos essenciais com foco em aplicaçõe
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [estatística]
-tags: [estatística, análise de dados, gráficos, distribuição normal, variabilidade, interpretação estatística, curso, R, Excel]
+categories: [estatística, sumário de estatística, sumário]
+tags: [estatística, sumário de estatística, sumário]
 format:
   html:
     toc: true

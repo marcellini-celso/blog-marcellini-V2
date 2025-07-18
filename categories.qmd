@@ -1,0 +1,9 @@
+---
+lang: pt-BR
+listing:
+  type: grid
+  sort: "categories"
+  categories: true
+page-layout: full
+---
+

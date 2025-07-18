@@ -4,8 +4,8 @@ description: "Espaço para textos mais pessoais, reflexões livres, relatos de e
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [pessoal]
-tags: [reflexões pessoais, bastidores, autor, notas do blog, sobre mim, cotidiano, experiências]
+categories: [pessoal, sumário do blog pessoal, sumário, sobre, sobre o blog, sobre mim]
+tags: [pessoal, sumário do blog pessoal, sumário, sobre, sobre o blog, sobre mim]
 format:
   html:
     toc: true

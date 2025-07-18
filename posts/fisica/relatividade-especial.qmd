@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física]
-tags: [física, Albert Einstein, transformação de Lorentz, referencial inercial, velocidade da luz, contração do comprimento, simultaneidade, tempo dilatado, espaço-tempo]
+categories: [física, relatividade especial]
+tags: [física, relatividade especial]
 execute:
   engine: knitr
   echo: true

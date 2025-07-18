@@ -9,5 +9,6 @@ format: html
 
 - [📖 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
 - [📖 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)
-- [⚛️ Física](/posts/fisica/index.html)
+- [Guia de Leitura — Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
 - [Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)
+- [Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)

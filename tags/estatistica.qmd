@@ -10,4 +10,4 @@ format: html
 - [📊 Estatística](/posts/estatistica/index.html)
 - [Curso de Estatística: A Distribuição Normal (Parte 1)](/posts/estatistica/distribuicao-normal.html)
 - [📖 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
-- [📊 R](/posts/programacao/r/index.html)
+- [📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)

@@ -1,10 +1,10 @@
 ---
-title: "História da Ciência"
+title: "história da ciência"
 format: html
 ---
 
 [⬅ Voltar para Todas as Tags](../tags.qmd)
 
-## Posts com a tag **História da Ciência**
+## Posts com a tag **história da ciência**
 
-- [Especial: 100 Anos da Mecânica Quântica (Versão Aprofundada)](/posts/fisica/especial-100-anos-quanticos.html)
+- [✨ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)

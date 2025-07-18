@@ -5,7 +5,7 @@ author: "Blog do Marcellini"
 date: 2025-07-12
 lang: pt-BR
 categories: [matemática, física, história da ciência]
-tags: [equações históricas, Euler, Ramanujan, onda, Schrödinger, Maxwell, Newton, Gauss]
+tags: [matemática, física, história da ciência]
 format:
   html:
     toc: true
@@ -26,6 +26,8 @@ page-layout: full
 ---
 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+![Srinivasa Ramanujan](../../images/Srinivasa_Ramanujan_-_OPC_-_1.jpg){width=40% style="margin-bottom: 2rem;"}
 
 Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Esta seção celebra essas joias da matemática e da física.
 

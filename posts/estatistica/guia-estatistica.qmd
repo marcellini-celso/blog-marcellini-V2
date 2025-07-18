@@ -4,8 +4,8 @@ description: "Trilha de leitura recomendada para a seção Estatística do Blog 
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [estatística]
-tags: [estatística, guia de leitura, cursos, visualização de dados, R, Excel, análise estatística]
+categories: [estatística, guia de leitura]
+tags: [estatística, guia de leitura]
 format:
   html:
     toc: true
@@ -26,6 +26,8 @@ page-layout: full
 ---
 
 {{< include ../../_includes/link-retorno-estatistica.qmd >}}
+
+![Distribuição Normal Padrão](../../images/Standard_Normal_Distribution-en.svg.png){width=40% style="margin-bottom: 2rem;"}
 
 Este guia oferece uma ordem de leitura sugerida para quem deseja estudar estatística de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
 

@@ -4,8 +4,8 @@ description: "Reflexões e conteúdos sobre Mecânica Quântica e Relatividade E
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [física]
-tags: [física, mecânica quântica, relatividade especial, Einstein, quanta, teoria da relatividade, guia de leitura]
+categories: [física, sumário de física, sumário]
+tags: [física, sumário de física, sumário]
 format:
   html:
     toc: true

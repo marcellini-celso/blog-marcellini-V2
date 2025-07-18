@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [programação, LaTeX]
-tags: [LaTeX, matemática, formatação, escrita científica, Beamer, fórmulas matemáticas]
+categories: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
+tags: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
 ---
 
 <div class="invisivel">

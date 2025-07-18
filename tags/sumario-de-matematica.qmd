@@ -1,0 +1,10 @@
+---
+title: "sumário de matemática"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **sumário de matemática**
+
+- [🧮 Matemática](/posts/matematica/index.html)

@@ -4,8 +4,8 @@ description: "Conteúdos sobre linguagens e ferramentas como Python, R, LaTeX e 
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [programação]
-tags: [python, R, LaTeX, Quarto, ciência de dados, automação, computação científica, relatórios reprodutíveis]
+categories: [programação, sumário de programação, sumário, Python, R, LaTeX, Quarto, YAML]
+tags: [programação, sumário de programação, sumário, Python, R, LaTeX, Quarto, YAML]
 format:
   html:
     toc: true

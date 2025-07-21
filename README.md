@@ -6,9 +6,12 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 
 ## 📚 Publicações em destaque
 
-- [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](https://marcellini-celso.github.io/blog-marcellini/posts/matematica/beleza-matematica.html)
-- [Por que \( 0! = 1 \)?](https://marcellini-celso.github.io/blog-marcellini/posts/matematica/fatorial-zero.html)
-- [100 Anos da Mecânica Quântica (1925-2025)](https://marcellini-celso.github.io/blog-marcellini/posts/fisica/100-anos-mecanica-quantica.html)
+- [📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](https://blogdomarcellini.com.br/posts/matematica/beleza-matematica.html)
+- [📘 🧮 Por que \( 0! = 1 \)?](https://blogdomarcellini.com.br/posts/matematica/fatorial-zero.html)
+- [📘 🧬 100 Anos da Mecânica Quântica (1925-2025)](https://blogdomarcellini.com.br/posts/fisica/100-anos-mecanica-quantica.html)
+- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](https://blogdomarcellini.com.br/posts/fisica/guia-100-anos-mecanica-quantica.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)](https://blogdomarcellini.com.br/posts/estatistica/distribuicao-normal.html)
+- [📘 👨‍💻 📄 Modelo de Markdown com Quarto – Parte 2](https://blogdomarcellini.com.br/posts/programacao/outros-modelos-markdown.html)
 
 ---
 

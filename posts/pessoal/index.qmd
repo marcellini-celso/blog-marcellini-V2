@@ -27,19 +27,22 @@ page-layout: full
 
 Neste espaço estão reunidos textos mais livres, anotações do autor, bastidores do blog e reflexões pessoais relacionadas à produção de conteúdo, ensino, leitura e tecnologia.
 
-## 📘 Artigos e Reflexões
+## 📘 🧑‍💻 Artigos e Reflexões
 
-### [Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
+### [📘 🧑‍💻 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
 Apresentação do propósito, estrutura e linha editorial do Blog do Marcellini.
 
 Breve apresentação do autor, formação, interesses e motivações.
 
-## 📖 Guia de Leitura
+## 🧭 📘 🧑‍💻 Guia de Leitura
 
-1. **[Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)** — Ideal para novos visitantes que desejam entender o projeto. Conheça um pouco mais sobre o autor e sua trajetória.
+1. **[📘 🧑‍💻 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)** — Ideal para novos visitantes que desejam entender o projeto. Conheça um pouco mais sobre o autor e sua trajetória.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](index.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

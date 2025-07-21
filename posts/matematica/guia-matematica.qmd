@@ -1,5 +1,5 @@
 ---
-title: "📖 Guia de Leitura — Matemática"
+title: "🧭 🧮 Guia de Leitura — Matemática"
 description: "Trilha de leitura recomendada para a seção Matemática do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
 author: "Blog do Marcellini"
 date: 2025-07-11
@@ -20,7 +20,7 @@ page-layout: full
 ---
 
 <div class="invisivel">
-# 📖 Guia de Leitura — Matemática
+# 🧭 🧮 Guia de Leitura — Matemática
 </div>
 
 ---
@@ -35,17 +35,15 @@ Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemá
 
 ## ✅ Ordem Sugerida
 
-1. **[Por que \(0! = 1\)?](fatorial-zero.qmd)** — Comece por esse post para explorar a consistência matemática da definição de fatorial.
-2. **[A Beleza é o Primeiro Teste](beleza-matematica.qmd)** — Uma leitura inspiradora para apreciar a matemática como forma de arte.
-
-*[Outros conteúdos serão adicionados conforme novos materiais forem publicados.]*
-
----
+1. **[📘 🧮 Por que \(0! = 1\)?](fatorial-zero.qmd)** — Comece por esse post para explorar a consistência matemática da definição de fatorial.
+2. **[📘 🧮 A Beleza é o Primeiro Teste](beleza-matematica.qmd)** — Uma leitura inspiradora para apreciar a matemática como forma de arte.
+3. **[📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](equacoes-historicas.qmd)** — Uma seleção das equações mais belas e influentes da matemática e da física, com explicações acessíveis e visualização clara.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](guia-matematica.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

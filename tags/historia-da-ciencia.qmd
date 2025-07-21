@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **história da ciência**
 
-- [✨ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)
+- [📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Blog do Marcellini">
 
-<title>Modelos de Código em Python para Usar com Quarto – Blog do Marcellini</title>
+<title>📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto – Blog do Marcellini</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -252,19 +252,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#introdução" id="toc-introdução" class="nav-link active" data-scroll-target="#introdução"><span class="header-section-number">1</span> Introdução</a></li>
   <li><a href="#introdução-1" id="toc-introdução-1" class="nav-link" data-scroll-target="#introdução-1"><span class="header-section-number">2</span> Introdução</a></li>
-  <li><a href="#bloco-de-código-simples-em-python" id="toc-bloco-de-código-simples-em-python" class="nav-link" data-scroll-target="#bloco-de-código-simples-em-python"><span class="header-section-number">3</span> 1. Bloco de código simples em Python</a></li>
-  <li><a href="#gráfico-com-matplotlib" id="toc-gráfico-com-matplotlib" class="nav-link" data-scroll-target="#gráfico-com-matplotlib"><span class="header-section-number">4</span> 2. Gráfico com matplotlib</a></li>
-  <li><a href="#usando-numpy-e-seaborn" id="toc-usando-numpy-e-seaborn" class="nav-link" data-scroll-target="#usando-numpy-e-seaborn"><span class="header-section-number">5</span> 3. Usando numpy e seaborn</a></li>
-  <li><a href="#análise-com-pandas" id="toc-análise-com-pandas" class="nav-link" data-scroll-target="#análise-com-pandas"><span class="header-section-number">6</span> 4. Análise com pandas</a></li>
-  <li><a href="#estatísticas-descritivas-com-pandas" id="toc-estatísticas-descritivas-com-pandas" class="nav-link" data-scroll-target="#estatísticas-descritivas-com-pandas"><span class="header-section-number">7</span> 5. Estatísticas descritivas com pandas</a></li>
-  <li><a href="#gráfico-de-dispersão" id="toc-gráfico-de-dispersão" class="nav-link" data-scroll-target="#gráfico-de-dispersão"><span class="header-section-number">8</span> 6. Gráfico de dispersão</a></li>
-  <li><a href="#regressão-linear-com-scikit-learn" id="toc-regressão-linear-com-scikit-learn" class="nav-link" data-scroll-target="#regressão-linear-com-scikit-learn"><span class="header-section-number">9</span> 7. Regressão linear com scikit-learn</a></li>
-  <li><a href="#gráfico-com-linha-de-regressão" id="toc-gráfico-com-linha-de-regressão" class="nav-link" data-scroll-target="#gráfico-com-linha-de-regressão"><span class="header-section-number">10</span> 8. Gráfico com linha de regressão</a></li>
-  <li><a href="#tabela-formatada-com-tabulate" id="toc-tabela-formatada-com-tabulate" class="nav-link" data-scroll-target="#tabela-formatada-com-tabulate"><span class="header-section-number">11</span> 9. Tabela formatada com tabulate</a></li>
+  <li><a href="#bloco-de-código-simples-em-python" id="toc-bloco-de-código-simples-em-python" class="nav-link" data-scroll-target="#bloco-de-código-simples-em-python"><span class="header-section-number">3</span> Bloco de código simples em Python</a></li>
+  <li><a href="#gráfico-com-matplotlib" id="toc-gráfico-com-matplotlib" class="nav-link" data-scroll-target="#gráfico-com-matplotlib"><span class="header-section-number">4</span> Gráfico com matplotlib</a></li>
+  <li><a href="#usando-numpy-e-seaborn" id="toc-usando-numpy-e-seaborn" class="nav-link" data-scroll-target="#usando-numpy-e-seaborn"><span class="header-section-number">5</span> Usando numpy e seaborn</a></li>
+  <li><a href="#análise-com-pandas" id="toc-análise-com-pandas" class="nav-link" data-scroll-target="#análise-com-pandas"><span class="header-section-number">6</span> Análise com pandas</a></li>
+  <li><a href="#estatísticas-descritivas-com-pandas" id="toc-estatísticas-descritivas-com-pandas" class="nav-link" data-scroll-target="#estatísticas-descritivas-com-pandas"><span class="header-section-number">7</span> Estatísticas descritivas com pandas</a></li>
+  <li><a href="#gráfico-de-dispersão" id="toc-gráfico-de-dispersão" class="nav-link" data-scroll-target="#gráfico-de-dispersão"><span class="header-section-number">8</span> Gráfico de dispersão</a></li>
+  <li><a href="#regressão-linear-com-scikit-learn" id="toc-regressão-linear-com-scikit-learn" class="nav-link" data-scroll-target="#regressão-linear-com-scikit-learn"><span class="header-section-number">9</span> Regressão linear com scikit-learn</a></li>
+  <li><a href="#gráfico-com-linha-de-regressão" id="toc-gráfico-com-linha-de-regressão" class="nav-link" data-scroll-target="#gráfico-com-linha-de-regressão"><span class="header-section-number">10</span> Gráfico com linha de regressão</a></li>
+  <li><a href="#tabela-formatada-com-tabulate" id="toc-tabela-formatada-com-tabulate" class="nav-link" data-scroll-target="#tabela-formatada-com-tabulate"><span class="header-section-number">11</span> Tabela formatada com tabulate</a></li>
   <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão"><span class="header-section-number">12</span> Conclusão</a>
   <ul class="collapse">
-  <li><a href="#voltar-ao-topo" id="toc-voltar-ao-topo" class="nav-link" data-scroll-target="#voltar-ao-topo"><span class="header-section-number">12.1</span> 🔝 Voltar ao Topo</a></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">12.2</span> 🔗 Links Úteis</a></li>
+  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">12.1</span> 🔗 Links Úteis</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -274,11 +273,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Modelos de Código em Python para Usar com Quarto</h1>
+<h1 class="title">📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto</h1>
   <div class="quarto-categories">
     <div class="quarto-category">programação</div>
     <div class="quarto-category">Python</div>
     <div class="quarto-category">Quarto</div>
+    <div class="quarto-category">artigo</div>
   </div>
   </div>
 
@@ -309,8 +309,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <hr>
-<p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python</a></p>
-<p><a href="../../posts/programacao/">← Voltar para a Seção de Programação</a></p>
+<p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python 🐍</a></p>
+<p><a href="../../posts/programacao/">← Voltar para a Seção de Programação 👨‍💻</a></p>
 <div class="quarto-figure quarto-figure-center" style="margin-bottom: 2rem;">
 <figure class="figure">
 <p><img src="../../images/Python.svg.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -340,8 +340,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="bloco-de-código-simples-em-python" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> 1. Bloco de código simples em Python</h1>
-<div id="5393793d" class="cell" data-execution_count="1">
+<h1 data-number="3"><span class="header-section-number">3</span> Bloco de código simples em Python</h1>
+<div id="b035c820" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">11</span>))</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [i<span class="op">**</span><span class="dv">2</span> <span class="cf">for</span> i <span class="kw">in</span> x]</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -352,8 +352,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="gráfico-com-matplotlib" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> 2. Gráfico com matplotlib</h1>
-<div id="8df82f33" class="cell" data-execution_count="2">
+<h1 data-number="4"><span class="header-section-number">4</span> Gráfico com matplotlib</h1>
+<div id="dcedeef2" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>, color<span class="op">=</span><span class="st">'blue'</span>)</span>
@@ -373,8 +373,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="usando-numpy-e-seaborn" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> 3. Usando numpy e seaborn</h1>
-<div id="ccc55349" class="cell" data-execution_count="3">
+<h1 data-number="5"><span class="header-section-number">5</span> Usando numpy e seaborn</h1>
+<div id="974e1481" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -391,8 +391,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="análise-com-pandas" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> 4. Análise com pandas</h1>
-<div id="9ef41364" class="cell" data-execution_count="4">
+<h1 data-number="6"><span class="header-section-number">6</span> Análise com pandas</h1>
+<div id="f6b494c6" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv"</span>)</span>
@@ -462,8 +462,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="estatísticas-descritivas-com-pandas" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> 5. Estatísticas descritivas com pandas</h1>
-<div id="657a6ce1" class="cell" data-execution_count="5">
+<h1 data-number="7"><span class="header-section-number">7</span> Estatísticas descritivas com pandas</h1>
+<div id="2e4a7646" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <div>
@@ -545,8 +545,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="gráfico-de-dispersão" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> 6. Gráfico de dispersão</h1>
-<div id="286cfe14" class="cell" data-execution_count="6">
+<h1 data-number="8"><span class="header-section-number">8</span> Gráfico de dispersão</h1>
+<div id="82b60384" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">"sepal_length"</span>, y<span class="op">=</span><span class="st">"petal_length"</span>, hue<span class="op">=</span><span class="st">"species"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
@@ -559,8 +559,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <hr>
 </section>
 <section id="regressão-linear-com-scikit-learn" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> 7. Regressão linear com scikit-learn</h1>
-<div id="3c95f9f1" class="cell" data-execution_count="7">
+<h1 data-number="9"><span class="header-section-number">9</span> Regressão linear com scikit-learn</h1>
+<div id="a63a6a8a" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[[<span class="st">"sepal_length"</span>]]</span>
@@ -579,8 +579,8 @@ Intercepto: -7.10</code></pre>
 <hr>
 </section>
 <section id="gráfico-com-linha-de-regressão" class="level1" data-number="10">
-<h1 data-number="10"><span class="header-section-number">10</span> 8. Gráfico com linha de regressão</h1>
-<div id="ed6054b5" class="cell" data-execution_count="8">
+<h1 data-number="10"><span class="header-section-number">10</span> Gráfico com linha de regressão</h1>
+<div id="3e0ef922" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(X, y, color<span class="op">=</span><span class="st">'gray'</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.plot(X, modelo.predict(X), color<span class="op">=</span><span class="st">'red'</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sepal Length"</span>)</span>
@@ -598,8 +598,8 @@ Intercepto: -7.10</code></pre>
 <hr>
 </section>
 <section id="tabela-formatada-com-tabulate" class="level1" data-number="11">
-<h1 data-number="11"><span class="header-section-number">11</span> 9. Tabela formatada com tabulate</h1>
-<div id="75115e26" class="cell" data-execution_count="9">
+<h1 data-number="11"><span class="header-section-number">11</span> Tabela formatada com tabulate</h1>
+<div id="f28ce283" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>tabela <span class="op">=</span> df.head(<span class="dv">5</span>)</span>
@@ -619,26 +619,12 @@ Intercepto: -7.10</code></pre>
 <section id="conclusão" class="level1" data-number="12">
 <h1 data-number="12"><span class="header-section-number">12</span> Conclusão</h1>
 <p>Com Quarto e Python, é possível gerar relatórios e documentos ricos em conteúdo visual e analítico, integrando texto, código, gráficos e resultados de forma automatizada e elegante.</p>
-<p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python</a></p>
-<p><a href="../../posts/programacao/">← Voltar para a Seção de Programação</a></p>
-<section id="voltar-ao-topo" class="level2" data-number="12.1">
-<h2 data-number="12.1" class="anchored" data-anchor-id="voltar-ao-topo"><span class="header-section-number">12.1</span> 🔝 <a href="../../posts/programacao/index.html">Voltar ao Topo</a></h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
-</div>
-</div>
-</section>
-<section id="links-úteis" class="level2" data-number="12.2">
-<h2 data-number="12.2" class="anchored" data-anchor-id="links-úteis"><span class="header-section-number">12.2</span> 🔗 Links Úteis</h2>
+<p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python 🐍</a></p>
+<p><a href="../../posts/programacao/">← Voltar para a Seção de Programação 👨‍💻</a></p>
+<p>🔝 <a href="../../posts/programacao/modelos-python-quarto.html">Voltar ao Topo</a></p>
+<p><em>Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.</em></p>
+<section id="links-úteis" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="links-úteis"><span class="header-section-number">12.1</span> 🔗 Links Úteis</h2>
 <ul>
 <li>🧑‍🏫 <a href="../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a></li>
 <li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a></li>

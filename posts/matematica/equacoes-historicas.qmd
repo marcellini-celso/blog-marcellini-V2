@@ -1,11 +1,11 @@
 ---
-title: "✨ Fórmulas que Marcaram a História"
+title: "📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História"
 description: "Uma seleção das equações mais belas e influentes da matemática e da física, com explicações acessíveis e visualização clara."
 author: "Blog do Marcellini"
 date: 2025-07-12
 lang: pt-BR
-categories: [matemática, física, história da ciência]
-tags: [matemática, física, história da ciência]
+categories: [matemática, física, história da ciência, artigo, fórmulas]
+tags: [matemática, física, história da ciência, artigo, fórmulas]
 format:
   html:
     toc: true
@@ -20,7 +20,7 @@ page-layout: full
 ---
 
 <div class=invisivel>
-## ✨ Fórmulas que Marcaram a História
+## 📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História
 </div>
 
 ---
@@ -94,7 +94,8 @@ Uma das quatro equações de Maxwell que governam eletromagnetismo. Essa descrev
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
 
 🔝 [Voltar ao Topo](equacoes-historicas.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Modelos de Código em R para Usar com Quarto"
+title: "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto"
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação, R, Quarto]
-tags: [programação, R, Quarto]
+categories: [programação, R, Quarto, artigo]
+tags: [programação, R, Quarto, artigo]
 
 execute:
   engine: knitr
@@ -163,7 +163,12 @@ Esses modelos são um ponto de partida para criar relatórios estatísticos e ci
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](modelos-r-quarto.qmd)
----
 
-{{< include ../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

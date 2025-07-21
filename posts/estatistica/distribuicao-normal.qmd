@@ -1,5 +1,5 @@
 ---
-title: "Curso de Estatística: A Distribuição Normal (Parte 1)"
+title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)"
 description: "Conversão da apresentação em Beamer para formato de leitura no Quarto."
 author: "Blog do Marcellini"
 date: 2025-07-06
@@ -20,7 +20,7 @@ tags: [estatística, distribuição normal, cursos]
 ---
 
 <div class="invisivel">
-# A Distribuição Normal -- Parte 1
+# 🎓 📊 A Distribuição Normal -- Parte 1
 </div>
 
 ---
@@ -1099,6 +1099,8 @@ Com esse conhecimento, você já está apto a compreender fenômenos que seguem 
 
 ## 👉 Continuação na Parte 2
 
+🔸**Em Breve!**
+
 Na [Parte 2 do post](#) *(link a ser inserido)*, vamos colocar tudo isso em prática com:
 
 - 🧠 **Exercícios resolvidos** com escore-$z$ e cálculo de probabilidades;
@@ -1125,7 +1127,8 @@ Na [Parte 2 do post](#) *(link a ser inserido)*, vamos colocar tudo isso em prá
 
 
 🔝 [Voltar ao Topo](distribuicao-normal.qmd)
----
+
+*Blog do Marcellini — Explorando a Estatística com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "Modelo de Markdown com Quarto"
+title: "📘 👨‍💻 📄 Modelo de Markdown com Quarto"
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação, Quarto]
-tags: [programação, Quarto]
+categories: [programação, Quarto, artigo]
+tags: [programação, Quarto, artigo]
 ---
 
 ---
@@ -277,7 +277,12 @@ Este modelo mostra o poder do Markdown aliado ao Quarto para produzir documentos
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](modelos-markdown.qmd)
----
 
-{{< include ../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **fatorial**
 
-- [Por que 0! = 1?](/posts/matematica/fatorial-zero.html)
+- [📘 🧮 Por que 0! = 1?](/posts/matematica/fatorial-zero.html)

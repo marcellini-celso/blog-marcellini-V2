@@ -1,5 +1,5 @@
 ---
-title: "Sobre o Blog e Sobre Mim"
+title: "📘 🧑‍💻 Sobre o Blog e Sobre Mim"
 description: "Saiba mais sobre o autor, a proposta do blog, como ele foi feito e os bastidores técnicos do projeto."
 author: "Blog do Marcellini"
 date: 2025-07-05
@@ -81,7 +81,8 @@ Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferra
 
 
 🔝 [Voltar ao Topo](sobre-o-blog.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

@@ -1,5 +1,5 @@
 ---
-title: "🐍 Python"
+title: "📄 🐍 Python"
 description: "Conteúdos sobre a linguagem Python aplicados à análise de dados, automação, visualização gráfica e uso científico."
 author: "Blog do Marcellini"
 date: 2025-07-11
@@ -29,19 +29,26 @@ page-layout: full
 
 Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica.
 
-## 📘 Artigos e Reflexões
+## 📘 📄 🐍 Artigos e Reflexões
 
-### [Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)
+### [📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)
 Exemplos de uso do Python com Quarto, integração de código com visualizações e análise de dados.
 
-## 📖 Guia de Leitura
+## 🧭 📘 📄 🐍 Guia de Leitura
 
-1. **[Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)** — Veja como utilizar Python para gerar visualizações e resultados dinâmicos dentro de documentos Quarto.
+1. **[📘 📄 🐍 Modelos Python para uso no Quarto](../modelos-python-quarto.qmd)** — Veja como utilizar Python para gerar visualizações e resultados dinâmicos dentro de documentos Quarto.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 {{< include ../../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](index.qmd)
----
 
-{{< include ../../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

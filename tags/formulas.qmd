@@ -1,0 +1,10 @@
+---
+title: "fórmulas"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **fórmulas**
+
+- [📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)

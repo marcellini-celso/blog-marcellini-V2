@@ -1,0 +1,390 @@
+---
+title: "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2"
+author: "Blog do Marcellini"
+date: 2025-07-19
+lang: pt-BR
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+editor: visual
+categories: [programação, Quarto, artigo]
+tags: [programação, Quarto, artigo]
+---
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}
+{{< include ../../_includes/link-retorno-programacao.qmd >}}
+
+![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
+
+# 📄 O que é o Quarto Markdown?
+
+**Quarto Markdown** é uma evolução poderosa do Markdown tradicional, projetada especialmente para **comunicação científica e técnica**. Ele permite integrar:
+
+- Texto formatado (com Markdown),
+- Código executável em Python, R, Julia, Observable,
+- Gráficos, tabelas e equações com LaTeX,
+- E a geração de documentos em múltiplos formatos.
+
+Com Quarto, você pode gerar:
+
+- Páginas HTML interativas
+- Documentos PDF com qualidade editorial
+- eBooks em EPUB
+- Apresentações em Reveal.js ou Beamer
+- Sites, blogs e muito mais
+
+---
+
+# 🔍 Comparando: Markdown Tradicional vs Quarto Markdown
+
+| Característica               | Markdown (.md)                       | Quarto (.qmd)                                  |
+|-----------------------------|--------------------------------------|------------------------------------------------|
+| Formatação básica           | ✅                                    | ✅                                              |
+| Suporte a HTML              | ✅                                    | ✅                                              |
+| Equações LaTeX              | ❌ (limitado)                         | ✅ (total)                                      |
+| Blocos de código executável | ❌                                    | ✅ (Python, R, Julia etc.)                      |
+| Geração de PDF/EPUB/Slides  | ❌                                    | ✅                                              |
+| Suporte a YAML              | Limitado                             | ✅ (para metadados e configuração do projeto)   |
+| Público-alvo                | Geral                                | Cientistas, educadores, engenheiros etc.       |
+
+> ✅ **Resumo:** Markdown tradicional é ótimo para blogs e anotações simples. Já o **Quarto Markdown** é ideal para **projetos técnicos e científicos** com código, matemática e visualizações.
+
+---
+
+# 🧪 Sintaxe Markdown com Quarto
+
+## 📌 Títulos
+
+```markdown
+# Título Nível 1
+## Título Nível 2
+### Título Nível 3
+```
+
+- Visualização:
+
+# Título Nível 1
+
+## Título Nível 2
+
+### Título Nível 3
+
+## ✍️ Ênfase
+
+```markdown
+**negrito**, *itálico*, ***negrito e itálico***
+```
+
+- Visualização:
+
+**negrito**, *itálico*, ***negrito e itálico***
+
+## 🧾 Citação
+
+```markdown
+> A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
+```
+
+- Visualização:
+
+> A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
+
+---
+
+## 📋 Listas
+
+### Lista com marcadores
+
+```markdown
+- Item A
+- Item B
+  - Subitem B.1
+```
+
+- Visualização:
+
+- Item A  
+- Item B  
+  - Subitem B.1
+
+### Lista numerada
+
+```markdown
+1. Primeiro
+2. Segundo
+```
+
+- Visualização:
+
+1. Primeiro  
+2. Segundo
+
+---
+
+## 🔗 Links e 📷 Imagens
+
+```markdown
+[Quarto](https://quarto.org)
+
+![Exemplo](images/exemplo.png){width=20%}
+```
+
+- Visualização:
+
+[Quarto](https://quarto.org)
+
+![Exemplo](images/exemplo.png){width=20%}
+
+---
+
+## 📊 Tabelas
+
+```markdown
+| Nome     | Idade | Cidade    |
+|----------|-------|-----------|
+| Ana      | 25    | Recife    |
+| Bruno    | 30    | Natal     |
+```
+
+- Visualização:
+
+| Nome     | Idade | Cidade    |
+|----------|-------|-----------|
+| Ana      | 25    | Recife    |
+| Bruno    | 30    | Natal     |
+
+---
+
+## 🧮 Equações com LaTeX
+
+### Inline
+
+```markdown
+A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
+```
+
+- Visualização:
+
+A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
+
+### Bloco
+
+```markdown
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+```
+
+- Visualização:
+
+$$
+\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+$$
+
+---
+
+## 🏷️ Emojis para Tags e Categorias
+
+Você pode usar os seguintes emojis para representar diferentes tipos de **tags** e **categorias** em seus posts Quarto:
+
+- 🏷️ `Tags` em geral  
+- 📚 `Categoria: Educação`  
+- 🧠 `Categoria: Ciência / Conhecimento`  
+- 🧮 `Categoria: Matemática`  
+- 📈 `Categoria: Estatística`  
+- 🔬 `Categoria: Física`  
+- 🧪 `Categoria: Química`  
+- 💻 `Categoria: Computação`  
+- 📊 `Categoria: Análise de Dados`  
+- 📦 `Categoria: Pacotes / Bibliotecas`  
+- 🧰 `Categoria: Ferramentas`  
+- 🌐 `Categoria: Web / Internet`  
+- 📝 `Categoria: Tutoriais`  
+- 🔧 `Categoria: Dicas Técnicas`  
+- 🎓 `Categoria: Cursos`  
+- 🚀 `Categoria: Projetos`  
+- 📰 `Categoria: Notícias`
+
+Use-os para deixar seus posts mais visuais e organizados!
+
+---
+
+## 🧑‍💻 Blocos de Código
+
+### Python
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 2*np.pi, 100)
+plt.plot(x, np.sin(x))
+plt.title("Função Seno")
+plt.show()
+```
+
+### R
+
+```{r}
+x <- seq(0, 2*pi, length.out = 100)
+plot(x, sin(x), type = "l", col = "blue", lwd = 2)
+```
+
+---
+
+# 💡 Callouts (Caixas de Destaque)
+
+Quarto oferece callouts para destacar informações importantes:
+
+### 🔔 Note
+
+```markdown
+::: {.callout-note}
+Esta é uma nota informativa.
+:::
+```
+
+- Visualização:
+
+::: {.callout-note}
+Esta é uma nota informativa.
+:::
+
+---
+
+### 💡 Tip
+
+```markdown
+::: {.callout-tip}
+Dica: use `{.callout-tip}` para boas práticas.
+:::
+```
+
+- Visualização:
+
+::: {.callout-tip}
+Dica: use `{.callout-tip}` para boas práticas.
+:::
+
+---
+
+### ⚠️ Warning
+
+```markdown
+::: {.callout-warning}
+Atenção: certifique-se de que o código esteja corretamente indentado.
+:::
+```
+
+- Visualização:
+
+::: {.callout-warning}
+Atenção: certifique-se de que o código esteja corretamente indentado.
+:::
+
+---
+
+### 🚫 Caution
+
+```markdown
+::: {.callout-caution}
+Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
+:::
+```
+
+- Visualização:
+
+::: {.callout-caution}
+Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
+:::
+
+---
+
+### 📣 Important
+
+```markdown
+::: {.callout-important}
+Importante: Quarto substitui RMarkdown com recursos mais modernos!
+:::
+```
+
+- Visualização:
+
+::: {.callout-important}
+Importante: Quarto substitui RMarkdown com recursos mais modernos!
+:::
+
+
+# 💻 Exibir código sem execução no Quarto
+
+Neste exemplo, mostramos uma forma de exibir código em Python de **forma estática**, ou seja, **sem que ele seja executado**.
+
+---
+
+
+## ✅ Código estático com `python`
+
+````markdown
+::: {.callout-note collapse=true title="💡 Título: Código estático com realce de sintaxe e conteúdo colapsado"}
+
+```python
+# Exemplo de cálculo de área de um círculo
+import math
+
+raio = 5
+area = math.pi * raio**2
+print(f"A área do círculo é {area:.2f}")
+```
+
+:::
+````
+
+Visualização:
+
+::: {.callout-note collapse=true title="💡 Título: Código estático com realce de sintaxe e conteúdo colapsado"}
+
+```python
+# Exemplo de cálculo de área de um círculo
+import math
+
+raio = 5
+area = math.pi * raio**2
+print(f"A área do círculo é {area:.2f}")
+```
+
+:::
+
+
+---
+
+# ✅ Conclusão
+
+**Quarto Markdown** é a solução ideal para produção de documentos **reprodutíveis**, **bonitos** e **interativos**, combinando código, matemática e explicações.
+
+Explore mais:
+
+{{< include ../../_includes/link-retorno-quarto.qmd >}}  
+{{< include ../../_includes/link-retorno-programacao.qmd >}}  
+
+🔝 [Voltar ao Topo](modelos-markdown.qmd)
+
+---
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+
+---
+
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+

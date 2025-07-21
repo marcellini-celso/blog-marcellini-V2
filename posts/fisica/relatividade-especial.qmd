@@ -1,5 +1,5 @@
 ---
-title: "Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
+title: "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz"
 description: "Um mergulho didático na teoria da Relatividade Especial, com gráficos, exemplos e contexto histórico."
 author: "Blog do Marcellini"
 date: 2025-06-21
@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, relatividade especial]
-tags: [física, relatividade especial]
+categories: [física, relatividade, relatividade especial, einstein, artigo]
+tags: [física, relatividade, relatividade especial, einstein, artigo]
 execute:
   engine: knitr
   echo: true
@@ -25,7 +25,7 @@ execute:
 ---
 
 <div class="invisivel">
-# Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz
+# 📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz
 </div>
 
 ---
@@ -179,11 +179,11 @@ Einstein começou com dois postulados — e nos levou a uma revolução do pensa
  
 ---
 
-## 📘 Guia de Leitura -- Relatividade Especial
+## 🧭 📘 Guia de Leitura -- Relatividade Especial
 
 ::: {.callout-note icon="📘"}
 **Quer ver o conteúdo completo?**  
-👉 [Acesse o guia da Relatividade Especial](guia-relatividade-especial.qmd)
+👉 [🧭 📘 Acesse o guia da Relatividade Especial](guia-relatividade-especial.qmd)
 :::
 
 
@@ -192,7 +192,8 @@ Einstein começou com dois postulados — e nos levou a uma revolução do pensa
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 🔝 [Voltar ao Topo](relatividade-especial.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

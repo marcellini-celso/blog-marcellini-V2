@@ -1,5 +1,5 @@
 ---
-title: "A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
+title: "📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte"
 description: "Reflexões sobre a famosa frase de G. H. Hardy à luz da matemática pura, com exemplos clássicos de elegância matemática e visualizações gráficas."
 author: "Blog do Marcellini"
 date: 2025-06-23
@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [matemática, filosofia da matemática]
-tags: [matemática, filosofia da matemática]
+categories: [matemática, filosofia da matemática, artigo]
+tags: [matemática, filosofia da matemática, artigo]
 execute:
   echo: false
   warning: false
@@ -26,7 +26,7 @@ execute:
 ---
 
 <div class="invisivel">
-# A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
+# 📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
 </div>
 
 ---
@@ -255,7 +255,8 @@ Para quem vive a matemática pura, onde o valor de uma teoria não se mede pela 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
 
 🔝 [Voltar ao Topo](beleza-matematica.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

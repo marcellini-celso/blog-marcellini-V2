@@ -11,14 +11,14 @@
 - 🔭 [100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
 - 🧠 [Relatividade Especial — Série Completa](posts/fisica/guia-relatividade-especial.qmd)
 
-## 🏷️ Tags e Categorias
+## 🏷️ Tags e 🗂️ Categorias
 
-- [Tags](tags.qmd)
-- [Categorias](categories.qmd)
+- [🏷️ Tags](tags.qmd)
+- [🗂️ Categorias](categories.qmd)
 
 ## 🧭 Mapa do Site
 
-- [Mapa do Site](guia.qmd)
+- [🧭 Mapa do Site](guia.qmd)
 
 :::
 

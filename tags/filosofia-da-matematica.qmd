@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **filosofia da matemática**
 
-- [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](/posts/matematica/beleza-matematica.html)
+- [📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](/posts/matematica/beleza-matematica.html)

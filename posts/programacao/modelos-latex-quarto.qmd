@@ -1,5 +1,5 @@
 ---
-title: "Modelos de LaTeX para Usar com Quarto"
+title: "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto"
 description: "O Quarto permite o uso de **fórmulas matemáticas com LaTeX** dentro de arquivos `.qmd`, tanto em linha quanto em blocos."
 author: "Blog do Marcellini"
 date: 2025-06-27
@@ -16,8 +16,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação, LaTeX, Quarto]
-tags: [programação, LaTeX, Quarto]
+categories: [programação, LaTeX, Quarto, artigo]
+tags: [programação, LaTeX, Quarto, artigo]
 ---
 
 ---
@@ -197,7 +197,12 @@ Esses modelos servem como base para produzir conteúdos técnicos e educacionais
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](modelos-latex-quarto.qmd)
----
 
-{{< include ../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

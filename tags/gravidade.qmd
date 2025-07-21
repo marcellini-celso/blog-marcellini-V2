@@ -1,0 +1,10 @@
+---
+title: "gravidade"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **gravidade**
+
+- [📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade](/posts/fisica/relatividade-geral-parte1.html)

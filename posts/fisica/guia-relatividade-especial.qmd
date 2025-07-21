@@ -1,5 +1,5 @@
 ---
-title: "Guia de Leitura — Relatividade Especial"
+title: "🧭 🛰️ Guia de Leitura — Relatividade Especial"
 description: "Organização dos posts sobre Relatividade Especial: uma introdução didática e um aprofundamento acadêmico."
 author: "Blog do Marcellini"
 date: 2025-07-06
@@ -15,15 +15,15 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, relatividade especial, guia de leitura]
-tags: [física, relatividade especial, guia de leitura]
+categories: [física, relatividade, relatividade especial, guia de leitura, einstein]
+tags: [física, relatividade, relatividade especial, guia de leitura, einstein]
 ---
 
 ---
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
-# 🛰️ Guia de Leitura — Relatividade Especial
+# 🧭 🛰️ Guia de Leitura — Relatividade Especial
 
 ![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
 
@@ -31,7 +31,7 @@ tags: [física, relatividade especial, guia de leitura]
 
 Se você está começando agora ou quer uma leitura mais leve e contextual, comece com o post introdutório:
 
-👉 **[Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](relatividade-especial.qmd)**  
+👉 **[📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](relatividade-especial.qmd)**  
 Uma introdução visual, histórica e acessível.
 
 ---
@@ -40,7 +40,7 @@ Uma introdução visual, histórica e acessível.
 
 Pronto para uma leitura mais técnica, com fórmulas, postulados e análises conceituais?
 
-👉 **[A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](relatividade-especial-academico.qmd)**
+👉 **[📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](relatividade-especial-academico.qmd)**
 
 Ideal para estudantes e professores que desejam uma base sólida e estruturada.
 
@@ -52,7 +52,8 @@ Ideal para estudantes e professores que desejam uma base sólida e estruturada.
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 🔝 [Voltar ao Topo](guia-relatividade-especial.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

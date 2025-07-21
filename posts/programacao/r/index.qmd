@@ -1,5 +1,5 @@
 ---
-title: "📊 R"
+title: "📄 📊 R"
 description: "Publicações sobre a linguagem R com foco em estatística, gráficos, análise de dados e produção de relatórios reprodutíveis."
 author: "Blog do Marcellini"
 date: 2025-07-11
@@ -17,7 +17,7 @@ tags: [programação, R, sumário de R, sumário, Quarto]
 ---
 
 <div class="invisivel">
-# 📊 R
+# 📄 📊 R
 </div>
 
 ---
@@ -26,19 +26,26 @@ tags: [programação, R, sumário de R, sumário, Quarto]
 
 R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis.
 
-## 📘 Artigos e Reflexões
+## 📘 📄 📊 Artigos e Reflexões
 
-### [Modelos R para Quarto](../modelos-r-quarto.qmd)
+### [📘 📄 📊 Modelos R para Quarto](../modelos-r-quarto.qmd)
 Uso da linguagem R em documentos Quarto, com foco em análise de dados, gráficos e reprodutibilidade.
 
-## 📖 Guia de Leitura
+## 🧭 📘 📄 📊 Guia de Leitura
 
-1. **[Modelos R para Quarto](../modelos-r-quarto.qmd)** — Inicie com este material para aprender a usar R no contexto do Quarto e criar documentos interativos e bem estruturados.
+1. **[📘 📄 📊 Modelos R para Quarto](../modelos-r-quarto.qmd)** — Inicie com este material para aprender a usar R no contexto do Quarto e criar documentos interativos e bem estruturados.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 {{< include ../../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](index.qmd)
----
 
-{{< include ../../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

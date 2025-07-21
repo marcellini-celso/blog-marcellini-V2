@@ -1,0 +1,78 @@
+---
+title: "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral"
+description: "Mapa da série introdutória sobre a Relatividade Geral, com links para cada parte e sugestões de leitura complementar."
+author: "Blog do Marcellini"
+date: 2025-07-18
+lang: pt-BR
+categories: [física, relatividade, relatividade geral, guia de leitura, einstein, série]
+tags: [física, relatividade, relatividade geral, guia de leitura, einstein, série]
+toc: false
+number-sections: true
+fig-align: center
+code-overflow: wrap
+highlight-style: github
+---
+
+---
+
+{{< include ../../_includes/link-retorno-fisica.qmd >}}
+
+# 🧭 📚 🌠 Guia de Leitura — Relatividade Geral
+
+> _Explore passo a passo uma das teorias mais revolucionárias da Física._
+
+---
+
+## 📘 Introdução
+
+A Teoria da Relatividade Geral, formulada por **Albert Einstein em 1915**, substituiu a noção clássica de gravidade como força por uma visão profunda: **a gravidade é a curvatura do espaço-tempo** causada pela presença de massa e energia.
+
+Esta série de posts apresenta os conceitos essenciais dessa teoria de forma progressiva, com foco didático e linguagem acessível.
+
+Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão publicadas em breve.
+
+---
+
+### [📚 🌠 Parte 1 — O Problema da Gravidade](relatividade-geral-parte1.qmd)
+
+---
+
+## ⏳ 📚 🌠 Em breve
+
+- **📚 🌠 Parte 2 -- A Gravidade como Curvatura do Espaço-Tempo**
+- **📚 🌠 Parte 3 -- As Equações de Einstein**
+- **📚 🌠 Parte 4 -- Testes Experimentais e Observacionais**
+- **📚 🌠 Parte 5 -- Limites e Fronteiras da Teoria**
+- **📚 🌠 Parte 6 -- Legado, Aplicações e o Futuro**
+
+---
+
+## 📚 Leitura complementar
+
+- *A Teoria da Relatividade Geral Explicada* — R. Resnick
+- *Gravitation* — Misner, Thorne e Wheeler (avançado)
+- *O Universo Numa Casca de Noz* — Stephen Hawking
+- Publicações do LIGO e Event Horizon Telescope
+
+---
+
+## ✨ Para continuar explorando
+
+Você pode seguir agora para:
+
+- [🧭 🛰️ Guia de Leitura — Relatividade Especial](guia-relatividade-especial.qmd)
+
+- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](guia-100-anos-mecanica-quantica.qmd)
+
+---
+
+🔔 Fique atento às atualizações. Cada nova parte será adicionada a este guia assim que publicada.
+
+{{< include ../../_includes/link-retorno-fisica.qmd >}}
+
+🔝 [Voltar ao Topo](guia-relatividade-geral.qmd)
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
+
+{{< include ../../_includes/footer.qmd >}}
+

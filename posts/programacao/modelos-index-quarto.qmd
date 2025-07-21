@@ -1,5 +1,5 @@
 ---
-title: "Modelos de index.qmd para Projetos Quarto"
+title: "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto"
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -15,8 +15,8 @@ format:
     code-link: true
 page-layout: full
 editor: visual
-categories: [programação, Quarto, YAML]
-tags: [programação, Quarto, YAML]
+categories: [programação, Quarto, YAML, artigo]
+tags: [programação, Quarto, YAML, artigo]
 ---
 
 ---
@@ -36,7 +36,7 @@ A seguir, veja modelos de uso de `index.qmd` em diferentes tipos de projetos.
 
 ---
 
-# 1. Modelo básico de `index.qmd` para um site
+# Modelo básico de `index.qmd` para um site
 
 ```yaml
 ---
@@ -66,7 +66,7 @@ Este é o site oficial do meu blog pessoal com posts sobre matemática, estatís
 
 ---
 
-# 2. Modelo de `index.qmd` para um livro com Quarto
+# Modelo de `index.qmd` para um livro com Quarto
 
 ```yaml
 ---
@@ -92,7 +92,7 @@ Este livro foi desenvolvido para ajudar estudantes a entender os conceitos funda
 
 ---
 
-# 3. `index.qmd` para um projeto técnico ou relatório
+# `index.qmd` para um projeto técnico ou relatório
 
 ```yaml
 ---
@@ -116,7 +116,7 @@ Este relatório apresenta os resultados da análise exploratória e inferência 
 
 ---
 
-# 4. Adicionando imagem de capa e resumo (para EPUB ou livro)
+# Adicionando imagem de capa e resumo (para EPUB ou livro)
 
 ```yaml
 ---
@@ -144,8 +144,13 @@ Esses modelos servem como ponto de partida para estruturar projetos reutilizáve
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
 
 🔝 [Voltar ao Topo](modelos-index-quarto.qmd)
----
 
-{{< include ../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 
 

@@ -27,27 +27,30 @@ page-layout: full
 
 Reflexões e conceitos fundamentais da matemática, com foco na beleza, lógica e estrutura dos principais temas da área.
 
-## 📘 Artigos e Reflexões
+## 📘 🧮 Artigos e Reflexões
 
-### [A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](beleza-matematica.qmd)
+### [📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](beleza-matematica.qmd)
 Uma reflexão sobre o famoso ensaio de G. H. Hardy, destacando a conexão entre estética e matemática pura.
 
-### [Por que \(0! = 1\)?](fatorial-zero.qmd)
+### [📘 🧮 Por que \(0! = 1\)?](fatorial-zero.qmd)
 Explicação intuitiva e formal sobre por que o fatorial de zero é igual a 1.
 
-### [Equações Históricas](equacoes-historicas.qmd)
+### [📘 🧮 Equações Históricas](equacoes-historicas.qmd)
 Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Este post celebra essas joias da matemática e da física.
 
-## 🎓 Cursos Disponíveis
+## 🎓 🧮 Cursos Disponíveis
 
 **⏳ Em Breve!**
 
-## 📖 Guia de Leitura
+## 🧭 🧮 Guia de Leitura
 
-1. **[Guia de Leitura da Seção de Matemática](guia-matematica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender matemática passo a passo.
+1. **[🧭 🧮 Guia de Leitura da Seção de Matemática](guia-matematica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender matemática passo a passo.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](index.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

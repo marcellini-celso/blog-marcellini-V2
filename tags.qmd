@@ -12,14 +12,18 @@ page-layout: full
 
 ::: {.tag-grid}
 
-<a href="/tags/quarto.html" class="tag-card">Quarto (11)</a>
-<a href="/tags/programacao.html" class="tag-card">programação (11)</a>
+<a href="/tags/quarto.html" class="tag-card">Quarto (12)</a>
+<a href="/tags/artigo.html" class="tag-card">artigo (12)</a>
+<a href="/tags/programacao.html" class="tag-card">programação (12)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (11)</a>
-<a href="/tags/fisica.html" class="tag-card">física (8)</a>
+<a href="/tags/fisica.html" class="tag-card">física (10)</a>
+<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (6)</a>
 <a href="/tags/matematica.html" class="tag-card">matemática (6)</a>
-<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (5)</a>
+<a href="/tags/einstein.html" class="tag-card">einstein (5)</a>
+<a href="/tags/relatividade.html" class="tag-card">relatividade (5)</a>
 <a href="/tags/yaml.html" class="tag-card">YAML (4)</a>
 <a href="/tags/estatistica.html" class="tag-card">estatística (4)</a>
+<a href="/tags/serie.html" class="tag-card">série (4)</a>
 <a href="/tags/latex.html" class="tag-card">LaTeX (3)</a>
 <a href="/tags/python.html" class="tag-card">Python (3)</a>
 <a href="/tags/r.html" class="tag-card">R (3)</a>
@@ -27,6 +31,7 @@ page-layout: full
 <a href="/tags/mecanica-quantica.html" class="tag-card">mecânica quântica (3)</a>
 <a href="/tags/relatividade-especial.html" class="tag-card">relatividade especial (3)</a>
 <a href="/tags/pessoal.html" class="tag-card">pessoal (2)</a>
+<a href="/tags/relatividade-geral.html" class="tag-card">relatividade geral (2)</a>
 <a href="/tags/sobre.html" class="tag-card">sobre (2)</a>
 <a href="/tags/sobre-mim.html" class="tag-card">sobre mim (2)</a>
 <a href="/tags/sobre-o-blog.html" class="tag-card">sobre o blog (2)</a>
@@ -34,7 +39,10 @@ page-layout: full
 <a href="/tags/distribuicao-normal.html" class="tag-card">distribuição normal (1)</a>
 <a href="/tags/fatorial.html" class="tag-card">fatorial (1)</a>
 <a href="/tags/filosofia-da-matematica.html" class="tag-card">filosofia da matemática (1)</a>
+<a href="/tags/formulas.html" class="tag-card">fórmulas (1)</a>
+<a href="/tags/gravidade.html" class="tag-card">gravidade (1)</a>
 <a href="/tags/historia-da-ciencia.html" class="tag-card">história da ciência (1)</a>
+<a href="/tags/principio-da-equivalencia.html" class="tag-card">princípio da equivalência (1)</a>
 <a href="/tags/sumario-de-latex.html" class="tag-card">sumário de LaTeX (1)</a>
 <a href="/tags/sumario-de-python.html" class="tag-card">sumário de Python (1)</a>
 <a href="/tags/sumario-de-quarto.html" class="tag-card">sumário de Quarto (1)</a>

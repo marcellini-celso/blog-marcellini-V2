@@ -1,5 +1,5 @@
 ---
-title: "📊 Cursos de Estatística"
+title: "🎓 📊 Cursos de Estatística"
 description: "Cursos completos de Estatística com teoria, aplicações práticas, visualizações e exercícios resolvidos no R e no Excel."
 author: "Blog do Marcellini"
 date: 2025-07-11
@@ -20,7 +20,7 @@ page-layout: full
 ---
 
 <div class="invisivel">
-# 📊 Cursos de Estatística
+# 🎓 📊 Cursos de Estatística
 </div>
 
 ---
@@ -29,17 +29,29 @@ page-layout: full
 
 Conteúdos completos para quem deseja aprender Estatística com exemplos práticos, visualizações, teoria acessível e exercícios aplicados.
 
-## 🎓 Cursos Disponíveis
+## 🎓 📊 Cursos Disponíveis
 
-### [Distribuição Normal](../../estatistica/distribuicao-normal.qmd)
+### [🎓 📊 Distribuição Normal](../../estatistica/distribuicao-normal.qmd)
 Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
 
-## 📖 Guia de Leitura
+## 📖 📊 Guia de Leitura
 
-1. **[Distribuição Normal](../../estatistica/distribuicao-normal.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
+1. **[🎓 📊 Distribuição Normal](../../estatistica/distribuicao-normal.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](index.qmd)
----
-{{< include ../../../_includes/footer.qmd >}}
+
+*Blog do Marcellini — Explorando a Estatística com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 
 

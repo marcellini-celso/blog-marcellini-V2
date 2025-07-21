@@ -1,5 +1,5 @@
 ---
-title: "Parte 1 — Antes da Revolução Quântica (Aprofundamento)"
+title: "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)"
 description: "Série especial sobre os 100 anos da Mecânica Quântica. Parte 1: Antes da Revolução Quântica."
 author: "Blog do Marcellini"
 date: 2025-07-05
@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, mecânica quântica, guia de leitura]
-tags: [física, mecânica quântica, guia de leitura]
+categories: [física, mecânica quântica, guia de leitura, série]
+tags: [física, mecânica quântica, guia de leitura, série]
 
 execute:
   engine: knitr
@@ -26,11 +26,13 @@ execute:
 aliases: [/posts/fisica/100-anos-mecanica-quantica-parte-1.html]
 ---
 
+---
+
+⚛️ [Voltar ao Guia de Leitura da Série](guia-100-anos-mecanica-quantica.qmd)
+
 # Antes da Revolução Quântica
 
 > *Este post faz parte da série especial "100 Anos da Mecânica Quântica".*
-
-⚛️ [Voltar ao Guia de Leitura da Série](guia-100-anos-mecanica-quantica.qmd)
 
 ---
 
@@ -585,7 +587,8 @@ Na Parte 2, veremos como **Werner Heisenberg**, **Erwin Schrödinger** e outros 
 📚 [Voltar ao Guia de Leitura da Série](guia-100-anos-mecanica-quantica.qmd)
 
 🔝 [Voltar ao Topo](parte-1-mecanica-quantica.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Clareza e Paixão.*
 
 {{< include ../../_includes/footer.qmd >}}
 

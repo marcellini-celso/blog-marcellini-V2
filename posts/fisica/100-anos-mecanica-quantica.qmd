@@ -1,5 +1,5 @@
 --- 
-title: "100 Anos da Mecânica Quântica (1925–2025)" 
+title: "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)" 
 author: "Blog do Marcellini"
 date: 2025-06-30
 lang: pt-BR
@@ -14,8 +14,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, mecânica quântica]
-tags: [física, mecânica quântica]
+categories: [física, mecânica quântica, artigo]
+tags: [física, mecânica quântica, artigo]
 ---
 
 ---
@@ -852,7 +852,8 @@ representações simbólicas de um século de descobertas quânticas que transfo
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 🔝 [Voltar ao Topo](100-anos-mecanica-quantica.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

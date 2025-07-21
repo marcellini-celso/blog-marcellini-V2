@@ -1,11 +1,15 @@
-11 Quarto
-11 programação
+12 Quarto
+12 artigo
+12 programação
 11 sumário
-8 física
+10 física
+6 guia de leitura
 6 matemática
-5 guia de leitura
+5 einstein
+5 relatividade
 4 YAML
 4 estatística
+4 série
 3 LaTeX
 3 Python
 3 R
@@ -13,6 +17,7 @@
 3 mecânica quântica
 3 relatividade especial
 2 pessoal
+2 relatividade geral
 2 sobre
 2 sobre mim
 2 sobre o blog
@@ -20,7 +25,10 @@
 1 distribuição normal
 1 fatorial
 1 filosofia da matemática
+1 fórmulas
+1 gravidade
 1 história da ciência
+1 princípio da equivalência
 1 sumário de LaTeX
 1 sumário de Python
 1 sumário de Quarto

@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **sumário de R**
 
-- [📊 R](/posts/programacao/r/index.html)
+- [📄 📊 R](/posts/programacao/r/index.html)

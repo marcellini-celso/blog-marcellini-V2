@@ -1,5 +1,5 @@
 ---
-title: "A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
+title: "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica"
 description: "Entenda passo a passo os fundamentos da teoria de Einstein: postulados, transformações, dilatação do tempo, paradoxo dos gêmeos, equivalência massa-energia e muito mais."
 author: "Blog do Marcellini"
 date: 2025-06-21
@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, relatividade especial]
-tags: [física, relatividade especial]
+categories: [física, relatividade, relatividade especial, einstein]
+tags: [física, relatividade, relatividade especial, einstein]
 execute:
   engine: knitr
   echo: true
@@ -25,7 +25,7 @@ execute:
 ---
 
 <div class="invisivel">
-# A Teoria da Relatividade Especial -- Uma Visão Mais Acadêmica
+# 📘 🛰️ A Teoria da Relatividade Especial -- Uma Visão Mais Acadêmica
 </div>
 
 ---
@@ -249,11 +249,11 @@ Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 
 ---
 
-## 📘 Guia de Leitura -- Relatividade Especial
+## 🧭 📘 🛰️ Guia de Leitura -- Relatividade Especial
 
 ::: {.callout-note icon="📘"}
-**Leu até aqui? Consulte o guia completo da série**  
-👉 [Guia de Leitura — Relatividade Especial](guia-relatividade-especial.qmd)
+**Leu até aqui? Consulte o guia completo de leitura**  
+👉 [🧭 📘 🛰️ Guia de Leitura — Relatividade Especial](guia-relatividade-especial.qmd)
 :::
 
 
@@ -262,7 +262,8 @@ Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 🔝 [Voltar ao Topo](relatividade-especial-academico.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

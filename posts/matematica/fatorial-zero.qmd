@@ -1,5 +1,5 @@
 ---
-title: "Por que 0! = 1?"
+title: "📘 🧮 Por que 0! = 1?"
 description: "Exploramos **10 justificativas distintas** para o valor de $0!$."
 author: 'Blog do Marcellini -- Apresentação adaptada de slides em LaTeX Beamer'
 date: 2025-06-22
@@ -15,8 +15,8 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [matemática, análise combinatória, fatorial]
-tags: [matemática, análise combinatória, fatorial]
+categories: [matemática, análise combinatória, fatorial, artigo]
+tags: [matemática, análise combinatória, fatorial, artigo]
 execute:
   echo: false
   warning: false
@@ -25,7 +25,7 @@ execute:
 ---
 
 <div class="invisivel">
-# Por que 0! = 1?
+# 📘 🧮 Por que 0! = 1?
 </div>
 
 ---
@@ -489,7 +489,8 @@ Essa igualdade é coerente com:
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
 
 🔝 [Voltar ao Topo](fatorial-zero.qmd)
----
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

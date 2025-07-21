@@ -1,5 +1,5 @@
 ---
-title: "🧮 Cursos de Matemática"
+title: "🎓 🧮 Cursos de Matemática"
 description: "Conteúdos organizados em formato de curso, com foco em temas fundamentais da matemática, explicações passo a passo, exemplos resolvidos e exercícios aplicados."
 author: "Blog do Marcellini"
 date: 2025-07-11
@@ -20,7 +20,7 @@ page-layout: full
 ---
 
 <div class="invisivel">
-# 🧮 Cursos de Matemática
+# 🎓 🧮 Cursos de Matemática
 </div>
 
 ---
@@ -29,17 +29,26 @@ page-layout: full
 
 Esta seção reúne conteúdos completos de matemática organizados como cursos, com teoria clara, exemplos resolvidos e atividades práticas.
 
-## 🎓 Cursos Disponíveis
+## 🎓 🧮 Cursos Disponíveis
 
 *[Ainda não há cursos publicados]*
 
-## 📖 Guia de Leitura
+## 📖 🧮 Guia de Leitura
 
-Este guia será atualizado conforme novos cursos forem disponibilizados.
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](index.qmd)
----
 
-{{< include ../../../_includes/footer.qmd >}}
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 
 

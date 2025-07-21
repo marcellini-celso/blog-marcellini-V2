@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **sumário de Python**
 
-- [🐍 Python](/posts/programacao/python/index.html)
+- [📄 🐍 Python](/posts/programacao/python/index.html)

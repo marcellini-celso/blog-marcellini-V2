@@ -1,11 +1,11 @@
 ---
-title: "Guia de Leitura da Série 100 Anos da Mecânica Quântica"
+title: "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica"
 description: "Organização da série comemorativa dos 100 anos da Mecânica Quântica, com indicação da parte já disponível e das futuras publicações."
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
-categories: [física, mecânica quântica, guia de leitura]
-tags: [física, mecânica quântica, guia de leitura]
+categories: [física, mecânica quântica, guia de leitura, série]
+tags: [física, mecânica quântica, guia de leitura, série]
 format:
   html:
     toc: true
@@ -23,30 +23,28 @@ page-layout: full
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
-# 🧭 Guia de Leitura da Série 100 Anos da Mecânica Quântica
+# 🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica
 
 ![](../../images/quantum500.jpg)
 
-Este guia organiza a série especial que celebra os 100 anos da Mecânica Quântica. A série está sendo publicada em partes, e cada etapa traz reflexões sobre os marcos históricos, conceituais e tecnológicos dessa teoria fundamental da física moderna.
+> _Este guia organiza a série especial que celebra os 100 anos da Mecânica Quântica. A série está sendo publicada em partes, e cada etapa traz reflexões sobre os marcos históricos, conceituais e tecnológicos dessa teoria fundamental da física moderna._
 
-Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão publicadas em breve.
+> _Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão publicadas em breve._
 
 ---
 
-## ✅ Já disponível
-
-### [Parte 1 — Mecânica Quântica: Um Século de Transformação](parte-1-mecanica-quantica.qmd)
+### [📚 🧬 Parte 1 — Mecânica Quântica: Um Século de Transformação](parte-1-mecanica-quantica.qmd)
 Introdução à série e ao impacto da teoria quântica no pensamento científico.
 
 ---
 
-## ⏳ Em breve
+## ⏳ 📚 🧬 Em breve
 
-- **Parte 2 — A Luz, o Quantum e o Início da Revolução**
-- **Parte 3 — O Mundo Probabilístico de Schrödinger e Heisenberg**
-- **Parte 4 — Interpretações e Paradoxos Quânticos**
-- **Parte 5 — Aplicações da Mecânica Quântica**
-- **Parte 6 — O Futuro Quântico: Computação, Informação e Filosofia**
+- **📚 🧬 Parte 2 — A Luz, o Quantum e o Início da Revolução**
+- **📚 🧬 Parte 3 — O Mundo Probabilístico de Schrödinger e Heisenberg**
+- **📚 🧬 Parte 4 — Interpretações e Paradoxos Quânticos**
+- **📚 🧬 Parte 5 — Aplicações da Mecânica Quântica**
+- **📚 🧬 Parte 6 — O Futuro Quântico: Computação, Informação e Filosofia**
 
 ---
 
@@ -55,7 +53,8 @@ Introdução à série e ao impacto da teoria quântica no pensamento científic
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
 🔝 [Voltar ao Topo](guia-100-anos-mecanica-quantica.qmd)
----
+
+*Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
 {{< include ../../_includes/footer.qmd >}}
 

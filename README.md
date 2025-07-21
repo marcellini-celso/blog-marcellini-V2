@@ -20,7 +20,7 @@ Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.o
 - Desenvolvido com [Quarto](https://quarto.org/)
 - Publicado via **GitHub Pages**
 - Códigos escritos em **R**, **Python** e **LaTeX**
-- Tema: `flatly`, com ajustes em `styles.css`
+- Tema: `cosmo`, com ajustes em `styles.css`
 
 ---
 

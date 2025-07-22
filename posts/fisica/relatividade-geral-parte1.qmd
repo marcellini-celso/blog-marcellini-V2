@@ -315,7 +315,7 @@ Essa equação mostra claramente que o deslocamento é proporcional ao **quadrad
 7. Considerando $y=0$ como o solo, a queda termina quando $y(t) = 0$:
 
 $$
-0 = h - \frac{1}{2} g t^2 \implies \frac{1}{2} g t^2 = h \implies t^2 = \frac{2h}{g} \implies 
+0 = h - \frac{1}{2} g t^2 \implies \frac{1}{2} g t^2 = h \implies t^2 = \frac{2h}{g}
 $$
 $$
 \implies t = \sqrt{\frac{2h}{g}}
@@ -338,7 +338,11 @@ t_{\text{pena}} = t_{\text{bola}} = \sqrt{\frac{2h}{g}}
 $$
 
 > Portanto, no vácuo, **pena e bola de chumbo chegam ao solo ao mesmo tempo**.
+
+> Em meios com atmosfera, como na Terra, a pena cai mais devagar devido ao arrasto do ar, que depende da forma e da densidade do objeto. No vácuo, porém, esse efeito desaparece — e então o que prevalece é unicamente a aceleração gravitacional $g$, que é a mesma para todos os corpos.
+
 :::
+
 
 ![Queda Livre no Vácuo com $h = 20$ m e $g=9.8$ m/s²](../../images/queda-livre.png)
 

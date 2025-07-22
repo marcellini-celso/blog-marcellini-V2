@@ -289,7 +289,11 @@ Neste exemplo, com $\mu = 100$, $\sigma = 16$ e $k = 1$:
 
 $$
 \mu - 1\sigma = 100 - 1 \times 16 = 84
+$$
+$$
 \quad \text{e} \quad
+$$
+$$
 \mu + 1\sigma = 100 + 1 \times 16 = 116
 $$
 
@@ -784,7 +788,10 @@ Resultado: `0,9332`
 
 Queremos calcular:
 $$
-P(-1{,}5 < Z < 1{,}5) = P(Z < 1{,}5) - P(Z < -1{,}5)
+P(-1{,}5 < Z < 1{,}5) =
+$$
+$$
+= P(Z < 1{,}5) - P(Z < -1{,}5)
 $$
 
 **🔎 Tabela Z:**
@@ -943,7 +950,10 @@ $$
 Como a tabela Z fornece valores para $P(Z < z)$ com $z$ positivo, usamos a simetria:
 
 $$
-P(Z < -1{,}25) = 1 - P(Z < 1{,}25) = 1 - 0{,}8944 = 0{,}1056
+P(Z < -1{,}25) = 1 - P(Z < 1{,}25) =
+$$
+$$
+= 1 - 0{,}8944 = 0{,}1056
 $$
 
 Linha usada na tabela Z (linha 1.2, coluna 0.05):
@@ -1040,7 +1050,8 @@ $$
 E da **Tabela Z**:
 
 ```
-Linha z = 1.2 | Coluna 0.05 →  P(Z < 1.25) = 0.8944
+Linha z = 1.2 | Coluna 0.05 →  
+→ P(Z < 1.25) = 0.8944
 ```
 
 Logo:

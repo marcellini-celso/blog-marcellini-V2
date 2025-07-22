@@ -1,46 +1,97 @@
 [
   {
-    "title": "📊 Estatística",
-    "href": "posts/estatistica/index.html",
+    "title": "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)",
+    "href": "posts/fisica/100-anos-mecanica-quantica.html",
     "tags": [
-      "estatística",
-      "sumário de estatística",
+      "física",
+      "mecânica quântica",
+      "artigo"
+    ]
+  },
+  {
+    "title": "🧭 🛰️ Guia de Leitura — Relatividade Especial",
+    "href": "posts/fisica/guia-relatividade-especial.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "guia de leitura",
+      "einstein"
+    ]
+  },
+  {
+    "title": "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral",
+    "href": "posts/fisica/guia-relatividade-geral.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade geral",
+      "guia de leitura",
+      "einstein",
+      "série"
+    ]
+  },
+  {
+    "title": "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica",
+    "href": "posts/fisica/guia-100-anos-mecanica-quantica.html",
+    "tags": [
+      "física",
+      "mecânica quântica",
+      "guia de leitura",
+      "série"
+    ]
+  },
+  {
+    "title": "⚛️ Física",
+    "href": "posts/fisica/index.html",
+    "tags": [
+      "física",
+      "sumário de física",
       "sumário"
     ]
   },
   {
-    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)",
-    "href": "posts/estatistica/distribuicao-normal.html",
+    "title": "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "href": "posts/fisica/relatividade-especial.html",
     "tags": [
-      "estatística",
-      "distribuição normal",
-      "cursos"
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "einstein",
+      "artigo"
     ]
   },
   {
-    "title": "🧭 📊 Guia de Leitura — Estatística",
-    "href": "posts/estatistica/guia-estatistica.html",
+    "title": "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "href": "posts/fisica/relatividade-especial-academico.html",
     "tags": [
-      "estatística",
-      "guia de leitura"
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "einstein"
     ]
   },
   {
-    "title": "🎓 📊 Cursos de Estatística",
-    "href": "posts/cursos/estatistica/index.html",
+    "title": "📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade",
+    "href": "posts/fisica/relatividade-geral-parte1.html",
     "tags": [
-      "estatística",
-      "cursos",
-      "sumário"
+      "física",
+      "relatividade",
+      "relatividade geral",
+      "gravidade",
+      "einstein",
+      "princípio da equivalência",
+      "série"
     ]
   },
   {
-    "title": "🎓 🧮 Cursos de Matemática",
-    "href": "posts/cursos/matematica/index.html",
+    "title": "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)",
+    "href": "posts/fisica/parte-1-mecanica-quantica.html",
     "tags": [
-      "matemática",
-      "cursos",
-      "sumário"
+      "física",
+      "mecânica quântica",
+      "guia de leitura",
+      "série"
     ]
   },
   {
@@ -113,98 +164,62 @@
     ]
   },
   {
-    "title": "⚛️ Física",
-    "href": "posts/fisica/index.html",
+    "title": "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto",
+    "href": "posts/programacao/modelos-index-quarto.html",
     "tags": [
-      "física",
-      "sumário de física",
-      "sumário"
-    ]
-  },
-  {
-    "title": "🧭 🛰️ Guia de Leitura — Relatividade Especial",
-    "href": "posts/fisica/guia-relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "guia de leitura",
-      "einstein"
-    ]
-  },
-  {
-    "title": "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "href": "posts/fisica/relatividade-especial-academico.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein"
-    ]
-  },
-  {
-    "title": "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica",
-    "href": "posts/fisica/guia-100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade",
-    "href": "posts/fisica/relatividade-geral-parte1.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "gravidade",
-      "einstein",
-      "princípio da equivalência",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "href": "posts/fisica/relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein",
+      "programação",
+      "Quarto",
+      "YAML",
       "artigo"
     ]
   },
   {
-    "title": "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)",
-    "href": "posts/fisica/parte-1-mecanica-quantica.html",
+    "title": "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto",
+    "href": "posts/programacao/modelos-latex-quarto.html",
     "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)",
-    "href": "posts/fisica/100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
+      "programação",
+      "LaTeX",
+      "Quarto",
       "artigo"
     ]
   },
   {
-    "title": "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral",
-    "href": "posts/fisica/guia-relatividade-geral.html",
+    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto",
+    "href": "posts/programacao/modelos-markdown.html",
     "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "guia de leitura",
-      "einstein",
-      "série"
+      "programação",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto",
+    "href": "posts/programacao/modelos-python-quarto.html",
+    "tags": [
+      "programação",
+      "Python",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto",
+    "href": "posts/programacao/modelos-r-quarto.html",
+    "tags": [
+      "programação",
+      "R",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "href": "posts/programacao/yaml-no-quarto.html",
+    "tags": [
+      "programação",
+      "YAML",
+      "Quarto",
+      "artigo"
     ]
   },
   {
@@ -222,69 +237,10 @@
     ]
   },
   {
-    "title": "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto",
-    "href": "posts/programacao/modelos-r-quarto.html",
-    "tags": [
-      "programação",
-      "R",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto",
-    "href": "posts/programacao/modelos-python-quarto.html",
-    "tags": [
-      "programação",
-      "Python",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
     "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2",
     "href": "posts/programacao/outros-modelos-markdown.html",
     "tags": [
       "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto",
-    "href": "posts/programacao/modelos-index-quarto.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "YAML",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos",
-    "href": "posts/programacao/yaml-no-quarto.html",
-    "tags": [
-      "programação",
-      "YAML",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto",
-    "href": "posts/programacao/modelos-markdown.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto",
-    "href": "posts/programacao/modelos-latex-quarto.html",
-    "tags": [
-      "programação",
-      "LaTeX",
       "Quarto",
       "artigo"
     ]
@@ -312,6 +268,17 @@
     ]
   },
   {
+    "title": "📄 Quarto",
+    "href": "posts/programacao/quarto/index.html",
+    "tags": [
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
+    ]
+  },
+  {
     "title": "📄 📊 R",
     "href": "posts/programacao/r/index.html",
     "tags": [
@@ -323,14 +290,47 @@
     ]
   },
   {
-    "title": "📄 Quarto",
-    "href": "posts/programacao/quarto/index.html",
+    "title": "🎓 📊 Cursos de Estatística",
+    "href": "posts/cursos/estatistica/index.html",
     "tags": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
+      "estatística",
+      "cursos",
+      "sumário"
+    ]
+  },
+  {
+    "title": "🎓 🧮 Cursos de Matemática",
+    "href": "posts/cursos/matematica/index.html",
+    "tags": [
+      "matemática",
+      "cursos",
+      "sumário"
+    ]
+  },
+  {
+    "title": "🧭 📊 Guia de Leitura — Estatística",
+    "href": "posts/estatistica/guia-estatistica.html",
+    "tags": [
+      "estatística",
+      "guia de leitura"
+    ]
+  },
+  {
+    "title": "📊 Estatística",
+    "href": "posts/estatistica/index.html",
+    "tags": [
+      "estatística",
+      "sumário de estatística",
+      "sumário"
+    ]
+  },
+  {
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)",
+    "href": "posts/estatistica/distribuicao-normal.html",
+    "tags": [
+      "estatística",
+      "distribuição normal",
+      "cursos"
     ]
   }
 ]

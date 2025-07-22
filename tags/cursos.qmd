@@ -7,6 +7,6 @@ format: html
 
 ## Posts com a tag **cursos**
 
-- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)](/posts/estatistica/distribuicao-normal.html)
 - [🎓 📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)
 - [🎓 🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)](/posts/estatistica/distribuicao-normal.html)

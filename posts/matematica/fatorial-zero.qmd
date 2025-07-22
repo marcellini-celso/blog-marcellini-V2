@@ -300,9 +300,8 @@ $$
 $$
 \frac{t^x}{e^t} \to 0
 $$
-$$
- \quad \text{pois a exponencial domina qualquer potência}
-$$
+
+pois a exponencial domina qualquer potência.
 
 Portanto:
 

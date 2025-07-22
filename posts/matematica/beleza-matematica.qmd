@@ -71,7 +71,9 @@ Hardy via a matemática como arte formal baseada em ideias abstratas. A beleza, 
 A clássica demonstração de Euclides é um ícone de elegância:
 
 $$
-\text{Suponha que haja apenas } p_1, p_2, \dots, p_n. \\
+\text{Suponha que haja apenas } p_1, p_2, \dots, p_n.
+$$
+$$
 \text{Considere } N = p_1 p_2 \dots p_n + 1.
 $$
 

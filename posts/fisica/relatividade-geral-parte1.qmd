@@ -315,7 +315,10 @@ Essa equação mostra claramente que o deslocamento é proporcional ao **quadrad
 7. Considerando $y=0$ como o solo, a queda termina quando $y(t) = 0$:
 
 $$
-0 = h - \frac{1}{2} g t^2 \implies \frac{1}{2} g t^2 = h \implies t^2 = \frac{2h}{g} \implies t = \sqrt{\frac{2h}{g}}
+0 = h - \frac{1}{2} g t^2 \implies \frac{1}{2} g t^2 = h \implies t^2 = \frac{2h}{g} \implies 
+$$
+$$
+\implies t = \sqrt{\frac{2h}{g}}
 $$
 
 Ou seja, o tempo para o objeto atingir o solo é:

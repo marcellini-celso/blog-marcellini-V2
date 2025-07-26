@@ -4,7 +4,7 @@
 ## 🎓 Cursos
 
 - 🧮 [Matemática](posts/cursos/matematica/)
-- 👉 [Estatística](posts/cursos/estatistica/)
+- 📊 [Estatística](posts/cursos/estatistica/)
 
 ## 📘 Projetos Especiais
 

@@ -1,0 +1,98 @@
+---
+title: "1.1 O que é Cálculo? História e aplicações"
+description: "Entenda o que é cálculo diferencial e integral, de onde surgiu e por que ele é tão importante."
+author: "Blog do Marcellini"
+date: "2025-07-23"
+lang: pt-BR
+categories: [cálculo, matemática, história do cálculo, aplicações]
+tags: [cálculo, matemática, história do cálculo, aplicações]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+---
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/index.qmd)
+
+[← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
+
+🎯 **Post Anterior:** 👉 [Objetivos e Sumário do Curso de Cálculo](/posts/cursos/matematica/calculo/index.qmd)
+
+
+::: {.callout-note title="📌 Objetivos do Post"}
+- Entender o que é o cálculo diferencial e integral;
+- Conhecer um breve histórico da disciplina;
+- Apresentar algumas aplicações práticas do cálculo.
+:::
+
+## 🧠 O que é Cálculo?
+
+O **Cálculo Diferencial e Integral**, ou simplesmente **Cálculo**, é um ramo da Matemática que estuda:
+
+- **Mudanças** (como uma função varia);
+- **Taxas de variação** (velocidade, crescimento);
+- **Acúmulo de quantidades** (áreas, volumes, somatórios contínuos).
+
+É uma das ferramentas mais poderosas da ciência moderna, presente em praticamente todas as áreas do conhecimento científico e tecnológico.
+
+## 🧭 Breve História
+
+O cálculo foi desenvolvido no século XVII por dois matemáticos independentes:
+
+- **Isaac Newton** (1642–1727), motivado por problemas de Física (movimento dos corpos);
+- **Gottfried Leibniz** (1646–1716), com foco na simbologia e no aspecto matemático geral.
+
+Apesar de disputas históricas, hoje reconhecemos a contribuição essencial de ambos.
+
+## ⚙️ Por que estudar Cálculo?
+
+O cálculo permite:
+
+- Determinar a velocidade instantânea de um objeto;
+- Calcular o volume de um sólido com formato irregular;
+- Otimizar processos (por exemplo, minimizar custos);
+- Modelar sistemas físicos, biológicos ou econômicos;
+- Desenvolver gráficos de funções complexas;
+- Prever comportamentos com base em taxas de mudança.
+
+## 🌍 Aplicações do Cálculo
+
+- **Física**: movimento, força, energia, eletricidade;
+- **Engenharia**: estruturas, circuitos, controle de sistemas;
+- **Biologia**: crescimento populacional, dinâmica de epidemias;
+- **Economia**: custo marginal, receita, lucro máximo;
+- **Computação**: gráficos 3D, inteligência artificial, análise de algoritmos;
+- **Medicina**: tomografia, modelos farmacocinéticos.
+
+## 📌 Conclusão
+
+O cálculo está em todo lugar. Ao longo deste curso, vamos entender passo a passo como essa poderosa linguagem matemática funciona e como podemos aplicá-la para resolver problemas reais.
+
+---
+
+🎯 **Próximo Post:** 👉 [1.2 Conjuntos numéricos](1.2-conjuntos.qmd)
+
+---
+
+🔝 [Voltar ao Topo](1.1-introducao.qmd)
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

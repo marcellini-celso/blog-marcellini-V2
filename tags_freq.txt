@@ -3,17 +3,20 @@
 12 programação
 11 sumário
 10 física
+9 matemática
+7 estatística
+6 cursos
 6 guia de leitura
-6 matemática
 5 einstein
 5 relatividade
 4 YAML
-4 estatística
+4 distribuição normal
 4 série
 3 LaTeX
 3 Python
 3 R
-3 cursos
+3 cálculo
+3 exercícios
 3 mecânica quântica
 3 relatividade especial
 2 pessoal
@@ -22,12 +25,22 @@
 2 sobre mim
 2 sobre o blog
 1 análise combinatória
-1 distribuição normal
+1 aplicações
+1 conjuntos
+1 conjuntos numéricos
+1 derivadas
+1 escore-z
 1 fatorial
 1 filosofia da matemática
+1 funções
 1 fórmulas
 1 gravidade
 1 história da ciência
+1 história do cálculo
+1 integrais
+1 lei dos grandes números
+1 limites
+1 normalidade aproximada
 1 princípio da equivalência
 1 sumário de LaTeX
 1 sumário de Python
@@ -38,3 +51,5 @@
 1 sumário de matemática
 1 sumário de programação
 1 sumário do blog pessoal
+1 tabela Z
+1 teorema central do limite

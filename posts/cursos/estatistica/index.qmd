@@ -31,12 +31,12 @@ Conteúdos completos para quem deseja aprender Estatística com exemplos prátic
 
 ## 🎓 📊 Cursos Disponíveis
 
-### [🎓 📊 Distribuição Normal](../../estatistica/distribuicao-normal.qmd)
+### [🎓 📊 Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
 
 ## 📖 📊 Guia de Leitura
 
-1. **[🎓 📊 Distribuição Normal](../../estatistica/distribuicao-normal.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
+1. **[🎓 📊 Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 

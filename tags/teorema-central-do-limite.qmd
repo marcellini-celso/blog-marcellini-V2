@@ -1,0 +1,10 @@
+---
+title: "teorema central do limite"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **teorema central do limite**
+
+- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 3): Gráficos, TCL e Normalidade Aproximada](/posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html)

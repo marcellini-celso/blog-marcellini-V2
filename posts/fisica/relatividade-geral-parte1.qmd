@@ -451,7 +451,7 @@ Essa resposta virá na Parte 2.
 👉 [📚 🌠 Relatividade Geral — Parte 2: A Gravidade como Curvatura do Espaço-Tempo]
 <!-- (link real será adicionado após publicação da Parte 2) -->
 
-🔸**Em Breve!**
+⏳ **Em Breve!**
 
 📚 [Voltar ao Guia de Leitura da Série](guia-relatividade-geral.qmd)
 

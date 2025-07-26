@@ -38,6 +38,7 @@ Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemá
 1. **[📘 🧮 Por que \(0! = 1\)?](fatorial-zero.qmd)** — Comece por esse post para explorar a consistência matemática da definição de fatorial.
 2. **[📘 🧮 A Beleza é o Primeiro Teste](beleza-matematica.qmd)** — Uma leitura inspiradora para apreciar a matemática como forma de arte.
 3. **[📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](equacoes-historicas.qmd)** — Uma seleção das equações mais belas e influentes da matemática e da física, com explicações acessíveis e visualização clara.
+4. **[🎓 🧮 Curso de Cálculo Diferencial e Integral](../cursos/matematica/calculo/index.qmd)** — Comece aqui: navegue pelo índice do curso.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 

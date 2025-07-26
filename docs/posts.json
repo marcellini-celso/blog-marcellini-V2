@@ -9,15 +9,6 @@
     ]
   },
   {
-    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)",
-    "href": "posts/estatistica/distribuicao-normal.html",
-    "tags": [
-      "estatística",
-      "distribuição normal",
-      "cursos"
-    ]
-  },
-  {
     "title": "🧭 📊 Guia de Leitura — Estatística",
     "href": "posts/estatistica/guia-estatistica.html",
     "tags": [
@@ -35,12 +26,88 @@
     ]
   },
   {
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal",
+    "href": "posts/cursos/estatistica/distribuicao_normal/index.html",
+    "tags": [
+      "estatística",
+      "distribuição normal",
+      "cursos"
+    ]
+  },
+  {
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal",
+    "href": "posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html",
+    "tags": [
+      "estatística",
+      "distribuição normal",
+      "cursos",
+      "exercícios"
+    ]
+  },
+  {
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 3): Gráficos, TCL e Normalidade Aproximada",
+    "href": "posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html",
+    "tags": [
+      "estatística",
+      "distribuição normal",
+      "cursos",
+      "exercícios",
+      "teorema central do limite",
+      "lei dos grandes números",
+      "normalidade aproximada"
+    ]
+  },
+  {
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z",
+    "href": "posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html",
+    "tags": [
+      "estatística",
+      "distribuição normal",
+      "cursos",
+      "exercícios",
+      "escore-z",
+      "tabela Z"
+    ]
+  },
+  {
     "title": "🎓 🧮 Cursos de Matemática",
     "href": "posts/cursos/matematica/index.html",
     "tags": [
       "matemática",
       "cursos",
       "sumário"
+    ]
+  },
+  {
+    "title": "Curso de Cálculo Diferencial e Integral",
+    "href": "posts/cursos/matematica/calculo/index.html",
+    "tags": [
+      "cálculo",
+      "matemática",
+      "derivadas",
+      "integrais",
+      "funções",
+      "limites"
+    ]
+  },
+  {
+    "title": "1.2 Conjuntos Numéricos",
+    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html",
+    "tags": [
+      "matemática",
+      "cálculo",
+      "conjuntos",
+      "conjuntos numéricos"
+    ]
+  },
+  {
+    "title": "1.1 O que é Cálculo? História e aplicações",
+    "href": "posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html",
+    "tags": [
+      "cálculo",
+      "matemática",
+      "história do cálculo",
+      "aplicações"
     ]
   },
   {

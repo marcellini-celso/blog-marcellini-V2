@@ -80,6 +80,35 @@ ul.task-list li input[type="checkbox"] {
   gtag('config', 'G-P2KY6K26MG');
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 <link rel="stylesheet" href="../../assets/css/custom.css">
@@ -293,7 +322,39 @@ Dica
 </div>
 </div>
 <p>Meu nome é Celso Marcellini, sou Bacharel em Matemática pelo Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP), e este blog nasceu do desejo de explorar matemática, estatística, física, LaTeX, Quarto e programação de forma acessível e visual.</p>
-<hr>
+<div class="callout callout-style-default callout-note callout-titled" title="✍️ Reflexão do autor">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+✍️ Reflexão do autor
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sou formado em matemática pura, e sempre fui apaixonado pela teoria da relatividade, tanto especial quanto geral.<br>
+A matemática que estrutura essas teorias físicas é, para mim, de uma beleza indescritível.</p>
+<p>Uma das ideias mais marcantes que encontrei foi a noção de <strong>quadrivetor velocidade</strong> no espaço-tempo quadridimensional.<br>
+Perceber que uma grandeza física como a velocidade pode ser expressa como um vetor no espaço de Minkowski — com a soma quadrática de suas componentes igual a <span class="math inline">\(c^2\)</span> — me revelou algo de extrema profundidade.</p>
+<p>Quando compreendi que, para qualquer corpo com massa, a <strong>norma do quadrivetor velocidade</strong> é sempre <span class="math inline">\(c\)</span>, entendi também o seguinte:<br>
+se estamos em repouso, nossa velocidade espacial é zero, e nossa velocidade temporal é <span class="math inline">\(c\)</span>;<br>
+à medida que nos movemos, parte dessa “velocidade total” é transferida ao espaço, reduzindo nossa velocidade no tempo.<br>
+Mas a soma vetorial — no sentido da métrica pseudo-euclideana — permanece constante.<br>
+Isso implica, de forma direta, a <strong>dilatação temporal</strong>: envelhecemos menos quando estamos em movimento.</p>
+<p>Mais tarde, ao estudar relatividade geral, descobri que o espaço-tempo é uma <strong>variedade diferencial pseudo-riemanniana</strong>, com uma métrica que se curva em resposta à presença de massa e energia.<br>
+A frase de Wheeler me acompanhou desde então:</p>
+<blockquote class="blockquote">
+<p><em>“O espaço diz à matéria como ela deve se mover, e a matéria diz ao espaço como ele deve se curvar.”</em></p>
+</blockquote>
+<p>Essa síntese é, para mim, de uma beleza ímpar.</p>
+<p>Também me encanta a ideia de que a física ainda busca uma <strong>teoria unificada</strong> — algo que integre a relatividade geral com a mecânica quântica.<br>
+Se um dia conseguirmos explicar o macro e o micro com uma só estrutura matemática coerente, isso será, sem dúvida, um triunfo supremo do pensamento humano.</p>
+<p>Por fim, como matemático, reconheço a mesma beleza nos alicerces formais da própria matemática.<br>
+A forma axiomática como desenvolvemos teoremas, estruturas e teorias exige elegância, coerência e inevitabilidade.<br>
+Não é por acaso que Hardy disse que <strong>a beleza é o primeiro teste</strong>.<br>
+Essa afirmação não é apenas filosófica — é um critério silencioso que nos guia enquanto provamos.</p>
+</div>
+</div>
 </section>
 <section id="sobre-o-blog" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> 💡 Sobre o Blog</h1>
@@ -306,7 +367,7 @@ Dica
 <li><strong>MathJax</strong>: para fórmulas matemáticas</li>
 <li><strong>AWS S3</strong> ou <strong>GitHub Pages</strong>: para hospedagem como site estático</li>
 <li><strong>TikZ + PNG</strong>: diagramas convertidos e incorporados</li>
-<li><strong>Tema Bootstrap <code>flatly</code></strong> e <code>styles.scss</code> customizado</li>
+<li><strong>Tema Bootstrap <code>cosmo</code></strong> e <code>styles.scss</code> customizado</li>
 </ul>
 </section>
 <section id="estrutura-geral" class="level2" data-number="2.2">

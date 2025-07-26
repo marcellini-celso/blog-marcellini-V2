@@ -221,7 +221,7 @@ Use-os para deixar seus posts mais visuais e organizados!
 
 ### Python
 
-```{python}
+```{python gráfico do seno no Python}
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -233,7 +233,7 @@ plt.show()
 
 ### R
 
-```{r}
+```{r gráfico do seno no R}
 x <- seq(0, 2*pi, length.out = 100)
 plot(x, sin(x), type = "l", col = "blue", lwd = 2)
 ```

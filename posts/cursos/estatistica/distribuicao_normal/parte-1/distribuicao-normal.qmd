@@ -1,9 +1,11 @@
 ---
-title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1)"
+title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal"
 description: "Conversão da apresentação em Beamer para formato de leitura no Quarto."
 author: "Blog do Marcellini"
-date: 2025-07-06
+date: 2025-07-24
 lang: pt-BR
+categories: [estatística, distribuição normal, cursos, exercícios]
+tags: [estatística, distribuição normal, cursos, exercícios]
 format:
   html:
     toc: true
@@ -15,8 +17,6 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [estatística, distribuição normal, cursos]
-tags: [estatística, distribuição normal, cursos]
 ---
 
 <div class="invisivel">
@@ -25,11 +25,13 @@ tags: [estatística, distribuição normal, cursos]
 
 ---
 
-{{< include ../../_includes/link-retorno-estatistica.qmd >}}
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
 
-{{< include ../../_includes/link-retorno-curso-estatistica.qmd >}}
+[← Voltar para os Cursos de Estatística 🎓 📊](/posts/cursos/estatistica/index.qmd)
 
-![Distribuição Normal](../../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
+[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
+
+![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
 
 ---
 
@@ -70,7 +72,7 @@ Antes de mergulhar na distribuição normal, é fundamental compreender alguns c
 
 :::
 
----
+
 
 ::: {.callout-note collapse=false icon="🌍"}
 ## 🌍 Importância da Distribuição Normal
@@ -101,7 +103,7 @@ Porque a normalidade **simplifica a análise estatística** e viabiliza o uso de
 :::
 
 
----
+
 
 ## 📏 Curva Normal Padrão
 
@@ -126,7 +128,7 @@ A curva normal padrão é usada para:
 - desenvolver o raciocínio inferencial em estatística.
 
 <div style="text-align: center;">
-  <img src="../../images/curva-normal.png" width="100%">
+  <img src="../images/curva-normal.png" width="100%">
 </div>
 
 ::: {.callout-note collapse=false icon="📘"}
@@ -136,7 +138,7 @@ Na versão **padrão**, a média é $\mu = 0$ e o desvio padrão $\sigma = 1$.
 A área sob a curva corresponde à totalidade da população observada.
 :::
 
----
+
 
 ## 🎯 Medindo o Invisível
 
@@ -154,7 +156,7 @@ No entanto, mesmo sendo "invisíveis", essas características deixam **indícios
 A curva normal nos oferece uma maneira de descrever essa incerteza com precisão matemática.
 :::
 
----
+
 	
 ## 📐 A Curva Normal: Um Pouco Mais Fundo
 
@@ -184,7 +186,7 @@ Na forma **padrão**, temos $\mu = 0$ e $\sigma = 1$.
 ## 📈 Representação Gráfica da Curva Normal
 
 <div style="text-align: center;">
-  <img src="../../images/curva-normal-tikz.png" width="100%">
+  <img src="../images/curva-normal-tikz.png" width="100%">
 </div>
 
 ::: {.callout-note icon="📘"}
@@ -193,7 +195,7 @@ A curva é centrada em $\mu = 0$ e o desvio padrão é $\sigma = 1$.
 A área sob a curva representa a distribuição da população em torno da média.
 :::
 
----
+
 
 ## 📏 Regra Empírica — 68% - 95% - 99,7%
 
@@ -204,7 +206,7 @@ A **Regra Empírica** descreve como os dados se distribuem em torno da média em
 - Cerca de **99,7%** dos dados estão entre $\mu - 3\sigma$ e $\mu + 3\sigma$
 
 <div style="text-align: center;">
-  <img src="../../images/regra-normal.png" width="100%">
+  <img src="../images/regra-normal.png" width="100%">
 </div>
 
 ::: {.callout-note icon="📘"}
@@ -212,7 +214,7 @@ A **Regra Empírica** descreve como os dados se distribuem em torno da média em
 Permite identificar rapidamente o que é comum e o que é raro em uma população que segue uma distribuição normal.
 :::
 
----
+
 
 ## 📌 Parâmetros da Distribuição Normal
 
@@ -231,7 +233,7 @@ Em qualquer distribuição normal, a curva é **perfeitamente simétrica**:
 o lado esquerdo espelha exatamente o lado direito em relação à média.
 :::
 
----
+
 
 ### 🎯 Por que esses parâmetros são importantes?
 
@@ -252,7 +254,7 @@ Essa transformação converte qualquer valor $x$ em um **escore-z**, possibilita
 ---
 
 <div style="text-align: center;">
-  <img src="../../images/curvas-normais-mesmo-mu.png" width="100%">
+  <img src="../images/curvas-normais-mesmo-mu.png" width="100%">
 </div>
 
 ::: {.callout-note icon="📘"}
@@ -261,7 +263,7 @@ A média define a posição central das curvas.
 A forma (altura e largura) é controlada exclusivamente pelo desvio padrão $\sigma$.
 :::
 
----		
+
 
 ## 🎓 Exemplo: Distribuição de QI (Stanford–Binet)
 
@@ -300,12 +302,12 @@ $$
 Portanto, segunda a **Regra Empírica** cerca de **68% da população** tem QI entre **84 e 116**.
 :::
 
----
+
 
 ### 📊 Visualizando
 
 <div style="text-align: center;">
-  <img src="../../images/exemplo-qi.png" width="80%">
+  <img src="../images/exemplo-qi.png" width="80%">
 </div>
 
 ::: {.callout-note icon="📘"}
@@ -315,7 +317,7 @@ A área sombreada representa os indivíduos com QI entre 84 e 116.
 Segundo a regra empírica, esse intervalo contém cerca de 68% da população.
 :::
 
----
+
 
 ### 💡 Conclusão
 
@@ -327,12 +329,12 @@ Segundo a regra empírica, esse intervalo contém cerca de 68% da população.
 A distribuição normal é útil para comparar indivíduos à média da população e identificar desempenhos excepcionais.
 :::
 
----
+
 
 ## 📐 Regra Empírica Aplicada à Distribuição de QI
 
 :::{.text-center}
-![](../../images/regra-empirica-qi-faixas-separadas.png){width=100%}
+![](../images/regra-empirica-qi-faixas-separadas.png){width=100%}
 :::
 
 ::: {.callout-note collapse=false icon="📘"}
@@ -347,7 +349,7 @@ A distribuição de QI (com média $\mu = 100$ e desvio padrão $\sigma = 16$) p
 Cada faixa da curva representa uma porção da população e foi desenhada com cores **não sobrepostas** para destacar suas contribuições individuais.
 :::
 
----
+
 
 ## 🧪 Exemplo com Código Python: Visualizando a Regra Empírica
 
@@ -405,10 +407,10 @@ A linha pontilhada azul marca a **média populacional**.
 :::
 
 :::{.text-center}
-![](../../images/regra-empirica-qi-faixas-separadas.png){width=100%}
+![](../images/regra-empirica-qi-faixas-separadas.png){width=100%}
 :::
 
----
+
 
 ## 📊 Visualização com `ggplot2` (R)
 
@@ -461,7 +463,7 @@ Neste gráfico, cada intervalo da curva normal representa uma proporção da pop
 O traço azul pontilhado indica a média $\mu = 100$.
 :::
 
----
+
 
 ## 📐 Fundamento da Regra Empírica
 
@@ -496,7 +498,7 @@ Com base nessa função, obtemos as seguintes aproximações:
 Essas porcentagens dão origem à famosa **Regra 68–95–99,7**, usada em **estatística descritiva** e **inferência** para avaliar a dispersão de dados ao redor da média em distribuições aproximadamente normais.
 
 :::{.text-center}
-![](../../images/regra-empirica-normal-padrao.png){width=100%}
+![](../images/regra-empirica-normal-padrao.png){width=100%}
 :::
 
 ::: {.callout-note collapse=false icon="📘"}
@@ -511,7 +513,7 @@ A imagem ilustra as faixas simétricas em torno da média $\mu = 0$:
 A área sob a curva representa a probabilidade do valor $Z$ estar nesse intervalo.
 :::
 
----
+
 
 ## Funções para Distribuição Normal: Excel e R
 
@@ -549,11 +551,11 @@ Podemos calcular probabilidades, valores acumulados e gerar gráficos com funç�
 **Observação:** no Excel, `cumulativo = VERDADEIRO` retorna a probabilidade acumulada; `FALSO` retorna a densidade.
 :::
 
----
+
 
 ## Exemplo Prático com R
 
-Vamos visualizar a curva da **distribuição normal padrão** \( N(0, 1) \) e destacar as faixas de 1, 2 e 3 desvios-padrão da média — conhecidas pela **Regra Empírica**.
+Vamos visualizar a curva da **distribuição normal padrão** $N(0, 1)$ e destacar as faixas de 1, 2 e 3 desvios-padrão da média — conhecidas pela **Regra Empírica**.
 
 ```{r Gerar gráfico no R, fig.align="center", fig.cap="Distribuição Normal Padrão com marcações de ±1σ, ±2σ e ±3σ"}
 # Sequência de valores z
@@ -698,7 +700,7 @@ Esse valor representa a posição relativa de $x$ em uma **distribuição normal
 
 #### 🔹 Área acumulada até $z = 1{,}5$
 
-![Área até z = 1,5](../../images/escore_z_destaque.png){fig-align="center" width="90%" fig-cap="Área sob a curva normal padrão até z = 1,5 (aproximadamente 93,32%)"}
+![Área até z = 1,5](../images/escore_z_destaque.png){fig-align="center" width="90%" fig-cap="Área sob a curva normal padrão até z = 1,5 (aproximadamente 93,32%)"}
 
 Aproximadamente **93,32%** dos valores estão abaixo de $x = 124$.
 
@@ -706,7 +708,7 @@ Aproximadamente **93,32%** dos valores estão abaixo de $x = 124$.
 
 #### 🔹 Área entre $-1{,}5 < Z < 1{,}5$
 
-![Área entre -1,5 e 1,5](../../images/area_entre_-1.5_e_1.5.png){fig-align="center" width="90%" fig-cap="Área entre z = -1,5 e z = 1,5 (aproximadamente 86,64%)"}
+![Área entre -1,5 e 1,5](../images/area_entre_-1.5_e_1.5.png){fig-align="center" width="90%" fig-cap="Área entre z = -1,5 e z = 1,5 (aproximadamente 86,64%)"}
 
 Aproximadamente **86,64%** dos valores estão **a até 1,5 desvios da média**, em ambos os lados.
 
@@ -714,7 +716,7 @@ Aproximadamente **86,64%** dos valores estão **a até 1,5 desvios da média**, 
 
 #### 🔹 Área à direita de $z = 1{,}5$
 
-![Área à direita de z = 1,5](../../images/area_direita_z_1.5.png){fig-align="center" width="90%" fig-cap="Área à direita de z = 1,5 (aproximadamente 6,68%)"}
+![Área à direita de z = 1,5](../images/area_direita_z_1.5.png){fig-align="center" width="90%" fig-cap="Área à direita de z = 1,5 (aproximadamente 6,68%)"}
 
 Apenas **6,68%** da distribuição está acima de $x = 124$.
 
@@ -986,7 +988,7 @@ Retorna: `0,1056498` → Aproximadamente **10,56%**
 
 ### 📊 Visualização Gráfica
 
-![Distribuição Normal com área destacada para $P(X < 80)$](../../images/qi_menor_que_80.png){fig-align="center" width="75%" fig-cap="Distribuição normal padrão com $\mu = 100$, $\sigma = 16$. A área sombreada representa $P(X < 80) = 0{,}1056$"}
+![Distribuição Normal com área destacada para $P(X < 80)$](../images/qi_menor_que_80.png){fig-align="center" width="75%" fig-cap="Distribuição normal padrão com $\mu = 100$, $\sigma = 16$. A área sombreada representa $P(X < 80) = 0{,}1056$"}
 
 ---
 
@@ -1022,7 +1024,7 @@ $$
 
 ---
 
-![Distribuição normal padrão: simetria entre $P(Z < -1{,}25)$ e $P(Z > 1{,}25)$](../../images/normal-simetria.png){fig-align="center" width="75%" fig-cap="Visualização da simetria da curva normal padrão. A área à esquerda de $z = -1{,}25$ é igual à área à direita de $z = 1{,}25$. Isso permite usar apenas valores positivos da Tabela Z."}
+![Distribuição normal padrão: simetria entre $P(Z < -1{,}25)$ e $P(Z > 1{,}25)$](../images/normal-simetria.png){fig-align="center" width="75%" fig-cap="Visualização da simetria da curva normal padrão. A área à esquerda de $z = -1{,}25$ é igual à área à direita de $z = 1{,}25$. Isso permite usar apenas valores positivos da Tabela Z."}
 
 ---
 
@@ -1090,14 +1092,14 @@ Use a fórmula:
 
 ---
 
-🧠 **Resumo**:  
+> 🧠 **Resumo**:  
 Este exemplo mostra como a **simetria da distribuição normal** e a **padronização via escore-$z$** nos permitem calcular rapidamente a probabilidade de valores abaixo da média — inclusive com o apoio de ferramentas como Tabela Z, R e Excel.
 
 ---
 
-## 📌 Conclusão da Parte 1
+## 📌 Conclusão da Parte 1: Introdução à Distribuição Normal
 
-Neste post, exploramos os principais fundamentos da **distribuição normal**, incluindo:
+A Parte 1 do curso explorou os principais fundamentos da **distribuição normal**, incluindo:
 
 - A curva de Gauss e a **Regra Empírica**;
 - O conceito de **escore-$z$** e como usá-lo para calcular probabilidades;
@@ -1108,21 +1110,7 @@ Com esse conhecimento, você já está apto a compreender fenômenos que seguem 
 
 ---
 
-## 👉 Continuação na Parte 2
-
-🔸**Em Breve!**
-
-Na [Parte 2 do post](#) *(link a ser inserido)*, vamos colocar tudo isso em prática com:
-
-- 🧠 **Exercícios resolvidos** com escore-$z$ e cálculo de probabilidades;
-- 📊 **Atividades práticas** no **Excel** e no **R**;
-- 🔍 Estudo de **distribuições aproximadamente normais**;
-- 📈 Introdução ao **Q-Q plot** e análise visual da normalidade;
-- 🌐 Aplicações do **Teorema Central do Limite (TCL)** e muito mais!
-
----
-
-## 📚 Referências
+# 📚 Referências
 
 - Schmuller, Joseph. *Statistical Analysis with Excel® For Dummies®*, $5^{\underline{a}}$ Edição. John Wiley & Sons, 2016.  
 - Schmuller, Joseph. *Análise Estatística com R Para Leigos*, $2^{\underline{a}}$ Edição. Alta Books, 2021.  
@@ -1130,17 +1118,37 @@ Na [Parte 2 do post](#) *(link a ser inserido)*, vamos colocar tudo isso em prá
 - Morettin, Luiz Gonzaga. *Estatística Básica: Probabilidade e Inferência*, $7^{\underline{\mathrm{a}}}$ Edição. Pearson, 2017.  
 - Morettin, Pedro Alberto; Bussab, Wilton de Oliveira. *Estatística Básica*, $10^{\underline{a}}$ Edição. São Paulo: SaraivaUni, 2023.
 
+---
 
-{{< include ../../_includes/link-retorno-estatistica.qmd >}}
+# 🔗 Acesso Rápido às Partes do Curso
 
+🎯 [Parte 1: Introdução à Distribuição Normal](../parte-1/distribuicao-normal.qmd) (👉 Você está aqui!)
 
-{{< include ../../_includes/link-retorno-curso-estatistica.qmd >}}
+🎯 [Parte 2: Escore-z e Tabela Z](../parte-2/distribuicao-normal-parte2.qmd)
+
+🎯 [Parte 3: Gráficos, TCL e Normalidade Aproximada](../parte-3/distribuicao-normal-parte3.qmd)
+
+---
+
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+
+[← Voltar para os Cursos de Estatística 🎓 📊](/posts/cursos/estatistica/index.qmd)
+
+[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
 
 🔝 [Voltar ao Topo](distribuicao-normal.qmd)
 
+
 *Blog do Marcellini — Explorando a Estatística com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

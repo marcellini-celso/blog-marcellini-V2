@@ -8,6 +8,9 @@ format: html
 ## Posts com a tag **matemática**
 
 - [🎓 🧮 Cursos de Matemática](/posts/cursos/matematica/index.html)
+- [Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)
+- [1.2 Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html)
+- [1.1 O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)
 - [🧮 Matemática](/posts/matematica/index.html)
 - [📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)
 - [🧭 🧮 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)

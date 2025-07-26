@@ -1,0 +1,1945 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.24">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Blog do Marcellini">
+<meta name="description" content="Entenda os principais conjuntos numéricos, os tipos de intervalos e como resolver inequações básicas.">
+
+<title>1.2 Conjuntos Numéricos – Blog do Marcellini</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../../">
+<link href="../../../../../images/banner.jpeg" rel="icon" type="image/jpeg">
+<script src="../../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-b7eda2101a7a109d5067cba531cf9672.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../../site_libs/bootstrap/bootstrap-2009ae1e4bc0b71a32727ad7f2a18ef9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+<!-- Google tag (gtag.js) -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-P2KY6K26MG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P2KY6K26MG');
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../../../../styles.css">
+<link rel="stylesheet" href="../../../../../assets/css/custom.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../../../index.html">
+    <span class="navbar-title">Blog do Marcellini</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../tags.html"> 
+<span class="menu-text">🏷️ Tags</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../../../categories.html"> 
+<span class="menu-text">📂 Categorias</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ciências-exatas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🧠 Ciências Exatas</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-ciências-exatas">    
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/matematica/index.html">
+ <span class="dropdown-text">🧮 Matemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/estatistica/index.html">
+ <span class="dropdown-text">📊 Estatística</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/fisica/index.html">
+ <span class="dropdown-text">🔭 Física</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">💻 Programação</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">    
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programacao/index.html">
+ <span class="dropdown-text">💻 Programação</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programacao/quarto/index.html">
+ <span class="dropdown-text">🧾 Quarto</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programacao/latex/index.html">
+ <span class="dropdown-text">✍️ LaTeX</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programacao/python/index.html">
+ <span class="dropdown-text">🐍 Python</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/programacao/r/index.html">
+ <span class="dropdown-text">📊 R</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog-pessoal" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📝 Blog Pessoal</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-blog-pessoal">    
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/pessoal/index.html">
+ <span class="dropdown-text">📝 Blog Pessoal</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/pessoal/sobre-o-blog.html">
+ <span class="dropdown-text">👤 Sobre Mim e Sobre o Blog</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-cursos" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">📘 Cursos</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-cursos">    
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/cursos/matematica/index.html">
+ <span class="dropdown-text">🧮 Cursos de Matemática</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../../../posts/cursos/estatistica/index.html">
+ <span class="dropdown-text">📊 Cursos de Estatística</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:prof.marcellini@gmail.com"> <i class="bi bi-envelope" role="img">
+</i> 
+<span class="menu-text">Contato</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#conjuntos-numéricos" id="toc-conjuntos-numéricos" class="nav-link active" data-scroll-target="#conjuntos-numéricos"><span class="header-section-number">1</span> 🔢 Conjuntos Numéricos</a>
+  <ul class="collapse">
+  <li><a href="#o-que-são-conjuntos-numéricos" id="toc-o-que-são-conjuntos-numéricos" class="nav-link" data-scroll-target="#o-que-são-conjuntos-numéricos"><span class="header-section-number">1.1</span> ✨ O que são Conjuntos Numéricos?</a></li>
+  <li><a href="#organização-dos-conjuntos-numéricos" id="toc-organização-dos-conjuntos-numéricos" class="nav-link" data-scroll-target="#organização-dos-conjuntos-numéricos"><span class="header-section-number">1.2</span> 🧠 <strong>Organização dos Conjuntos Numéricos</strong></a></li>
+  <li><a href="#saiba-mais-o-que-é-um-número-irracional" id="toc-saiba-mais-o-que-é-um-número-irracional" class="nav-link" data-scroll-target="#saiba-mais-o-que-é-um-número-irracional"><span class="header-section-number">1.3</span> 🔍 🧠 Saiba Mais: O que é um número irracional?</a></li>
+  <li><a href="#aprofundamento-demonstração-de-que-sqrt2-não-é-racional" id="toc-aprofundamento-demonstração-de-que-sqrt2-não-é-racional" class="nav-link" data-scroll-target="#aprofundamento-demonstração-de-que-sqrt2-não-é-racional"><span class="header-section-number">1.4</span> 🧠 Aprofundamento: Demonstração de que <span class="math inline">\(\sqrt{2}\)</span> não é racional</a></li>
+  <li><a href="#aprofundamento-comentário-sobre-o-método-de-demonstração" id="toc-aprofundamento-comentário-sobre-o-método-de-demonstração" class="nav-link" data-scroll-target="#aprofundamento-comentário-sobre-o-método-de-demonstração"><span class="header-section-number">1.5</span> 🧠 Aprofundamento: Comentário sobre o método de demonstração</a></li>
+  <li><a href="#exercícios-identificando-números-irracionais" id="toc-exercícios-identificando-números-irracionais" class="nav-link" data-scroll-target="#exercícios-identificando-números-irracionais"><span class="header-section-number">1.6</span> 📘 🧠 Exercícios — Identificando Números Irracionais</a></li>
+  <li><a href="#gabarito" id="toc-gabarito" class="nav-link" data-scroll-target="#gabarito"><span class="header-section-number">1.7</span> 📘 Gabarito</a></li>
+  <li><a href="#nota-histórica-georg-cantor-18451918" id="toc-nota-histórica-georg-cantor-18451918" class="nav-link" data-scroll-target="#nota-histórica-georg-cantor-18451918"><span class="header-section-number">1.8</span> 📜 Nota Histórica: 👤 Georg Cantor (1845–1918)</a></li>
+  <li><a href="#aprofundamento-conjuntos-enumeráveis-e-não-enumeráveis" id="toc-aprofundamento-conjuntos-enumeráveis-e-não-enumeráveis" class="nav-link" data-scroll-target="#aprofundamento-conjuntos-enumeráveis-e-não-enumeráveis"><span class="header-section-number">1.9</span> 🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis</a></li>
+  <li><a href="#aprofundamento-o-método-diagonal-de-cantor" id="toc-aprofundamento-o-método-diagonal-de-cantor" class="nav-link" data-scroll-target="#aprofundamento-o-método-diagonal-de-cantor"><span class="header-section-number">1.10</span> 🧠 Aprofundamento: O Método Diagonal de Cantor</a></li>
+  <li><a href="#representação-decimal-dos-números-reais" id="toc-representação-decimal-dos-números-reais" class="nav-link" data-scroll-target="#representação-decimal-dos-números-reais"><span class="header-section-number">1.11</span> ✨ Representação Decimal dos Números Reais</a></li>
+  <li><a href="#representação-decimal-dos-números-racionais-dízimas-periódicas" id="toc-representação-decimal-dos-números-racionais-dízimas-periódicas" class="nav-link" data-scroll-target="#representação-decimal-dos-números-racionais-dízimas-periódicas"><span class="header-section-number">1.12</span> ✨ Representação Decimal dos Números Racionais — Dízimas Periódicas</a></li>
+  <li><a href="#aprofundamento-demonstração-da-finitude-da-representação-decimal" id="toc-aprofundamento-demonstração-da-finitude-da-representação-decimal" class="nav-link" data-scroll-target="#aprofundamento-demonstração-da-finitude-da-representação-decimal"><span class="header-section-number">1.13</span> 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal</a></li>
+  <li><a href="#exercícios-resolvidos-dízimas-periódicas-e-fração-geratriz" id="toc-exercícios-resolvidos-dízimas-periódicas-e-fração-geratriz" class="nav-link" data-scroll-target="#exercícios-resolvidos-dízimas-periódicas-e-fração-geratriz"><span class="header-section-number">1.14</span> 📘 🧠 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz</a></li>
+  <li><a href="#exercícios-fração-geratriz-de-dízimas-periódicas" id="toc-exercícios-fração-geratriz-de-dízimas-periódicas" class="nav-link" data-scroll-target="#exercícios-fração-geratriz-de-dízimas-periódicas"><span class="header-section-number">1.15</span> 📘 🧠 Exercícios: Fração Geratriz de Dízimas Periódicas</a></li>
+  <li><a href="#gabarito-1" id="toc-gabarito-1" class="nav-link" data-scroll-target="#gabarito-1"><span class="header-section-number">1.16</span> ✅ Gabarito</a></li>
+  <li><a href="#propriedades-dos-conjuntos-numéricos" id="toc-propriedades-dos-conjuntos-numéricos" class="nav-link" data-scroll-target="#propriedades-dos-conjuntos-numéricos"><span class="header-section-number">1.17</span> 📚 <strong>Propriedades dos Conjuntos Numéricos</strong></a></li>
+  <li><a href="#resumo-propriedades-dos-conjuntos-numéricos" id="toc-resumo-propriedades-dos-conjuntos-numéricos" class="nav-link" data-scroll-target="#resumo-propriedades-dos-conjuntos-numéricos"><span class="header-section-number">1.18</span> 📌 Resumo: Propriedades dos Conjuntos Numéricos</a></li>
+  <li><a href="#propriedades-algébricas-básicas-dos-números-reais" id="toc-propriedades-algébricas-básicas-dos-números-reais" class="nav-link" data-scroll-target="#propriedades-algébricas-básicas-dos-números-reais"><span class="header-section-number">1.19</span> 📚 Propriedades Algébricas Básicas dos Números Reais</a></li>
+  <li><a href="#operações-auxiliares" id="toc-operações-auxiliares" class="nav-link" data-scroll-target="#operações-auxiliares"><span class="header-section-number">1.20</span> ✏️ Operações Auxiliares</a></li>
+  <li><a href="#aprofundamento-propriedades-dos-números-reais-e-a-estrutura-de-corpo-ordenado-completo" id="toc-aprofundamento-propriedades-dos-números-reais-e-a-estrutura-de-corpo-ordenado-completo" class="nav-link" data-scroll-target="#aprofundamento-propriedades-dos-números-reais-e-a-estrutura-de-corpo-ordenado-completo"><span class="header-section-number">1.21</span> 🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo</a></li>
+  <li><a href="#aprofundamento-a-propriedade-de-completude-dos-números-reais" id="toc-aprofundamento-a-propriedade-de-completude-dos-números-reais" class="nav-link" data-scroll-target="#aprofundamento-a-propriedade-de-completude-dos-números-reais"><span class="header-section-number">1.22</span> 🧠 Aprofundamento: A Propriedade de Completude dos Números Reais</a></li>
+  <li><a href="#aprofundamento-código-python-visualizando-o-conjunto-x-in-mathbbq-mid-x2-2" id="toc-aprofundamento-código-python-visualizando-o-conjunto-x-in-mathbbq-mid-x2-2" class="nav-link" data-scroll-target="#aprofundamento-código-python-visualizando-o-conjunto-x-in-mathbbq-mid-x2-2"><span class="header-section-number">1.23</span> 👨‍💻 🐍 Aprofundamento: Código Python – Visualizando o Conjunto <span class="math inline">\(\{ x \in \mathbb{Q} \mid x^2 &lt; 2 \}\)</span></a></li>
+  <li><a href="#exercícios-de-revisão" id="toc-exercícios-de-revisão" class="nav-link" data-scroll-target="#exercícios-de-revisão"><span class="header-section-number">1.24</span> 🧠 Exercícios de Revisão</a></li>
+  <li><a href="#resoluções-comentadas" id="toc-resoluções-comentadas" class="nav-link" data-scroll-target="#resoluções-comentadas"><span class="header-section-number">1.25</span> 📝 Resoluções Comentadas</a></li>
+  </ul></li>
+  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">2</span> 🔗 Links Úteis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">1.2 Conjuntos Numéricos</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">matemática</div>
+    <div class="quarto-category">cálculo</div>
+    <div class="quarto-category">conjuntos</div>
+    <div class="quarto-category">conjuntos numéricos</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Entenda os principais conjuntos numéricos, os tipos de intervalos e como resolver inequações básicas.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Blog do Marcellini </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">23 de julho de 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<p><a href="../../../../../posts/matematica/index.html">← Voltar para a Seção de Matemática 🧮</a></p>
+<p><a href="../../../../../posts/cursos/matematica/index.html">← Voltar para os Cursos de Matemática 🎓 🧮</a></p>
+<p>🎯 <strong>Post Anterior:</strong> 👉 <a href="../../../../../posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html">1.1 O que é Cálculo? História e aplicações</a></p>
+<hr>
+<p>Neste post, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos. Em uma primeira leitura, as seções de aprofundamento podem ser omitidas.</p>
+<hr>
+<section id="conjuntos-numéricos" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="conjuntos-numéricos"><span class="header-section-number">1</span> 🔢 Conjuntos Numéricos</h2>
+<section id="o-que-são-conjuntos-numéricos" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="o-que-são-conjuntos-numéricos"><span class="header-section-number">1.1</span> ✨ O que são Conjuntos Numéricos?</h3>
+<p>Os conjuntos numéricos são grupos de números que compartilham características comuns. Os principais conjuntos que usaremos são:</p>
+<ul>
+<li><p><strong>Números Naturais <span class="math inline">\((\mathbb{N})\)</span></strong>: <span class="math inline">\(\{0, 1, 2, 3, \ldots\}\)</span><br>
+Usados para contar objetos, são os números inteiros não-negativos.</p></li>
+<li><p><strong>Números Inteiros <span class="math inline">\((\mathbb{Z})\)</span></strong>: <span class="math inline">\(\{\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots\}\)</span><br>
+Incluem todos os números naturais, seus opostos negativos e o zero.</p></li>
+<li><p><strong>Números Racionais <span class="math inline">\((\mathbb{Q})\)</span></strong>: números que podem ser escritos como fração <span class="math inline">\(\dfrac{a}{b}\)</span>, onde <span class="math inline">\(a, b \in \mathbb{Z}\)</span> e <span class="math inline">\(b \neq 0\)</span>.<br>
+Exemplo: <span class="math inline">\(\frac{1}{2}\)</span>, <span class="math inline">\(-\frac{3}{4}\)</span>, <span class="math inline">\(5\)</span> (que é <span class="math inline">\(\frac{5}{1}\)</span>).</p></li>
+<li><p><strong>Números Irracionais <span class="math inline">\((\mathbb{R} \setminus \mathbb{Q})\)</span></strong>: números que <strong>não podem ser expressos como fração de dois inteiros</strong>, ou seja, não existe uma razão <span class="math inline">\(\dfrac{a}{b}\)</span>, com <span class="math inline">\(a \in \mathbb{Z}\)</span> e <span class="math inline">\(b \in \mathbb{Z} \setminus \{0\}\)</span>, que o representem de forma exata. Sua representação decimal nunca termina nem se repete, como ocorre com <span class="math inline">\(\sqrt{2}\)</span> ou <span class="math inline">\(\pi\)</span>.</p></li>
+<li><p><strong>Números Reais <span class="math inline">\((\mathbb{R})\)</span></strong>: todos os números que podem ser representados na reta numérica, incluindo racionais e irracionais (como <span class="math inline">\(\sqrt{2}\)</span>, <span class="math inline">\(\pi\)</span>, <span class="math inline">\(e\)</span>).</p></li>
+</ul>
+<div style="text-align: center;">
+<img src="../images/Real_number_line.svg" alt="Reta Numérica Real" width="70%">
+<figcaption>
+<strong>Reta Numérica Real</strong>
+</figcaption>
+<p style="font-size: 0.8em; margin-top: 0.5em;">
+Crédito: Por Phrood~commonswiki - <span class="int-own-work" lang="pt">Obra do próprio</span>, Domínio público, <a href="https://commons.wikimedia.org/w/index.php?curid=331471">Hiperligação</a>
+</p>
+</div>
+<hr>
+</section>
+<section id="organização-dos-conjuntos-numéricos" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="organização-dos-conjuntos-numéricos"><span class="header-section-number">1.2</span> 🧠 <strong>Organização dos Conjuntos Numéricos</strong></h3>
+<p>Os conjuntos numéricos não estão isolados — eles se organizam em uma <strong>hierarquia</strong> onde cada conjunto é subconjunto de outro mais amplo:</p>
+<div style="text-align: center;">
+<img src="../images/Number-systems.svg" alt="Hierarquia dos Conjuntos Numéricos" width="70%">
+<figcaption>
+<strong>Hierarquia dos Conjuntos Numéricos</strong>
+</figcaption>
+<p style="font-size: 0.8em; margin-top: 0.5em;">
+Crédito: Por <a href="//commons.wikimedia.org/wiki/User:Mortalmoth" title="User:Mortalmoth">Mortalmoth</a> - <span class="int-own-work" lang="pt">Obra do próprio</span>, Domínio público, <a href="https://commons.wikimedia.org/w/index.php?curid=15719477">Hiperligação</a>
+</p>
+</div>
+<p>Essa estrutura pode ser representada assim:</p>
+<p><span class="math display">\[
+\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}
+\]</span></p>
+<p>Isso significa, por exemplo, que <strong>todo número natural é também inteiro</strong>, racional e real — mas o contrário <strong>nem sempre é verdadeiro</strong>.</p>
+<hr>
+</section>
+<section id="saiba-mais-o-que-é-um-número-irracional" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="saiba-mais-o-que-é-um-número-irracional"><span class="header-section-number">1.3</span> 🔍 🧠 Saiba Mais: O que é um número irracional?</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="🧠 Saiba Mais: O que é um número irracional?">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Saiba Mais: O que é um número irracional?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>🔢 Como vimos acima, um número irracional é um número real que não pode ser expresso como fração de dois inteiros; ou seja, não existe uma razão <span class="math inline">\(\dfrac{a}{b}\)</span>, com <span class="math inline">\(a \in \mathbb{Z}\)</span> e <span class="math inline">\(b \in \mathbb{Z} \setminus {0}\)</span>, que o represente de forma exata.</p>
+<p>✳️ Esses números possuem representação decimal infinita e não periódica, diferentemente dos racionais, que possuem representação decimal finita ou periódica. <strong>Exemplos</strong> famosos incluem:</p>
+<p><span class="math inline">\(\pi = 3{,}14159265\ldots\)</span></p>
+<p><span class="math inline">\(e = 2{,}71828182\ldots\)</span></p>
+<p><span class="math inline">\(\sqrt{2} = 1{,}4142135\ldots\)</span></p>
+<p>📌 Os irracionais surgem naturalmente em diversos contextos matemáticos, como:</p>
+<ul>
+<li><p>a diagonal de um quadrado de lado 1 <span class="math inline">\((\text{que é } \sqrt{2})\)</span>;</p></li>
+<li><p>o perímetro de uma circunferência (relacionado a <span class="math inline">\(\pi\)</span>);</p></li>
+<li><p>o crescimento exponencial e os logaritmos naturais (relacionados a <span class="math inline">\(e\)</span>).</p></li>
+</ul>
+<p>📜 A existência dos números irracionais foi uma descoberta histórica marcante na Grécia Antiga, especialmente entre os pitagóricos, que inicialmente acreditavam que todo número era racional — até a demonstração de que <span class="math inline">\(\sqrt{2}\)</span> não poderia ser expresso como uma fração.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-demonstração-de-que-sqrt2-não-é-racional" class="level3" data-number="1.4">
+<h3 data-number="1.4" class="anchored" data-anchor-id="aprofundamento-demonstração-de-que-sqrt2-não-é-racional"><span class="header-section-number">1.4</span> 🧠 Aprofundamento: Demonstração de que <span class="math inline">\(\sqrt{2}\)</span> não é racional</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: Demonstração de que <span class="math inline">\(\sqrt{2}\)</span> não é racional
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Proposição:</strong> <span class="math inline">\(\sqrt{2} \notin \mathbb{Q}\)</span>, ou seja, <span class="math inline">\(\sqrt{2}\)</span> é irracional.</p>
+<p><strong>Demonstração (por redução ao absurdo):</strong></p>
+<p>Suponha, por absurdo, que <span class="math inline">\(\sqrt{2}\)</span> seja um número racional. Então, existem inteiros <span class="math inline">\(a\)</span> e <span class="math inline">\(b\)</span>, com <span class="math inline">\(b \ne 0\)</span>, tais que:</p>
+<p><span class="math display">\[
+\sqrt{2} = \frac{a}{b}
+\]</span></p>
+<p>Além disso, podemos supor que a fração <span class="math inline">\(\dfrac{a}{b}\)</span> está <strong>irredutível</strong>, ou seja, <span class="math inline">\(\mathrm{mdc}(a, b) = 1\)</span>.</p>
+<p>Elevando ambos os lados ao quadrado:</p>
+<p><span class="math display">\[
+2 = \frac{a^2}{b^2} \Rightarrow a^2 = 2b^2
+\]</span></p>
+<p>Portanto, <span class="math inline">\(a^2\)</span> é <strong>par</strong>, o que implica que <span class="math inline">\(a\)</span> também é par, pois se <span class="math inline">\(a\)</span> fosse ímpar, <span class="math inline">\(a^2\)</span> também seria ímpar. Assim, existe um inteiro <span class="math inline">\(k\)</span> tal que <span class="math inline">\(a = 2k\)</span>.</p>
+<p>Substituindo:</p>
+<p><span class="math display">\[
+(2k)^2 = 2b^2 \Rightarrow 4k^2 = 2b^2 \Rightarrow b^2 = 2k^2
+\]</span></p>
+<p>Logo, <span class="math inline">\(b^2\)</span> também é par, e portanto <span class="math inline">\(b\)</span> é par.</p>
+<p><strong>Contradição</strong>: <span class="math inline">\(a\)</span> e <span class="math inline">\(b\)</span> são pares ⇒ <span class="math inline">\(\mathrm{mdc}(a, b) \geq 2\)</span>,<br>
+contrariando a hipótese de que a fração <span class="math inline">\(\dfrac{a}{b}\)</span> era irredutível.</p>
+<p>Logo, a suposição de que <span class="math inline">\(\sqrt{2}\)</span> é racional é falsa.<br>
+<span class="math display">\[
+\therefore \sqrt{2} \notin \mathbb{Q}
+\]</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-comentário-sobre-o-método-de-demonstração" class="level3" data-number="1.5">
+<h3 data-number="1.5" class="anchored" data-anchor-id="aprofundamento-comentário-sobre-o-método-de-demonstração"><span class="header-section-number">1.5</span> 🧠 Aprofundamento: Comentário sobre o método de demonstração</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: Comentário sobre o método de demonstração">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: Comentário sobre o método de demonstração
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>A demonstração da irracionalidade de <span class="math inline">\(\sqrt{2}\)</span> é um clássico exemplo de <strong>prova por redução ao absurdo</strong> (ou <strong>prova indireta</strong>).</p>
+<p>Nesse método, parte-se da <strong>suposição contrária</strong> ao que se deseja provar — no caso, supõe-se que <span class="math inline">\(\sqrt{2} \in \mathbb{Q}\)</span>, ou seja, que pode ser escrita como uma fração <span class="math inline">\(\dfrac{a}{b}\)</span> com <span class="math inline">\(a\)</span> e <span class="math inline">\(b \in \mathbb{Z}\)</span> e <span class="math inline">\(\mathrm{mdc}(a,b) = 1\)</span>.</p>
+<p>A partir dessa hipótese, deduz-se logicamente que <span class="math inline">\(a\)</span> e <span class="math inline">\(b\)</span> seriam ambos pares — o que contradiz a condição inicial de que <span class="math inline">\(a\)</span> e <span class="math inline">\(b\)</span> não têm fatores comuns.</p>
+<p>Essa contradição mostra que a suposição original não pode ser verdadeira.<br>
+Assim, conclui-se que <span class="math inline">\(\sqrt{2}\)</span> <strong>não</strong> é um número racional.</p>
+<p>Esse método é bastante utilizado em várias áreas da Matemática, principalmente quando não se conhece uma forma direta de prova.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="exercícios-identificando-números-irracionais" class="level3" data-number="1.6">
+<h3 data-number="1.6" class="anchored" data-anchor-id="exercícios-identificando-números-irracionais"><span class="header-section-number">1.6</span> 📘 🧠 Exercícios — Identificando Números Irracionais</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="📘 🧠 Exercícios — Identificando Números Irracionais">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📘 🧠 Exercícios — Identificando Números Irracionais
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Classifique os números abaixo como <strong>racionais</strong> ou <strong>irracionais</strong>:</p>
+<ol type="a">
+<li><p><span class="math inline">\(\sqrt{9}\)</span></p></li>
+<li><p><span class="math inline">\(\sqrt{5}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{4}{7}\)</span></p></li>
+<li><p><span class="math inline">\(\pi\)</span></p></li>
+<li><p><span class="math inline">\(0{,}101001000100001\ldots\)</span></p></li>
+</ol></li>
+<li><p>Qual das alternativas representa um número irracional?</p>
+<p>A. <span class="math inline">\(\frac{7}{3}\)</span><br>
+B. <span class="math inline">\(1{,}333\ldots\)</span><br>
+C. <span class="math inline">\(\sqrt{2}\)</span><br>
+D. <span class="math inline">\(0{,}5\)</span></p></li>
+<li><p>Verdadeiro ou Falso:</p>
+<ol type="a">
+<li>Todo número decimal infinito é irracional.<br>
+</li>
+<li><span class="math inline">\(\sqrt{25}\)</span> é um número irracional.<br>
+</li>
+<li>Existem mais números irracionais do que racionais.</li>
+</ol></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="gabarito" class="level3" data-number="1.7">
+<h3 data-number="1.7" class="anchored" data-anchor-id="gabarito"><span class="header-section-number">1.7</span> 📘 Gabarito</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="📘 Gabarito">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📘 Gabarito
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li></li>
+</ol>
+<ol type="a">
+<li>Racional (resultado é 3)<br>
+</li>
+<li>Irracional (não é raiz exata)<br>
+</li>
+<li>Racional<br>
+</li>
+<li>Irracional<br>
+</li>
+<li>Irracional (decimal não periódico)</li>
+</ol>
+<ol start="2" type="1">
+<li><p>Alternativa correta: <strong>C. <span class="math inline">\(\sqrt{2}\)</span></strong></p></li>
+<li></li>
+</ol>
+<ol type="a">
+<li><strong>Falso</strong> — apenas os decimais infinitos <strong>não periódicos</strong> são irracionais. Os decimais infinitos <strong>periódicos</strong> são racionais.<br>
+</li>
+<li><strong>Falso</strong> — <span class="math inline">\(\sqrt{25} = 5\)</span>, e 5 é um número natural, portanto racional.<br>
+</li>
+<li><strong>Verdadeiro</strong> — <strong>o conjunto dos números racionais é enumerável</strong> (ou seja, existe uma correspondência com os números naturais), o que significa que ele é <strong>contável</strong>.<br>
+Já os números irracionais formam um conjunto <strong>não enumerável</strong>, ou seja, <strong>incontável</strong>. Isso foi demonstrado por <strong>Georg Cantor</strong>, que provou que a quantidade de números reais (e, portanto, irracionais) é <strong>estritamente maior</strong> que a quantidade de números racionais.<br>
+Assim, existem “infinitamente mais” irracionais do que racionais na reta real.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="nota-histórica-georg-cantor-18451918" class="level3" data-number="1.8">
+<h3 data-number="1.8" class="anchored" data-anchor-id="nota-histórica-georg-cantor-18451918"><span class="header-section-number">1.8</span> 📜 Nota Histórica: 👤 Georg Cantor (1845–1918)</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="📜 Nota Histórica: 👤 Georg Cantor (1845–1918)">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📜 Nota Histórica: 👤 Georg Cantor (1845–1918)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>Georg Cantor</strong> foi um matemático alemão que revolucionou a matemática ao <strong>criar a teoria dos conjuntos</strong> e desenvolver o conceito moderno de <strong>infinito</strong>.<br>
+Ele demonstrou que <strong>nem todos os infinitos são iguais</strong>, provando que o conjunto dos números reais (e, portanto, dos irracionais) é <strong>incontável</strong> (ou <strong>não enumerável</strong>), enquanto o conjunto dos racionais é <strong>contável</strong> (ou <strong>enumerável</strong>).</p>
+<p>Apesar da resistência de muitos matemáticos de sua época, como <strong>Kronecker</strong>, <strong>Cantor</strong> persistiu em suas ideias e hoje é reconhecido como o <strong>pai da teoria dos conjuntos</strong>.</p>
+<p>Sua obra lançou as bases para a matemática moderna, a lógica e a análise, influenciando profundamente áreas como a topologia, a computabilidade e a filosofia da matemática.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-conjuntos-enumeráveis-e-não-enumeráveis" class="level3" data-number="1.9">
+<h3 data-number="1.9" class="anchored" data-anchor-id="aprofundamento-conjuntos-enumeráveis-e-não-enumeráveis"><span class="header-section-number">1.9</span> 🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Conjunto Enumerável</strong> (ou <strong>contável</strong>): é um conjunto cujos elementos podem ser colocados em correspondência biunívoca com os números naturais. Ou seja, podemos listar seus elementos numa sequência (mesmo que infinita).<br>
+Exemplos:
+<ul>
+<li>Conjunto dos números naturais <span class="math inline">\(\mathbb{N}\)</span>.</li>
+<li>Conjunto dos inteiros <span class="math inline">\(\mathbb{Z}\)</span>.</li>
+<li>Conjunto dos racionais <span class="math inline">\(\mathbb{Q}\)</span>.</li>
+</ul></li>
+<li><strong>Conjunto Não Enumerável</strong> (ou <strong>incontável</strong>): é um conjunto tão “grande” que <strong>não pode ser listado</strong> em sequência, mesmo infinita.<br>
+O exemplo mais famoso é:
+<ul>
+<li>O conjunto dos números reais <span class="math inline">\(\mathbb{R}\)</span> <span class="math inline">\((\)</span>especialmente os irracionais, como <span class="math inline">\(\pi\)</span> e <span class="math inline">\(\sqrt{2}\)</span><span class="math inline">\()\)</span>.</li>
+</ul></li>
+</ul>
+<p><strong>Resumo:</strong><br>
+Enumerável → Pode listar (como uma fila infinita).<br>
+Não enumerável → Não pode listar; tem “mais” elementos que os naturais.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-o-método-diagonal-de-cantor" class="level3" data-number="1.10">
+<h3 data-number="1.10" class="anchored" data-anchor-id="aprofundamento-o-método-diagonal-de-cantor"><span class="header-section-number">1.10</span> 🧠 Aprofundamento: O Método Diagonal de Cantor</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: O Método Diagonal de Cantor">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: O Método Diagonal de Cantor
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>O <strong>método diagonal de Cantor</strong> é uma prova elegante e poderosa criada por <strong>Georg Cantor</strong> para demonstrar que <strong>os números reais são mais numerosos do que os números naturais</strong>, ou seja, que o conjunto dos reais não é enumerável.</p>
+<p>🧩 <strong>Ideia principal</strong></p>
+<p>Cantor mostrou que <strong>nenhuma lista que tente enumerar todos os números reais entre 0 e 1 pode ser completa</strong>. Ele faz isso construindo um número novo, que <strong>difere de todos os números da lista</strong>, alterando <strong>diagonalmente</strong> os dígitos da representação decimal.</p>
+<p>🔍 <strong>Passo a passo simplificado:</strong></p>
+<ol type="1">
+<li><p>Suponha que seja possível listar todos os números reais entre 0 e 1 como:</p>
+<pre><code>x₁ = 0.a₁₁ a₁₂ a₁₃ a₁₄ ...
+x₂ = 0.a₂₁ a₂₂ a₂₃ a₂₄ ...
+x₃ = 0.a₃₁ a₃₂ a₃₃ a₃₄ ...
+...</code></pre></li>
+<li><p>Cantor constrói um novo número real, alterando <strong>os dígitos da diagonal</strong>:</p>
+<ul>
+<li>Escolhe o 1º dígito do 1º número, o 2º dígito do 2º número, o 3º dígito do 3º número, etc.<br>
+</li>
+<li>Em cada posição, troca o dígito por um diferente (por exemplo, se for 5, troca por 6).</li>
+</ul></li>
+<li><p>O novo número, assim construído, <strong>difere de cada número da lista em ao menos um dígito</strong> — o da diagonal.</p></li>
+</ol>
+<p>✅ <strong>Conclusão:</strong></p>
+<p>Esse número <strong>não pode estar na lista original</strong>, o que leva à contradição: portanto, <strong>os reais não são enumeráveis</strong>.</p>
+<div style="text-align: center;">
+<img src="../images/Diagonal_argument_01_svg.svg" alt="Argumento diagonal de Cantor" width="60%">
+<figcaption>
+<strong>Método Diagonal de Cantor</strong>
+</figcaption>
+<p style="font-size: 0.8em; margin-top: 0.5em;">
+Crédito: Por Jochen Burghardt — Obra do próprio, <a href="https://commons.wikimedia.org/w/index.php?curid=30402203" target="_blank">CC BY-SA 3.0</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="representação-decimal-dos-números-reais" class="level3" data-number="1.11">
+<h3 data-number="1.11" class="anchored" data-anchor-id="representação-decimal-dos-números-reais"><span class="header-section-number">1.11</span> ✨ Representação Decimal dos Números Reais</h3>
+<p>Os números reais podem ser representados por uma <strong>expansão decimal finita ou infinita</strong>. Vamos explorar alguns exemplos e distinguir os principais casos:</p>
+<hr>
+<p>🔹 <strong>Exemplo 1</strong>: Número racional com decimal finito (decimal exato)</p>
+<p>Considere <span class="math inline">\(\dfrac{3}{4}\)</span>:</p>
+<p><strong>Passo a passo:</strong></p>
+<ol type="1">
+<li><p>Divida 3 por 4:<br>
+<span class="math inline">\(3 \div 4 = 0{,}75\)</span></p></li>
+<li><p>Conclusão:<br>
+<span class="math inline">\(\dfrac{3}{4} = 0{,}75\)</span><br>
+→ Decimal <strong>finito</strong>.<br>
+→ É um <strong>número racional</strong>.</p></li>
+</ol>
+<hr>
+<p>🔹 <strong>Exemplo 2</strong>: Número racional com decimal infinito periódico</p>
+<p>Considere <span class="math inline">\(\dfrac{1}{3}\)</span>:</p>
+<p><strong>Passo a passo:</strong></p>
+<ol type="1">
+<li><p>Divida 1 por 3:<br>
+<span class="math inline">\(1 \div 3 = 0{,}333\ldots\)</span></p></li>
+<li><p>Conclusão:<br>
+<span class="math inline">\(\dfrac{1}{3} = 0{,}\overline{3}\)</span><br>
+→ Decimal <strong>infinito periódico</strong>.<br>
+→ É um <strong>número racional</strong>.</p></li>
+</ol>
+<hr>
+<p>🔹 <strong>Exemplo 3</strong>: Número irracional com decimal infinito não periódico</p>
+<p>Considere <span class="math inline">\(\sqrt{2}\)</span>:</p>
+<p><strong>Passo a passo:</strong></p>
+<ol type="1">
+<li><p>Aproximação decimal:<br>
+<span class="math inline">\(\sqrt{2} \approx 1{,}4142135\ldots\)</span></p></li>
+<li><p>Observe que:</p>
+<ul>
+<li>Não termina.</li>
+<li>Não apresenta <strong>repetição de padrão</strong>.</li>
+</ul></li>
+<li><p>Conclusão:<br>
+<span class="math inline">\(\sqrt{2}\)</span> → Decimal <strong>infinito não periódico</strong><br>
+→ É um <strong>número irracional</strong>.</p></li>
+</ol>
+<hr>
+<p>✅ <strong>Observação Geral:</strong></p>
+<ul>
+<li>Todo número racional tem representação decimal <strong>finita ou infinita periódica</strong>.</li>
+<li>Todo número irracional tem representação decimal <strong>infinita não periódica</strong>.</li>
+</ul>
+<hr>
+</section>
+<section id="representação-decimal-dos-números-racionais-dízimas-periódicas" class="level3" data-number="1.12">
+<h3 data-number="1.12" class="anchored" data-anchor-id="representação-decimal-dos-números-racionais-dízimas-periódicas"><span class="header-section-number">1.12</span> ✨ Representação Decimal dos Números Racionais — Dízimas Periódicas</h3>
+<p>A representação decimal de <strong>todo número racional</strong> (ou seja, frações de inteiros com denominador ≠ 0) <strong>é finita ou uma dízima periódica</strong>.</p>
+<p>Vamos explorar exemplos com <strong>passo a passo</strong>:</p>
+<hr>
+<p>🔢 <strong>Exemplo 1:</strong> <span class="math inline">\(\dfrac{1}{3}\)</span></p>
+<p>Dividindo 1 por 3:</p>
+<pre><code>1 ÷ 3 = 0,3333...</code></pre>
+<p>A parte decimal repete o dígito 3 indefinidamente.</p>
+<p>✅ <strong>Dízima periódica simples:</strong><br>
+<span class="math inline">\(\dfrac{1}{3} = 0,\overline{3}\)</span></p>
+<hr>
+<p>🔢 <strong>Exemplo 2:</strong> <span class="math inline">\(\dfrac{4}{11}\)</span></p>
+<pre><code>4 ÷ 11 = 0,363636...</code></pre>
+<p>O bloco “36” se repete.</p>
+<p>✅ <strong>Dízima periódica simples:</strong><br>
+<span class="math inline">\(\dfrac{4}{11} = 0,\overline{36}\)</span></p>
+<hr>
+<p>🔢 <strong>Exemplo 3:</strong> <span class="math inline">\(\dfrac{7}{8}\)</span></p>
+<pre><code>7 ÷ 8 = 0,875</code></pre>
+<p>✅ <strong>Representação decimal finita:</strong><br>
+Não é dízima — termina após alguns algarismos.</p>
+<hr>
+<p>🔢 <strong>Exemplo 4:</strong> <span class="math inline">\(\dfrac{12}{90}\)</span></p>
+<p>12 ÷ 90 = <span class="math inline">\(0,1\overline{3}\)</span></p>
+<p>Neste caso, a parte <strong>não periódica</strong> é o 1, e o dígito 3 se repete infinitamente.</p>
+<p>✅ <strong>Dízima periódica composta:</strong><br>
+<span class="math inline">\(\dfrac{12}{90} = 0,1\overline{3}\)</span></p>
+<hr>
+<p>🧠 <strong>Observação Importante</strong></p>
+<ul>
+<li>Se a fração irredutível tiver <strong>denominador com fatores apenas 2 e 5</strong>, a representação decimal é <strong>finita</strong>.</li>
+<li>Caso contrário, a fração terá <strong>dízima periódica</strong>.</li>
+</ul>
+<p>Por exemplo:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 33%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fração</th>
+<th>Decimal</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(\dfrac{1}{2}\)</span></td>
+<td>0,5</td>
+<td>Finita</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\dfrac{1}{4}\)</span></td>
+<td>0,25</td>
+<td>Finita</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\dfrac{1}{6}\)</span></td>
+<td><span class="math inline">\(0,1\overline{6}\)</span></td>
+<td>Dízima periódica composta</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\dfrac{2}{9}\)</span></td>
+<td><span class="math inline">\(0,\overline{2}\)</span></td>
+<td>Dízima periódica simples</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\dfrac{12}{90}\)</span></td>
+<td><span class="math inline">\(0,1\overline{3}\)</span></td>
+<td>Dízima periódica composta</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>📌 <strong>Todo número com dízima periódica é racional.</strong><br>
+E o inverso também é verdadeiro: todo número racional tem representação decimal <strong>finita ou periódica</strong>.</p>
+<hr>
+</section>
+<section id="aprofundamento-demonstração-da-finitude-da-representação-decimal" class="level3" data-number="1.13">
+<h3 data-number="1.13" class="anchored" data-anchor-id="aprofundamento-demonstração-da-finitude-da-representação-decimal"><span class="header-section-number">1.13</span> 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Seja uma fração racional irredutível <span class="math inline">\(\dfrac{a}{b}\)</span>, com <span class="math inline">\(a \in \mathbb{Z}\)</span> e <span class="math inline">\(b \in \mathbb{N}\)</span>.</p>
+<p>A representação decimal de <span class="math inline">\(\dfrac{a}{b}\)</span> será <strong>finita</strong> se e somente se for possível escrevê-la como uma fração com denominador da forma <span class="math inline">\(10^n\)</span>.</p>
+<p>Sabemos que <span class="math inline">\(10^n = 2^n \cdot 5^n\)</span>, ou seja, os únicos fatores primos de <span class="math inline">\(10^n\)</span> são <strong>2</strong> e <strong>5</strong>.</p>
+<p>Logo, se a fração <span class="math inline">\(\dfrac{a}{b}\)</span> puder ser reescrita com denominador <span class="math inline">\(10^n\)</span>, então o denominador original <span class="math inline">\(b\)</span> (já simplificado com <span class="math inline">\(a\)</span>) <strong>só pode conter os fatores primos 2 e 5</strong>.</p>
+<p>Se <span class="math inline">\(b\)</span> tiver algum outro fator primo (como 3, 7, 11, etc.), então <strong>não será possível transformá-lo em uma potência de 10</strong>, e sua representação decimal será <strong>infinita periódica</strong> (isto é, uma <strong>dízima periódica</strong>).</p>
+<hr>
+<p>🔢 <strong>Exemplos</strong>:</p>
+<ul>
+<li><p><span class="math inline">\(\dfrac{3}{8} = 0{,}375\)</span> ✅<br>
+(Denominador <span class="math inline">\(8 = 2^3\)</span>, apenas fator 2 → decimal finita)</p></li>
+<li><p><span class="math inline">\(\dfrac{7}{20} = 0{,}35\)</span> ✅<br>
+(Denominador <span class="math inline">\(20 = 2^2 \cdot 5\)</span>, apenas fatores 2 e 5 → decimal finita)</p></li>
+<li><p><span class="math inline">\(\dfrac{4}{15} = 0{,}\overline{26}\)</span> ❌<br>
+(Denominador <span class="math inline">\(15 = 3 \cdot 5\)</span>, contém fator 3 → dízima periódica)</p></li>
+<li><p><span class="math inline">\(\dfrac{5}{6} = 0{,}\overline{83}\)</span> ❌<br>
+(Denominador <span class="math inline">\(6 = 2 \cdot 3\)</span>, contém fator 3 → dízima periódica)</p></li>
+</ul>
+<p>✅ <strong>Conclusão:</strong> A fração <span class="math inline">\(\dfrac{a}{b}\)</span> tem representação decimal finita <strong>se e somente se</strong> o denominador <span class="math inline">\(b\)</span> (na forma irredutível) tem como fatores <strong>apenas 2 e 5</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="exercícios-resolvidos-dízimas-periódicas-e-fração-geratriz" class="level3" data-number="1.14">
+<h3 data-number="1.14" class="anchored" data-anchor-id="exercícios-resolvidos-dízimas-periódicas-e-fração-geratriz"><span class="header-section-number">1.14</span> 📘 🧠 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="📘 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📘 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p><strong>1. Converta a dízima periódica <span class="math inline">\(0,\overline{3}\)</span> para fração.</strong></p>
+<p><strong>Passo a passo:</strong></p>
+<p>Seja <span class="math inline">\(x = 0,\overline{3}\)</span></p>
+<p>Multiplique por <span class="math inline">\(10\)</span> para deslocar a parte decimal uma casa: <span class="math display">\[
+10x = 3,\overline{3}
+\]</span></p>
+<p>Agora subtraia as equações: <span class="math display">\[
+10x - x = 3,\overline{3} - 0,\overline{3} \Rightarrow 9x = 3
+\Rightarrow x = \frac{3}{9} = \frac{1}{3}
+\]</span></p>
+<p>✅ <strong>Resposta:</strong> <span class="math inline">\(\dfrac{1}{3}\)</span></p>
+<hr>
+<p><strong>2. Converta <span class="math inline">\(0,\overline{72}\)</span> em fração.</strong></p>
+<p><strong>Passo a passo:</strong></p>
+<p>Seja <span class="math inline">\(x = 0,\overline{72}\)</span></p>
+<p>Como o período tem <span class="math inline">\(2\)</span> algarismos, multiplique por <span class="math inline">\(100\)</span>: <span class="math display">\[
+100x = 72,\overline{72}
+\]</span></p>
+<p>Subtraia as equações: <span class="math display">\[
+100x - x = 72,\overline{72} - 0,\overline{72} \Rightarrow 99x = 72
+\Rightarrow x = \frac{72}{99} = \frac{8}{11}
+\]</span></p>
+<p>✅ <strong>Resposta:</strong> <span class="math inline">\(\dfrac{8}{11}\)</span></p>
+<hr>
+<p><strong>3. Converta <span class="math inline">\(2,\overline{1}\)</span> em fração.</strong></p>
+<p><strong>Passo a passo:</strong></p>
+<p>Seja <span class="math inline">\(x = 2,\overline{1}\)</span></p>
+<p>Multiplique por <span class="math inline">\(10\)</span>: <span class="math display">\[
+10x = 21,\overline{1}
+\]</span></p>
+<p>Subtraia: <span class="math display">\[
+10x - x = 21,\overline{1} - 2,\overline{1} \Rightarrow 9x = 19
+\Rightarrow x = \frac{19}{9}
+\]</span></p>
+<p>✅ <strong>Resposta:</strong> <span class="math inline">\(\dfrac{19}{9}\)</span></p>
+<hr>
+<p><strong>4. Converta <span class="math inline">\(0,4\overline{7}\)</span> em fração.</strong></p>
+<p><strong>Passo a passo:</strong></p>
+<p>Separar parte não periódica <span class="math inline">\((4)\)</span> e periódica <span class="math inline">\((7)\)</span>:<br>
+Seja <span class="math inline">\(x = 0,4\overline{7}\)</span></p>
+<p>Multiplique por <span class="math inline">\(10\)</span> para tirar a parte não periódica: <span class="math display">\[
+10x = 4,\overline{7}
+\]</span></p>
+<p>Multiplique por <span class="math inline">\(10\)</span> novamente (total de <span class="math inline">\(100\)</span>): <span class="math display">\[
+100x = 47,\overline{7}
+\]</span></p>
+<p>Agora subtraia: <span class="math display">\[
+100x - 10x = 47,\overline{7} - 4,\overline{7} \Rightarrow 90x = 43
+\Rightarrow x = \frac{43}{90}
+\]</span></p>
+<p>✅ <strong>Resposta:</strong> <span class="math inline">\(\dfrac{43}{90}\)</span></p>
+<hr>
+<p><strong>5. Converta <span class="math inline">\(3,12\overline{5}\)</span> em fração.</strong></p>
+<p><strong>Passo a passo:</strong></p>
+<p>Separar parte inteira <span class="math inline">\((3)\)</span>, parte não periódica <span class="math inline">\((12)\)</span> e periódica <span class="math inline">\((5)\)</span>:<br>
+Seja <span class="math inline">\(x = 3,125555\ldots\)</span></p>
+<p>Multiplique por <span class="math inline">\(10^3 = 1000\)</span> para posicionar o período: <span class="math display">\[
+1000x = 3125,555\ldots
+\]</span></p>
+<p>Multiplique por <span class="math inline">\(10^2 = 100\)</span> para remover só a parte não periódica: <span class="math display">\[
+100x = 312,555\ldots
+\]</span></p>
+<p>Subtraia: <span class="math display">\[
+1000x - 100x = 3125,555\ldots - 312,555\ldots = 2813
+\Rightarrow 900x = 2813
+\]</span> <span class="math display">\[
+\Rightarrow x = \frac{2813}{900}
+\]</span></p>
+<p>✅ <strong>Resposta:</strong> <span class="math inline">\(\dfrac{2813}{900}\)</span></p>
+</div>
+</div>
+</div>
+</section>
+<section id="exercícios-fração-geratriz-de-dízimas-periódicas" class="level3" data-number="1.15">
+<h3 data-number="1.15" class="anchored" data-anchor-id="exercícios-fração-geratriz-de-dízimas-periódicas"><span class="header-section-number">1.15</span> 📘 🧠 Exercícios: Fração Geratriz de Dízimas Periódicas</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="🧠 Exercícios: Fração Geratriz de Dízimas Periódicas">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Exercícios: Fração Geratriz de Dízimas Periódicas
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Escreva a fração geratriz da dízima periódica simples:
+<ol type="a">
+<li><span class="math inline">\(0{,}\overline{3}\)</span><br>
+</li>
+<li><span class="math inline">\(0{,}\overline{7}\)</span><br>
+</li>
+<li><span class="math inline">\(0{,}\overline{2}\)</span></li>
+</ol></li>
+<li>Escreva a fração geratriz da dízima periódica composta:
+<ol type="a">
+<li><span class="math inline">\(0{,}1\overline{3}\)</span><br>
+</li>
+<li><span class="math inline">\(0{,}72\overline{1}\)</span><br>
+</li>
+<li><span class="math inline">\(1{,}2\overline{45}\)</span></li>
+</ol></li>
+<li>Dê a fração geratriz correspondente às seguintes dízimas:
+<ol type="a">
+<li><span class="math inline">\(0{,}\overline{81}\)</span><br>
+</li>
+<li><span class="math inline">\(2{,}\overline{6}\)</span><br>
+</li>
+<li>( 3{,}4 )</li>
+</ol></li>
+<li>Um número decimal é <span class="math inline">\(0{,}4\overline{5}\)</span>. Escreva-o como fração e simplifique.</li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="gabarito-1" class="level3" data-number="1.16">
+<h3 data-number="1.16" class="anchored" data-anchor-id="gabarito-1"><span class="header-section-number">1.16</span> ✅ Gabarito</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="Respostas">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Respostas
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li></li>
+</ol>
+<ol type="a">
+<li><p><span class="math inline">\(\dfrac{1}{3}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{7}{9}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{2}{9}\)</span></p></li>
+</ol>
+<ol start="2" type="1">
+<li></li>
+</ol>
+<ol type="a">
+<li><p><span class="math inline">\(\dfrac{12}{90} = \dfrac{2}{15}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{719}{990}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{1233}{990} = \dfrac{137}{110}\)</span></p></li>
+</ol>
+<ol start="3" type="1">
+<li></li>
+</ol>
+<ol type="a">
+<li><p><span class="math inline">\(\dfrac{81}{99} = \dfrac{9}{11}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{24}{9} = \dfrac{8}{3}\)</span></p></li>
+<li><p><span class="math inline">\(\dfrac{310}{90} = \dfrac{31}{9}\)</span></p></li>
+</ol>
+<ol start="4" type="1">
+<li><span class="math inline">\(0{,}4\overline{5} = \dfrac{41}{90}\)</span></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="propriedades-dos-conjuntos-numéricos" class="level3" data-number="1.17">
+<h3 data-number="1.17" class="anchored" data-anchor-id="propriedades-dos-conjuntos-numéricos"><span class="header-section-number">1.17</span> 📚 <strong>Propriedades dos Conjuntos Numéricos</strong></h3>
+<p>🔸 <strong>Definições úteis</strong></p>
+<ul>
+<li><p>🔁 <strong>Fechamento</strong>: um conjunto é <strong>fechado para uma operação</strong> quando o resultado da operação entre quaisquer dois elementos do conjunto <strong>pertence também ao conjunto</strong>.</p>
+<ul>
+<li><strong>Exemplo:</strong> <span class="math inline">\(\mathbb{N}\)</span> é fechado para a adição porque <span class="math inline">\(\forall \mathrm{a}, \mathrm{b} \in \mathbb{N}\)</span>, temos <span class="math inline">\(a + b \in \mathbb{N}\)</span>.</li>
+</ul></li>
+<li><p>🔍 <strong>Densidade</strong>: um conjunto é <strong>denso</strong> se <strong>entre quaisquer dois elementos distintos do conjunto existe outro elemento do mesmo conjunto</strong>.</p>
+<ul>
+<li><strong>Exemplo:</strong> <span class="math inline">\(\mathbb{Q}\)</span> é denso porque entre quaisquer dois racionais <span class="math inline">\(a &lt; b\)</span>, existe outro racional <span class="math inline">\(c\)</span> tal que <span class="math inline">\(a &lt; c &lt; b\)</span>.</li>
+</ul></li>
+</ul>
+<hr>
+<p>🔹 <strong>Naturais <span class="math inline">\((\mathbb{N} = {0, 1, 2, 3, ...})\)</span></strong></p>
+<ul>
+<li>Representam a contagem.</li>
+<li>Fechados para adição e multiplicação.</li>
+<li>Não fechados para subtração nem divisão.</li>
+<li>Não contêm números negativos nem frações.</li>
+</ul>
+<p>🔹 <strong>Inteiros <span class="math inline">\((\mathbb{Z} = \{\cdots, -2, -1, 0, 1, 2, \cdots \})\)</span></strong></p>
+<ul>
+<li>Incluem os naturais e seus opostos.</li>
+<li>Fechados para adição, subtração e multiplicação.</li>
+<li>Não fechados para divisão.</li>
+<li>Não são densos (há “lacunas” entre inteiros consecutivos).</li>
+</ul>
+<p>🔹 <strong>Racionais <span class="math inline">\(\left(\mathbb{Q}=\left\{a / b \mid a \in \mathbb{Z}, b \in \mathbb{Z}^*, b \neq 0\right\}\right)\)</span></strong></p>
+<ul>
+<li>Incluem frações e decimais exatos ou periódicos.</li>
+<li>Fechados para as quatro operações básicas (exceto divisão por zero).</li>
+<li>Densos na reta real.</li>
+</ul>
+<p>🔹 <strong>Irracionais <span class="math inline">\((\mathbb{R} \setminus \mathbb{Q})\)</span></strong></p>
+<ul>
+<li>Números com parte decimal infinita e não periódica (ex: <span class="math inline">\(\sqrt{2}\)</span>, <span class="math inline">\(\pi\)</span>, <span class="math inline">\(e\)</span>).</li>
+<li>Não podem ser escritos como fração.</li>
+<li>Também são densos na reta real.</li>
+<li>Não são fechados para adição ou multiplicação (ex: <span class="math inline">\(\sqrt{2} + (- \sqrt{2}) = 0 \notin \text{irracionais}\)</span>).</li>
+</ul>
+<p>🔹 <strong>Reais <span class="math inline">\((\mathbb{R})\)</span></strong></p>
+<ul>
+<li>União dos racionais e irracionais.</li>
+<li>Representam todos os pontos da reta real.</li>
+<li>Fechados para adição, subtração, multiplicação e divisão (exceto por 0).</li>
+<li>Densos.</li>
+</ul>
+</section>
+<section id="resumo-propriedades-dos-conjuntos-numéricos" class="level3" data-number="1.18">
+<h3 data-number="1.18" class="anchored" data-anchor-id="resumo-propriedades-dos-conjuntos-numéricos"><span class="header-section-number">1.18</span> 📌 Resumo: Propriedades dos Conjuntos Numéricos</h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="📌 Resumo: Propriedades dos Conjuntos Numéricos">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📌 Resumo: Propriedades dos Conjuntos Numéricos
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 15%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Conjunto</th>
+<th>Símbolo</th>
+<th>Propriedades principais</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Naturais</strong></td>
+<td><span class="math inline">\(\mathbb{N}\)</span></td>
+<td>Começam no 0 ou 1 (depende da convenção), fechados para adição e multiplicação.</td>
+</tr>
+<tr class="even">
+<td><strong>Inteiros</strong></td>
+<td><span class="math inline">\(\mathbb{Z}\)</span></td>
+<td>Incluem negativos, positivos e o zero. Fechados para adição, subtração e multiplicação.</td>
+</tr>
+<tr class="odd">
+<td><strong>Racionais</strong></td>
+<td><span class="math inline">\(\mathbb{Q}\)</span></td>
+<td>Podem ser escritos como fração de inteiros com denominador ≠ 0. Densos na reta real.</td>
+</tr>
+<tr class="even">
+<td><strong>Irracionais</strong></td>
+<td><span class="math inline">\(\mathbb{R} \setminus \mathbb{Q}\)</span></td>
+<td>Não podem ser escritos como fração. Possuem casas decimais infinitas e não periódicas.</td>
+</tr>
+<tr class="odd">
+<td><strong>Reais</strong></td>
+<td><span class="math inline">\(\mathbb{R}\)</span></td>
+<td>União dos racionais e irracionais. Fechados para adição, subtração, multiplicação e divisão (exceto por 0). Densos.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</section>
+<section id="propriedades-algébricas-básicas-dos-números-reais" class="level3" data-number="1.19">
+<h3 data-number="1.19" class="anchored" data-anchor-id="propriedades-algébricas-básicas-dos-números-reais"><span class="header-section-number">1.19</span> 📚 Propriedades Algébricas Básicas dos Números Reais</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="📚 Propriedades Algébricas Básicas dos Números Reais">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📚 Propriedades Algébricas Básicas dos Números Reais
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong><span class="math inline">\(0 \cdot x = 0\)</span></strong><br>
+<em>(Multiplicar qualquer número por zero resulta em zero.)</em></p></li>
+<li><p><strong><span class="math inline">\((-x) \cdot y = -(x \cdot y)\)</span></strong><br>
+<em>(O sinal negativo pode ser “puxado” para fora da multiplicação.)</em></p></li>
+<li><p><strong><span class="math inline">\((-x)(-y) = x \cdot y\)</span></strong><br>
+<em>(Produto de dois negativos é positivo.)</em></p></li>
+<li><p><strong><span class="math inline">\(x + y = x\)</span> para todo <span class="math inline">\(x \Rightarrow y = 0\)</span></strong><br>
+<em>(Unicidade do neutro aditivo.)</em></p></li>
+<li><p><strong><span class="math inline">\(x \cdot y = x\)</span> para todo <span class="math inline">\(x \Rightarrow y = 1\)</span></strong><br>
+<em>(Unicidade da unidade multiplicativa.)</em></p></li>
+<li><p><strong><span class="math inline">\(x + y = 0 \Rightarrow y = -x\)</span></strong><br>
+<em>(Todo número tem um simétrico aditivo único.)</em></p></li>
+<li><p><strong><span class="math inline">\(x \cdot y = 1 \Rightarrow y = x^{-1}\)</span> (com <span class="math inline">\(x \ne 0\)</span>)</strong><br>
+<em>(Todo número real diferente de zero tem um recíproco único.)</em></p></li>
+<li><p><strong><span class="math inline">\(x + z = y + z \Rightarrow x = y\)</span></strong><br>
+<em>(Lei do cancelamento da adição.)</em></p></li>
+<li><p><strong><span class="math inline">\(z \ne 0 \land x \cdot z = y \cdot z \Rightarrow x = y\)</span></strong><br>
+<em>(Lei do cancelamento da multiplicação.)</em></p></li>
+<li><p><strong><span class="math inline">\(x \ne 0 \land y \ne 0 \Rightarrow x \cdot y \ne 0\)</span></strong><br>
+<em>(Não existem divisores de zero no corpo dos reais.)</em></p></li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="operações-auxiliares" class="level3" data-number="1.20">
+<h3 data-number="1.20" class="anchored" data-anchor-id="operações-auxiliares"><span class="header-section-number">1.20</span> ✏️ Operações Auxiliares</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="Operações Auxiliares">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Operações Auxiliares
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><strong>Subtração</strong>:<br>
+<span class="math display">\[a - b = a + (-b)\]</span><br>
+<em>(Subtrair é somar o oposto.)</em></p></li>
+<li><p><strong>Divisão</strong> (com <span class="math inline">\(b \ne 0\)</span>):<br>
+<span class="math display">\[\frac{a}{b} = a \cdot b^{-1}\]</span><br>
+<em>(Dividir é multiplicar pelo inverso.)</em></p></li>
+</ul>
+<hr>
+<p>💡 <strong>Exemplos</strong></p>
+<ul>
+<li><p><strong>Exemplo 1</strong>:<br>
+Seja <span class="math inline">\(x = 5\)</span>. Qual é o simétrico aditivo de <span class="math inline">\(x\)</span>?<br>
+👉 <span class="math inline">\(-x = -5\)</span><br>
+✔️ Pois <span class="math inline">\(5 + (-5) = 0\)</span></p></li>
+<li><p><strong>Exemplo 2</strong>:<br>
+Seja <span class="math inline">\(x = 3\)</span>, qual é seu inverso multiplicativo?<br>
+👉 <span class="math inline">\(x^{-1} = \frac{1}{3}\)</span><br>
+✔️ Pois <span class="math inline">\(3 \cdot \frac{1}{3} = 1\)</span></p></li>
+<li><p><strong>Exemplo 3</strong>:<br>
+A subtração é definida a partir da adição:</p>
+<p>👉 <span class="math inline">\(7 - 2 = 7 + (-2) = 5\)</span></p></li>
+<li><p><strong>Exemplo 4</strong>:<br>
+A divisão é definida a partir da multiplicação:</p>
+<p>👉 <span class="math inline">\(5 \div 2 = 5 \cdot 2^{-1} = 5 \cdot \dfrac{1}{2} = \dfrac{5}{2} = 2,5\)</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="aprofundamento-propriedades-dos-números-reais-e-a-estrutura-de-corpo-ordenado-completo" class="level3" data-number="1.21">
+<h3 data-number="1.21" class="anchored" data-anchor-id="aprofundamento-propriedades-dos-números-reais-e-a-estrutura-de-corpo-ordenado-completo"><span class="header-section-number">1.21</span> 🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Para compreender melhor as propriedades dos números reais, é útil adotar uma perspectiva mais abstrata e estrutural. A seguir, apresentamos um resumo das propriedades que caracterizam <span class="math inline">\(\mathbb{R}\)</span> como um <strong>corpo ordenado completo</strong>.</p>
+<hr>
+<p>🔷 <strong>1. Corpo <span class="math inline">\((\mathbb{R}, +, \cdot)\)</span></strong></p>
+<p>Um <strong>corpo</strong> (ou <strong>campo</strong>) é um conjunto não vazio munido de duas operações, adição (<span class="math inline">\(+\)</span>) e multiplicação (<span class="math inline">\(\cdot\)</span>), satisfazendo as seguintes propriedades:</p>
+<p><strong>Aditivas:</strong></p>
+<ul>
+<li><em>Fechamento:</em> Se <span class="math inline">\(a, b \in \mathbb{R}\)</span>, então <span class="math inline">\(a + b \in \mathbb{R}\)</span>.</li>
+<li><em>Associatividade:</em> <span class="math inline">\((a + b) + c = a + (b + c)\)</span>.</li>
+<li><em>Elemento neutro:</em> Existe <span class="math inline">\(0 \in \mathbb{R}\)</span> tal que <span class="math inline">\(a + 0 = a\)</span>.</li>
+<li><em>Elemento simétrico:</em> Para cada <span class="math inline">\(a \in \mathbb{R}\)</span>, existe <span class="math inline">\(-a\)</span> tal que <span class="math inline">\(a + (-a) = 0\)</span>.</li>
+<li><em>Comutatividade:</em> <span class="math inline">\(a + b = b + a\)</span>.</li>
+</ul>
+<p><strong>Multiplicativas:</strong></p>
+<ul>
+<li><em>Fechamento:</em> Se <span class="math inline">\(a, b \in \mathbb{R}\)</span>, então <span class="math inline">\(a \cdot b \in \mathbb{R}\)</span>.</li>
+<li><em>Associatividade:</em> <span class="math inline">\((a \cdot b) \cdot c = a \cdot (b \cdot c)\)</span>.</li>
+<li><em>Elemento neutro:</em> Existe <span class="math inline">\(1 \in \mathbb{R}\)</span>, com <span class="math inline">\(1 \ne 0\)</span>, tal que <span class="math inline">\(a \cdot 1 = a\)</span>.</li>
+<li><em>Inverso multiplicativo:</em> Se <span class="math inline">\(a \ne 0\)</span>, existe <span class="math inline">\(a^{-1} \in \mathbb{R}\)</span> tal que <span class="math inline">\(a \cdot a^{-1} = 1\)</span>.</li>
+<li><em>Comutatividade:</em> <span class="math inline">\(a \cdot b = b \cdot a\)</span>.</li>
+</ul>
+<p><strong>Distributividade:</strong></p>
+<ul>
+<li><span class="math inline">\(a \cdot (b + c) = a \cdot b + a \cdot c\)</span>.</li>
+</ul>
+<hr>
+<p>🔶 <strong>2. Corpo Ordenado</strong></p>
+<p>Além das propriedades anteriores, o conjunto dos reais possui uma <strong>relação de ordem total</strong> <span class="math inline">\((\leq)\)</span> compatível com as operações, ou seja:</p>
+<ul>
+<li><p><strong>Tricotomia</strong>: Para todo <span class="math inline">\(a \in \mathbb{R}\)</span>, vale exatamente uma das alternativas: <span class="math display">\[a &gt; 0 \text{, } a = 0 \text{ ou } a &lt; 0\]</span>.</p></li>
+<li><p><strong>Fechamento da ordem</strong>:</p>
+<ul>
+<li><p>Se <span class="math inline">\(a \leq b\)</span>, então <span class="math inline">\(a + c \leq b + c\)</span>.</p></li>
+<li><p>Se <span class="math inline">\(0 \leq a\)</span> e <span class="math inline">\(0 \leq b\)</span>, então <span class="math inline">\(0 \leq a \cdot b\)</span>.</p></li>
+</ul></li>
+</ul>
+<p>Essa estrutura torna <span class="math inline">\(\mathbb{R}\)</span> um <strong>corpo ordenado</strong>.</p>
+<hr>
+<p>🟩 <strong>3. Corpo Ordenado Completo</strong></p>
+<p>A <strong>completude</strong> é a propriedade que distingue os números reais dos racionais:</p>
+<ul>
+<li><strong>Propriedade de completude</strong>: Todo subconjunto não vazio de <span class="math inline">\(\mathbb{R}\)</span> que é limitado superiormente possui um <strong>supremo</strong> (menor dos majorantes) em <span class="math inline">\(\mathbb{R}\)</span>.</li>
+</ul>
+<p>Essa propriedade não é satisfeita pelos racionais <span class="math inline">\((\mathbb{Q})\)</span>, o que justifica a construção dos reais como extensão de <span class="math inline">\(\mathbb{Q}\)</span>.</p>
+<hr>
+<p>📌 <strong>Resumo</strong>: O conjunto dos números reais <span class="math inline">\(\mathbb{R}\)</span> é um <strong>corpo ordenado completo</strong>, estrutura fundamental para a Análise Matemática e outras áreas da Matemática pura e aplicada.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-a-propriedade-de-completude-dos-números-reais" class="level3" data-number="1.22">
+<h3 data-number="1.22" class="anchored" data-anchor-id="aprofundamento-a-propriedade-de-completude-dos-números-reais"><span class="header-section-number">1.22</span> 🧠 Aprofundamento: A Propriedade de Completude dos Números Reais</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="🧠 Aprofundamento: A Propriedade de Completude dos Números Reais">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Aprofundamento: A Propriedade de Completude dos Números Reais
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>No conjunto dos números reais <span class="math inline">\(\mathbb{R}\)</span>, todo subconjunto <strong>não vazio</strong> e <strong>limitado superiormente</strong> possui um <strong>supremo</strong> (também chamado de <strong>mínimo limite superior</strong>). Essa é a <strong>propriedade de completude</strong> dos reais — algo que <strong>não ocorre</strong> nos racionais <span class="math inline">\(\mathbb{Q}\)</span>.</p>
+<p>Vamos entender melhor alguns termos importantes:</p>
+<ul>
+<li><p><strong>Limitado superiormente</strong>: um conjunto <span class="math inline">\(A \subset \mathbb{R}\)</span> é <strong>limitado superiormente</strong> se existe um número real <span class="math inline">\(M\)</span> tal que <strong>todo elemento</strong> <span class="math inline">\(a \in A\)</span> satisfaz <span class="math inline">\(a \leq M\)</span>.</p></li>
+<li><p><strong>Limitado inferiormente</strong>: um conjunto <span class="math inline">\(A \subset \mathbb{R}\)</span> é <strong>limitado inferiormente</strong> se existe <span class="math inline">\(m \in \mathbb{R}\)</span> tal que <span class="math inline">\(a \geq m\)</span> para todo <span class="math inline">\(a \in A\)</span>.</p></li>
+<li><p><strong>Majorante</strong>: é qualquer número real <span class="math inline">\(M\)</span> que seja maior ou igual a <strong>todos</strong> os elementos do conjunto. Ex: <span class="math inline">\(10\)</span> é majorante de <span class="math inline">\(A = \{1, 2, 5\}\)</span>, mas também é majorante de <span class="math inline">\(A = \{1, 2, 5, 9.9\}\)</span>.</p></li>
+<li><p><strong>Minorante</strong>: é um número real <span class="math inline">\(m\)</span> tal que <span class="math inline">\(m \leq a\)</span>, para todo <span class="math inline">\(a \in A\)</span>.</p></li>
+<li><p><strong>Supremo (limite superior mínimo)</strong>: é o <strong>menor</strong> dos majorantes de um conjunto. Mesmo que ele <strong>não pertença ao conjunto</strong>, ele representa a menor “barreira superior”.</p>
+<p><strong>Exemplo:</strong> o conjunto <span class="math inline">\(A = \{x \in \mathbb{Q} \mid x^2 &lt; 2\}\)</span> é limitado superiormente em <span class="math inline">\(\mathbb{Q}\)</span>, mas <strong>não possui supremo racional</strong> — pois <span class="math inline">\(\sqrt{2} \notin \mathbb{Q}\)</span>.<br>
+Já em <span class="math inline">\(\mathbb{R}\)</span>, o supremo de <span class="math inline">\(A\)</span> é <span class="math inline">\(\sqrt{2}\)</span>.</p></li>
+<li><p><strong>Ínfimo (limite inferior máximo)</strong>: é o <strong>maior</strong> dos minorantes. Análogo ao supremo, mas inferior.</p></li>
+</ul>
+<p>💡 <strong>Resumo importante</strong>:<br>
+A propriedade de completude garante que os reais “preenchem todos os buracos” da reta numérica. É isso que faz <span class="math inline">\(\mathbb{R}\)</span> ser um <strong>corpo ordenado completo</strong>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="aprofundamento-código-python-visualizando-o-conjunto-x-in-mathbbq-mid-x2-2" class="level3" data-number="1.23">
+<h3 data-number="1.23" class="anchored" data-anchor-id="aprofundamento-código-python-visualizando-o-conjunto-x-in-mathbbq-mid-x2-2"><span class="header-section-number">1.23</span> 👨‍💻 🐍 Aprofundamento: Código Python – Visualizando o Conjunto <span class="math inline">\(\{ x \in \mathbb{Q} \mid x^2 &lt; 2 \}\)</span></h3>
+<div class="callout callout-style-default callout-tip callout-titled" title="👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\{ x \in \mathbb{Q} \mid x^2 < 2 \}$">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+👨‍💻 🐍 Aprofundamento: Código Python – Visualizando o Conjunto <span class="math inline">\(\{ x \in \mathbb{Q} \mid x^2 &lt; 2 \}\)</span>
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Use o código abaixo no Jupyter para visualizar o conjunto de racionais cujo quadrado é menor que 2. A curva <span class="math inline">\(y = x^2\)</span>, os racionais <span class="math inline">\(1\)</span>, <span class="math inline">\(1.2\)</span>, <span class="math inline">\(1.3\)</span>, <span class="math inline">\(1.4\)</span> e o supremo <span class="math inline">\(\sqrt{2}\)</span> também são exibidos.</p>
+<div id="832f924a" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Valores de x em um domínio visual interessante</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">400</span>)</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Conjunto dos racionais x com x^2 &lt; 2</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Escolhendo alguns pontos racionais específicos</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>rational_x <span class="op">=</span> np.array([<span class="fl">1.0</span>, <span class="fl">1.2</span>, <span class="fl">1.3</span>, <span class="fl">1.4</span>])</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>rational_y <span class="op">=</span> rational_x<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Valor de sqrt(2)</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>sqrt2 <span class="op">=</span> np.sqrt(<span class="dv">2</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Criando a imagem</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">4</span>))</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, label<span class="op">=</span><span class="vs">r'</span><span class="dv">$</span><span class="vs">y = x</span><span class="dv">^</span><span class="vs">2</span><span class="dv">$</span><span class="vs">'</span>, color<span class="op">=</span><span class="st">'blue'</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>plt.axhline(<span class="dv">2</span>, color<span class="op">=</span><span class="st">'gray'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, label<span class="op">=</span><span class="vs">r'</span><span class="dv">$</span><span class="vs">y = 2</span><span class="dv">$</span><span class="vs">'</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>plt.scatter(rational_x, rational_y, color<span class="op">=</span><span class="st">'red'</span>, label<span class="op">=</span><span class="vs">r'</span><span class="dv">$\m</span><span class="vs">athbb{Q}</span><span class="dv">$</span><span class="vs"> com </span><span class="dv">$</span><span class="vs">x</span><span class="dv">^</span><span class="vs">2 &lt; 2</span><span class="dv">$</span><span class="vs">'</span>)</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Marcação do supremo</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>plt.axvline(sqrt2, color<span class="op">=</span><span class="st">'green'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, label<span class="op">=</span><span class="vs">r'</span><span class="dv">$\s</span><span class="vs">up = </span><span class="dv">\s</span><span class="vs">qrt</span><span class="op">{2}</span><span class="dv">$</span><span class="vs">'</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>plt.text(sqrt2 <span class="op">+</span> <span class="fl">0.02</span>, <span class="dv">1</span>, <span class="vs">r'</span><span class="dv">$\s</span><span class="vs">qrt</span><span class="op">{2}</span><span class="dv">$</span><span class="vs"> </span><span class="kw">(</span><span class="vs">irracional</span><span class="kw">)</span><span class="vs">'</span>, color<span class="op">=</span><span class="st">'green'</span>)</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustes visuais</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="vs">r'Exemplo: </span><span class="dv">$</span><span class="vs">x </span><span class="er">\</span><span class="vs">in </span><span class="dv">\m</span><span class="vs">athbb{Q} </span><span class="dv">\m</span><span class="vs">id x</span><span class="dv">^</span><span class="vs">2 &lt; 2</span><span class="dv">$</span><span class="vs">'</span>)</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'x'</span>)</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'y'</span>)</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar imagem</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1.2-conjuntos_files/figure-html/cell-2-output-1.png" width="566" height="373" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/grafico_completude.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Completude da variável observada ao longo do tempo</figcaption>
+</figure>
+</div>
+<hr>
+<hr>
+</section>
+<section id="exercícios-de-revisão" class="level3" data-number="1.24">
+<h3 data-number="1.24" class="anchored" data-anchor-id="exercícios-de-revisão"><span class="header-section-number">1.24</span> 🧠 Exercícios de Revisão</h3>
+<div class="callout callout-style-default callout-note callout-titled" title="🧠 Exercícios de Revisão — Módulo 1.2: Conjuntos Numéricos">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+🧠 Exercícios de Revisão — Módulo 1.2: Conjuntos Numéricos
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><p>Classifique os números abaixo como racionais ou irracionais:</p>
+<ol type="a">
+<li>√2 (b) 0,333… (c) π (d) 7/2 (e) √25</li>
+</ol></li>
+<li><p>Escreva os subconjuntos de <strong>ℝ</strong> na ordem crescente de inclusão.</p></li>
+<li><p>Dê <strong>três exemplos</strong> de números irracionais e justifique por que são irracionais.</p></li>
+<li><p>O número 3,727272… é racional? Justifique sua resposta e escreva a fração geratriz.</p></li>
+<li><p>Transforme a dízima periódica 0,1666… em uma fração.</p></li>
+<li><p>A sequência 1,4142135… representa a raiz quadrada de 2. Essa é uma dízima periódica? Por quê?</p></li>
+<li><p>Determine se os conjuntos abaixo são enumeráveis ou não enumeráveis:</p>
+<ol type="a">
+<li>ℕ (b) ℤ (c) ℚ (d) ℝ (e) Conjunto dos números irracionais positivos</li>
+</ol></li>
+<li><p>Use o Método Diagonal de Cantor para demonstrar que os números reais entre 0 e 1 são não enumeráveis.</p></li>
+<li><p>Mostre, com um exemplo, a diferença entre representação decimal finita e infinita.</p></li>
+<li><p>O conjunto ℝ é um corpo ordenado completo. Explique o que isso significa com suas próprias palavras.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="resoluções-comentadas" class="level3" data-number="1.25">
+<h3 data-number="1.25" class="anchored" data-anchor-id="resoluções-comentadas"><span class="header-section-number">1.25</span> 📝 Resoluções Comentadas</h3>
+<div class="callout callout-style-default callout-important callout-titled" title="📝 Resoluções Comentadas — Exercícios de Revisão 1.2">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+📝 Resoluções Comentadas — Exercícios de Revisão 1.2
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><ol type="a">
+<li>Irracional (√2 não tem raiz exata)<br>
+</li>
+<li>Racional (é uma dízima periódica: 1/3)<br>
+</li>
+<li>Irracional (π tem decimal infinito não periódico)<br>
+</li>
+<li>Racional (fração de inteiros)<br>
+</li>
+<li>Racional (√25 = 5)</li>
+</ol></li>
+<li><p>ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ</p></li>
+<li><p>Exemplos: √3, π, e. São irracionais pois não podem ser escritos como fração de inteiros e sua representação decimal é infinita e não periódica.</p></li>
+<li><p>Sim. 3,727272… é uma dízima periódica.<br>
+Fração geratriz:<br>
+Seja x = 3,727272…<br>
+Então, 100x = 372,7272…<br>
+Subtraindo: 100x - x = 372,7272… - 3,7272… = 369<br>
+⇒ 99x = 369 → x = 369/99 = 41/11</p></li>
+<li><p>Seja x = 0,1666…<br>
+10x = 1,666…<br>
+Subtraindo: 10x - x = 1,666… - 0,1666… = 1.5<br>
+⇒ 9x = 1.5 → x = 1.5/9 = 3/18 = 1/6</p></li>
+<li><p>Não. Essa representação de √2 é infinita <strong>não periódica</strong>, ou seja, é irracional.</p></li>
+<li><ol type="a">
+<li>Enumerável<br>
+</li>
+<li>Enumerável<br>
+</li>
+<li>Enumerável<br>
+</li>
+<li>Não enumerável<br>
+</li>
+<li>Não enumerável</li>
+</ol></li>
+<li><p>O método diagonal constrói um número diferente de cada número de uma lista supostamente completa, mostrando que tal lista <strong>nunca é completa</strong>, então ℝ não é enumerável.</p></li>
+<li><p>Exemplo:</p>
+<ul>
+<li>1/4 = 0,25 (decimal finito)<br>
+</li>
+<li>1/3 = 0,333… (infinito e periódico)</li>
+</ul></li>
+<li><p>Corpo ordenado completo: <span class="math inline">\(\mathbb{R}\)</span> tem as operações +, ×, ≤ bem definidas, com propriedades usuais, e satisfaz a <strong>propriedade de completude</strong>: todo conjunto limitado superiormente possui supremo.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<hr>
+<p>🎯 <strong>Próximo Post:</strong> ⏳ <strong>Em Breve!</strong></p>
+<hr>
+<p>🔝 <a href="../../../../../posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html">Voltar ao Topo</a></p>
+<p><em>Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
+</div>
+</div>
+</section>
+</section>
+<section id="links-úteis" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="links-úteis"><span class="header-section-number">2</span> 🔗 Links Úteis</h2>
+<ul>
+<li>🧑‍🏫 <a href="../../../../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a></li>
+<li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a></li>
+<li>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/blogdomarcellini\.com\.br");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2025 - Blog do Marcellini</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>📬 <a href="mailto:prof.marcellini@gmail.com">Contato por E-mail</a><br> 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

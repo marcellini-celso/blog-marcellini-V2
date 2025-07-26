@@ -17,17 +17,20 @@ page-layout: full
 <a href="/tags/programacao.html" class="tag-card">programação (12)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (11)</a>
 <a href="/tags/fisica.html" class="tag-card">física (10)</a>
+<a href="/tags/matematica.html" class="tag-card">matemática (9)</a>
+<a href="/tags/estatistica.html" class="tag-card">estatística (7)</a>
+<a href="/tags/cursos.html" class="tag-card">cursos (6)</a>
 <a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (6)</a>
-<a href="/tags/matematica.html" class="tag-card">matemática (6)</a>
 <a href="/tags/einstein.html" class="tag-card">einstein (5)</a>
 <a href="/tags/relatividade.html" class="tag-card">relatividade (5)</a>
 <a href="/tags/yaml.html" class="tag-card">YAML (4)</a>
-<a href="/tags/estatistica.html" class="tag-card">estatística (4)</a>
+<a href="/tags/distribuicao-normal.html" class="tag-card">distribuição normal (4)</a>
 <a href="/tags/serie.html" class="tag-card">série (4)</a>
 <a href="/tags/latex.html" class="tag-card">LaTeX (3)</a>
 <a href="/tags/python.html" class="tag-card">Python (3)</a>
 <a href="/tags/r.html" class="tag-card">R (3)</a>
-<a href="/tags/cursos.html" class="tag-card">cursos (3)</a>
+<a href="/tags/calculo.html" class="tag-card">cálculo (3)</a>
+<a href="/tags/exercicios.html" class="tag-card">exercícios (3)</a>
 <a href="/tags/mecanica-quantica.html" class="tag-card">mecânica quântica (3)</a>
 <a href="/tags/relatividade-especial.html" class="tag-card">relatividade especial (3)</a>
 <a href="/tags/pessoal.html" class="tag-card">pessoal (2)</a>
@@ -36,12 +39,22 @@ page-layout: full
 <a href="/tags/sobre-mim.html" class="tag-card">sobre mim (2)</a>
 <a href="/tags/sobre-o-blog.html" class="tag-card">sobre o blog (2)</a>
 <a href="/tags/analise-combinatoria.html" class="tag-card">análise combinatória (1)</a>
-<a href="/tags/distribuicao-normal.html" class="tag-card">distribuição normal (1)</a>
+<a href="/tags/aplicacoes.html" class="tag-card">aplicações (1)</a>
+<a href="/tags/conjuntos.html" class="tag-card">conjuntos (1)</a>
+<a href="/tags/conjuntos-numericos.html" class="tag-card">conjuntos numéricos (1)</a>
+<a href="/tags/derivadas.html" class="tag-card">derivadas (1)</a>
+<a href="/tags/escore-z.html" class="tag-card">escore-z (1)</a>
 <a href="/tags/fatorial.html" class="tag-card">fatorial (1)</a>
 <a href="/tags/filosofia-da-matematica.html" class="tag-card">filosofia da matemática (1)</a>
+<a href="/tags/funcoes.html" class="tag-card">funções (1)</a>
 <a href="/tags/formulas.html" class="tag-card">fórmulas (1)</a>
 <a href="/tags/gravidade.html" class="tag-card">gravidade (1)</a>
 <a href="/tags/historia-da-ciencia.html" class="tag-card">história da ciência (1)</a>
+<a href="/tags/historia-do-calculo.html" class="tag-card">história do cálculo (1)</a>
+<a href="/tags/integrais.html" class="tag-card">integrais (1)</a>
+<a href="/tags/lei-dos-grandes-numeros.html" class="tag-card">lei dos grandes números (1)</a>
+<a href="/tags/limites.html" class="tag-card">limites (1)</a>
+<a href="/tags/normalidade-aproximada.html" class="tag-card">normalidade aproximada (1)</a>
 <a href="/tags/principio-da-equivalencia.html" class="tag-card">princípio da equivalência (1)</a>
 <a href="/tags/sumario-de-latex.html" class="tag-card">sumário de LaTeX (1)</a>
 <a href="/tags/sumario-de-python.html" class="tag-card">sumário de Python (1)</a>
@@ -52,4 +65,6 @@ page-layout: full
 <a href="/tags/sumario-de-matematica.html" class="tag-card">sumário de matemática (1)</a>
 <a href="/tags/sumario-de-programacao.html" class="tag-card">sumário de programação (1)</a>
 <a href="/tags/sumario-do-blog-pessoal.html" class="tag-card">sumário do blog pessoal (1)</a>
+<a href="/tags/tabela-z.html" class="tag-card">tabela Z (1)</a>
+<a href="/tags/teorema-central-do-limite.html" class="tag-card">teorema central do limite (1)</a>
 :::

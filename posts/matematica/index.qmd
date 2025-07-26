@@ -40,7 +40,8 @@ Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundida
 
 ## 🎓 🧮 Cursos Disponíveis
 
-**⏳ Em Breve!**
+### [🎓 🧮 Curso de Cálculo Diferencial e Integral](../cursos/matematica/calculo/index.qmd)
+Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o Cálculo Diferencial e Integral de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento.
 
 ## 🧭 🧮 Guia de Leitura
 

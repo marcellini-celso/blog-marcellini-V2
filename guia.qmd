@@ -26,7 +26,7 @@ format: html
 ## 📊 Estatística
 
 - [Todos os posts de Estatística](posts/estatistica/)
-- [Curso: Distribuição Normal (Parte 1)](posts/estatistica/distribuicao-normal.qmd)
+- [Curso: Distribuição Normal (Parte 1)](posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.qmd)
 - [Guia de Leitura — Estatística](posts/estatistica/guia-estatistica.qmd)
 
 ## ⚛️ Física

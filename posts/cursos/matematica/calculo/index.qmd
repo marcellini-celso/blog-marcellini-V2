@@ -1,0 +1,104 @@
+---
+title: "Curso de Cálculo Diferencial e Integral"
+description: "Introdução ao curso de Cálculo com teoria, aplicações e muitos exemplos resolvidos."
+author: "Blog do Marcellini"
+date: "2025-07-23"
+lang: pt-BR
+categories: [cálculo, matemática, derivadas, integrais, funções, limites]
+tags: [cálculo, matemática, derivadas, integrais, funções, limites]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+---
+
+[← Voltar para a Seção de Matemática 🧮](../../../matematica/index.qmd)
+
+[← Voltar para os Cursos de Matemática 🎓 🧮](../index.qmd)
+
+<div style="display: flex; gap: 1em; justify-content: center;">
+  <figure style="width: 45%; text-align: center;">
+    <img src="images/500px-GodfreyKneller-IsaacNewton-1689.jpeg" alt="Isaac Newton" style="width: 100%;">
+    <figcaption><strong>Isaac Newton</strong></figcaption>
+  </figure>
+  <figure style="width: 45%; text-align: center;">
+    <img src="images/Gottfried_Wilhelm_von_Leibniz.jpeg" alt="Gottfried Leibniz" style="width: 100%;">
+    <figcaption><strong>Gottfried Wilhelm Leibniz</strong></figcaption>
+  </figure>
+</div>
+
+::: {.callout-note title="🧮 Bem-vindo ao Curso de Cálculo!"}
+Este curso foi planejado para estudantes que desejam compreender **Cálculo Diferencial e Integral** de maneira clara, visual e conectada com aplicações reais e ferramentas computacionais.
+:::
+
+## 📘 Objetivos do Curso
+
+- Desenvolver o raciocínio matemático necessário para trabalhar com limites, derivadas e integrais;
+- Apresentar aplicações do cálculo na Física, Engenharia, Economia e Computação;
+- Explorar técnicas de resolução de problemas com apoio de gráficos e ferramentas computacionais.
+
+## 📚 Estrutura dos Módulos
+
+### 🔹 Módulo 1 — Fundamentos de Cálculo
+- [1.1 O que é Cálculo? História e aplicações](modulo-1/1.1-introducao.qmd)
+- [1.2 Conjuntos Numéricos](modulo-1/1.2-conjuntos.qmd)
+- 1.3 Intervalos e Inequações
+- 1.4 Funções: definição, domínio e imagem
+- 1.5 Gráficos de funções e transformações
+- 1.6 Funções elementares
+- 1.7 Limites: definição e propriedades
+- 1.8 Limites laterais e infinitos
+- 1.9 Continuidade
+
+### 🔹 Módulo 2 — Derivadas
+- Definição de derivada
+- Regras de derivação
+- Aplicações: máximos, mínimos e otimização
+- Derivadas implícitas e logarítmicas
+
+### 🔹 Módulo 3 — Integrais
+- Integral definida e indefinida
+- Técnicas de integração
+- Áreas e volumes
+- Aplicações físicas
+
+### 🔹 Módulo 4 — Tópicos Avançados e Aplicações
+- Equações diferenciais
+- Séries de Taylor
+- Modelagem com cálculo
+- Ferramentas computacionais
+
+## 🚀 Como acompanhar o curso
+
+- Os posts são numerados por módulos e tópicos (ex: 1.2, 2.4...);
+- Cada post contém explicação teórica, exemplos resolvidos, exercícios e visualizações;
+- Você pode acompanhar pelo [Blog do Marcellini](https://blogdomarcellini.com.br) ou seguir no Instagram para novidades!
+
+---
+
+🎯 **Próximo Post:** 👉 [1.1 O que é Cálculo? História e aplicações](modulo-1/1.1-introducao.qmd)
+
+---
+
+🔝 [Voltar ao Topo](index.qmd)
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+## 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

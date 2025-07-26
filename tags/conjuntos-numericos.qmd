@@ -1,0 +1,10 @@
+---
+title: "conjuntos numéricos"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **conjuntos numéricos**
+
+- [1.2 Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html)

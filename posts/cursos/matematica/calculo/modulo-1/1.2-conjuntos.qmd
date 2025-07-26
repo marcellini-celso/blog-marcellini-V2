@@ -235,8 +235,8 @@ Sua obra lançou as bases para a matemática moderna, a lógica e a análise, in
   - Conjunto dos racionais $\mathbb{Q}$.
 
 - **Conjunto Não Enumerável** (ou **incontável**): é um conjunto tão “grande” que **não pode ser listado** em sequência, mesmo infinita.  
-  O exemplo mais famoso é:
-  - O conjunto dos números reais $\mathbb{R}$ $($especialmente os irracionais, como $\pi$ e $\sqrt{2}$$)$.
+  O **exemplo** mais famoso é:
+  - O conjunto dos números reais $\mathbb{R}$ $(\text{especialmente os irracionais } \mathbb{R} \setminus \mathbb{Q})$.
 
 **Resumo:**  
 Enumerável → Pode listar (como uma fila infinita).  
@@ -428,7 +428,15 @@ E o inverso também é verdadeiro: todo número racional tem representação dec
 
 ### 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal
 
+> 🔍 **Teorema:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5.**
+
 ::: {.callout-important collapse=false title="🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal"}
+
+🔍 **Teorema:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5.**
+
+---
+
+✍️ **Demonstração:**
 
  Seja uma fração racional irredutível $\dfrac{a}{b}$, com $a \in \mathbb{Z}$ e $b \in \mathbb{N}$.
 

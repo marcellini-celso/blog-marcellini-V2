@@ -1,6 +1,6 @@
 ---
 title: "🧠 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento"
-description: "Entenda os principais conjuntos numéricos, os tipos de intervalos e como resolver inequações básicas."
+description: "Neste módulo, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, com ênfase em suas principais propriedades e exemplos característicos, oferecendo uma visão mais aprofundada de cada um."
 author: "Blog do Marcellini"
 date: "2025-07-27"
 lang: pt-BR

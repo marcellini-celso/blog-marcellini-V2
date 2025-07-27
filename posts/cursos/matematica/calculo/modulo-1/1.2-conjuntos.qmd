@@ -1,6 +1,6 @@
 ---
 title: "🔢 Módulo 1.2: Conjuntos Numéricos"
-description: "Entenda os principais conjuntos numéricos, os tipos de intervalos e como resolver inequações básicas."
+description: "Neste módulo, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos."
 author: "Blog do Marcellini"
 date: "2025-07-23"
 lang: pt-BR
@@ -26,10 +26,6 @@ page-layout: full
 [← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
 
 🎯 **Post Anterior:** 👉 [1.1 O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.qmd)
-
----
-
-Neste post, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos.
 
 ---
 

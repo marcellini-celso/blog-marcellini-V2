@@ -1,5 +1,5 @@
 ---
-title: "Curso de Cálculo Diferencial e Integral"
+title: "🎓 Curso de Cálculo Diferencial e Integral"
 description: "Introdução ao curso de Cálculo com teoria, aplicações e muitos exemplos resolvidos."
 author: "Blog do Marcellini"
 date: "2025-07-23"
@@ -36,20 +36,27 @@ page-layout: full
 </div>
 
 ::: {.callout-note title="🧮 Bem-vindo ao Curso de Cálculo!"}
-Este curso foi planejado para estudantes que desejam compreender **Cálculo Diferencial e Integral** de maneira clara, visual e conectada com aplicações reais e ferramentas computacionais.
+Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o **Cálculo Diferencial e Integral** de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.
+
+Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)**, com tópicos mais avançados e discussões teóricas adicionais, que podem ser omitidas em uma primeira leitura, conforme o ritmo e interesse do estudante.
 :::
 
-## 📘 Objetivos do Curso
+<div class=invisivel>
+## 🎓 Curso de Cálculo Diferencial e Integral
+</div>
+
+### 📘 Objetivos do Curso
 
 - Desenvolver o raciocínio matemático necessário para trabalhar com limites, derivadas e integrais;
 - Apresentar aplicações do cálculo na Física, Engenharia, Economia e Computação;
 - Explorar técnicas de resolução de problemas com apoio de gráficos e ferramentas computacionais.
 
-## 📚 Estrutura dos Módulos
+### 📚 Estrutura dos Módulos
 
-### 🔹 Módulo 1 — Fundamentos de Cálculo
+#### 🔹 Módulo 1 — Fundamentos de Cálculo
 - [1.1 O que é Cálculo? História e aplicações](modulo-1/1.1-introducao.qmd)
 - [1.2 Conjuntos Numéricos](modulo-1/1.2-conjuntos.qmd)
+- [1.2-AP Conjuntos Numéricos -- Aprofundamento](modulo-1/1.2-conjuntos-ap.qmd)
 - 1.3 Intervalos e Inequações
 - 1.4 Funções: definição, domínio e imagem
 - 1.5 Gráficos de funções e transformações
@@ -58,29 +65,42 @@ Este curso foi planejado para estudantes que desejam compreender **Cálculo Dife
 - 1.8 Limites laterais e infinitos
 - 1.9 Continuidade
 
-### 🔹 Módulo 2 — Derivadas
+#### 🔹 Módulo 2 — Derivadas
 - Definição de derivada
 - Regras de derivação
 - Aplicações: máximos, mínimos e otimização
 - Derivadas implícitas e logarítmicas
 
-### 🔹 Módulo 3 — Integrais
+#### 🔹 Módulo 3 — Integrais
 - Integral definida e indefinida
 - Técnicas de integração
 - Áreas e volumes
 - Aplicações físicas
 
-### 🔹 Módulo 4 — Tópicos Avançados e Aplicações
+#### 🔹 Módulo 4 — Tópicos Avançados e Aplicações
 - Equações diferenciais
 - Séries de Taylor
 - Modelagem com cálculo
 - Ferramentas computacionais
 
-## 🚀 Como acompanhar o curso
+### 🚀 Como acompanhar o curso
 
 - Os posts são numerados por módulos e tópicos (ex: 1.2, 2.4...);
 - Cada post contém explicação teórica, exemplos resolvidos, exercícios e visualizações;
-- Você pode acompanhar pelo [Blog do Marcellini](https://blogdomarcellini.com.br) ou seguir no Instagram para novidades!
+- Acompanhe as novidades do blog:
+
+  👉  [🎓 📚 Blog do Marcellini](https://blogdomarcellini.com.br)
+
+  👉  [📸 Instagram](https://www.instagram.com/profmarcellini/)
+
+---
+
+# 📚 Referências
+
+- Anton, Howard; Bivens, Irl; Davis, Stephen. *Cálculo - Volume I*, $10^{\underline{a}}$ Edição. Bookman, 2014.  
+- Courant, Richard; John, Fritz. *Introduction to Calculus and Analysis - Volume I*. John Wiley and Sons, 1965.  
+- Guidorizzi, Hamilton Luiz. *Um Curso de Cálculo - Volume 1*, $5^{\underline{a}}$ Edição. LTC, 2001.  
+- Lima, Elon Lages. *Curso de Análise - Volume 1*, $11^{\underline{\mathrm{a}}}$ Edição. IMPA, 2004.
 
 ---
 

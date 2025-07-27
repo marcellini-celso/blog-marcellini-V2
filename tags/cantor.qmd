@@ -1,11 +1,10 @@
 ---
-title: "conjuntos"
+title: "Cantor"
 format: html
 ---
 
 [⬅ Voltar para Todas as Tags](../tags.qmd)
 
-## Posts com a tag **conjuntos**
+## Posts com a tag **Cantor**
 
-- [🔢 Módulo 1.2: Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html)
 - [🧠 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)

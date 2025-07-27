@@ -4,6 +4,8 @@ description: "Reflexões sobre a famosa frase de G. H. Hardy à luz da matemáti
 author: "Blog do Marcellini"
 date: 2025-06-23
 lang: pt-BR
+categories: [matemática, filosofia da matemática, artigo]
+tags: [matemática, filosofia da matemática, artigo]
 format:
   html:
     toc: true
@@ -15,8 +17,6 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [matemática, filosofia da matemática, artigo]
-tags: [matemática, filosofia da matemática, artigo]
 execute:
   echo: false
   warning: false

@@ -1,5 +1,5 @@
 ---
-title: "1.1 O que é Cálculo? História e aplicações"
+title: "🧠 Módulo 1.1: O que é Cálculo? História e aplicações"
 description: "Entenda o que é cálculo diferencial e integral, de onde surgiu e por que ele é tão importante."
 author: "Blog do Marcellini"
 date: "2025-07-23"
@@ -33,7 +33,11 @@ page-layout: full
 - Apresentar algumas aplicações práticas do cálculo.
 :::
 
-## 🧠 O que é Cálculo?
+<div class=invisivel>
+## 🧠 Módulo 1.1: O que é Cálculo? História e aplicações
+</div>
+
+### O que é o Cálculo?
 
 O **Cálculo Diferencial e Integral**, ou simplesmente **Cálculo**, é um ramo da Matemática que estuda:
 
@@ -43,7 +47,7 @@ O **Cálculo Diferencial e Integral**, ou simplesmente **Cálculo**, é um ramo 
 
 É uma das ferramentas mais poderosas da ciência moderna, presente em praticamente todas as áreas do conhecimento científico e tecnológico.
 
-## 🧭 Breve História
+### 🧭 Breve História
 
 O cálculo foi desenvolvido no século XVII por dois matemáticos independentes:
 
@@ -52,7 +56,7 @@ O cálculo foi desenvolvido no século XVII por dois matemáticos independentes:
 
 Apesar de disputas históricas, hoje reconhecemos a contribuição essencial de ambos.
 
-## ⚙️ Por que estudar Cálculo?
+### ⚙️ Por que estudar Cálculo?
 
 O cálculo permite:
 
@@ -63,7 +67,7 @@ O cálculo permite:
 - Desenvolver gráficos de funções complexas;
 - Prever comportamentos com base em taxas de mudança.
 
-## 🌍 Aplicações do Cálculo
+### 🌍 Aplicações do Cálculo
 
 - **Física**: movimento, força, energia, eletricidade;
 - **Engenharia**: estruturas, circuitos, controle de sistemas;
@@ -72,13 +76,13 @@ O cálculo permite:
 - **Computação**: gráficos 3D, inteligência artificial, análise de algoritmos;
 - **Medicina**: tomografia, modelos farmacocinéticos.
 
-## 📌 Conclusão
+### 📌 Conclusão
 
 O cálculo está em todo lugar. Ao longo deste curso, vamos entender passo a passo como essa poderosa linguagem matemática funciona e como podemos aplicá-la para resolver problemas reais.
 
 ---
 
-🎯 **Próximo Post:** 👉 [1.2 Conjuntos numéricos](1.2-conjuntos.qmd)
+🎯 **Próximo Post:** 👉 [1.2 Conjuntos Numéricos](1.2-conjuntos.qmd)
 
 ---
 

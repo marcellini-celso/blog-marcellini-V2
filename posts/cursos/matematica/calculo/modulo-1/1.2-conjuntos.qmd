@@ -1,11 +1,11 @@
 ---
-title: "1.2 Conjuntos Numéricos"
+title: "🔢 Módulo 1.2: Conjuntos Numéricos"
 description: "Entenda os principais conjuntos numéricos, os tipos de intervalos e como resolver inequações básicas."
 author: "Blog do Marcellini"
 date: "2025-07-23"
 lang: pt-BR
-categories: [matemática, cálculo, conjuntos, conjuntos numéricos]
-tags: [matemática, cálculo, conjuntos, conjuntos numéricos]
+categories: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios]
+tags: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios]
 format:
   html:
     toc: true
@@ -29,11 +29,13 @@ page-layout: full
 
 ---
 
-Neste post, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos. Em uma primeira leitura, as seções de aprofundamento podem ser omitidas.
+Neste post, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos.
 
 ---
 
-## 🔢 Conjuntos Numéricos
+<div class=invisivel>
+## 🔢 Módulo 1.2: Conjuntos Numéricos
+</div>
 
 ### ✨ O que são Conjuntos Numéricos?
 
@@ -110,60 +112,6 @@ $\sqrt{2} = 1{,}4142135\ldots$
 📜 A existência dos números irracionais foi uma descoberta histórica marcante na Grécia Antiga, especialmente entre os pitagóricos, que inicialmente acreditavam que todo número era racional — até a demonstração de que $\sqrt{2}$ não poderia ser expresso como uma fração.
 :::
 
-### 🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional"}
-**Proposição:** $\sqrt{2} \notin \mathbb{Q}$, ou seja, $\sqrt{2}$ é irracional.
-
-**Demonstração (por redução ao absurdo):**
-
-Suponha, por absurdo, que $\sqrt{2}$ seja um número racional. Então, existem inteiros $a$ e $b$, com $b \ne 0$, tais que:
-
-$$
-\sqrt{2} = \frac{a}{b}
-$$
-
-Além disso, podemos supor que a fração $\dfrac{a}{b}$ está **irredutível**, ou seja, $\mathrm{mdc}(a, b) = 1$.
-
-Elevando ambos os lados ao quadrado:
-
-$$
-2 = \frac{a^2}{b^2} \Rightarrow a^2 = 2b^2
-$$
-
-Portanto, $a^2$ é **par**, o que implica que $a$ também é par, pois se $a$ fosse ímpar, $a^2$ também seria ímpar. Assim, existe um inteiro $k$ tal que $a = 2k$.
-
-Substituindo:
-
-$$
-(2k)^2 = 2b^2 \Rightarrow 4k^2 = 2b^2 \Rightarrow b^2 = 2k^2
-$$
-
-Logo, $b^2$ também é par, e portanto $b$ é par.
-
-**Contradição**: $a$ e $b$ são pares ⇒ $\mathrm{mdc}(a, b) \geq 2$,  
-contrariando a hipótese de que a fração $\dfrac{a}{b}$ era irredutível.
-
-Logo, a suposição de que $\sqrt{2}$ é racional é falsa.  
-$$
-\therefore \sqrt{2} \notin \mathbb{Q}
-$$
-:::
-
-### 🧠 Aprofundamento: Comentário sobre o método de demonstração
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: Comentário sobre o método de demonstração"}
-A demonstração da irracionalidade de $\sqrt{2}$ é um clássico exemplo de **prova por redução ao absurdo** (ou **prova indireta**).
-
-Nesse método, parte-se da **suposição contrária** ao que se deseja provar — no caso, supõe-se que $\sqrt{2} \in \mathbb{Q}$, ou seja, que pode ser escrita como uma fração $\dfrac{a}{b}$ com $a$ e $b \in \mathbb{Z}$ e $\mathrm{mdc}(a,b) = 1$.
-
-A partir dessa hipótese, deduz-se logicamente que $a$ e $b$ seriam ambos pares — o que contradiz a condição inicial de que $a$ e $b$ não têm fatores comuns.
-
-Essa contradição mostra que a suposição original não pode ser verdadeira.  
-Assim, conclui-se que $\sqrt{2}$ **não** é um número racional.
-
-Esse método é bastante utilizado em várias áreas da Matemática, principalmente quando não se conhece uma forma direta de prova.
-:::
 
 ### 📘 🧠 Exercícios — Identificando Números Irracionais
 
@@ -212,6 +160,9 @@ b) **Falso** — $\sqrt{25} = 5$, e 5 é um número natural, portanto racional.
 c) **Verdadeiro** — **o conjunto dos números racionais é enumerável** (ou seja, existe uma correspondência com os números naturais), o que significa que ele é **contável**.  
 Já os números irracionais formam um conjunto **não enumerável**, ou seja, **incontável**. Isso foi demonstrado por **Georg Cantor**, que provou que a quantidade de números reais (e, portanto, irracionais) é **estritamente maior** que a quantidade de números racionais.  
 Assim, existem "infinitamente mais" irracionais do que racionais na reta real.
+**Resumo:**  
+Enumerável → Pode listar (como uma fila infinita).  
+Não enumerável → Não pode listar; tem “mais” elementos que os naturais.
 :::
 
 ### 📜 Nota Histórica: 👤 Georg Cantor (1845–1918)
@@ -225,60 +176,6 @@ Apesar da resistência de muitos matemáticos de sua época, como **Kronecker**,
 Sua obra lançou as bases para a matemática moderna, a lógica e a análise, influenciando profundamente áreas como a topologia, a computabilidade e a filosofia da matemática.
 :::
 
-### 🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis"}
-- **Conjunto Enumerável** (ou **contável**): é um conjunto cujos elementos podem ser colocados em correspondência biunívoca com os números naturais. Ou seja, podemos listar seus elementos numa sequência (mesmo que infinita).  
-  Exemplos:
-  - Conjunto dos números naturais $\mathbb{N}$.
-  - Conjunto dos inteiros $\mathbb{Z}$.
-  - Conjunto dos racionais $\mathbb{Q}$.
-
-- **Conjunto Não Enumerável** (ou **incontável**): é um conjunto tão “grande” que **não pode ser listado** em sequência, mesmo infinita.  
-  O **exemplo** mais famoso é:
-  - O conjunto dos números reais $\mathbb{R}$ $(\text{especialmente os irracionais } \mathbb{R} \setminus \mathbb{Q})$.
-
-**Resumo:**  
-Enumerável → Pode listar (como uma fila infinita).  
-Não enumerável → Não pode listar; tem “mais” elementos que os naturais.
-:::
-
-### 🧠 Aprofundamento: O Método Diagonal de Cantor
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: O Método Diagonal de Cantor"}
-O **método diagonal de Cantor** é uma prova elegante e poderosa criada por **Georg Cantor** para demonstrar que **os números reais são mais numerosos do que os números naturais**, ou seja, que o conjunto dos reais não é enumerável.
-
-🧩 **Ideia principal**
-
-Cantor mostrou que **nenhuma lista que tente enumerar todos os números reais entre 0 e 1 pode ser completa**. Ele faz isso construindo um número novo, que **difere de todos os números da lista**, alterando **diagonalmente** os dígitos da representação decimal.
-
-🔍 **Passo a passo simplificado:**
-
-1. Suponha que seja possível listar todos os números reais entre 0 e 1 como:
-   ```
-   x₁ = 0.a₁₁ a₁₂ a₁₃ a₁₄ ...
-   x₂ = 0.a₂₁ a₂₂ a₂₃ a₂₄ ...
-   x₃ = 0.a₃₁ a₃₂ a₃₃ a₃₄ ...
-   ...
-   ```
-2. Cantor constrói um novo número real, alterando **os dígitos da diagonal**:  
-   - Escolhe o 1º dígito do 1º número, o 2º dígito do 2º número, o 3º dígito do 3º número, etc.  
-   - Em cada posição, troca o dígito por um diferente (por exemplo, se for 5, troca por 6).
-
-3. O novo número, assim construído, **difere de cada número da lista em ao menos um dígito** — o da diagonal.
-
-✅ **Conclusão:**
-
-Esse número **não pode estar na lista original**, o que leva à contradição: portanto, **os reais não são enumeráveis**.
-
-<div style="text-align: center;">
-  <img src="../images/Diagonal_argument_01_svg.svg" alt="Argumento diagonal de Cantor" width="60%">
-  <figcaption><strong>Método Diagonal de Cantor</strong></figcaption>
-  <p style="font-size: 0.8em; margin-top: 0.5em;">
-    Crédito: Por Jochen Burghardt — Obra do próprio, <a href="https://commons.wikimedia.org/w/index.php?curid=30402203" target="_blank">CC BY-SA 3.0</a>
-  </p>
-</div>
-:::
 
 ### ✨ Representação Decimal dos Números Reais
 
@@ -425,48 +322,6 @@ Por exemplo:
 E o inverso também é verdadeiro: todo número racional tem representação decimal **finita ou periódica**.
 
 ---
-
-### 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal
-
-> 🔍 **Teorema:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5.**
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal"}
-
-🔍 **Teorema:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5.**
-
----
-
-✍️ **Demonstração:**
-
- Seja uma fração racional irredutível $\dfrac{a}{b}$, com $a \in \mathbb{Z}$ e $b \in \mathbb{N}$.
-
- A representação decimal de $\dfrac{a}{b}$ será **finita** se e somente se for possível escrevê-la como uma fração com denominador da forma $10^n$.
-
- Sabemos que $10^n = 2^n \cdot 5^n$, ou seja, os únicos fatores primos de $10^n$ são **2** e **5**.
-
- Logo, se a fração $\dfrac{a}{b}$ puder ser reescrita com denominador $10^n$, então o denominador original $b$ (já simplificado com $a$) **só pode conter os fatores primos 2 e 5**.
-
- Se $b$ tiver algum outro fator primo (como 3, 7, 11, etc.), então **não será possível transformá-lo em uma potência de 10**, e sua representação decimal será **infinita periódica** (isto é, uma **dízima periódica**).
-
- ---
-
- 🔢 **Exemplos**:
-
- - $\dfrac{3}{8} = 0{,}375$ ✅  
-   (Denominador $8 = 2^3$, apenas fator 2 → decimal finita)
-
- - $\dfrac{7}{20} = 0{,}35$ ✅  
-   (Denominador $20 = 2^2 \cdot 5$, apenas fatores 2 e 5 → decimal finita)
-
- - $\dfrac{4}{15} = 0{,}\overline{26}$ ❌  
-   (Denominador $15 = 3 \cdot 5$, contém fator 3 → dízima periódica)
-
- - $\dfrac{5}{6} = 0{,}\overline{83}$ ❌  
-   (Denominador $6 = 2 \cdot 3$, contém fator 3 → dízima periódica)
-
- ✅ **Conclusão:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5**.
-
-:::
 
 
 ### 📘 🧠 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz
@@ -784,150 +639,6 @@ $$
 
 ---
 
-### 🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo"}
-
-Para compreender melhor as propriedades dos números reais, é útil adotar uma perspectiva mais abstrata e estrutural. A seguir, apresentamos um resumo das propriedades que caracterizam $\mathbb{R}$ como um **corpo ordenado completo**.
-
----
-
-🔷 **1. Corpo $(\mathbb{R}, +, \cdot)$**
-
-Um **corpo** (ou **campo**) é um conjunto não vazio munido de duas operações, adição ($+$) e multiplicação ($\cdot$), satisfazendo as seguintes propriedades:
-
- **Aditivas:**
-
-- *Fechamento:* Se $a, b \in \mathbb{R}$, então $a + b \in \mathbb{R}$.
-- *Associatividade:* $(a + b) + c = a + (b + c)$.
-- *Elemento neutro:* Existe $0 \in \mathbb{R}$ tal que $a + 0 = a$.
-- *Elemento simétrico:* Para cada $a \in \mathbb{R}$, existe $-a$ tal que $a + (-a) = 0$.
-- *Comutatividade:* $a + b = b + a$.
-
- **Multiplicativas:**
-
-- *Fechamento:* Se $a, b \in \mathbb{R}$, então $a \cdot b \in \mathbb{R}$.
-- *Associatividade:* $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.
-- *Elemento neutro:* Existe $1 \in \mathbb{R}$, com $1 \ne 0$, tal que $a \cdot 1 = a$.
-- *Inverso multiplicativo:* Se $a \ne 0$, existe $a^{-1} \in \mathbb{R}$ tal que $a \cdot a^{-1} = 1$.
-- *Comutatividade:* $a \cdot b = b \cdot a$.
-
- **Distributividade:**
-
-- $a \cdot (b + c) = a \cdot b + a \cdot c$.
-
----
-
- 🔶 **2. Corpo Ordenado**
-
-Além das propriedades anteriores, o conjunto dos reais possui uma **relação de ordem total** $(\leq)$ compatível com as operações, ou seja:
-
-- **Tricotomia**: Para todo $a \in \mathbb{R}$, vale exatamente uma das alternativas: 
-$$a > 0 \text{, } a = 0 \text{ ou } a < 0$$.
-
-- **Fechamento da ordem**:
-
-  - Se $a \leq b$, então $a + c \leq b + c$.
-
-  - Se $0 \leq a$ e $0 \leq b$, então $0 \leq a \cdot b$.
-
-Essa estrutura torna $\mathbb{R}$ um **corpo ordenado**.
-
----
-
- 🟩 **3. Corpo Ordenado Completo**
-
-A **completude** é a propriedade que distingue os números reais dos racionais:
-
-- **Propriedade de completude**: Todo subconjunto não vazio de $\mathbb{R}$ que é limitado superiormente possui um **supremo** (menor dos majorantes) em $\mathbb{R}$.
-
-Essa propriedade não é satisfeita pelos racionais $(\mathbb{Q})$, o que justifica a construção dos reais como extensão de $\mathbb{Q}$.
-
----
-
-📌 **Resumo**: O conjunto dos números reais $\mathbb{R}$ é um **corpo ordenado completo**, estrutura fundamental para a Análise Matemática e outras áreas da Matemática pura e aplicada.
-
-:::
-
-### 🧠 Aprofundamento: A Propriedade de Completude dos Números Reais
-
-::: {.callout-important collapse=false title="🧠 Aprofundamento: A Propriedade de Completude dos Números Reais"}
-
-No conjunto dos números reais $\mathbb{R}$, todo subconjunto **não vazio** e **limitado superiormente** possui um **supremo** (também chamado de **mínimo limite superior**). Essa é a **propriedade de completude** dos reais — algo que **não ocorre** nos racionais $\mathbb{Q}$.
-
-Vamos entender melhor alguns termos importantes:
-
-- **Limitado superiormente**: um conjunto $A \subset \mathbb{R}$ é **limitado superiormente** se existe um número real $M$ tal que **todo elemento** $a \in A$ satisfaz $a \leq M$.
-
-- **Limitado inferiormente**: um conjunto $A \subset \mathbb{R}$ é **limitado inferiormente** se existe $m \in \mathbb{R}$ tal que $a \geq m$ para todo $a \in A$.
-
-- **Majorante**: é qualquer número real $M$ que seja maior ou igual a **todos** os elementos do conjunto. Ex: $10$ é majorante de $A = \{1, 2, 5\}$, mas também é majorante de $A = \{1, 2, 5, 9.9\}$.
-
-- **Minorante**: é um número real $m$ tal que $m \leq a$, para todo $a \in A$.
-
-- **Supremo (limite superior mínimo)**: é o **menor** dos majorantes de um conjunto. Mesmo que ele **não pertença ao conjunto**, ele representa a menor “barreira superior”.  
-
-  **Exemplo:** o conjunto $A = \{x \in \mathbb{Q} \mid x^2 < 2\}$ é limitado superiormente em $\mathbb{Q}$, mas **não possui supremo racional** — pois $\sqrt{2} \notin \mathbb{Q}$.  
-  Já em $\mathbb{R}$, o supremo de $A$ é $\sqrt{2}$.
-
-- **Ínfimo (limite inferior máximo)**: é o **maior** dos minorantes. Análogo ao supremo, mas inferior.
-
-💡 **Resumo importante**:  
-A propriedade de completude garante que os reais “preenchem todos os buracos” da reta numérica. É isso que faz $\mathbb{R}$ ser um **corpo ordenado completo**.
-
-:::
-
-### 👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\{ x \in \mathbb{Q} \mid x^2 < 2 \}$
-
-::: {.callout-tip collapse=true title="👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\\{ x \\in \\mathbb{Q} \\mid x^2 < 2 \\}$"}
-
-Use o código abaixo no Jupyter para visualizar o conjunto de racionais cujo quadrado é menor que 2. A curva $y = x^2$, os racionais $1$, $1.2$, $1.3$, $1.4$ e o supremo $\sqrt{2}$ também são exibidos.
-
-```{python completude}
-import matplotlib.pyplot as plt
-import numpy as np
-
-# Valores de x em um domínio visual interessante
-x = np.linspace(0, 2, 400)
-y = x**2
-
-# Conjunto dos racionais x com x^2 < 2
-# Escolhendo alguns pontos racionais específicos
-rational_x = np.array([1.0, 1.2, 1.3, 1.4])
-rational_y = rational_x**2
-
-# Valor de sqrt(2)
-sqrt2 = np.sqrt(2)
-
-# Criando a imagem
-plt.figure(figsize=(6, 4))
-plt.plot(x, y, label=r'$y = x^2$', color='blue')
-plt.axhline(2, color='gray', linestyle='--', label=r'$y = 2$')
-plt.scatter(rational_x, rational_y, color='red', label=r'$\mathbb{Q}$ com $x^2 < 2$')
-
-# Marcação do supremo
-plt.axvline(sqrt2, color='green', linestyle='--', label=r'$\sup = \sqrt{2}$')
-plt.text(sqrt2 + 0.02, 1, r'$\sqrt{2}$ (irracional)', color='green')
-
-# Ajustes visuais
-plt.title(r'Exemplo: $x \in \mathbb{Q} \mid x^2 < 2$')
-plt.xlabel('x')
-plt.ylabel('y')
-plt.grid(True)
-plt.legend()
-plt.tight_layout()
-
-# Mostrar imagem
-plt.show()
-```
-:::
-
-![Completude da variável observada ao longo do tempo](../images/grafico_completude.png){fig-align="center" width=100% fig-cap="Completude da variável observada ao longo do tempo"}
-
----
-
----
-
 ### 🧠 Exercícios de Revisão
 
 ::: {.callout-note collapse=false title="🧠 Exercícios de Revisão — Módulo 1.2: Conjuntos Numéricos"}
@@ -938,27 +649,32 @@ plt.show()
  2. Escreva os subconjuntos de **ℝ** na ordem crescente de inclusão.
  
  3. Dê **três exemplos** de números irracionais e justifique por que são irracionais.
+
+ 4. Mostre, com um exemplo, a diferença entre representação decimal finita e infinita.
  
- 4. O número 3,727272... é racional? Justifique sua resposta e escreva a fração geratriz.
+ 5. O número 3,727272... é racional? Justifique sua resposta e escreva a fração geratriz.
  
- 5. Transforme a dízima periódica 0,1666... em uma fração.
+ 6. Transforme a dízima periódica 0,1666... em uma fração.
  
- 6. A sequência 1,4142135... representa a raiz quadrada de 2. Essa é uma dízima periódica? Por quê?
+ 7. A sequência 1,4142135... representa a raiz quadrada de 2. Essa é uma dízima periódica? Por quê?
+
+ 8. Sabendo que $a + 7 = b + 7$, o que podemos concluir sobre os números reais $a$ e $b$? Justifique com a propriedade adequada.
+
+ 9. Simplifique a expressão:  
+    $$
+    (-3) \cdot (-x) + (-2x)
+    $$
+    Justifique com a propriedade adequada.
+
+ 10. Seja $x \in \mathbb{R}$ tal que $x \cdot a = x$ e $x \ne 0$. O que podemos concluir sobre $a$?  
+     Justifique com a propriedade envolvida.
  
- 7. Determine se os conjuntos abaixo são enumeráveis ou não enumeráveis:  
-    (a) ℕ (b) ℤ (c) ℚ (d) ℝ (e) Conjunto dos números irracionais positivos
- 
- 8. Use o Método Diagonal de Cantor para demonstrar que os números reais entre 0 e 1 são não enumeráveis.
- 
- 9. Mostre, com um exemplo, a diferença entre representação decimal finita e infinita.
- 
- 10. O conjunto ℝ é um corpo ordenado completo. Explique o que isso significa com suas próprias palavras.
 
 :::
 
-### 📝 Resoluções Comentadas
+### 📝 Resoluções
 
-::: {.callout-important collapse=true title="📝 Resoluções Comentadas — Exercícios de Revisão 1.2"}
+::: {.callout-important collapse=true title="📝 Resoluções"}
 
  1. (a) Irracional (√2 não tem raiz exata)  
     (b) Racional (é uma dízima periódica: 1/3)  
@@ -969,41 +685,48 @@ plt.show()
  2. ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ
  
  3. Exemplos: √3, π, e. São irracionais pois não podem ser escritos como fração de inteiros e sua representação decimal é infinita e não periódica.
+
+ 4. Exemplo:  
+    - 1/4 = 0,25 (decimal finito)  
+    - 1/3 = 0,333... (infinito e periódico)
  
- 4. Sim. 3,727272... é uma dízima periódica.  
+ 5. Sim. 3,727272... é uma dízima periódica.  
     Fração geratriz:  
     Seja x = 3,727272...  
     Então, 100x = 372,7272...  
     Subtraindo: 100x - x = 372,7272... - 3,7272... = 369  
     ⇒ 99x = 369 → x = 369/99 = 41/11
  
- 5. Seja x = 0,1666...  
+ 6. Seja x = 0,1666...  
     10x = 1,666...  
     Subtraindo: 10x - x = 1,666... - 0,1666... = 1.5  
     ⇒ 9x = 1.5 → x = 1.5/9 = 3/18 = 1/6
  
- 6. Não. Essa representação de √2 é infinita **não periódica**, ou seja, é irracional.
+ 7. Não. Essa representação de √2 é infinita **não periódica**, ou seja, é irracional.
+
+ 8. Pela **lei do cancelamento da adição**, se $a + z = b + z$, então $a = b$.  
+    Como $z = 7$, temos:  
+    $$
+    a + 7 = b + 7 \Rightarrow a = b.
+    $$
  
- 7. (a) Enumerável  
-    (b) Enumerável  
-    (c) Enumerável  
-    (d) Não enumerável  
-    (e) Não enumerável
- 
- 8. O método diagonal constrói um número diferente de cada número de uma lista supostamente completa, mostrando que tal lista **nunca é completa**, então ℝ não é enumerável.
- 
- 9. Exemplo:  
-    - 1/4 = 0,25 (decimal finito)  
-    - 1/3 = 0,333... (infinito e periódico)
- 
- 10. Corpo ordenado completo:
-$\mathbb{R}$ tem as operações +, ×, ≤ bem definidas, com propriedades usuais, e satisfaz a **propriedade de completude**: todo conjunto limitado superiormente possui supremo.
+ 9. Primeiro, usamos a propriedade: $(-x)(-y) = x \cdot y$, então:  
+    $$
+    (-3) \cdot (-x) = 3x.
+    $$  
+    Substituindo na expressão:  
+    $$
+    3x + (-2x) = x.
+    $$
+
+ 10. Pela **unicidade da unidade multiplicativa**, se $x \cdot a = x$, então $a = 1$, desde que $x \ne 0$.  
+     Portanto, $a = 1$.
 
 :::
 
 ---
 
-🎯 **Próximo Post:** ⏳ **Em Breve!**
+🎯 **Próximo Post:** 👉 [1.2 Conjuntos Numéricos (Aprofundamento)](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.qmd)
 
 ---
 
@@ -1020,3 +743,4 @@ $\mathbb{R}$ tem as operações +, ×, ≤ bem definidas, com propriedades usuai
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

@@ -79,7 +79,7 @@
     ]
   },
   {
-    "title": "Curso de Cálculo Diferencial e Integral",
+    "title": "🎓 Curso de Cálculo Diferencial e Integral",
     "href": "posts/cursos/matematica/calculo/index.html",
     "tags": [
       "cálculo",
@@ -91,23 +91,38 @@
     ]
   },
   {
-    "title": "1.2 Conjuntos Numéricos",
+    "title": "🔢 Módulo 1.2: Conjuntos Numéricos",
     "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html",
     "tags": [
       "matemática",
       "cálculo",
       "conjuntos",
-      "conjuntos numéricos"
+      "conjuntos numéricos",
+      "exercícios"
     ]
   },
   {
-    "title": "1.1 O que é Cálculo? História e aplicações",
+    "title": "🧠 Módulo 1.1: O que é Cálculo? História e aplicações",
     "href": "posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html",
     "tags": [
       "cálculo",
       "matemática",
       "história do cálculo",
       "aplicações"
+    ]
+  },
+  {
+    "title": "🧠 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento",
+    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html",
+    "tags": [
+      "matemática",
+      "cálculo",
+      "conjuntos",
+      "conjuntos numéricos",
+      "enumerabilidade",
+      "Cantor",
+      "corpo",
+      "exercícios"
     ]
   },
   {

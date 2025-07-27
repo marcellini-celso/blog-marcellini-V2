@@ -7,4 +7,4 @@ format: html
 
 ## Posts com a tag **integrais**
 
-- [Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)
+- [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)

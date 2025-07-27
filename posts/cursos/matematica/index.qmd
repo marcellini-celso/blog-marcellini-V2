@@ -31,8 +31,13 @@ Esta seção reúne conteúdos completos de matemática organizados como cursos,
 
 ## 🎓 🧮 Cursos Disponíveis
 
+
 ### [🎓 🧮 Curso de Cálculo Diferencial e Integral](calculo/index.qmd)
-Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o Cálculo Diferencial e Integral de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.
+
+Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o **Cálculo Diferencial e Integral** de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.
+
+Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)**, com tópicos mais avançados e discussões teóricas adicionais, que podem ser omitidas em uma primeira leitura, conforme o ritmo e interesse do estudante.
+
 
 ## 📖 🧮 Guia de Leitura
 

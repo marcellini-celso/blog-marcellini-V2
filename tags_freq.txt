@@ -3,32 +3,35 @@
 12 programação
 11 sumário
 10 física
-9 matemática
+10 matemática
 7 estatística
 6 cursos
 6 guia de leitura
 5 einstein
+5 exercícios
 5 relatividade
 4 YAML
+4 cálculo
 4 distribuição normal
 4 série
 3 LaTeX
 3 Python
 3 R
-3 cálculo
-3 exercícios
 3 mecânica quântica
 3 relatividade especial
+2 conjuntos
+2 conjuntos numéricos
 2 pessoal
 2 relatividade geral
 2 sobre
 2 sobre mim
 2 sobre o blog
+1 Cantor
 1 análise combinatória
 1 aplicações
-1 conjuntos
-1 conjuntos numéricos
+1 corpo
 1 derivadas
+1 enumerabilidade
 1 escore-z
 1 fatorial
 1 filosofia da matemática

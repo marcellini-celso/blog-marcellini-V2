@@ -504,7 +504,7 @@ $$
 
 ---
 
-🔝 [Voltar ao Topo](1.2-conjuntos.qmd)
+🔝 [Voltar ao Topo](1.2-conjuntos-ap.qmd)
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 

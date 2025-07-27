@@ -461,7 +461,7 @@ $$
 3. Dê a fração geratriz correspondente às seguintes dízimas:  
    a) $0{,}\overline{81}$  
    b) $2{,}\overline{6}$  
-   c) \( 3{,}4\overline{3} \)
+   c) $3{,}4\overline{3}$
 
 4. Um número decimal é $0{,}4\overline{5}$. Escreva-o como fração e simplifique.
 

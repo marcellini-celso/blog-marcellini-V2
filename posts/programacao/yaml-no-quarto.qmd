@@ -1,5 +1,6 @@
 ---
 title: "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos"
+description: "O YAML é a primeira coisa que aparece em um documento `.qmd` — mas para muitos, é também a mais misteriosa."
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -27,7 +28,9 @@ tags: [programação, YAML, Quarto, artigo]
 
 ![YAML](../../images/Yaml_logo.png){width=30% style="margin-bottom: 2rem;"}
 
-# Introdução
+# 📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos
+
+## Introdução
 
 O YAML é a primeira coisa que aparece em um documento `.qmd` — mas para muitos, é também a mais misteriosa.
 
@@ -39,7 +42,7 @@ O YAML é a primeira coisa que aparece em um documento `.qmd` — mas para muito
 
 ---
 
-# O que é YAML?
+## O que é YAML?
 
 YAML significa **“YAML Ain’t Markup Language”**, ou seja, **“YAML não é uma linguagem de marcação”** — embora se pareça com uma.
 
@@ -48,7 +51,7 @@ Ele é um formato **legível por humanos**, usado para declarar configurações.
 
 ---
 
-# Exemplo mínimo
+## Exemplo mínimo
 
 ```yaml
 ---
@@ -60,7 +63,7 @@ format: html
 
 ---
 
-# Onde o YAML é usado no Quarto?
+## Onde o YAML é usado no Quarto?
 
 No **topo de qualquer arquivo `.qmd`**, entre `---` e `---`.
 
@@ -68,7 +71,7 @@ No **topo de qualquer arquivo `.qmd`**, entre `---` e `---`.
 
 ---
 
-# Campos comuns no YAML do Quarto
+## Campos comuns no YAML do Quarto
 
 | Campo         | Descrição                                        |
 |---------------|--------------------------------------------------|
@@ -84,7 +87,7 @@ No **topo de qualquer arquivo `.qmd`**, entre `---` e `---`.
 
 ---
 
-# Exemplo completo
+## Exemplo completo
 
 ```yaml
 ---
@@ -104,7 +107,7 @@ execute:
 
 ---
 
-# Cuidados ao usar YAML
+## Cuidados ao usar YAML
 
 - ✅ **Use espaços, nunca TAB**.
 - ✅ A identação deve ser **consistente**.
@@ -113,7 +116,7 @@ execute:
 
 ---
 
-# Conclusão
+## Conclusão
 
 O YAML pode parecer apenas um bloco técnico no início do `.qmd`, mas ele é a **alma da configuração** no Quarto.  
 Dominar o YAML é essencial para personalizar seus documentos, projetos, sites e livros.
@@ -126,7 +129,7 @@ Dominar o YAML é essencial para personalizar seus documentos, projetos, sites e
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

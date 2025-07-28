@@ -17,7 +17,7 @@ highlight-style: github
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
-# 🧭 📚 🌠 Guia de Leitura — Relatividade Geral
+# 🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral
 
 > _Explore passo a passo uma das teorias mais revolucionárias da Física._
 
@@ -33,11 +33,11 @@ Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão p
 
 ---
 
-### [📚 🌠 Parte 1 — O Problema da Gravidade](relatividade-geral-parte1.qmd)
+## [📚 🌠 Parte 1 — O Problema da Gravidade](relatividade-geral-parte1.qmd)
 
 ---
 
-## ⏳ 📚 🌠 Em breve
+# ⏳ 📚 🌠 Em breve
 
 - **📚 🌠 Parte 2 -- A Gravidade como Curvatura do Espaço-Tempo**
 - **📚 🌠 Parte 3 -- As Equações de Einstein**
@@ -47,7 +47,7 @@ Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão p
 
 ---
 
-## 📚 Leitura complementar
+# 📚 Leitura complementar
 
 - *A Teoria da Relatividade Geral Explicada* — R. Resnick
 - *Gravitation* — Misner, Thorne e Wheeler (avançado)
@@ -56,7 +56,7 @@ Atualmente, apenas a **Parte 1** está disponível. As próximas partes serão p
 
 ---
 
-## ✨ Para continuar explorando
+# ✨ Para continuar explorando
 
 Você pode seguir agora para:
 

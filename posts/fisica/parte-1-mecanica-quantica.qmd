@@ -30,7 +30,10 @@ aliases: [/posts/fisica/100-anos-mecanica-quantica-parte-1.html]
 
 ⚛️ [Voltar ao Guia de Leitura da Série](guia-100-anos-mecanica-quantica.qmd)
 
-# Antes da Revolução Quântica
+# 📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)
+Série especial sobre os 100 anos da Mecânica Quântica. Parte 1: Antes da Revolução Quântica.
+
+## Antes da Revolução Quântica
 
 > *Este post faz parte da série especial "100 Anos da Mecânica Quântica".*
 
@@ -578,7 +581,7 @@ Na Parte 2, veremos como **Werner Heisenberg**, **Erwin Schrödinger** e outros 
 
 ---
 
-## Leitura Seguinte
+# Leitura Seguinte
 
 ➡️ Próxima parte: [Parte 2 — A Revolução Começa (1925)]
 

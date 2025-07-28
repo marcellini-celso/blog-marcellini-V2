@@ -16,13 +16,11 @@ categories: [programação, R, sumário de R, sumário, Quarto]
 tags: [programação, R, sumário de R, sumário, Quarto]
 ---
 
-<div class="invisivel">
-# 📄 📊 R
-</div>
-
 ---
 
 {{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+# 📄 📊 R
 
 R é uma linguagem poderosa para análise estatística e produção de gráficos sofisticados, com suporte a relatórios dinâmicos e reprodutíveis.
 
@@ -43,7 +41,7 @@ Uso da linguagem R em documentos Quarto, com foco em análise de dados, gráfico
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

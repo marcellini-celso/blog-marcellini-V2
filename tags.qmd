@@ -16,10 +16,10 @@ page-layout: full
 <a href="/tags/artigo.html" class="tag-card">artigo (12)</a>
 <a href="/tags/programacao.html" class="tag-card">programação (12)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (11)</a>
+<a href="/tags/cursos.html" class="tag-card">cursos (10)</a>
 <a href="/tags/fisica.html" class="tag-card">física (10)</a>
 <a href="/tags/matematica.html" class="tag-card">matemática (10)</a>
 <a href="/tags/estatistica.html" class="tag-card">estatística (7)</a>
-<a href="/tags/cursos.html" class="tag-card">cursos (6)</a>
 <a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (6)</a>
 <a href="/tags/einstein.html" class="tag-card">einstein (5)</a>
 <a href="/tags/exercicios.html" class="tag-card">exercícios (5)</a>
@@ -46,6 +46,7 @@ page-layout: full
 <a href="/tags/corpo.html" class="tag-card">corpo (1)</a>
 <a href="/tags/derivadas.html" class="tag-card">derivadas (1)</a>
 <a href="/tags/enumerabilidade.html" class="tag-card">enumerabilidade (1)</a>
+<a href="/tags/equacoes-diferenciais.html" class="tag-card">equações diferenciais (1)</a>
 <a href="/tags/escore-z.html" class="tag-card">escore-z (1)</a>
 <a href="/tags/fatorial.html" class="tag-card">fatorial (1)</a>
 <a href="/tags/filosofia-da-matematica.html" class="tag-card">filosofia da matemática (1)</a>
@@ -68,6 +69,7 @@ page-layout: full
 <a href="/tags/sumario-de-matematica.html" class="tag-card">sumário de matemática (1)</a>
 <a href="/tags/sumario-de-programacao.html" class="tag-card">sumário de programação (1)</a>
 <a href="/tags/sumario-do-blog-pessoal.html" class="tag-card">sumário do blog pessoal (1)</a>
+<a href="/tags/series-de-taylor.html" class="tag-card">séries de Taylor (1)</a>
 <a href="/tags/tabela-z.html" class="tag-card">tabela Z (1)</a>
 <a href="/tags/teorema-central-do-limite.html" class="tag-card">teorema central do limite (1)</a>
 :::

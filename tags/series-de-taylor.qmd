@@ -1,0 +1,10 @@
+---
+title: "séries de Taylor"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **séries de Taylor**
+
+- [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)

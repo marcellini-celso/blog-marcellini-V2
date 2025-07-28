@@ -28,14 +28,16 @@ tags: [programação, LaTeX, Quarto, artigo]
 
 ![LaTeX](../../images/LaTeX_logo.svg.png){width=50% style="margin-bottom: 2rem;"}
 
-# Introdução
+# 📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto
+
+## Introdução
 
 O Quarto permite o uso de **fórmulas matemáticas com LaTeX** dentro de arquivos `.qmd`, tanto em linha quanto em blocos.  
 Isso torna possível criar documentos científicos, técnicos e educacionais com notação matemática precisa e elegante.
 
 ---
 
-# Equações Inline
+## Equações Inline
 
 As equações inline são escritas entre `$` e `$`:
 
@@ -51,7 +53,7 @@ A identidade de Euler é: $e^{i\pi} + 1 = 0$
 
 ---
 
-# Equações em Bloco
+## Equações em Bloco
 
 As equações em bloco usam `$$` para delimitar e são centralizadas:
 
@@ -69,7 +71,7 @@ $$
 
 ---
 
-# Sistemas de Equações
+## Sistemas de Equações
 
 Você pode usar `\begin{align}` ou `\begin{cases}`:
 
@@ -93,7 +95,7 @@ $$
 
 ---
 
-# Matrizes
+## Matrizes
 
 ```markdown
 $$
@@ -115,7 +117,7 @@ $$
 
 ---
 
-# Somatórios, Produtos, Integrais
+## Somatórios, Produtos, Integrais
 
 ```markdown
 $$
@@ -147,7 +149,7 @@ $$
 
 ---
 
-# Frações, Potências e Raízes
+## Frações, Potências e Raízes
 
 ```markdown
 $$
@@ -163,7 +165,7 @@ $$
 
 ---
 
-# Lógicas e Conjuntos
+## Lógicas e Conjuntos
 
 ```markdown
 $$
@@ -187,7 +189,7 @@ $$
 
 ---
 
-# Conclusão
+## Conclusão
 
 O suporte a LaTeX no Quarto permite escrever expressões matemáticas com o mesmo poder e precisão de um artigo científico.  
 Esses modelos servem como base para produzir conteúdos técnicos e educacionais com alto padrão visual.
@@ -200,7 +202,7 @@ Esses modelos servem como base para produzir conteúdos técnicos e educacionais
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

@@ -1,6 +1,6 @@
 ---
 title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 3): Gráficos, TCL e Normalidade Aproximada"
-description: "Conversão da apresentação em Beamer para formato de leitura no Quarto."
+description: "Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais."
 author: "Blog do Marcellini"
 date: 2025-07-24
 lang: pt-BR
@@ -19,10 +19,6 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🎓 📊 A Distribuição Normal -- Parte 3
-</div>
-
 ---
 
 [🧭 ← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
@@ -31,7 +27,18 @@ page-layout: full
 
 [🧭 ← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
-![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
+![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=100% style="margin-bottom: 2rem;"}
+
+# 🎓 📊 A Distribuição Normal -- Parte 3
+
+Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais.
+
+::: {.callout-note title="📌 Objetivos do Post"}
+- A identificar variáveis que seguem uma distribuição aproximadamente normal.
+- A reconhecer que a normalidade é uma suposição chave para muitos métodos estatísticos.
+- A utilizar gráficos como histogramas e diagramas de probabilidade normal (Q-Q plots) para avaliar a normalidade dos dados.
+- A interpretar os resultados da análise de normalidade de forma prática e aplicada.
+:::
 
 ---
 
@@ -154,7 +161,7 @@ Mesmo que a distribuição real não seja perfeitamente normal, uma aproximaçã
 
 📈 **Gráfico:**
 
-![Histograma das Alturas (Normal Aproximada)](../images/histograma_normal.png){width=80% style="margin-bottom: 2rem;"}
+![Histograma das Alturas (Normal Aproximada)](../images/histograma_normal.png){width=100% style="margin-bottom: 2rem;"}
 
 > **Gráficos gerados no R com 200 observações simuladas de uma distribuição normal ( $\mu=170, \sigma=8$ ).**
 
@@ -175,7 +182,7 @@ Mesmo que a distribuição real não seja perfeitamente normal, uma aproximaçã
 
 📈 Gráfico:
 
-![Q-Q Plot das Alturas](../images/qqplot_normal.png){width=80% style="margin-bottom: 2rem;"}
+![Q-Q Plot das Alturas](../images/qqplot_normal.png){width=100% style="margin-bottom: 2rem;"}
 
 > **Gráficos gerados no R com 200 observações simuladas de uma distribuição normal ( $\mu=170, \sigma=8$ ).**
 
@@ -438,7 +445,7 @@ Nesta última parte do curso, você aprendeu:
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

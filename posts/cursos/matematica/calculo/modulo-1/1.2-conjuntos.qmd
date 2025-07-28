@@ -4,8 +4,8 @@ description: "Neste módulo, exploramos os conjuntos numéricos fundamentais que
 author: "Blog do Marcellini"
 date: "2025-07-23"
 lang: pt-BR
-categories: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios]
-tags: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios]
+categories: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios, cursos]
+tags: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios, cursos]
 format:
   html:
     toc: true
@@ -25,15 +25,21 @@ page-layout: full
 
 [← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
 
+[← Voltar para o Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
+
 🎯 **Post Anterior:** 👉 [1.1 O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.qmd)
 
 ---
 
-<div class=invisivel>
-## 🔢 Módulo 1.2: Conjuntos Numéricos
-</div>
+# 🔢 Módulo 1.2: Conjuntos Numéricos
 
-### ✨ O que são Conjuntos Numéricos?
+::: {.callout-note title="📌 Objetivos do Post"}
+- Explorar os conjuntos numéricos fundamentais para o cálculo;
+- Conhecer suas principais propriedades;
+- Apresentar exemplos e exercícios característicos.
+:::
+
+## ✨ O que são Conjuntos Numéricos?
 
 Os conjuntos numéricos são grupos de números que compartilham características comuns. Os principais conjuntos que usaremos são:
 
@@ -61,7 +67,7 @@ Os conjuntos numéricos são grupos de números que compartilham característica
 
 ---
 
-### 🧠 **Organização dos Conjuntos Numéricos**
+## 🧠 **Organização dos Conjuntos Numéricos**
 
 Os conjuntos numéricos não estão isolados — eles se organizam em uma **hierarquia** onde cada conjunto é subconjunto de outro mais amplo:
 
@@ -84,7 +90,7 @@ Isso significa, por exemplo, que **todo número natural é também inteiro**, ra
 
 ---
 
-### 🔍 🧠 Saiba Mais: O que é um número irracional?
+## 🔍 🧠 Saiba Mais: O que é um número irracional?
 
 ::: {.callout-tip collapse=false title="🧠 Saiba Mais: O que é um número irracional?"}
 🔢 Como vimos acima, um número irracional é um número real que não pode ser expresso como fração de dois inteiros; ou seja, não existe uma razão $\dfrac{a}{b}$, com $a \in \mathbb{Z}$ e $b \in \mathbb{Z} \setminus {0}$, que o represente de forma exata.
@@ -109,7 +115,7 @@ $\sqrt{2} = 1{,}4142135\ldots$
 :::
 
 
-### 📘 🧠 Exercícios — Identificando Números Irracionais
+## 📘 🧠 Exercícios — Identificando Números Irracionais
 
 ::: {.callout-note collapse=false title="📘 🧠 Exercícios — Identificando Números Irracionais"}
 1. Classifique os números abaixo como **racionais** ou **irracionais**:
@@ -138,7 +144,7 @@ $\sqrt{2} = 1{,}4142135\ldots$
    c) Existem mais números irracionais do que racionais.
 :::
 
-### 📘 Gabarito
+## 📘 Gabarito
 
 ::: {.callout-important collapse=true title="📘 Gabarito"}
 1.  
@@ -161,7 +167,7 @@ Enumerável → Pode listar (como uma fila infinita).
 Não enumerável → Não pode listar; tem “mais” elementos que os naturais.
 :::
 
-### 📜 Nota Histórica: 👤 Georg Cantor (1845–1918)
+## 📜 Nota Histórica: 👤 Georg Cantor (1845–1918)
 
 ::: {.callout-tip collapse=false title="📜 Nota Histórica: 👤 Georg Cantor (1845–1918)"}
 **Georg Cantor** foi um matemático alemão que revolucionou a matemática ao **criar a teoria dos conjuntos** e desenvolver o conceito moderno de **infinito**.  
@@ -173,7 +179,7 @@ Sua obra lançou as bases para a matemática moderna, a lógica e a análise, in
 :::
 
 
-### ✨ Representação Decimal dos Números Reais
+## ✨ Representação Decimal dos Números Reais
 
 Os números reais podem ser representados por uma **expansão decimal finita ou infinita**. Vamos explorar alguns exemplos e distinguir os principais casos:
 
@@ -237,7 +243,7 @@ Considere $\sqrt{2}$:
 
 ---
 
-### ✨ Representação Decimal dos Números Racionais — Dízimas Periódicas
+## ✨ Representação Decimal dos Números Racionais — Dízimas Periódicas
 
 A representação decimal de **todo número racional** (ou seja, frações de inteiros com denominador ≠ 0) **é finita ou uma dízima periódica**.
 
@@ -320,7 +326,7 @@ E o inverso também é verdadeiro: todo número racional tem representação dec
 ---
 
 
-### 📘 🧠 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz
+## 📘 🧠 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz
 
 ::: {.callout-note collapse=false title="📘 Exercícios Resolvidos: Dízimas Periódicas e Fração Geratriz"}
 
@@ -444,7 +450,7 @@ $$
 
 :::
 
-### 📘 🧠 Exercícios: Fração Geratriz de Dízimas Periódicas
+## 📘 🧠 Exercícios: Fração Geratriz de Dízimas Periódicas
 
 ::: {.callout-note collapse=false title="🧠 Exercícios: Fração Geratriz de Dízimas Periódicas"}
 
@@ -468,7 +474,7 @@ $$
 :::
 
 
-### ✅ Gabarito
+## ✅ Gabarito
 
 ::: {.callout-important collapse=true title="Respostas"}
 
@@ -497,7 +503,7 @@ $$
 
 :::
 
-### 📚 **Propriedades dos Conjuntos Numéricos**
+## 📚 **Propriedades dos Conjuntos Numéricos**
 
 🔸 **Definições úteis**
 
@@ -545,7 +551,7 @@ $$
 - Fechados para adição, subtração, multiplicação e divisão (exceto por 0).
 - Densos.
 
-### 📌 Resumo: Propriedades dos Conjuntos Numéricos
+## 📌 Resumo: Propriedades dos Conjuntos Numéricos
 
 ::: {.callout-tip collapse=false title="📌 Resumo: Propriedades dos Conjuntos Numéricos"}
 | Conjunto              | Símbolo | Propriedades principais |
@@ -557,7 +563,7 @@ $$
 | **Reais**             | $\mathbb{R}$      | União dos racionais e irracionais. Fechados para adição, subtração, multiplicação e divisão (exceto por 0). Densos. |
 :::
 
-### 📚 Propriedades Algébricas Básicas dos Números Reais
+## 📚 Propriedades Algébricas Básicas dos Números Reais
 
 ::: {.callout-note collapse=false title="📚 Propriedades Algébricas Básicas dos Números Reais"}
 
@@ -585,16 +591,16 @@ $$
 - **$x + z = y + z \Rightarrow x = y$**  
   _(Lei do cancelamento da adição.)_
 
-- **$z \ne 0 \land x \cdot z = y \cdot z \Rightarrow x = y$**  
+- **$z \ne 0 \text{ e } x \cdot z = y \cdot z \Rightarrow x = y$**  
   _(Lei do cancelamento da multiplicação.)_
 
-- **$x \ne 0 \land y \ne 0 \Rightarrow x \cdot y \ne 0$**  
+- **$x \ne 0 \text{ e } y \ne 0 \Rightarrow x \cdot y \ne 0$**  
   _(Não existem divisores de zero no corpo dos reais.)_
 
 :::
 
 
-### ✏️ Operações Auxiliares
+## ✏️ Operações Auxiliares
 
 ::: {.callout-note collapse=false title="Operações Auxiliares"}
 
@@ -635,7 +641,7 @@ $$
 
 ---
 
-### 🧠 Exercícios de Revisão
+## 🧠 Exercícios de Revisão
 
 ::: {.callout-note collapse=false title="🧠 Exercícios de Revisão — Módulo 1.2: Conjuntos Numéricos"}
 
@@ -668,7 +674,7 @@ $$
 
 :::
 
-### 📝 Resoluções
+## 📝 Resoluções
 
 ::: {.callout-important collapse=true title="📝 Resoluções"}
 
@@ -734,7 +740,7 @@ $$
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

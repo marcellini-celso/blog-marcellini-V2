@@ -1,6 +1,6 @@
 ---
 title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z"
-description: "Conversão da apresentação em Beamer para formato de leitura no Quarto."
+description: "Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais."
 author: "Blog do Marcellini"
 date: 2025-07-24
 lang: pt-BR
@@ -19,10 +19,6 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🎓 📊 A Distribuição Normal -- Parte 2
-</div>
-
 ---
 
 [🧭 ← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
@@ -31,7 +27,17 @@ page-layout: full
 
 [🧭 ← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
-![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
+![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=100% style="margin-bottom: 2rem;"}
+
+# 🎓 📊 A Distribuição Normal -- Parte 2
+
+Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais.
+
+::: {.callout-note title="📌 Objetivos do Post"}
+- Comparação de desempenhos
+- Interpretação gráfica e computacional de probabilidades
+- Fundamentação para estudos futuros em inferência estatística
+:::
 
 ---
 
@@ -223,7 +229,7 @@ Para $z=1,25$, usamos a linha 1.2 e a coluna $0.05 \rightarrow P(Z<1,25)=0,8944$
 
 ## 📊 Tabela Z Acumulada – Normal Padrão [$P(Z<z)$]
 
-![](../images/tabela_z_vetorial.png){fig-align="center" width="80%"}
+![](../images/tabela_z_vetorial.png){fig-align="center" width="100%"}
 
 > *Fonte: Gerada com scipy.stats.norm.cdf para valores de z entre 0,00 e 3,09.*
 
@@ -285,7 +291,7 @@ $$
 
 **Gráfico para o Desafio: Interprete as Áreas**
 
-![](../images/distribuicao_normal_desafio.png){width=80%}
+![](../images/distribuicao_normal_desafio.png){width=100%}
 
 ::: {.small}
 > A curva mostra a distribuição de $X \sim N(50, 10^2)$.  
@@ -411,7 +417,7 @@ A Parte 2 do curso aprofundou o uso prático da distribuiçāo normal e do escor
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

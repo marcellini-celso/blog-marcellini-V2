@@ -17,7 +17,7 @@ highlight-style: github
 
 🧭 📚 🌠 [Voltar ao Guia de Leitura da Série](guia-relatividade-geral.qmd)
 
-# 🛰️ O Problema da Gravidade
+# 📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade
 
 > _Quando a teoria de Newton não era mais suficiente para explicar o universo._
 

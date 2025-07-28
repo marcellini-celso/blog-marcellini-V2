@@ -25,13 +25,11 @@ execute:
 
 ---
 
-<div class="invisivel">
-# 📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
-</div>
-
 ---
 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
+
+# 📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
 
 > **“A beleza é o primeiro teste: não há lugar permanente no mundo para matemática feia.”**  
 > — *G. H. Hardy*, em *A Apologia de um Matemático*

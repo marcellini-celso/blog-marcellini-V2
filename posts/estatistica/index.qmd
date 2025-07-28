@@ -19,11 +19,9 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 📊 Estatística
-</div>
-
 ---
+
+# 📊 Estatística
 
 Explore conceitos estatísticos essenciais, com foco em aplicações, análise de dados e interpretação prática.
 

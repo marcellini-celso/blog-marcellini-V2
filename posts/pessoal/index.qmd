@@ -19,11 +19,9 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🧑‍💻 Blog Pessoal
-</div>
-
 ---
+
+# 🧑‍💻 Blog Pessoal
 
 Neste espaço estão reunidos textos mais livres, anotações do autor, bastidores do blog e reflexões pessoais relacionadas à produção de conteúdo, ensino, leitura e tecnologia.
 

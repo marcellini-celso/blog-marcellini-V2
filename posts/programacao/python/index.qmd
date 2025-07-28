@@ -19,13 +19,11 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🐍 Python
-</div>
-
 ---
 
 {{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+# 🐍 Python
 
 Python é uma linguagem versátil usada amplamente na ciência de dados, automação e programação científica.
 
@@ -46,7 +44,7 @@ Exemplos de uso do Python com Quarto, integração de código com visualizaçõe
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

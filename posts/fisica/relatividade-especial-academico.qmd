@@ -242,14 +242,14 @@ A Relatividade Especial transformou nossa visão do universo. Tempo e espaço s�
 | "O tempo para completamente na velocidade da luz" | Correto para objetos com massa (que não atingem $c$). |
 | "Relatividade é só teoria" | Errado — é uma teoria **comprovada por muitos experimentos**. |
 
-📚 **Referência principal:**  
+# 📚 **Referência principal:**  
 Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
 
 > ⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos.
 
 ---
 
-## 🧭 📘 🛰️ Guia de Leitura -- Relatividade Especial
+# 🧭 📘 🛰️ Guia de Leitura -- Relatividade Especial
 
 ::: {.callout-note icon="📘"}
 **Leu até aqui? Consulte o guia completo de leitura**  

@@ -1,5 +1,6 @@
 ---
 title: "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto"
+description: "O Quarto permite a execução direta de blocos de código Python."
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -32,7 +33,9 @@ execute:
 
 ![Python](../../images/Python.svg.png){width=30% style="margin-bottom: 2rem;"}
 
-# Introdução
+# 📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto
+
+## Introdução
 
 O Quarto permite a execução direta de blocos de código Python em arquivos `.qmd`, tornando possível criar relatórios interativos e reprodutíveis com análises, gráficos e visualizações em Python.
 
@@ -53,13 +56,9 @@ execute:
 ---
 ```
 
-# Introdução
-
-O Quarto permite a execução direta de blocos de código Python em arquivos `.qmd`, tornando possível criar relatórios interativos e reprodutíveis com análises, gráficos e visualizações em Python.
-
 ---
 
-# Bloco de código simples em Python
+## Bloco de código simples em Python
 
 ```{python}
 x = list(range(1, 11))
@@ -69,7 +68,7 @@ y
 
 ---
 
-# Gráfico com matplotlib
+## Gráfico com matplotlib
 
 ```{python}
 import matplotlib.pyplot as plt
@@ -84,7 +83,7 @@ plt.show()
 
 ---
 
-# Usando numpy e seaborn
+## Usando numpy e seaborn
 
 ```{python}
 import numpy as np
@@ -96,7 +95,7 @@ sns.histplot(data, kde=True)
 
 ---
 
-# Análise com pandas
+## Análise com pandas
 
 ```{python}
 import pandas as pd
@@ -107,7 +106,7 @@ df.head()
 
 ---
 
-# Estatísticas descritivas com pandas
+## Estatísticas descritivas com pandas
 
 ```{python}
 df.describe()
@@ -115,7 +114,7 @@ df.describe()
 
 ---
 
-# Gráfico de dispersão
+## Gráfico de dispersão
 
 ```{python}
 sns.scatterplot(data=df, x="sepal_length", y="petal_length", hue="species")
@@ -123,7 +122,7 @@ sns.scatterplot(data=df, x="sepal_length", y="petal_length", hue="species")
 
 ---
 
-# Regressão linear com scikit-learn
+## Regressão linear com scikit-learn
 
 ```{python}
 from sklearn.linear_model import LinearRegression
@@ -140,7 +139,7 @@ print(f"Intercepto: {modelo.intercept_:.2f}")
 
 ---
 
-# Gráfico com linha de regressão
+## Gráfico com linha de regressão
 
 ```{python}
 plt.scatter(X, y, color='gray')
@@ -153,7 +152,7 @@ plt.show()
 
 ---
 
-# Tabela formatada com tabulate
+## Tabela formatada com tabulate
 
 ```{python}
 from tabulate import tabulate
@@ -164,7 +163,7 @@ print(tabulate(tabela, headers='keys', tablefmt='github'))
 
 ---
 
-# Conclusão
+## Conclusão
 
 Com Quarto e Python, é possível gerar relatórios e documentos ricos em conteúdo visual e analítico, integrando texto, código, gráficos e resultados de forma automatizada e elegante.
 
@@ -176,7 +175,7 @@ Com Quarto e Python, é possível gerar relatórios e documentos ricos em conte�
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

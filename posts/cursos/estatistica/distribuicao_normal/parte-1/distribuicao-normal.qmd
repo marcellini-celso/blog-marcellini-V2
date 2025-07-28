@@ -1,6 +1,6 @@
 ---
 title: "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal"
-description: "Conversão da apresentação em Beamer para formato de leitura no Quarto."
+description: "Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais."
 author: "Blog do Marcellini"
 date: 2025-07-24
 lang: pt-BR
@@ -19,10 +19,6 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🎓 📊 A Distribuição Normal -- Parte 1
-</div>
-
 ---
 
 [← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
@@ -31,7 +27,18 @@ page-layout: full
 
 [← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
-![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=50% style="margin-bottom: 2rem;"}
+![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=100% style="margin-bottom: 2rem;"}
+
+# 🎓 📊 A Distribuição Normal -- Parte 1
+
+Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais.
+
+::: {.callout-note title="📌 Objetivos do Post"}
+- A curva de Gauss e a **Regra Empírica**;
+- O conceito de **escore-$z$** e como usá-lo para calcular probabilidades;
+- A interpretação da área sob a curva e suas aplicações em situações reais;
+- Cálculos práticos com o uso da **Tabela Z**, **R** e **Excel**.
+:::
 
 ---
 
@@ -73,7 +80,6 @@ Antes de mergulhar na distribuição normal, é fundamental compreender alguns c
 :::
 
 
-
 ::: {.callout-note collapse=false icon="🌍"}
 ## 🌍 Importância da Distribuição Normal
 
@@ -101,8 +107,6 @@ Porque a normalidade **simplifica a análise estatística** e viabiliza o uso de
 - Visualizar dados de forma clara e comparável.
 
 :::
-
-
 
 
 ## 📏 Curva Normal Padrão
@@ -139,7 +143,6 @@ A área sob a curva corresponde à totalidade da população observada.
 :::
 
 
-
 ## 🎯 Medindo o Invisível
 
 Nem sempre conseguimos observar diretamente as características de uma população. Em muitos casos, lidamos com **conceitos abstratos** — como inteligência, habilidade musical, produtividade ou motivação — que não podem ser medidos de forma direta e objetiva.
@@ -157,7 +160,6 @@ A curva normal nos oferece uma maneira de descrever essa incerteza com precisão
 :::
 
 
-	
 ## 📐 A Curva Normal: Um Pouco Mais Fundo
 
 A curva normal pode ser entendida como a representação gráfica de uma função matemática chamada **função densidade de probabilidade**.
@@ -196,7 +198,6 @@ A área sob a curva representa a distribuição da população em torno da médi
 :::
 
 
-
 ## 📏 Regra Empírica — 68% - 95% - 99,7%
 
 A **Regra Empírica** descreve como os dados se distribuem em torno da média em uma **distribuição normal padrão**.
@@ -215,7 +216,6 @@ Permite identificar rapidamente o que é comum e o que é raro em uma populaçã
 :::
 
 
-
 ## 📌 Parâmetros da Distribuição Normal
 
 A **distribuição normal** não é uma curva única, mas sim uma **família de curvas**.  
@@ -232,7 +232,6 @@ Cada membro dessa família é completamente descrito por **dois parâmetros popu
 Em qualquer distribuição normal, a curva é **perfeitamente simétrica**:  
 o lado esquerdo espelha exatamente o lado direito em relação à média.
 :::
-
 
 
 ### 🎯 Por que esses parâmetros são importantes?
@@ -262,7 +261,6 @@ Essa transformação converte qualquer valor $x$ em um **escore-z**, possibilita
 A média define a posição central das curvas.  
 A forma (altura e largura) é controlada exclusivamente pelo desvio padrão $\sigma$.
 :::
-
 
 
 ## 🎓 Exemplo: Distribuição de QI (Stanford–Binet)
@@ -303,7 +301,6 @@ Portanto, segunda a **Regra Empírica** cerca de **68% da população** tem QI e
 :::
 
 
-
 ### 📊 Visualizando
 
 <div style="text-align: center;">
@@ -318,7 +315,6 @@ Segundo a regra empírica, esse intervalo contém cerca de 68% da população.
 :::
 
 
-
 ### 💡 Conclusão
 
 - O teste Stanford–Binet é calibrado para seguir essa distribuição.
@@ -328,7 +324,6 @@ Segundo a regra empírica, esse intervalo contém cerca de 68% da população.
 :::{.callout-note icon="📘"}
 A distribuição normal é útil para comparar indivíduos à média da população e identificar desempenhos excepcionais.
 :::
-
 
 
 ## 📐 Regra Empírica Aplicada à Distribuição de QI
@@ -348,7 +343,6 @@ A distribuição de QI (com média $\mu = 100$ e desvio padrão $\sigma = 16$) p
 
 Cada faixa da curva representa uma porção da população e foi desenhada com cores **não sobrepostas** para destacar suas contribuições individuais.
 :::
-
 
 
 ## 🧪 Exemplo com Código Python: Visualizando a Regra Empírica
@@ -411,7 +405,6 @@ A linha pontilhada azul marca a **média populacional**.
 :::
 
 
-
 ## 📊 Visualização com `ggplot2` (R)
 
 Vamos recriar o gráfico da Regra Empírica usando `R` e o pacote `ggplot2` para ilustrar os intervalos de 1, 2 e 3 desvios padrão com faixas coloridas distintas.
@@ -464,7 +457,6 @@ O traço azul pontilhado indica a média $\mu = 100$.
 :::
 
 
-
 ## 📐 Fundamento da Regra Empírica
 
 A **Regra Empírica** baseia-se na **forma simétrica** da curva normal e nas **áreas sob a curva**, que representam **probabilidades**.
@@ -514,7 +506,6 @@ A área sob a curva representa a probabilidade do valor $Z$ estar nesse interval
 :::
 
 
-
 ## Funções para Distribuição Normal: Excel e R
 
 Podemos calcular probabilidades, valores acumulados e gerar gráficos com funções específicas:
@@ -550,7 +541,6 @@ Podemos calcular probabilidades, valores acumulados e gerar gráficos com funç�
 ::: {.callout-tip}
 **Observação:** no Excel, `cumulativo = VERDADEIRO` retorna a probabilidade acumulada; `FALSO` retorna a densidade.
 :::
-
 
 
 ## Exemplo Prático com R
@@ -604,7 +594,6 @@ Resultado: $\approx 0.8944$ ou 89,44%
 
 **Interpretação:** aproximadamente **89,44%** da população possui QI abaixo de 120, de acordo com a distribuição normal assumida.
 
-
 ---
 
 ## Exemplo: Resolvendo sem Excel ou R — Usando o Escore-$z$
@@ -620,7 +609,6 @@ $$
 P(X < 120)
 $$
 
-
 ---
 
 ### 🧮 Passo 1: Padronização com o escore-$z$
@@ -630,7 +618,6 @@ Para usar a **tabela da distribuição normal padrão**, devemos primeiro padron
 $$
 z = \frac{x - \mu}{\sigma} = \frac{120 - 100}{16} = 1{,}25
 $$
-
 
 ---
 
@@ -648,7 +635,6 @@ Agora usamos a tabela da normal padrão $Z \sim N(0,1)$ para encontrar $P(Z < 1{
 
 Cerca de **89,44%** da população tem QI menor que 120, de acordo com a tabela da distribuição normal padrão.
 
-
 ---
 
 ## 📏 Entendendo o Escore-$z$
@@ -662,7 +648,6 @@ A fórmula é:
 $$
 \boxed{z = \frac{x - \mu}{\sigma}}
 $$
-
 
 ---
 
@@ -681,7 +666,6 @@ O escore-$z$ **unifica diferentes distribuições** numa forma padrão, permitin
 - Consultar a **Tabela Z** da normal padrão $N(0,1)$;
 - Calcular **probabilidades acumuladas** com facilidade;
 - Comparar valores entre **distribuições com médias e desvios diferentes**.
-
 
 ---
 
@@ -1146,7 +1130,7 @@ Com esse conhecimento, você já está apto a compreender fenômenos que seguem 
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

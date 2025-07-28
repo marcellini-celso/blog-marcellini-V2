@@ -210,7 +210,8 @@ ani.save("interferencia_ondas.gif", writer='pillow', fps=20)
 ## 🆕 Últimos Posts
 
 <!-- inicio-ultimos-posts -->
-- [🧠 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento](posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)
+- [📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2](posts/programacao/outros-modelos-markdown.html)
+- [🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento](posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 3): Gráficos, TCL e Normalidade Aproximada](posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z](posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal](posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html)
@@ -218,7 +219,6 @@ ani.save("interferencia_ondas.gif", writer='pillow', fps=20)
 - [🧠 Módulo 1.1: O que é Cálculo? História e aplicações](posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)
 - [🎓 Curso de Cálculo Diferencial e Integral](posts/cursos/matematica/calculo/index.html)
 - [📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade](posts/fisica/relatividade-geral-parte1.html)
-- [📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2](posts/programacao/outros-modelos-markdown.html)
 - [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](posts/fisica/guia-relatividade-geral.html)
 <!-- fim-ultimos-posts -->
 

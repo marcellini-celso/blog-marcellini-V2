@@ -23,9 +23,11 @@ tags: [física, relatividade, relatividade especial, guia de leitura, einstein]
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
+![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
+
 # 🧭 🛰️ Guia de Leitura — Relatividade Especial
 
-![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
+Organização dos posts sobre Relatividade Especial: uma introdução didática e um aprofundamento acadêmico.
 
 ## 🌟 Visão Geral
 

@@ -1,11 +1,11 @@
 ---
-title: "🧠 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento"
+title: "🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento"
 description: "Neste módulo, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, com ênfase em suas principais propriedades e exemplos característicos, oferecendo uma visão mais aprofundada de cada um."
 author: "Blog do Marcellini"
 date: "2025-07-27"
 lang: pt-BR
-categories: [matemática, cálculo, conjuntos, conjuntos numéricos, enumerabilidade, Cantor, corpo, exercícios]
-tags: [matemática, cálculo, conjuntos, conjuntos numéricos, enumerabilidade, Cantor, corpo, exercícios]
+categories: [matemática, cálculo, conjuntos, conjuntos numéricos, enumerabilidade, Cantor, corpo, exercícios, cursos]
+tags: [matemática, cálculo, conjuntos, conjuntos numéricos, enumerabilidade, Cantor, corpo, exercícios, cursos]
 format:
   html:
     toc: true
@@ -25,15 +25,26 @@ page-layout: full
 
 [← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
 
+[← Voltar para o Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
+
 🎯 **Post Anterior:** 👉 [1.2 Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.qmd)
 
 ---
 
-<div class=invisivel>
-## 🔢 Módulo 1.2: Conjuntos Numéricos -- Aprofundamento
-</div>
+# 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento
 
-### 🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional
+::: {.callout-note title="📌 Objetivos do Post"}
+- Demonstrar que $\sqrt{2}$ não é um número racional utilizando o método de redução ao absurdo;
+- Discutir o conceito de conjuntos enumeráveis e não enumeráveis;
+- Apresentar o Método Diagonal de Cantor e suas aplicações aos conjuntos dos números racionais e reais. Utilizamos o Método Diagonal de Cantor para demonstrar a não enumerabilidade do conjunto dos números reais, em contraste com a enumerabilidade dos racionais;
+- Estudar a finitude na representação decimal de números racionais;
+- Explorar propriedades estruturais dos números reais, com ênfase na completude e na estrutura de corpo ordenado completo;
+- Visualizar subconjuntos de $\mathbb{Q}$ com auxílio de código em Python;
+- Consolidar os conhecimentos por meio de exercícios de revisão.
+:::
+
+
+## 🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional
 
 ::: {.callout-note collapse=false title="🧠 Aprofundamento: Demonstração de que $\sqrt{2}$ não é racional"}
 **Proposição:** $\sqrt{2} \notin \mathbb{Q}$, ou seja, $\sqrt{2}$ é irracional.
@@ -74,7 +85,7 @@ $$
 :::
 
 
-### 🧠 Aprofundamento: Comentário sobre o método de demonstração por *redução ao absurdo*
+## 🧠 Aprofundamento: Comentário sobre o método de demonstração por *redução ao absurdo*
 
 ::: {.callout-important collapse=false title="🧠 Aprofundamento: Comentário sobre o método de demonstração por *redução ao absurdo*"}
 A demonstração da irracionalidade de $\sqrt{2}$ é um clássico exemplo de **prova por redução ao absurdo** (ou **prova indireta**).
@@ -90,7 +101,7 @@ Esse método é bastante utilizado em várias áreas da Matemática, principalme
 :::
 
 
-### 🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis
+## 🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis
 
 ::: {.callout-note collapse=false title="🧠 Aprofundamento: Conjuntos Enumeráveis e Não Enumeráveis"}
 - **Conjunto Enumerável** (ou **contável**): é um conjunto cujos elementos podem ser colocados em correspondência biunívoca com os números naturais. Ou seja, podemos listar seus elementos numa sequência (mesmo que infinita).  
@@ -109,9 +120,9 @@ Não enumerável → Não pode listar; tem “mais” elementos que os naturais.
 :::
 
 
-### 🧠 Aprofundamento: O Método Diagonal de Cantor
+## 🧠 Aprofundamento: O Método Diagonal de Cantor e a Não Enumerabilidade dos Reais
 
-::: {.callout-important collapse=false title="🧠 Aprofundamento: O Método Diagonal de Cantor"}
+::: {.callout-important collapse=false title="🧠 Aprofundamento: O Método Diagonal de Cantor e a Não Enumerabilidade dos Reais"}
 O **método diagonal de Cantor** é uma prova elegante e poderosa criada por **Georg Cantor** para demonstrar que **os números reais são mais numerosos do que os números naturais**, ou seja, que o conjunto dos reais não é enumerável.
 
 🧩 **Ideia principal**
@@ -151,8 +162,8 @@ Esse número **não pode estar na lista original**, o que leva à contradição:
 
 :::
 
-### 🧠 Aprofundamento: O Método Diagonal de Cantor e a Enumerabilidade dos Racionais Positivos
-::: {.callout-note collapse=false title="O Método Diagonal de Cantor e a Enumerabilidade dos Racionais Positivos"}
+## 🧠 Aprofundamento: O Método Diagonal de Cantor e a Enumerabilidade dos Racionais
+::: {.callout-note collapse=false title="O Método Diagonal de Cantor e a Enumerabilidade dos Racionais"}
 
 Uma descoberta surpreendente sobre os números racionais foi feita no final do século XIX e impulsionou a criação da **Teoria dos Conjuntos** por **Georg Cantor**, a partir de 1872. Embora os números racionais sejam densos e não possam ser ordenados de forma simples por magnitude, eles podem ser dispostos como uma sequência infinita $r_1, r_2, \ldots, r_n, \ldots$ na qual todo número racional aparece uma vez.
 
@@ -182,7 +193,7 @@ na qual todo número racional positivo aparece exatamente uma vez. Uma sequênci
 :::
 
 
-### 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal
+## 🧠 Aprofundamento: Demonstração da Finitude da Representação Decimal
 
 > 🔍 **Teorema:** A fração $\dfrac{a}{b}$ tem representação decimal finita **se e somente se** o denominador $b$ (na forma irredutível) tem como fatores **apenas 2 e 5.**
 
@@ -225,7 +236,7 @@ na qual todo número racional positivo aparece exatamente uma vez. Uma sequênci
 :::
 
 
-### 🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo
+## 🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo
 
 ::: {.callout-note collapse=false title="🧠 Aprofundamento: Propriedades dos Números Reais e a Estrutura de Corpo Ordenado Completo"}
 
@@ -290,7 +301,7 @@ Essa propriedade não é satisfeita pelos racionais $(\mathbb{Q})$, o que justif
 
 :::
 
-### 🧠 Aprofundamento: A Propriedade de Completude dos Números Reais
+## 🧠 Aprofundamento: A Propriedade de Completude dos Números Reais
 
 ::: {.callout-important collapse=false title="🧠 Aprofundamento: A Propriedade de Completude dos Números Reais"}
 
@@ -343,7 +354,7 @@ A propriedade de completude garante que os reais “preenchem todos os buracos�
 :::
 
 
-### 👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\{ x \in \mathbb{Q} \mid x^2 < 2 \}$
+## 👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\{ x \in \mathbb{Q} \mid x^2 < 2 \}$
 
 ::: {.callout-tip collapse=true title="👨‍💻 🐍 Aprofundamento: Código Python -- Visualizando o Conjunto $\\{ x \\in \\mathbb{Q} \\mid x^2 < 2 \\}$"}
 
@@ -393,7 +404,7 @@ plt.show()
 ---
 
 
-### 🧠 Exercícios de Revisão
+## 🧠 Exercícios de Revisão
 
 ::: {.callout-note collapse=false title="🧠 Exercícios de Revisão — Módulo 1.2: Conjuntos Numéricos"}
 
@@ -424,7 +435,7 @@ $$
 
 :::
 
-### 📝 Resoluções Comentadas
+## 📝 Resoluções Comentadas
 
 ::: {.callout-important collapse=true title="📝 Resoluções Comentadas"}
  
@@ -493,14 +504,14 @@ $$
 x = \frac{1}{7}
 $$
 
-   Portanto, $0,142857142857\ldots = \frac{1}{7}$.
+   Portanto, $0,142857\;142857\ldots = \frac{1}{7}$.
 
 :::
 
 
 ---
 
-🎯 **Próximo Post:** ⏳ **Em Breve!**
+🎯 **Próximo Post: 👉 [1.3: Intervalos e Inequações] ⏳ **Em Breve!**
 
 ---
 
@@ -512,7 +523,7 @@ $$
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

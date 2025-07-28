@@ -24,15 +24,15 @@ execute:
   message: false
 ---
 
-<div class="invisivel">
-# 📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz
-</div>
-
 ---
 
 {{< include ../../_includes/link-retorno-guia-relatividade-especial.qmd >}}
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
+
+# 📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz
+
+Um mergulho didático na teoria da Relatividade Especial, com gráficos, exemplos e contexto histórico.
 
 ## 🌟 O que foi o ano milagroso de Einstein?
 
@@ -177,9 +177,15 @@ Einstein começou com dois postulados — e nos levou a uma revolução do pensa
 
 [^einstein1905]: Einstein, A. (1905). "Zur Elektrodynamik bewegter Körper." *Annalen der Physik*, 17(10), 891–921.
  
+
+# 📚 **Referência principal:**  
+Resnick, R. (1968). *Introduction to Special Relativity*. Wiley.
+
+> ⚠️ Em próximos posts iremos explorar com mais detalhes esses conceitos.
+
 ---
 
-## 🧭 📘 Guia de Leitura -- Relatividade Especial
+# 🧭 📘 Guia de Leitura -- Relatividade Especial
 
 ::: {.callout-note icon="📘"}
 **Quer ver o conteúdo completo?**  

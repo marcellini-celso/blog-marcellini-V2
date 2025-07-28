@@ -19,11 +19,9 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 👨‍💻 Programação
-</div>
-
 ---
+
+# 👨‍💻 Programação
 
 Nesta seção você encontrará conteúdos sobre linguagens e ferramentas utilizadas em ciência de dados, automação, documentação técnica e computação em geral.
 
@@ -58,7 +56,7 @@ Dicas e exemplos com a linguagem R voltada à estatística, gráficos e relatór
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

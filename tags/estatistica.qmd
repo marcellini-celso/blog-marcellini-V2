@@ -7,10 +7,10 @@ format: html
 
 ## Posts com a tag **estatística**
 
+- [📊 Estatística](/posts/estatistica/index.html)
+- [🧭 📊 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
 - [🎓 📊 Cursos de Estatística](/posts/cursos/estatistica/index.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html)
-- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z](/posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html)
 - [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 3): Gráficos, TCL e Normalidade Aproximada](/posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html)
-- [📊 Estatística](/posts/estatistica/index.html)
-- [🧭 📊 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
+- [🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z](/posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html)

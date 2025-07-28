@@ -4,8 +4,8 @@ description: "Introdução ao curso de Cálculo com teoria, aplicações e muito
 author: "Blog do Marcellini"
 date: "2025-07-23"
 lang: pt-BR
-categories: [cálculo, matemática, derivadas, integrais, funções, limites]
-tags: [cálculo, matemática, derivadas, integrais, funções, limites]
+categories: [cálculo, matemática, derivadas, integrais, funções, limites, cursos, equações diferenciais, séries de Taylor]
+tags: [cálculo, matemática, derivadas, integrais, funções, limites, cursos, equações diferenciais, séries de Taylor]
 format:
   html:
     toc: true
@@ -35,28 +35,33 @@ page-layout: full
   </figure>
 </div>
 
+# 🎓 Curso de Cálculo Diferencial e Integral
+
 ::: {.callout-note title="🧮 Bem-vindo ao Curso de Cálculo!"}
 Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o **Cálculo Diferencial e Integral** de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.
 
+::: {.callout-tip} 
+
 Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)**, com tópicos mais avançados e discussões teóricas adicionais, que podem ser omitidas em uma primeira leitura, conforme o ritmo e interesse do estudante.
+
 :::
 
-<div class=invisivel>
-## 🎓 Curso de Cálculo Diferencial e Integral
-</div>
 
-### 📘 Objetivos do Curso
+:::
+
+
+## 📘 Objetivos do Curso
 
 - Desenvolver o raciocínio matemático necessário para trabalhar com limites, derivadas e integrais;
 - Apresentar aplicações do cálculo na Física, Engenharia, Economia e Computação;
 - Explorar técnicas de resolução de problemas com apoio de gráficos e ferramentas computacionais.
 
-### 📚 Estrutura dos Módulos
+## 📚 Estrutura dos Módulos
 
-#### 🔹 Módulo 1 — Fundamentos de Cálculo
+### 🔹 Módulo 1 — Fundamentos de Cálculo
 - [1.1 O que é Cálculo? História e aplicações](modulo-1/1.1-introducao.qmd)
 - [1.2 Conjuntos Numéricos](modulo-1/1.2-conjuntos.qmd)
-- [1.2-AP Conjuntos Numéricos -- Aprofundamento](modulo-1/1.2-conjuntos-ap.qmd)
+- [1.2 AP Conjuntos Numéricos -- Aprofundamento](modulo-1/1.2-conjuntos-ap.qmd)
 - 1.3 Intervalos e Inequações
 - 1.4 Funções: definição, domínio e imagem
 - 1.5 Gráficos de funções e transformações
@@ -65,25 +70,25 @@ Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)
 - 1.8 Limites laterais e infinitos
 - 1.9 Continuidade
 
-#### 🔹 Módulo 2 — Derivadas
+### 🔹 Módulo 2 — Derivadas
 - Definição de derivada
 - Regras de derivação
 - Aplicações: máximos, mínimos e otimização
 - Derivadas implícitas e logarítmicas
 
-#### 🔹 Módulo 3 — Integrais
+### 🔹 Módulo 3 — Integrais
 - Integral definida e indefinida
 - Técnicas de integração
 - Áreas e volumes
 - Aplicações físicas
 
-#### 🔹 Módulo 4 — Tópicos Avançados e Aplicações
+### 🔹 Módulo 4 — Tópicos Avançados e Aplicações
 - Equações diferenciais
 - Séries de Taylor
 - Modelagem com cálculo
 - Ferramentas computacionais
 
-### 🚀 Como acompanhar o curso
+## 🚀 Como acompanhar o curso
 
 - Os posts são numerados por módulos e tópicos (ex: 1.2, 2.4...);
 - Cada post contém explicação teórica, exemplos resolvidos, exercícios e visualizações;
@@ -116,7 +121,7 @@ Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

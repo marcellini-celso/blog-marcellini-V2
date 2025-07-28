@@ -1,5 +1,6 @@
 --- 
-title: "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)" 
+title: "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)"
+description: "Introdução histórica e conceitual sobre os cem anos da teoria quântica."
 author: "Blog do Marcellini"
 date: 2025-06-30
 lang: pt-BR
@@ -22,7 +23,11 @@ tags: [física, mecânica quântica, artigo]
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
-# Introdução
+# 📘 🧬 100 Anos da Mecânica Quântica (1925–2025)
+
+Introdução histórica e conceitual sobre os cem anos da teoria quântica.
+
+## Introdução
 
 > Em 1925 nascia uma nova física. Cem anos depois, a **mecânica quântica** continua sendo uma das teorias mais surpreendentes e fundamentais já concebidas.  
 > Esta série explora sua origem, evolução, paradoxos e aplicações modernas.
@@ -796,7 +801,7 @@ Uma jornada de descobertas — da quantização de Planck ao emaranhamento de As
 
 ---
 
-# 🔚 Conclusão
+## 🔚 Conclusão
 
 A Mecânica Quântica não é apenas uma teoria sobre o **muito pequeno** — sobre átomos, partículas e experimentos de laboratório.
 
@@ -841,7 +846,7 @@ representações simbólicas de um século de descobertas quânticas que transfo
 
 ---
 
-## 📘 Aprofundamento
+# 📘 Aprofundamento
 
 ::: {.callout-note icon="📘"}
 **Quer se aprofundar na série?**  

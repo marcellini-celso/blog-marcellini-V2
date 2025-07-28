@@ -19,21 +19,19 @@ format:
 page-layout: full
 ---
 
-<div class=invisivel>
-## 📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História
-</div>
-
 ---
 
 {{< include ../../_includes/link-retorno-matematica.qmd >}}
 
 ![Srinivasa Ramanujan](../../images/Srinivasa_Ramanujan_-_OPC_-_1.jpg){width=40% style="margin-bottom: 2rem;"}
 
+# 📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História
+
 Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Esta seção celebra essas joias da matemática e da física.
 
 ---
 
-### 🧠 A Identidade de Euler
+## 🧠 A Identidade de Euler
 
 $$
 e^{i\pi} + 1 = 0
@@ -43,7 +41,7 @@ Conecta os cinco números mais fundamentais da matemática: $e$, $i$, $\pi$, $1$
 
 ---
 
-### 📡 A Equação de Onda
+## 📡 A Equação de Onda
 
 $$
 \frac{\partial^2 u}{\partial t^2} = c^2 \frac{\partial^2 u}{\partial x^2}
@@ -53,7 +51,7 @@ Modela vibrações em cordas, som, luz e outras ondas. Aparece naturalmente na f
 
 ---
 
-### 🔢 A Fórmula de Ramanujan para $\frac{1}{\pi}$
+## 🔢 A Fórmula de Ramanujan para $\frac{1}{\pi}$
 
 $$
 \frac{1}{\pi} = \frac{2\sqrt{2}}{9801} \sum_{k=0}^\infty \frac{(4k)!\,(1103 + 26390k)}{(k!)^4\,396^{4k}}
@@ -63,7 +61,7 @@ Essa série converge extremamente rápido e foi usada em algoritmos modernos de 
 
 ---
 
-### 🌌 Equação da Gravitação Universal de Newton
+## 🌌 Equação da Gravitação Universal de Newton
 
 $$
 F = G \frac{m_1 m_2}{r^2}
@@ -73,7 +71,7 @@ Descreve a atração gravitacional entre dois corpos massivos. Fundamento da mec
 
 ---
 
-### 🌊 Equação de Schrödinger (Forma Independente do Tempo)
+## 🌊 Equação de Schrödinger (Forma Independente do Tempo)
 
 $$
 -\frac{\hbar^2}{2m} \nabla^2 \psi + V \psi = E \psi
@@ -83,7 +81,7 @@ Equação fundamental da mecânica quântica. Determina o comportamento da funç
 
 ---
 
-### ⚡ Equação de Maxwell para o Campo Elétrico (Forma Diferencial)
+## ⚡ Equação de Maxwell para o Campo Elétrico (Forma Diferencial)
 
 $$
 \nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}

@@ -19,13 +19,11 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🎓 🧮 Cursos de Matemática
-</div>
-
 ---
 
 {{< include ../../../_includes/link-retorno-matematica.qmd >}}
+
+# 🎓 🧮 Cursos de Matemática
 
 Esta seção reúne conteúdos completos de matemática organizados como cursos, com teoria clara, exemplos resolvidos e atividades práticas.
 
@@ -36,8 +34,11 @@ Esta seção reúne conteúdos completos de matemática organizados como cursos,
 
 Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o **Cálculo Diferencial e Integral** de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.
 
+::: {.callout-tip} 
+
 Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)**, com tópicos mais avançados e discussões teóricas adicionais, que podem ser omitidas em uma primeira leitura, conforme o ritmo e interesse do estudante.
 
+:::
 
 ## 📖 🧮 Guia de Leitura
 
@@ -53,7 +54,7 @@ Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

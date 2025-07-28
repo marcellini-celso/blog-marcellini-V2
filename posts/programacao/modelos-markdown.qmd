@@ -1,12 +1,13 @@
 ---
-title: "📘 👨‍💻 📄 Modelo de Markdown com Quarto"
+title: "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 1"
+description: "**Quarto Markdown** é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade."
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
 format:
   html:
     toc: true
-    number-sections: true
+    number-sections: false
     theme: cosmo
     fig-align: center
     code-overflow: scroll
@@ -27,7 +28,9 @@ tags: [programação, Quarto, artigo]
 
 ![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
-# O que é Quarto Markdown?
+# 📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 1
+
+## 🔷 O que é Quarto Markdown?
 
 
 **Quarto Markdown** é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade.  
@@ -44,7 +47,7 @@ Com Quarto você pode gerar automaticamente documentos nos formatos:
 - Apresentações interativas e muito mais.
 
 
-# Diferença entre Markdown e Quarto Markdown
+## 🔷 Diferença entre Markdown e Quarto Markdown
 
 
 | Característica               | Markdown (.md)                       | Quarto Markdown (.qmd)                          |
@@ -61,12 +64,12 @@ Com Quarto você pode gerar automaticamente documentos nos formatos:
 **Resumo**: o Markdown tradicional é excelente para textos simples, enquanto o Quarto Markdown é ideal para conteúdos técnicos e científicos que combinam texto, código e gráficos em um único documento.
 
 
-# Introdução
+## 🔷 Introdução
 
 
 Este é um exemplo de documento escrito em **Markdown** com Quarto. Ele mostra como formatar textos, inserir imagens, escrever equações e exibir código de forma elegante e simples.
 
-
+### - Exemplo 1:
 
 ```markdown
 # Títulos e Texto
@@ -75,6 +78,7 @@ Este é um exemplo de documento escrito em **Markdown** com Quarto. Ele mostra c
 
 # Títulos e Texto
 
+### - Exemplo 2:
 
 ```markdown
 ## Nível 2
@@ -83,12 +87,16 @@ Este é um exemplo de documento escrito em **Markdown** com Quarto. Ele mostra c
 
 ## Nível 2
 
+### - Exemplo 3:
+
 ```markdown
 ### Nível 3
 ```
 - Visualização:
 
 ### Nível 3
+
+### - Exemplo 4:
 
 ```markdown
 Você pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.
@@ -98,10 +106,10 @@ Você pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.
 
 Você pode usar **negrito**, *itálico*, ou ambos: ***negrito e itálico***.
 
+### - Exemplo 5:
 
 Você também pode criar citações:
 
-
 ```markdown
 > A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
 ```
@@ -110,8 +118,9 @@ Você também pode criar citações:
 > A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
 
 
-# Listas
+## 🔷 Listas
 
+### - Exemplo 6:
 
 ```markdown
 ## Lista com marcadores:
@@ -134,6 +143,7 @@ Você também pode criar citações:
   - Subitem B.1
   - Subitem B.2
 
+### - Exemplo 7:
 
 ```markdown
 ## Lista numerada:
@@ -154,9 +164,9 @@ Você também pode criar citações:
 3. Terceiro
 
 
-# Links e Imagens
+## 🔷 Links e Imagens
 
-
+### - Exemplo 8:
 
 ```markdown
 ## Link:
@@ -172,6 +182,7 @@ Você também pode criar citações:
 
 [Site oficial do Quarto](https://quarto.org)
 
+### - Exemplo 9:
 
 ```markdown
 ## Imagem:
@@ -188,6 +199,7 @@ Você também pode criar citações:
 
 ![Imagem exemplo](images/exemplo.png)
 
+### - Exemplo 10:
 
 ```markdown
 # Tabelas
@@ -213,11 +225,12 @@ Você também pode criar citações:
 | Carla    | 22    | Curitiba    |
 
 
-# Equações com LaTeX
+## 🔷 Equações com LaTeX
 
 
-### Equação inline:
+### 🔷 Equação inline:
 
+### - Exemplo 11:
 
 ```markdown
 A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
@@ -228,8 +241,9 @@ A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
 A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
 
 
-### Equação em bloco:
+### 🔷 Equação em bloco:
 
+### - Exemplo 12:
 
 ```markdown
 $$
@@ -244,19 +258,20 @@ $$
 $$
 
 
-# Código
+## 🔷 Código
 
-### Bloco em R:
+### 🔷 Bloco em R:
 
+### - Exemplo 13:
 
 ```{r plotar em R}
 x <- seq(0, 2*pi, length.out = 100)
 plot(x, sin(x), type = "l", col = "blue", lwd = 2)
 ```
 
+### 🔷 Bloco em Python:
 
-### Bloco em Python:
-
+### - Exemplo 14:
 
 ```{python plotar em Python}
 import numpy as np
@@ -268,7 +283,7 @@ plt.title("Seno")
 plt.show()
 ```
 
-# Conclusão
+## 🔷 Conclusão
 
 Este modelo mostra o poder do Markdown aliado ao Quarto para produzir documentos claros, científicos e elegantes — prontos para HTML, PDF, EPUB ou slides.
 
@@ -280,7 +295,7 @@ Este modelo mostra o poder do Markdown aliado ao Quarto para produzir documentos
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

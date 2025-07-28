@@ -1,5 +1,6 @@
 ---
 title: "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto"
+description: "O arquivo `index.qmd` é geralmente o **ponto de entrada principal** de um projeto Quarto."
 author: "Blog do Marcellini"
 date: 2025-06-29
 lang: pt-BR
@@ -27,7 +28,9 @@ tags: [programação, Quarto, YAML, artigo]
 
 ![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
-# Introdução
+# 📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto
+
+## Introdução
 
 O arquivo `index.qmd` é geralmente o **ponto de entrada principal** de um projeto Quarto.  
 Ele pode ser usado como a **página inicial de um site ou livro**, e seu cabeçalho YAML define o título global, a formatação e outras configurações do projeto.
@@ -36,7 +39,7 @@ A seguir, veja modelos de uso de `index.qmd` em diferentes tipos de projetos.
 
 ---
 
-# Modelo básico de `index.qmd` para um site
+## Modelo básico de `index.qmd` para um site
 
 ```yaml
 ---
@@ -66,7 +69,7 @@ Este é o site oficial do meu blog pessoal com posts sobre matemática, estatís
 
 ---
 
-# Modelo de `index.qmd` para um livro com Quarto
+## Modelo de `index.qmd` para um livro com Quarto
 
 ```yaml
 ---
@@ -92,7 +95,7 @@ Este livro foi desenvolvido para ajudar estudantes a entender os conceitos funda
 
 ---
 
-# `index.qmd` para um projeto técnico ou relatório
+## `index.qmd` para um projeto técnico ou relatório
 
 ```yaml
 ---
@@ -116,7 +119,7 @@ Este relatório apresenta os resultados da análise exploratória e inferência 
 
 ---
 
-# Adicionando imagem de capa e resumo (para EPUB ou livro)
+## Adicionando imagem de capa e resumo (para EPUB ou livro)
 
 ```yaml
 ---
@@ -134,7 +137,7 @@ lang: pt-BR
 
 ---
 
-# Conclusão
+## Conclusão
 
 O arquivo `index.qmd` funciona como a porta de entrada de um projeto Quarto — seja ele um site, um livro, um relatório ou um eBook.  
 Esses modelos servem como ponto de partida para estruturar projetos reutilizáveis e organizados.
@@ -147,7 +150,7 @@ Esses modelos servem como ponto de partida para estruturar projetos reutilizáve
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

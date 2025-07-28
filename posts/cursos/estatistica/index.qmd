@@ -19,13 +19,11 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🎓 📊 Cursos de Estatística
-</div>
-
 ---
 
 {{< include ../../../_includes/link-retorno-estatistica.qmd >}}
+
+# 🎓 📊 Cursos de Estatística
 
 Conteúdos completos para quem deseja aprender Estatística com exemplos práticos, visualizações, teoria acessível e exercícios aplicados.
 
@@ -48,7 +46,7 @@ Curso completo sobre a distribuição normal: definição, propriedades, gráfic
 *Criado por Blog do Marcellini com ❤️ e código.*
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

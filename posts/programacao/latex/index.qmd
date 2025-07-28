@@ -19,13 +19,11 @@ categories: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
 tags: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
 ---
 
-<div class="invisivel">
-# 📄 📐 LaTeX
-</div>
-
 ---
 
 {{< include ../../../_includes/link-retorno-programacao.qmd >}}
+
+# 📄 📐 LaTeX
 
 LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.
 
@@ -46,7 +44,7 @@ Exemplos e explicações sobre como usar LaTeX no Quarto, com foco em formataç�
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Clareza e Paixão.*
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

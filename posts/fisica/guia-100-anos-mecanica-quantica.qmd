@@ -23,9 +23,12 @@ page-layout: full
 
 {{< include ../../_includes/link-retorno-fisica.qmd >}}
 
+![](../../images/quantum500.jpg)
+
 # 🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica
 
-![](../../images/quantum500.jpg)
+Organização da série comemorativa dos 100 anos da Mecânica Quântica, com indicação da parte já disponível e das futuras publicações.
+
 
 > _Este guia organiza a série especial que celebra os 100 anos da Mecânica Quântica. A série está sendo publicada em partes, e cada etapa traz reflexões sobre os marcos históricos, conceituais e tecnológicos dessa teoria fundamental da física moderna._
 
@@ -33,12 +36,12 @@ page-layout: full
 
 ---
 
-### [📚 🧬 Parte 1 — Mecânica Quântica: Um Século de Transformação](parte-1-mecanica-quantica.qmd)
+## [📚 🧬 Parte 1 — Mecânica Quântica: Um Século de Transformação](parte-1-mecanica-quantica.qmd)
 Introdução à série e ao impacto da teoria quântica no pensamento científico.
 
 ---
 
-## ⏳ 📚 🧬 Em breve
+# ⏳ 📚 🧬 Em breve
 
 - **📚 🧬 Parte 2 — A Luz, o Quantum e o Início da Revolução**
 - **📚 🧬 Parte 3 — O Mundo Probabilístico de Schrödinger e Heisenberg**

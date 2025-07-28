@@ -19,11 +19,9 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# ⚛️ Física
-</div>
-
 ---
+
+# ⚛️ Física
 
 Reflexões sobre os fundamentos da Física Moderna, com foco na Mecânica Quântica e na Relatividade Especial e Geral, apresentadas de forma acessível e progressiva.
 

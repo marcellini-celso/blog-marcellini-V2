@@ -2,10 +2,10 @@
 12 artigo
 12 programação
 11 sumário
+10 cursos
 10 física
 10 matemática
 7 estatística
-6 cursos
 6 guia de leitura
 5 einstein
 5 exercícios
@@ -32,6 +32,7 @@
 1 corpo
 1 derivadas
 1 enumerabilidade
+1 equações diferenciais
 1 escore-z
 1 fatorial
 1 filosofia da matemática
@@ -54,5 +55,6 @@
 1 sumário de matemática
 1 sumário de programação
 1 sumário do blog pessoal
+1 séries de Taylor
 1 tabela Z
 1 teorema central do limite

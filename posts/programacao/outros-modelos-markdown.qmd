@@ -1,12 +1,13 @@
 ---
 title: "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2"
+description: "**Quarto Markdown** é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade."
 author: "Blog do Marcellini"
-date: 2025-07-19
+date: 2025-07-28
 lang: pt-BR
 format:
   html:
     toc: true
-    number-sections: true
+    number-sections: false
     theme: cosmo
     fig-align: center
     code-overflow: scroll
@@ -19,12 +20,18 @@ categories: [programação, Quarto, artigo]
 tags: [programação, Quarto, artigo]
 ---
 
+---
+
 {{< include ../../_includes/link-retorno-quarto.qmd >}}
 {{< include ../../_includes/link-retorno-programacao.qmd >}}
 
 ![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
-# 📄 O que é o Quarto Markdown?
+# 📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2
+
+**Quarto Markdown** é uma extensão poderosa da linguagem Markdown, desenvolvida para criar documentos científicos e técnicos de alta qualidade.
+
+## 🔷 📄 O que é o Quarto Markdown?
 
 **Quarto Markdown** é uma evolução poderosa do Markdown tradicional, projetada especialmente para **comunicação científica e técnica**. Ele permite integrar:
 
@@ -43,7 +50,7 @@ Com Quarto, você pode gerar:
 
 ---
 
-# 🔍 Comparando: Markdown Tradicional vs Quarto Markdown
+## 🔷 🔍 Comparando: Markdown Tradicional vs Quarto Markdown
 
 | Característica               | Markdown (.md)                       | Quarto (.qmd)                                  |
 |-----------------------------|--------------------------------------|------------------------------------------------|
@@ -59,9 +66,9 @@ Com Quarto, você pode gerar:
 
 ---
 
-# 🧪 Sintaxe Markdown com Quarto
+## 🔷 🧪 Sintaxe Markdown com Quarto
 
-## 📌 Títulos
+### 🔷 📌 Títulos
 
 ```markdown
 # Título Nível 1
@@ -77,7 +84,7 @@ Com Quarto, você pode gerar:
 
 ### Título Nível 3
 
-## ✍️ Ênfase
+### 🔷 ✍️ Ênfase
 
 ```markdown
 **negrito**, *itálico*, ***negrito e itálico***
@@ -87,7 +94,7 @@ Com Quarto, você pode gerar:
 
 **negrito**, *itálico*, ***negrito e itálico***
 
-## 🧾 Citação
+### 🔷 🧾 Citação
 
 ```markdown
 > A matemática é a linguagem com a qual Deus escreveu o universo. — Galileu
@@ -99,9 +106,9 @@ Com Quarto, você pode gerar:
 
 ---
 
-## 📋 Listas
+### 🔷 📋 Listas
 
-### Lista com marcadores
+#### 🔷 Lista com marcadores
 
 ```markdown
 - Item A
@@ -115,7 +122,7 @@ Com Quarto, você pode gerar:
 - Item B  
   - Subitem B.1
 
-### Lista numerada
+#### 🔷 Lista numerada
 
 ```markdown
 1. Primeiro
@@ -129,7 +136,7 @@ Com Quarto, você pode gerar:
 
 ---
 
-## 🔗 Links e 📷 Imagens
+### 🔷 🔗 Links e 📷 Imagens
 
 ```markdown
 [Quarto](https://quarto.org)
@@ -145,7 +152,7 @@ Com Quarto, você pode gerar:
 
 ---
 
-## 📊 Tabelas
+### 🔷 📊 Tabelas
 
 ```markdown
 | Nome     | Idade | Cidade    |
@@ -163,9 +170,9 @@ Com Quarto, você pode gerar:
 
 ---
 
-## 🧮 Equações com LaTeX
+### 🔷 🧮 Equações com LaTeX
 
-### Inline
+#### 🔷 Inline
 
 ```markdown
 A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
@@ -175,7 +182,7 @@ A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
 
 A famosa identidade de Euler: $e^{i\pi} + 1 = 0$
 
-### Bloco
+#### 🔷 Bloco
 
 ```markdown
 $$
@@ -191,35 +198,126 @@ $$
 
 ---
 
-## 🏷️ Emojis para Tags e Categorias
-
-Você pode usar os seguintes emojis para representar diferentes tipos de **tags** e **categorias** em seus posts Quarto:
-
-- 🏷️ `Tags` em geral  
-- 📚 `Categoria: Educação`  
-- 🧠 `Categoria: Ciência / Conhecimento`  
-- 🧮 `Categoria: Matemática`  
-- 📈 `Categoria: Estatística`  
-- 🔬 `Categoria: Física`  
-- 🧪 `Categoria: Química`  
-- 💻 `Categoria: Computação`  
-- 📊 `Categoria: Análise de Dados`  
-- 📦 `Categoria: Pacotes / Bibliotecas`  
-- 🧰 `Categoria: Ferramentas`  
-- 🌐 `Categoria: Web / Internet`  
-- 📝 `Categoria: Tutoriais`  
-- 🔧 `Categoria: Dicas Técnicas`  
-- 🎓 `Categoria: Cursos`  
-- 🚀 `Categoria: Projetos`  
-- 📰 `Categoria: Notícias`
+### 🔷 Emojis
 
 Use-os para deixar seus posts mais visuais e organizados!
 
+#### 🏷️ Emojis para Tags e Categorias
+🏷️ `Tags` em geral  
+📚 `Categoria: Educação`  
+🧠 `Categoria: Ciência / Conhecimento`  
+🧮 `Categoria: Matemática`  
+📈 `Categoria: Estatística`  
+🔬 `Categoria: Física`  
+🧪 `Categoria: Química`  
+💻 `Categoria: Computação`  
+📊 `Categoria: Análise de Dados`  
+📦 `Categoria: Pacotes / Bibliotecas`  
+🧰 `Categoria: Ferramentas`  
+🌐 `Categoria: Web / Internet`  
+📝 `Categoria: Tutoriais`  
+🔧 `Categoria: Dicas Técnicas`  
+🎓 `Categoria: Cursos`  
+🚀 `Categoria: Projetos`  
+📰 `Categoria: Notícias`
+
+#### 🎓 Educação & Aprendizado
+📚 Livro  
+🧠 Cérebro  
+✏️ Lápis  
+📖 Leitura  
+🏫 Escola  
+📝 Anotações  
+📊 Apresentação  
+🎯 Objetivo
+
+#### 💻 Computação & Tecnologia
+💻 Computador  
+🖥️ Monitor  
+📱 Celular  
+⌨️ Teclado  
+🖱️ Mouse  
+⚙️ Engrenagem  
+🔧 Ferramenta  
+🔒 Cadeado  
+🧮 Ábaco
+
+#### 📊 Estatística & Dados
+📊 Gráfico de barras  
+📈 Gráfico crescente  
+📉 Gráfico decrescente  
+📋 Tabela  
+🔢 Números  
+🧮 Cálculo  
+🗃️ Arquivo de dados
+
+#### 🧮 Matemática
+➕ Soma  
+➖ Subtração  
+✖️ Multiplicação  
+➗ Divisão  
+√ Raiz quadrada  
+∑ Soma (LaTeX: `$\sum$`)  
+∫ Integral (LaTeX: `$\int$`)  
+∞ Infinito (LaTeX: `$\infty$`)  
+📐 Régua e esquadro  
+📏 Régua  
+🎲 Probabilidade
+
+#### 🧪 Ciência & Experimentos
+🧪 Tubo de ensaio  
+🔬 Microscópio  
+⚗️ Frasco de laboratório  
+🧫 Placa de Petri  
+🌡️ Termômetro  
+🧬 DNA  
+🚀 Foguete  
+🧲 Ímã  
+🌌 Universo  
+
+#### 📆 Tempo & Organização
+🕒 Relógio  
+📅 Calendário  
+⏳ Ampulheta  
+📌 Pin  
+🗓️ Agenda  
+🗂️ Pastas  
+📦 Arquivo
+
+#### 🌍 Localização & Navegação
+🌍 Globo  
+🧭 Bússola  
+📍 Marcador de local  
+🗺️ Mapa  
+
+#### 🔥 Emojis para destacar
+💡 Dica  
+❗ Importante  
+✅ Concluído  
+❓ Pergunta  
+⚠️ Atenção  
+🛠️ Em construção  
+⏱️ Cronômetro  
+📢 Aviso  
+🔍 Observação  
+🔎 Detalhes  
+
+#### 🎉 Emojis de Engajamento
+🚀 Vamos começar!  
+🎉 Parabéns!  
+👏 Muito bem!  
+🤝 Trabalho em equipe  
+🤔 Reflita sobre isso  
+🙌 Sucesso!  
+🔁 Repetir  
+🔄 Atualizar  
+💬 Comentário
+
 ---
 
-## 🧑‍💻 Blocos de Código
+### 🔷 🧑‍💻 Blocos de Código
 
-### Python
+#### 🔷 Python
 
 ```{python gráfico do seno no Python}
 import numpy as np
@@ -231,106 +329,22 @@ plt.title("Função Seno")
 plt.show()
 ```
 
-### R
+#### 🔷 R
 
 ```{r gráfico do seno no R}
 x <- seq(0, 2*pi, length.out = 100)
 plot(x, sin(x), type = "l", col = "blue", lwd = 2)
 ```
 
----
 
-# 💡 Callouts (Caixas de Destaque)
-
-Quarto oferece callouts para destacar informações importantes:
-
-### 🔔 Note
-
-```markdown
-::: {.callout-note}
-Esta é uma nota informativa.
-:::
-```
-
-- Visualização:
-
-::: {.callout-note}
-Esta é uma nota informativa.
-:::
-
----
-
-### 💡 Tip
-
-```markdown
-::: {.callout-tip}
-Dica: use `{.callout-tip}` para boas práticas.
-:::
-```
-
-- Visualização:
-
-::: {.callout-tip}
-Dica: use `{.callout-tip}` para boas práticas.
-:::
-
----
-
-### ⚠️ Warning
-
-```markdown
-::: {.callout-warning}
-Atenção: certifique-se de que o código esteja corretamente indentado.
-:::
-```
-
-- Visualização:
-
-::: {.callout-warning}
-Atenção: certifique-se de que o código esteja corretamente indentado.
-:::
-
----
-
-### 🚫 Caution
-
-```markdown
-::: {.callout-caution}
-Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
-:::
-```
-
-- Visualização:
-
-::: {.callout-caution}
-Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
-:::
-
----
-
-### 📣 Important
-
-```markdown
-::: {.callout-important}
-Importante: Quarto substitui RMarkdown com recursos mais modernos!
-:::
-```
-
-- Visualização:
-
-::: {.callout-important}
-Importante: Quarto substitui RMarkdown com recursos mais modernos!
-:::
-
-
-# 💻 Exibir código sem execução no Quarto
+### 🔷 💻 Exibir código sem execução no Quarto
 
 Neste exemplo, mostramos uma forma de exibir código em Python de **forma estática**, ou seja, **sem que ele seja executado**.
 
 ---
 
 
-## ✅ Código estático com `python`
+#### 🔷 ✅ Código estático com `python`
 
 ````markdown
 ::: {.callout-note collapse=true title="💡 Título: Código estático com realce de sintaxe e conteúdo colapsado"}
@@ -362,10 +376,93 @@ print(f"A área do círculo é {area:.2f}")
 
 :::
 
+---
+
+### 🔷 💡 Callouts (Caixas de Destaque)
+
+Quarto oferece callouts para destacar informações importantes:
+
+#### 🔷 🔔 Note
+
+```markdown
+::: {.callout-note}
+Esta é uma nota informativa.
+:::
+```
+
+- Visualização:
+
+::: {.callout-note}
+Esta é uma nota informativa.
+:::
 
 ---
 
-# ✅ Conclusão
+#### 🔷 💡 Tip
+
+```markdown
+::: {.callout-tip}
+Dica: use `{.callout-tip}` para boas práticas.
+:::
+```
+
+- Visualização:
+
+::: {.callout-tip}
+Dica: use `{.callout-tip}` para boas práticas.
+:::
+
+---
+
+#### 🔷 ⚠️ Warning
+
+```markdown
+::: {.callout-warning}
+Atenção: certifique-se de que o código esteja corretamente indentado.
+:::
+```
+
+- Visualização:
+
+::: {.callout-warning}
+Atenção: certifique-se de que o código esteja corretamente indentado.
+:::
+
+---
+
+#### 🔷 🚫 Caution
+
+```markdown
+::: {.callout-caution}
+Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
+:::
+```
+
+- Visualização:
+
+::: {.callout-caution}
+Cuidado: alterações em arquivos `.qmd` podem sobrescrever `.md` gerados.
+:::
+
+---
+
+#### 🔷 📣 Important
+
+```markdown
+::: {.callout-important}
+Importante: Quarto substitui RMarkdown com recursos mais modernos!
+:::
+```
+
+- Visualização:
+
+::: {.callout-important}
+Importante: Quarto substitui RMarkdown com recursos mais modernos!
+:::
+
+---
+
+## 🔷 ✅ Conclusão
 
 **Quarto Markdown** é a solução ideal para produção de documentos **reprodutíveis**, **bonitos** e **interativos**, combinando código, matemática e explicações.
 
@@ -378,7 +475,7 @@ Explore mais:
 
 ---
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>

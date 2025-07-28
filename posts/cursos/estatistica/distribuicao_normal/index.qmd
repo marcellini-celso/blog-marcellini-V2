@@ -23,9 +23,12 @@ page-layout: full
 [← Voltar para a Seção de Estatística 📊](../../../estatistica/index.qmd)  
 [← Voltar para os Cursos de Estatística 🎓 📊](../index.qmd)
 
+# 🎓 📊 Curso de Estatística: A Distribuição Normal
+
+Apresentação introdutória sobre a distribuição normal com exemplos práticos, gráficos e fundamentos teóricos aplicados à Estatística.
 
 ::: {.callout-objectives title="🎯 Objetivos do Curso"}
-# 🎯 Objetivos do Curso
+## 🎯 Objetivos do Curso
 
 Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da **distribuição normal**, também conhecida como **distribuição de Gauss**, com apoio de visualizações gráficas e ferramentas computacionais. Ao final do curso, você será capaz de:
 
@@ -43,34 +46,34 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 :::
 
 
-# 📚 Conteúdo Programático — Parte 1: Introdução à Distribuição Normal
+## 📚 Conteúdo Programático — Parte 1: Introdução à Distribuição Normal
 
-## 🔍 Introdução
+### 🔍 Introdução
 
 - Conceitos fundamentais: população, amostra e variáveis
 - Tipos de variáveis: discretas vs. contínuas
 - Distribuições de probabilidade e função densidade (FDP)
 
-## 📈 A Distribuição Normal
+### 📈 A Distribuição Normal
 
 - Definição, importância e propriedades
 - Exemplos do mundo real
 - A curva normal padrão ($\mu = 0$, $\sigma = 1$)
 - Simetria e comportamento da curva
 
-## 🧮 Função Densidade da Normal
+### 🧮 Função Densidade da Normal
 
 - Expressão matemática
 - Área sob a curva como probabilidade
 - Efeitos da média ($\mu$) e do desvio padrão ($\sigma$)
 
-## 📏 Regra Empírica (68–95–99,7)
+### 📏 Regra Empírica (68–95–99,7)
 
 - Interpretação visual e prática
 - Aplicações em análise de dados
 - Visualizações com Python e R
 
-## 💡 Aplicações Práticas
+### 💡 Aplicações Práticas
 
 - Estudo de caso: Distribuição de QI (Stanford–Binet)
 - Cálculo de probabilidades usando:
@@ -78,7 +81,7 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
   - R (`pnorm`, `dnorm`, `qnorm`, `rnorm`)
 - Introdução ao escore-$z$ e à Tabela Z
 
-## 🧠 Padronização com Escore-$z$
+### 🧠 Padronização com Escore-$z$
 
 - Fórmula, interpretação e uso
 - Comparando desempenhos em diferentes distribuições
@@ -86,55 +89,55 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 ---
 
-# 📚 Conteúdo Programático — Parte 2: Escore-$z$ e Tabela Z
+## 📚 Conteúdo Programático — Parte 2: Escore-$z$ e Tabela Z
 
-## 🧠 Compreendendo o Escore-$z$
+### 🧠 Compreendendo o Escore-$z$
 
 - Definição e fórmula do escore-$z$
 - Interpretação do escore padronizado
 - Exemplos de uso: notas, alturas, desempenho em provas
 
-## 📊 Aplicações e Comparações
+### 📊 Aplicações e Comparações
 
 - Comparação de valores em diferentes distribuições
 - Cálculo da probabilidade de $QI > 136$ (caso prático)
 - Exercício: interpretação e análise de escores
 
-## 📈 Leitura da Tabela Z
+### 📈 Leitura da Tabela Z
 
 - Como usar a Tabela Z acumulada: $P(Z < z)$
 - Interpretação gráfica da curva e áreas
 - Cálculo de áreas sombreadas com auxílio visual
 
-## 💻 Atividades Computacionais
+### 💻 Atividades Computacionais
 
 - Cálculos e gráficos no Excel: `NORM.S.DIST`, `NORM.S.INV`
 - Uso do R: `pnorm`, `qnorm`, `dnorm`
 - Exercício com gráficos de curva normal
 - Interpretação com base em resultados numéricos e gráficos
 
-## 🧩 Reflexão Final
+### 🧩 Reflexão Final
 
 - Discussão: por que o escore-$z$ é uma ferramenta tão poderosa?
 - Conexão com práticas de análise de dados reais
 
 ---
 
-# 📚 Conteúdo Programático — Parte 3: Gráficos, TCL e Normalidade Aproximada
+## 📚 Conteúdo Programático — Parte 3: Gráficos, TCL e Normalidade Aproximada
 
-## 📉 Visualizando Distribuições
+### 📉 Visualizando Distribuições
 
 - Construção de histogramas e interpretação
 - Q-Q Plot: o que é e como interpretar
 - Gráficos no Excel e R: visualização da normalidade
 
-## 🔬 Normalidade Aproximada
+### 🔬 Normalidade Aproximada
 
 - O que significa “distribuição aproximadamente normal”?
 - Exemplos de variáveis com e sem distribuição normal
 - Testes visuais e heurísticas para avaliação rápida
 
-## 📚 Fundamentos Teóricos Adicionais
+### 📚 Fundamentos Teóricos Adicionais
 
 - 📏 Lei dos Grandes Números (LGN)
   - Intuição e implicações práticas
@@ -170,7 +173,7 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 📌 Criado por Blog do Marcellini com ❤️ e código.
 :::
 
-## 🔗 Links Úteis
+# 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](/posts/pessoal/sobre-o-blog.qmd)  
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">Repositório no GitHub</a>  

@@ -31,7 +31,7 @@ Ainda não há artigos disponíveis nesta seção.
 
 ## 🎓 📊 Cursos Disponíveis
 
-### [🎓 📊 Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
+### [🎓 📊 A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
 
 ## 🧭 📊 Guia de Leitura

@@ -114,6 +114,31 @@ $\sqrt{2} = 1{,}4142135\ldots$
 📜 A existência dos números irracionais foi uma descoberta histórica marcante na Grécia Antiga, especialmente entre os pitagóricos, que inicialmente acreditavam que todo número era racional — até a demonstração de que $\sqrt{2}$ não poderia ser expresso como uma fração.
 :::
 
+## 📐 A Escola Pitagórica e o Escândalo dos Irracionais
+
+::: {.callout-note collapse=false title="📐 A Escola Pitagórica e o Escândalo dos Irracionais"}
+
+### 🏛️ Quem eram os Pitagóricos?
+- Uma *seita filosófico-matemática* fundada por **Pitágoras de Samos** no século VI a.C.
+- Acreditavam que **"tudo é número"** — ou seja, toda a realidade poderia ser expressa em termos de **números racionais** (frações entre inteiros).
+
+### 📏 A Crise: A Descoberta dos Irracionais
+- Estudando o **triângulo retângulo isósceles** com catetos iguais a 1, descobriram que a hipotenusa tem comprimento $\sqrt{2}$.
+- Problema: $\sqrt{2}$ **não pode ser expresso como uma fração**.
+- Isso contradizia diretamente a doutrina pitagórica.
+
+### 😱 Reação da Escola
+- A descoberta foi considerada **herética**.
+- Atribui-se a **Hipaso de Metaponto** a demonstração da **irracionalidade de $\sqrt{2}$**.
+- Segundo a lenda, Hipaso foi **expulso** ou **afogado** por ter revelado esse segredo ao mundo.
+
+### 📉 Impacto na Matemática
+- Foi o **primeiro abalo** no ideal de racionalidade matemática.
+- Iniciou o caminho para a aceitação e formalização dos **números irracionais**.
+- Hoje, sabemos que os irracionais são **essenciais para a reta real ser completa**.
+
+:::
+
 
 ## 📘 🧠 Exercícios — Identificando Números Irracionais
 

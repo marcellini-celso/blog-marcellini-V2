@@ -27,9 +27,13 @@ execute:
 
 ---
 
-{{< include ../../_includes/link-retorno-python.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de Python 🐍](/posts/programacao/python/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 ![Python](../../images/Python.svg.png){width=30% style="margin-bottom: 2rem;"}
 
@@ -166,13 +170,25 @@ print(tabulate(tabela, headers='keys', tablefmt='github'))
 
 Com Quarto e Python, é possível gerar relatórios e documentos ricos em conteúdo visual e analítico, integrando texto, código, gráficos e resultados de forma automatizada e elegante.
 
-{{< include ../../_includes/link-retorno-python.qmd >}}
+---
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
+
+[← Voltar para a Seção de Python 🐍](/posts/programacao/python/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](modelos-python-quarto.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
 # 🔗 Links Úteis
 

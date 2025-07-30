@@ -29,9 +29,13 @@ execute:
 
 ---
 
-{{< include ../../_includes/link-retorno-r.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de R 📊](/posts/programacao/r/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 ![Linguagem R](../../images/R_logo.svg.png){width=30% style="margin-bottom: 2rem;"}
 
@@ -158,17 +162,30 @@ if (valor > 20) {
 Com Quarto e R, é possível integrar texto, código e resultados em um único documento dinâmico e reprodutível.  
 Esses modelos são um ponto de partida para criar relatórios estatísticos e científicos com alto padrão profissional.
 
-{{< include ../../_includes/link-retorno-r.qmd >}}
+---
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
+
+[← Voltar para a Seção de R 📊](/posts/programacao/r/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](modelos-r-quarto.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
 # 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+
 

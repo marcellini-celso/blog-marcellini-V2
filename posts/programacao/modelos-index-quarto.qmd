@@ -22,9 +22,13 @@ tags: [programação, Quarto, YAML, artigo]
 
 ---
 
-{{< include ../../_includes/link-retorno-quarto.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de Quarto 📄](/posts/programacao/quarto/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 ![Quarto](../../images/thumbnail-2.jpg){width=50% style="margin-bottom: 2rem;"}
 
@@ -142,18 +146,29 @@ lang: pt-BR
 O arquivo `index.qmd` funciona como a porta de entrada de um projeto Quarto — seja ele um site, um livro, um relatório ou um eBook.  
 Esses modelos servem como ponto de partida para estruturar projetos reutilizáveis e organizados.
 
-{{< include ../../_includes/link-retorno-quarto.qmd >}}
+---
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
+
+[← Voltar para a Seção de Quarto 📄](/posts/programacao/quarto/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](modelos-index-quarto.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
 # 🔗 Links Úteis
 
 - 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
-
 

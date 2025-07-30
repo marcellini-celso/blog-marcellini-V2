@@ -7,5 +7,5 @@ format: html
 
 ## Posts com a tag **sobre mim**
 
-- [🧑‍💻 Blog Pessoal](/posts/pessoal/index.html)
+- [🧑‍🏫 Blog Pessoal](/posts/pessoal/index.html)
 - [📘 🧑‍💻 Sobre o Blog e Sobre Mim](/posts/pessoal/sobre-o-blog.html)

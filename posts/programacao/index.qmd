@@ -2,7 +2,7 @@
 title: "👨‍💻 Programação"
 description: "Conteúdos sobre linguagens e ferramentas como Python, R, LaTeX e Quarto, voltados à documentação técnica, análise de dados e ciência computacional."
 author: "Blog do Marcellini"
-date: 2025-07-11
+date: 2025-07-30
 lang: pt-BR
 categories: [programação, sumário de programação, sumário, Python, R, LaTeX, Quarto, YAML]
 tags: [programação, sumário de programação, sumário, Python, R, LaTeX, Quarto, YAML]
@@ -41,14 +41,15 @@ Dicas e exemplos com a linguagem R voltada à estatística, gráficos e relatór
 
 ## 🧭 📘 👨‍💻 Guia de Leitura
 
-1. **[📄 📐 LaTeX](latex/index.qmd)** — Ideal para quem deseja começar a escrever bem em ambiente técnico-científico.
-2. **[📄 Quarto](quarto/index.qmd)** — Pode ser explorado em paralelo com LaTeX, especialmente para quem quer produzir conteúdo reprodutível.
-3. **[📄 🐍 Python](python/index.qmd)** — Comece aqui se seu foco for programação e automação prática.
-4. **[📄 📊 R](r/index.qmd)** — Recomendado após ter noções básicas de estatística ou como apoio aos cursos dessa área.
+1. **[🧭  👨‍💻 Guia de Leitura da Seção de Programação](guia-programacao.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender Programação passo a passo.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
 🔝 [Voltar ao Topo](index.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 

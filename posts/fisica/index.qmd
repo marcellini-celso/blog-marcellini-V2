@@ -38,18 +38,25 @@ Introdução histórica e conceitual sobre os cem anos da teoria quântica.
 
 ## 🧭 ⚛️ Guia de Leitura
 
-1. **[🧭 📘 🛰️ Guia de Leitura da Relatividade Especial](guia-relatividade-especial.qmd)** — Uma rota de leitura progressiva entre a versão introdutória e a acadêmica.
-2. **[📘 🧬 100 Anos da Mecânica Quântica](100-anos-mecanica-quantica.qmd)** — Uma Visão Geral.
-3. **[🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](guia-100-anos-mecanica-quantica.qmd)** — Um Aprofundamento.
-🔸 *A série está em andamento. Apenas a Parte 1 está publicada até o momento.*
-4. **[🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](guia-relatividade-geral.qmd)** — Uma Visão Geral.
-🔸 *A série está em andamento. Apenas a Parte 1 está publicada até o momento.*
+1. **[🧭 🧮 Guia de Leitura da Seção de Física](guia-fisica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender física passo a passo.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
 🔝 [Voltar ao Topo](index.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

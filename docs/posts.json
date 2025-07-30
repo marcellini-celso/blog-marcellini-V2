@@ -179,7 +179,7 @@
     ]
   },
   {
-    "title": "🧑‍💻 Blog Pessoal",
+    "title": "🧑‍🏫 Blog Pessoal",
     "href": "posts/pessoal/index.html",
     "tags": [
       "pessoal",
@@ -188,6 +188,14 @@
       "sobre",
       "sobre o blog",
       "sobre mim"
+    ]
+  },
+  {
+    "title": "🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal",
+    "href": "posts/pessoal/guia-pessoal.html",
+    "tags": [
+      "blog pessoal",
+      "guia de leitura"
     ]
   },
   {
@@ -210,14 +218,15 @@
     ]
   },
   {
-    "title": "🧭 🛰️ Guia de Leitura — Relatividade Especial",
+    "title": "🧭 🛰️ Guia de Leitura — Série Relatividade Especial",
     "href": "posts/fisica/guia-relatividade-especial.html",
     "tags": [
       "física",
       "relatividade",
       "relatividade especial",
       "guia de leitura",
-      "einstein"
+      "einstein",
+      "série"
     ]
   },
   {
@@ -262,6 +271,14 @@
       "relatividade especial",
       "einstein",
       "artigo"
+    ]
+  },
+  {
+    "title": "🧭 ⚛️ Guia de Leitura — Física",
+    "href": "posts/fisica/guia-fisica.html",
+    "tags": [
+      "física",
+      "guia de leitura"
     ]
   },
   {
@@ -336,6 +353,14 @@
       "programação",
       "Quarto",
       "artigo"
+    ]
+  },
+  {
+    "title": "🧭 👨‍💻 Guia de Leitura — Programação",
+    "href": "posts/programacao/guia-programacao.html",
+    "tags": [
+      "programação",
+      "guia de leitura"
     ]
   },
   {

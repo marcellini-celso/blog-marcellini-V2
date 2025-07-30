@@ -1,19 +1,19 @@
+13 programação
 12 Quarto
 12 artigo
-12 programação
+11 física
 11 sumário
 10 cursos
-10 física
 10 matemática
+9 guia de leitura
 7 estatística
-6 guia de leitura
 5 einstein
 5 exercícios
 5 relatividade
+5 série
 4 YAML
 4 cálculo
 4 distribuição normal
-4 série
 3 LaTeX
 3 Python
 3 R
@@ -29,6 +29,7 @@
 1 Cantor
 1 análise combinatória
 1 aplicações
+1 blog pessoal
 1 corpo
 1 derivadas
 1 enumerabilidade

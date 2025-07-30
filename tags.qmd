@@ -12,22 +12,22 @@ page-layout: full
 
 ::: {.tag-grid}
 
+<a href="/tags/programacao.html" class="tag-card">programação (13)</a>
 <a href="/tags/quarto.html" class="tag-card">Quarto (12)</a>
 <a href="/tags/artigo.html" class="tag-card">artigo (12)</a>
-<a href="/tags/programacao.html" class="tag-card">programação (12)</a>
+<a href="/tags/fisica.html" class="tag-card">física (11)</a>
 <a href="/tags/sumario.html" class="tag-card">sumário (11)</a>
 <a href="/tags/cursos.html" class="tag-card">cursos (10)</a>
-<a href="/tags/fisica.html" class="tag-card">física (10)</a>
 <a href="/tags/matematica.html" class="tag-card">matemática (10)</a>
+<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (9)</a>
 <a href="/tags/estatistica.html" class="tag-card">estatística (7)</a>
-<a href="/tags/guia-de-leitura.html" class="tag-card">guia de leitura (6)</a>
 <a href="/tags/einstein.html" class="tag-card">einstein (5)</a>
 <a href="/tags/exercicios.html" class="tag-card">exercícios (5)</a>
 <a href="/tags/relatividade.html" class="tag-card">relatividade (5)</a>
+<a href="/tags/serie.html" class="tag-card">série (5)</a>
 <a href="/tags/yaml.html" class="tag-card">YAML (4)</a>
 <a href="/tags/calculo.html" class="tag-card">cálculo (4)</a>
 <a href="/tags/distribuicao-normal.html" class="tag-card">distribuição normal (4)</a>
-<a href="/tags/serie.html" class="tag-card">série (4)</a>
 <a href="/tags/latex.html" class="tag-card">LaTeX (3)</a>
 <a href="/tags/python.html" class="tag-card">Python (3)</a>
 <a href="/tags/r.html" class="tag-card">R (3)</a>
@@ -43,6 +43,7 @@ page-layout: full
 <a href="/tags/cantor.html" class="tag-card">Cantor (1)</a>
 <a href="/tags/analise-combinatoria.html" class="tag-card">análise combinatória (1)</a>
 <a href="/tags/aplicacoes.html" class="tag-card">aplicações (1)</a>
+<a href="/tags/blog-pessoal.html" class="tag-card">blog pessoal (1)</a>
 <a href="/tags/corpo.html" class="tag-card">corpo (1)</a>
 <a href="/tags/derivadas.html" class="tag-card">derivadas (1)</a>
 <a href="/tags/enumerabilidade.html" class="tag-card">enumerabilidade (1)</a>

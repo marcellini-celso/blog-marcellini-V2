@@ -15,7 +15,11 @@ highlight-style: github
 
 ---
 
-{{< include ../../_includes/link-retorno-fisica.qmd >}}
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 # 🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral
 
@@ -68,11 +72,27 @@ Você pode seguir agora para:
 
 🔔 Fique atento às atualizações. Cada nova parte será adicionada a este guia assim que publicada.
 
-{{< include ../../_includes/link-retorno-fisica.qmd >}}
+---
+
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 🔝 [Voltar ao Topo](guia-relatividade-geral.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

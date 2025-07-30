@@ -1,0 +1,10 @@
+---
+title: "blog pessoal"
+format: html
+---
+
+[⬅ Voltar para Todas as Tags](../tags.qmd)
+
+## Posts com a tag **blog pessoal**
+
+- [🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal](/posts/pessoal/guia-pessoal.html)

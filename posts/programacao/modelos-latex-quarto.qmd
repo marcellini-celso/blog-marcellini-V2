@@ -22,9 +22,13 @@ tags: [programação, LaTeX, Quarto, artigo]
 
 ---
 
-{{< include ../../_includes/link-retorno-latex.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de LaTeX 📐](/posts/programacao/latex/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 ![LaTeX](../../images/LaTeX_logo.svg.png){width=50% style="margin-bottom: 2rem;"}
 
@@ -194,13 +198,25 @@ $$
 O suporte a LaTeX no Quarto permite escrever expressões matemáticas com o mesmo poder e precisão de um artigo científico.  
 Esses modelos servem como base para produzir conteúdos técnicos e educacionais com alto padrão visual.
 
-{{< include ../../_includes/link-retorno-latex.qmd >}}
+---
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
+
+[← Voltar para a Seção de LaTeX 📐](/posts/programacao/latex/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](modelos-latex-quarto.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
 # 🔗 Links Úteis
 

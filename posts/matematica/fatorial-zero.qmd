@@ -26,7 +26,11 @@ execute:
 
 ---
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 ![Tabela de Fatoriais](../../images/tabela-fatorial.png){width=40% style="margin-bottom: 2rem;"}
 
@@ -483,11 +487,27 @@ Essa igualdade é coerente com:
 
 > **Uma definição bem escolhida é uma ponte entre ideias.**
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+---
+
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 🔝 [Voltar ao Topo](fatorial-zero.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

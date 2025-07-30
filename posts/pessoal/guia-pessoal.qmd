@@ -1,0 +1,61 @@
+---
+title: "🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal"
+description: "Trilha de leitura recomendada para a Seção de Blog Pessoal do Blog do Marcellini. Inclui ordem sugerida para artigos e reflexões, com base no nível de complexidade e aplicação."
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: pt-BR
+categories: [blog pessoal, guia de leitura]
+tags: [blog pessoal, guia de leitura]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
+---
+
+---
+
+[← Voltar para a Seção do Blog Pessoal 🧑‍💻](/posts/pessoal/)
+
+---
+
+# 🧭 🧑‍💻 Guia de Leitura — Blog Pessoal
+
+Este espaço reúne reflexões, anotações e caminhos que venho trilhando no estudo da Matemática e áreas afins. A proposta é compartilhar uma ordem de leitura sugerida, combinando cursos, artigos e textos autorais de forma estruturada — da introdução ao aprofundamento — sempre com rigor conceitual e uma linguagem acessível.
+
+---
+
+## ✅ Ordem Sugerida
+
+1. **[📘 🧑‍🏫 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)** — Ideal para novos visitantes que desejam entender o projeto. Conheça um pouco mais sobre o autor e sua trajetória.
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
+
+---
+
+[← Voltar para a Seção do Blog Pessoal 🧑‍💻](/posts/pessoal/)
+
+---
+
+🔝 [Voltar ao Topo](guia-pessoal.qmd)
+
+---
+
+*Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

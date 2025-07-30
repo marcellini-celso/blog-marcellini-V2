@@ -15,7 +15,13 @@ highlight-style: github
 
 ---
 
-🧭 📚 🌠 [Voltar ao Guia de Leitura da Série](guia-relatividade-geral.qmd)
+[← Voltar ao Guia de Leitura da Série 🧭 📚 🌠](guia-relatividade-geral.qmd)
+
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 # 📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade
 
@@ -453,11 +459,29 @@ Essa resposta virá na Parte 2.
 
 ⏳ **Em Breve!**
 
-📚 [Voltar ao Guia de Leitura da Série](guia-relatividade-geral.qmd)
+---
+
+[← Voltar ao Guia de Leitura da Série 🧭 📚 🌠](guia-relatividade-geral.qmd)
+
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 🔝 [Voltar ao Topo](relatividade-geral-parte1.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

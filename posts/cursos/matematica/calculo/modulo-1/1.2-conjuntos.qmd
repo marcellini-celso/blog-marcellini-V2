@@ -2,7 +2,7 @@
 title: "🔢 Módulo 1.2: Conjuntos Numéricos"
 description: "Neste módulo, exploramos os conjuntos numéricos fundamentais que serão utilizados ao longo do curso, destacando suas principais propriedades e exemplos característicos."
 author: "Blog do Marcellini"
-date: "2025-07-23"
+date: "2025-07-30"
 lang: pt-BR
 categories: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios, cursos]
 tags: [matemática, cálculo, conjuntos, conjuntos numéricos, exercícios, cursos]
@@ -20,12 +20,13 @@ page-layout: full
 ---
 ---
 
-
-[← Voltar para a Seção de Matemática 🧮](/posts/matematica/index.qmd)
+[← Voltar para o Sumário do Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
 
 [← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
 
-[← Voltar para o Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/index.qmd)
+
+---
 
 🎯 **Post Anterior:** 👉 [1.1 O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.qmd)
 
@@ -758,6 +759,8 @@ $$
 ---
 
 🔝 [Voltar ao Topo](1.2-conjuntos.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 

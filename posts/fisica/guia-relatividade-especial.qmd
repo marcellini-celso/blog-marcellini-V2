@@ -1,5 +1,5 @@
 ---
-title: "🧭 🛰️ Guia de Leitura — Relatividade Especial"
+title: "🧭 🛰️ Guia de Leitura — Série Relatividade Especial"
 description: "Organização dos posts sobre Relatividade Especial: uma introdução didática e um aprofundamento acadêmico."
 author: "Blog do Marcellini"
 date: 2025-07-06
@@ -15,17 +15,21 @@ format:
     highlight-style: github
     code-link: true
 page-layout: full
-categories: [física, relatividade, relatividade especial, guia de leitura, einstein]
-tags: [física, relatividade, relatividade especial, guia de leitura, einstein]
+categories: [física, relatividade, relatividade especial, guia de leitura, einstein, série]
+tags: [física, relatividade, relatividade especial, guia de leitura, einstein, série]
 ---
 
 ---
 
-{{< include ../../_includes/link-retorno-fisica.qmd >}}
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 ![Albert Einstein](../../images/500px-Einstein_patentoffice.jpeg){width=40% style="margin-bottom: 2rem;"}
 
-# 🧭 🛰️ Guia de Leitura — Relatividade Especial
+# 🧭 🛰️ Guia de Leitura — Série Relatividade Especial
 
 Organização dos posts sobre Relatividade Especial: uma introdução didática e um aprofundamento acadêmico.
 
@@ -51,11 +55,27 @@ Ideal para estudantes e professores que desejam uma base sólida e estruturada.
 *Este guia faz parte da série de organização temática do Blog do Marcellini.*  
 *Posts adicionais podem ser integrados conforme novos conteúdos forem publicados.*
 
-{{< include ../../_includes/link-retorno-fisica.qmd >}}
+---
+
+[← Voltar para o Guia de Leitura de Física 🧭 ⚛️](/posts/fisica/guia-fisica.qmd)
+
+[← Voltar para a Seção de Física ⚛️](/posts/fisica/)
+
+---
 
 🔝 [Voltar ao Topo](guia-relatividade-especial.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Física com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

@@ -1,6 +1,6 @@
 ---
 title: "🧭 🧮 Guia de Leitura — Matemática"
-description: "Trilha de leitura recomendada para a seção Matemática do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
+description: "Trilha de leitura recomendada para a Seção Matemática do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
@@ -21,13 +21,15 @@ page-layout: full
 
 ---
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 ![Carl Friedrich Gauss](../../images/250px-Carl_Friedrich_Gauss_1840_by_Jensen.jpg){width=40% style="margin-bottom: 2rem;"}
 
 # 🧭 🧮 Guia de Leitura — Matemática
 
-Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemática de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
+Este guia oferece uma ordem de leitura sugerida para quem deseja estudar Matemática de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos, artigos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
 
 ---
 
@@ -40,9 +42,25 @@ Este guia oferece uma ordem de leitura sugerida para quem deseja estudar matemá
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
+
 🔝 [Voltar ao Topo](guia-matematica.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

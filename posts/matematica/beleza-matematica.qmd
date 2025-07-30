@@ -27,7 +27,11 @@ execute:
 
 ---
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 # 📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte
 
@@ -240,7 +244,8 @@ Para quem vive a matemática pura, onde o valor de uma teoria não se mede pela 
 
 ::: {.rodape}
 
-## 📚 Bibliografia e Leitura Adicional
+
+# 📚 Bibliografia e Leitura Adicional
 
 
 - <a href="https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/" target="_blank" rel="noopener">Hardy no MacTutor History of Mathematics</a>  
@@ -251,12 +256,27 @@ Para quem vive a matemática pura, onde o valor de uma teoria não se mede pela 
 
 :::
 
- 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+---
+
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 🔝 [Voltar ao Topo](beleza-matematica.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

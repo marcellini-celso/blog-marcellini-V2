@@ -18,10 +18,14 @@ format:
     code-link: true
 page-layout: full
 ---
+
 ---
 
-[← Voltar para a Seção de Estatística 📊](../../../estatistica/index.qmd)  
 [← Voltar para os Cursos de Estatística 🎓 📊](../index.qmd)
+
+[← Voltar para a Seção de Estatística 📊](../../../estatistica/index.qmd)
+
+---
 
 # 🎓 📊 Curso de Estatística: A Distribuição Normal
 
@@ -165,7 +169,15 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 ---
 
+[← Voltar para os Cursos de Estatística 🎓 📊](../index.qmd)
+
+[← Voltar para a Seção de Estatística 📊](../../../estatistica/index.qmd)
+
+---
+
 🔝 [Voltar ao Topo](index.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 

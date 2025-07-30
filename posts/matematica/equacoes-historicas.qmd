@@ -21,7 +21,11 @@ page-layout: full
 
 ---
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 ![Srinivasa Ramanujan](../../images/Srinivasa_Ramanujan_-_OPC_-_1.jpg){width=40% style="margin-bottom: 2rem;"}
 
@@ -89,11 +93,27 @@ $$
 
 Uma das quatro equações de Maxwell que governam eletromagnetismo. Essa descreve como cargas geram campos elétricos.
 
-{{< include ../../_includes/link-retorno-matematica.qmd >}}
+---
+
+[← Voltar para o Guia de Leitura de Matemática 🧭 🧮](/posts/matematica/guia-matematica.qmd)
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 🔝 [Voltar ao Topo](equacoes-historicas.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

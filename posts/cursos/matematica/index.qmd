@@ -21,7 +21,9 @@ page-layout: full
 
 ---
 
-{{< include ../../../_includes/link-retorno-matematica.qmd >}}
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
 
 # 🎓 🧮 Cursos de Matemática
 
@@ -46,7 +48,15 @@ Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/)
+
+---
+
 🔝 [Voltar ao Topo](index.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 

@@ -1,12 +1,27 @@
 ---
 title: "🗺️ Mapa do Site"
-description: "Todos os cursos, séries e categorias organizadas do Blog do Marcellini"
-format: html
+description: "Todos os cursos, artigos, séries e categorias organizadas do Blog do Marcellini"
+author: "Blog do Marcellini"
+date: 2025-07-30
+lang: pt-BR
+categories: [mapa do site, guia de leitura]
+tags: [mapa do site, guia de leitura]
+format:
+  html:
+    toc: true
+    number-sections: true
+    theme: cosmo
+    fig-align: center
+    code-overflow: scroll
+    df-print: paged
+    highlight-style: github
+    code-link: true
+page-layout: full
 ---
 
-<div class=invisivel>
+---
+
 # 🗺️ Mapa do Site
-</div>
 
 ## 📚 Cursos
 
@@ -15,42 +30,61 @@ format: html
 
 ## ✨ Séries Especiais
 
-- 🔭 [100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
-- 🧠 [Relatividade Especial — Série Completa](posts/fisica/guia-relatividade-especial.qmd)
+- [🧭 📘 🛰️ Guia de Leitura da Relatividade Especial](posts/fisica/guia-relatividade-especial.qmd)
+- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
+- [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](posts/fisica/guia-relatividade-geral.qmd)
+
 
 ## 🧮 Matemática
 
-- [Todos os posts de Matemática](posts/matematica/)
-- [Guia de Leitura — Matemática](posts/matematica/)
+- [🧮 Todos os posts de Matemática](posts/matematica/)
+- [🧭 🧮 Guia de Leitura da Seção de Matemática](posts/matematica/guia-matematica.qmd)
 
 ## 📊 Estatística
 
-- [Todos os posts de Estatística](posts/estatistica/)
-- [Curso: Distribuição Normal (Parte 1)](posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.qmd)
-- [Guia de Leitura — Estatística](posts/estatistica/guia-estatistica.qmd)
+- [📊 Todos os posts de Estatística](posts/estatistica/)
+- [🧭 📊 Guia de Leitura da Seção de Estatística](posts/estatistica/guia-estatistica.qmd)
 
 ## ⚛️ Física
 
-- [Todos os posts de Física](posts/fisica/)
-- [Guia de Leitura — Relatividade Especial](posts/fisica/guia-relatividade-especial.qmd)
-- [Guia de Leitura — 100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
+- [⚛️ Todos os posts de Física](posts/fisica/)
+- [🧭 📘 ⚛️ Guia de Leitura da Seção de Física](posts/fisica/guia-fisica.qmd)
 
 ## 👨‍💻 Programação
 
-- [Todos os posts de Programação](posts/programacao/)
-- [Python](posts/programacao/python/)
-- [R](posts/programacao/r/)
-- [Quarto](posts/programacao/quarto/)
-- [LaTeX](posts/programacao/latex/)
+- [👨‍💻 Todos os posts de Programação](posts/programacao/)
+- [📐 LaTeX](posts/programacao/latex/)
+- [📄 Quarto](posts/programacao/quarto/)
+- [🐍 Python](posts/programacao/python/)
+- [📊 R](posts/programacao/r/)
 
 ## 📘 Outros
 
-- [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
-- [Contato por E-mail](mailto:prof.marcellini@gmail.com)
-- [Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
+- [🧑‍🏫 Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
+- [📬 Contato por E-mail](mailto:prof.marcellini@gmail.com)
+- [💻 Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
 
 ## 🏷️ Tags
 
-- [Explorar por Tags](tags.qmd)
+- [🏷️ Explorar por Tags](tags.qmd)
+
+## 🗂️ Categorias
+
+- [🗂️ Explorar por Categorias](categories.qmd)
+
+📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
 🔝 [Voltar ao Topo](guia.qmd)
+
+*Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
+

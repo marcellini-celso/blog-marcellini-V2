@@ -20,12 +20,13 @@ page-layout: full
 ---
 ---
 
-
-[← Voltar para a Seção de Matemática 🧮](/posts/matematica/index.qmd)
+[← Voltar para o Sumário do Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
 
 [← Voltar para os Cursos de Matemática 🎓 🧮](/posts/cursos/matematica/index.qmd)
 
-[← Voltar para o Curso de Cálculo Diferencial e Integral 🎓 🧮](/posts/cursos/matematica/calculo/index.qmd)
+[← Voltar para a Seção de Matemática 🧮](/posts/matematica/index.qmd)
+
+---
 
 🎯 **Post Anterior:** 👉 [1.2 Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.qmd)
 
@@ -516,6 +517,8 @@ $$
 ---
 
 🔝 [Voltar ao Topo](1.2-conjuntos-ap.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática com Rigor e Beleza.*
 

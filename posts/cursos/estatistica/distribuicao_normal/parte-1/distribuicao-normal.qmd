@@ -21,11 +21,13 @@ page-layout: full
 
 ---
 
-[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
 [← Voltar para os Cursos de Estatística 🎓 📊](/posts/cursos/estatistica/index.qmd)
 
-[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+
+---
 
 ![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=100% style="margin-bottom: 2rem;"}
 
@@ -1114,15 +1116,17 @@ Com esse conhecimento, você já está apto a compreender fenômenos que seguem 
 
 ---
 
-[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 
 [← Voltar para os Cursos de Estatística 🎓 📊](/posts/cursos/estatistica/index.qmd)
 
-[← Voltar para o Sumário do Curso de Distribuição Normal 🎓 📊](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
 
+---
 
 🔝 [Voltar ao Topo](distribuicao-normal.qmd)
 
+---
 
 *Blog do Marcellini — Explorando a Estatística com Rigor e Beleza.*
 

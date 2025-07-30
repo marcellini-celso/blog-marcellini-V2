@@ -1,6 +1,6 @@
 ---
 title: "🧭 📊 Guia de Leitura — Estatística"
-description: "Trilha de leitura recomendada para a seção Estatística do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
+description: "Trilha de leitura recomendada para a Seção de Estatística do Blog do Marcellini. Inclui ordem sugerida para cursos e artigos, com base no nível de complexidade e aplicação."
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
@@ -25,11 +25,13 @@ page-layout: full
 
 ---
 
-{{< include ../../_includes/link-retorno-estatistica.qmd >}}
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+
+---
 
 ![Distribuição Normal Padrão](../../images/Standard_Normal_Distribution-en.svg.png){width=40% style="margin-bottom: 2rem;"}
 
-Este guia oferece uma ordem de leitura sugerida para quem deseja estudar estatística de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
+Este guia oferece uma ordem de leitura sugerida para quem deseja estudar Estatística de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos, artigos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
 
 ---
 
@@ -40,9 +42,25 @@ Este guia oferece uma ordem de leitura sugerida para quem deseja estudar estatí
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
+[← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
+
+---
+
 🔝 [Voltar ao Topo](guia-estatistica.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Estatística com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

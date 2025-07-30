@@ -315,8 +315,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <hr>
+<p><a href="../../posts/programacao/guia-programacao.html">← Voltar para o Guia de Leitura de Programação 👨‍💻</a></p>
 <p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python 🐍</a></p>
 <p><a href="../../posts/programacao/">← Voltar para a Seção de Programação 👨‍💻</a></p>
+<hr>
 <div class="quarto-figure quarto-figure-center" style="margin-bottom: 2rem;">
 <figure class="figure">
 <p><img src="../../images/Python.svg.png" class="img-fluid figure-img" style="width:30.0%"></p>
@@ -345,7 +347,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="bloco-de-código-simples-em-python" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="bloco-de-código-simples-em-python"><span class="header-section-number">1.2</span> Bloco de código simples em Python</h2>
-<div id="ecf77922" class="cell" data-execution_count="1">
+<div id="922b1119" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">11</span>))</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> [i<span class="op">**</span><span class="dv">2</span> <span class="cf">for</span> i <span class="kw">in</span> x]</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>y</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -357,7 +359,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="gráfico-com-matplotlib" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="gráfico-com-matplotlib"><span class="header-section-number">1.3</span> Gráfico com matplotlib</h2>
-<div id="1d4dfe39" class="cell" data-execution_count="2">
+<div id="ef900325" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>plt.plot(x, y, marker<span class="op">=</span><span class="st">'o'</span>, color<span class="op">=</span><span class="st">'blue'</span>)</span>
@@ -378,7 +380,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="usando-numpy-e-seaborn" class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="usando-numpy-e-seaborn"><span class="header-section-number">1.4</span> Usando numpy e seaborn</h2>
-<div id="2142b60d" class="cell" data-execution_count="3">
+<div id="37f9aa1f" class="cell" data-execution_count="3">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -396,7 +398,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="análise-com-pandas" class="level2" data-number="1.5">
 <h2 data-number="1.5" class="anchored" data-anchor-id="análise-com-pandas"><span class="header-section-number">1.5</span> Análise com pandas</h2>
-<div id="08a86b16" class="cell" data-execution_count="4">
+<div id="90ca746f" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"data/iris.csv"</span>)</span>
@@ -467,7 +469,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="estatísticas-descritivas-com-pandas" class="level2" data-number="1.6">
 <h2 data-number="1.6" class="anchored" data-anchor-id="estatísticas-descritivas-com-pandas"><span class="header-section-number">1.6</span> Estatísticas descritivas com pandas</h2>
-<div id="d5edb90e" class="cell" data-execution_count="5">
+<div id="c4169172" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.describe()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="5">
 <div>
@@ -550,7 +552,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="gráfico-de-dispersão" class="level2" data-number="1.7">
 <h2 data-number="1.7" class="anchored" data-anchor-id="gráfico-de-dispersão"><span class="header-section-number">1.7</span> Gráfico de dispersão</h2>
-<div id="7df1d3b8" class="cell" data-execution_count="6">
+<div id="3e6a52b0" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">"sepal_length"</span>, y<span class="op">=</span><span class="st">"petal_length"</span>, hue<span class="op">=</span><span class="st">"species"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
@@ -564,7 +566,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="regressão-linear-com-scikit-learn" class="level2" data-number="1.8">
 <h2 data-number="1.8" class="anchored" data-anchor-id="regressão-linear-com-scikit-learn"><span class="header-section-number">1.8</span> Regressão linear com scikit-learn</h2>
-<div id="9096b5fe" class="cell" data-execution_count="7">
+<div id="2ace5f50" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df[[<span class="st">"sepal_length"</span>]]</span>
@@ -584,7 +586,7 @@ Intercepto: -7.10</code></pre>
 </section>
 <section id="gráfico-com-linha-de-regressão" class="level2" data-number="1.9">
 <h2 data-number="1.9" class="anchored" data-anchor-id="gráfico-com-linha-de-regressão"><span class="header-section-number">1.9</span> Gráfico com linha de regressão</h2>
-<div id="fb26b70c" class="cell" data-execution_count="8">
+<div id="de4ca6ff" class="cell" data-execution_count="8">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>plt.scatter(X, y, color<span class="op">=</span><span class="st">'gray'</span>)</span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.plot(X, modelo.predict(X), color<span class="op">=</span><span class="st">'red'</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Sepal Length"</span>)</span>
@@ -603,7 +605,7 @@ Intercepto: -7.10</code></pre>
 </section>
 <section id="tabela-formatada-com-tabulate" class="level2" data-number="1.10">
 <h2 data-number="1.10" class="anchored" data-anchor-id="tabela-formatada-com-tabulate"><span class="header-section-number">1.10</span> Tabela formatada com tabulate</h2>
-<div id="656b0c51" class="cell" data-execution_count="9">
+<div id="120209d3" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tabulate <span class="im">import</span> tabulate</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>tabela <span class="op">=</span> df.head(<span class="dv">5</span>)</span>
@@ -623,10 +625,27 @@ Intercepto: -7.10</code></pre>
 <section id="conclusão" class="level2" data-number="1.11">
 <h2 data-number="1.11" class="anchored" data-anchor-id="conclusão"><span class="header-section-number">1.11</span> Conclusão</h2>
 <p>Com Quarto e Python, é possível gerar relatórios e documentos ricos em conteúdo visual e analítico, integrando texto, código, gráficos e resultados de forma automatizada e elegante.</p>
+<hr>
+<p><a href="../../posts/programacao/guia-programacao.html">← Voltar para o Guia de Leitura de Programação 👨‍💻</a></p>
 <p><a href="../../posts/programacao/python/">← Voltar para a Seção de Python 🐍</a></p>
 <p><a href="../../posts/programacao/">← Voltar para a Seção de Programação 👨‍💻</a></p>
+<hr>
 <p>🔝 <a href="../../posts/programacao/modelos-python-quarto.html">Voltar ao Topo</a></p>
+<hr>
 <p><em>Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.</em></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
+</div>
+</div>
 </section>
 </section>
 <section id="links-úteis" class="level1" data-number="2">

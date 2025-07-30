@@ -21,9 +21,11 @@ tags: [pessoal, sobre, sobre o blog, sobre mim]
 
 ---
 
-{{< include ../../_includes/link-retorno-pessoal.qmd >}}
+[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/pessoal/)
 
-# 📘 🧑‍💻 Sobre o Blog e Sobre Mim
+---
+
+# 📘 🧑‍🏫 Sobre o Blog e Sobre Mim
 
 Saiba mais sobre o autor, a proposta do blog, como ele foi feito e os bastidores técnicos do projeto.
 
@@ -114,10 +116,25 @@ Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferra
 - `atualizar_tudo.sh`:  
   Executa todos os scripts anteriores em ordem lógica (últimos posts → JSON → tags → nuvem), garantindo que tudo esteja atualizado com um único comando.
 
+---
+
+[← Voltar para a Seção do Blog Pessoal 🧑‍🏫](/posts/pessoal/)
+
+---
 
 🔝 [Voltar ao Topo](sobre-o-blog.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 
-{{< include ../../_includes/footer.qmd >}}
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
+
+# 🔗 Links Úteis
+
+- 🧑‍🏫 [Sobre o Blog](../../posts/pessoal/sobre-o-blog.qmd)
+- 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
+- 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
 

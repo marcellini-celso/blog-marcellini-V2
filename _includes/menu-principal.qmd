@@ -8,8 +8,9 @@
 
 ## 📘 Projetos Especiais
 
-- 🔭 [100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
-- 🧠 [Relatividade Especial — Série Completa](posts/fisica/guia-relatividade-especial.qmd)
+- 🔭 [Série 100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
+- 🧠 [Série Relatividade Especial](posts/fisica/guia-relatividade-especial.qmd)
+- 🌠 [Série Relatividade Geral](posts/fisica/guia-relatividade-geral.qmd)
 
 ## 🏷️ Tags e 🗂️ Categorias
 

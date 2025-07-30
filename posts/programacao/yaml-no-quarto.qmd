@@ -22,9 +22,13 @@ tags: [programação, YAML, Quarto, artigo]
 
 ---
 
-{{< include ../../_includes/link-retorno-quarto.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de Quarto 📄](/posts/programacao/quarto/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 ![YAML](../../images/Yaml_logo.png){width=30% style="margin-bottom: 2rem;"}
 
@@ -121,13 +125,25 @@ execute:
 O YAML pode parecer apenas um bloco técnico no início do `.qmd`, mas ele é a **alma da configuração** no Quarto.  
 Dominar o YAML é essencial para personalizar seus documentos, projetos, sites e livros.
 
-{{< include ../../_includes/link-retorno-quarto.qmd >}}
+---
 
-{{< include ../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para o Guia de Leitura de Programação 👨‍💻](/posts/programacao/guia-programacao.qmd)
+
+[← Voltar para a Seção de Quarto 📄](/posts/programacao/quarto/)
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](yaml-no-quarto.qmd)
 
+---
+
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
+
+:::{.callout-note}
+*Criado por Blog do Marcellini com ❤️ e código.*
+:::
 
 # 🔗 Links Úteis
 

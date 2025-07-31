@@ -25,11 +25,7 @@ tags: [pessoal, sobre, sobre o blog, sobre mim]
 
 ---
 
-# 📘 🧑‍🏫 Sobre o Blog e Sobre Mim
-
-Saiba mais sobre o autor, a proposta do blog, como ele foi feito e os bastidores técnicos do projeto.
-
-## 👋 Sobre Mim
+# 👋 Sobre Mim
 
 ::: {.callout-tip collapse=false icon='🌟'}
 Este blog nasceu do desejo de compartilhar ideias, experiências e aprendizados sobre ciência, matemática e programação com pessoas curiosas e interessadas.
@@ -70,7 +66,7 @@ Essa afirmação não é apenas filosófica — é um critério silencioso que n
 :::
 
 
-## 💡 Sobre o Blog
+# 💡 Sobre o Blog
 
 Este blog foi construído com o [Quarto](https://quarto.org), uma poderosa ferramenta para criar documentos científicos e apresentações com Markdown e LaTeX.
 

@@ -1,6 +1,6 @@
 ---
 title: "📄 📐 LaTeX"
-description: "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão."
+description: "Dicas e exemplos sobre como usar LaTeX para escrever documentos científicos, formatar fórmulas matemáticas e montar apresentações com elegância e precisão. LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica."
 author: "Blog do Marcellini"
 date: 2025-07-11
 lang: pt-BR
@@ -21,26 +21,30 @@ tags: [programação, LaTeX, sumário de LaTeX, sumário, Quarto]
 
 ---
 
-{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
 
-# 📄 📐 LaTeX
+---
 
-LaTeX é uma ferramenta poderosa para a criação de documentos técnicos e científicos com excelente qualidade tipográfica.
+# 📘 📄 📐 Artigos e Reflexões
 
-## 📘 📄 📐 Artigos e Reflexões
-
-### [📘 📄 📐 Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)
+## [📘 📄 📐 Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)
 Exemplos e explicações sobre como usar LaTeX no Quarto, com foco em formatação matemática, ambientes e personalização.
 
-## 🧭 📄 📐 Guia de Leitura
+# 🧭 📄 📐 Guia de Leitura
 
 1. **[📘 📐Modelos LaTeX para Quarto](../modelos-latex-quarto.qmd)** — Comece por aqui para explorar como LaTeX pode ser integrado ao Quarto para produção científica elegante e estruturada.
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
-{{< include ../../../_includes/link-retorno-programacao.qmd >}}
+---
+
+[← Voltar para a Seção de Programação 👨‍💻](/posts/programacao/)
+
+---
 
 🔝 [Voltar ao Topo](index.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Clareza e Paixão.*
 

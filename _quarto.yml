@@ -12,10 +12,12 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - href: tags.qmd
-        text: 🏷️ Tags
-      - href: categories.qmd
-        text: 📂 Categorias
+      - text: "🏷️ Tags e 📂 Categorias"
+        menu:
+          - text: "🏷️ Tags"
+            href: tags.qmd
+          - text: 📂 Categorias
+            href: categories.qmd
       - text: "🧠 Ciências Exatas"
         menu:
           - text: "🧮 Matemática"
@@ -24,18 +26,8 @@ website:
             href: posts/estatistica/index.qmd
           - text: "🔭 Física"
             href: posts/fisica/index.qmd
-      - text: "💻 Programação"
-        menu:
           - text: "💻 Programação"
             href: posts/programacao/index.qmd
-          - text: "🧾 Quarto"
-            href: posts/programacao/quarto/index.qmd
-          - text: "✍️ LaTeX"
-            href: posts/programacao/latex/index.qmd
-          - text: "🐍 Python"
-            href: posts/programacao/python/index.qmd
-          - text: "📊 R"
-            href: posts/programacao/r/index.qmd
       - text: "📝 Blog Pessoal"
         menu:
           - text: "📝 Blog Pessoal"
@@ -48,6 +40,8 @@ website:
             href: posts/cursos/matematica/index.qmd
           - text: "📊 Cursos de Estatística"
             href: posts/cursos/estatistica/index.qmd
+      - href: guia.qmd
+        text: "🗺️ Mapa do Site"
     right:
       - icon: envelope
         text: "Contato"

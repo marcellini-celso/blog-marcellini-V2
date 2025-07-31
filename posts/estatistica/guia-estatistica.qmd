@@ -19,10 +19,6 @@ format:
 page-layout: full
 ---
 
-<div class="invisivel">
-# 🧭 📊 Guia de Leitura — Estatística
-</div>
-
 ---
 
 [← Voltar para a Seção de Estatística 📊](/posts/estatistica/)
@@ -30,6 +26,8 @@ page-layout: full
 ---
 
 ![Distribuição Normal Padrão](../../images/Standard_Normal_Distribution-en.svg.png){width=40% style="margin-bottom: 2rem;"}
+
+# 🧭 📊 Guia de Leitura — Estatística
 
 Este guia oferece uma ordem de leitura sugerida para quem deseja estudar Estatística de maneira estruturada. Ele reúne os principais conteúdos disponíveis na seção, organizando cursos, artigos e reflexões em uma trilha coerente — da introdução ao aprofundamento.
 

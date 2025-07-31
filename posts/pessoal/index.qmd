@@ -21,18 +21,14 @@ page-layout: full
 
 ---
 
-# 🧑‍🏫 Blog Pessoal
+# 📘 🧑‍🏫 Artigos e Reflexões
 
-Neste espaço estão reunidos textos mais livres, anotações do autor, bastidores do blog e reflexões pessoais relacionadas à produção de conteúdo, ensino, leitura e tecnologia.
-
-## 📘 🧑‍🏫 Artigos e Reflexões
-
-### [📘 🧑‍🏫 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
+## [📘 🧑‍🏫 Sobre Mim e Sobre o Blog](sobre-o-blog.qmd)
 Apresentação do propósito, estrutura e linha editorial do Blog do Marcellini.
 
 Breve apresentação do autor, formação, interesses e motivações.
 
-## 🧭 📘 🧑‍🏫 Guia de Leitura
+# 🧭 📘 🧑‍🏫 Guia de Leitura
 
 1. **[🧭 📊 Guia de Leitura da Seção de Blog Pessoal](guia-pessoal.qmd)** — A proposta é compartilhar uma ordem de leitura sugerida, combinando cursos, artigos e textos autorais de forma estruturada — da introdução ao aprofundamento — sempre com rigor conceitual e uma linguagem acessível.
 

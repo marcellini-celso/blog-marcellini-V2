@@ -21,25 +21,21 @@ page-layout: full
 
 ---
 
-# 👨‍💻 Programação
+# 📘 👨‍💻 Artigos e Reflexões
 
-Nesta seção você encontrará conteúdos sobre linguagens e ferramentas utilizadas em ciência de dados, automação, documentação técnica e computação em geral.
-
-## 📘 👨‍💻 Artigos e Reflexões
-
-### [📘 📄 📐 LaTeX](latex/index.qmd)
+## [📘 📄 📐 LaTeX](latex/index.qmd)
 Dicas sobre como escrever documentos científicos com LaTeX: fórmulas matemáticas, apresentações e artigos bem formatados.
 
-### [📘 📄 Quarto](quarto/index.qmd)
+## [📘 📄 Quarto](quarto/index.qmd)
 Publicações sobre a ferramenta Quarto para criação de sites, artigos dinâmicos e relatórios reprodutíveis.
 
-### [📘 📄 🐍 Python](python/index.qmd)
+## [📘 📄 🐍 Python](python/index.qmd)
 Conteúdos introdutórios e práticos sobre Python com foco em automação e análise de dados.
 
-### [📘 📄 📊 R](r/index.qmd)
+## [📘 📄 📊 R](r/index.qmd)
 Dicas e exemplos com a linguagem R voltada à estatística, gráficos e relatórios interativos.
 
-## 🧭 📘 👨‍💻 Guia de Leitura
+# 🧭 📘 👨‍💻 Guia de Leitura
 
 1. **[🧭  👨‍💻 Guia de Leitura da Seção de Programação](guia-programacao.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender Programação passo a passo.
 

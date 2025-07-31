@@ -21,60 +21,67 @@ page-layout: full
 
 ---
 
-# 🗺️ Mapa do Site
-
-## 📚 Cursos
+# 📚 Cursos
 
 - 👉 [Cursos de Estatística](posts/cursos/estatistica/)
 - 🧮 [Cursos de Matemática](posts/cursos/matematica/)
 
-## ✨ Séries Especiais
+# ✨ Séries Especiais
 
 - [🧭 📘 🛰️ Guia de Leitura da Relatividade Especial](posts/fisica/guia-relatividade-especial.qmd)
 - [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](posts/fisica/guia-100-anos-mecanica-quantica.qmd)
 - [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](posts/fisica/guia-relatividade-geral.qmd)
 
 
-## 🧮 Matemática
+# 🧮 Matemática
 
-- [🧮 Todos os posts de Matemática](posts/matematica/)
+- [🧮 Todos os posts da Seção de Matemática](posts/matematica/)
 - [🧭 🧮 Guia de Leitura da Seção de Matemática](posts/matematica/guia-matematica.qmd)
 
-## 📊 Estatística
+# 📊 Estatística
 
-- [📊 Todos os posts de Estatística](posts/estatistica/)
+- [📊 Todos os posts da Seção de Estatística](posts/estatistica/)
 - [🧭 📊 Guia de Leitura da Seção de Estatística](posts/estatistica/guia-estatistica.qmd)
 
-## ⚛️ Física
+# ⚛️ Física
 
-- [⚛️ Todos os posts de Física](posts/fisica/)
+- [⚛️ Todos os posts da Seção de Física](posts/fisica/)
 - [🧭 📘 ⚛️ Guia de Leitura da Seção de Física](posts/fisica/guia-fisica.qmd)
 
-## 👨‍💻 Programação
+# 👨‍💻 Programação
 
-- [👨‍💻 Todos os posts de Programação](posts/programacao/)
+- [👨‍💻 Todos os posts da Seção de Programação](posts/programacao/)
 - [📐 LaTeX](posts/programacao/latex/)
 - [📄 Quarto](posts/programacao/quarto/)
 - [🐍 Python](posts/programacao/python/)
 - [📊 R](posts/programacao/r/)
 
-## 📘 Outros
+# 🧑‍🏫 Blog Pessoal
+
+- [🧑‍🏫 Todos os posts da Seção de Blog Pessoal](posts/pessoal/)
+- [🧭 📊 Guia de Leitura da Seção de Blog Pessoal](posts/pessoal/guia-pessoal.qmd)
+
+# 📘 Outros
 
 - [🧑‍🏫 Sobre o Blog](posts/pessoal/sobre-o-blog.qmd)
 - [📬 Contato por E-mail](mailto:prof.marcellini@gmail.com)
 - [💻 Repositório no GitHub](https://github.com/marcellini-celso/blog-marcellini-V2)
 
-## 🏷️ Tags
+# 🏷️ Tags
 
 - [🏷️ Explorar por Tags](tags.qmd)
 
-## 🗂️ Categorias
+# 🗂️ Categorias
 
 - [🗂️ Explorar por Categorias](categories.qmd)
 
 📌 Este guia é atualizado à medida que novos conteúdos forem sendo publicados.
 
+---
+
 🔝 [Voltar ao Topo](guia.qmd)
+
+---
 
 *Blog do Marcellini — Explorando a Matemática, a Estatística e a Física com Rigor e Beleza.*
 

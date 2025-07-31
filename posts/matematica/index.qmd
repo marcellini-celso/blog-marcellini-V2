@@ -21,24 +21,21 @@ page-layout: full
 
 ---
 
-# 🧮 Matemática
+# 📘 🧮 Artigos e Reflexões
 
-Reflexões e conceitos fundamentais da matemática, com foco na beleza, lógica e estrutura dos principais temas da área.
-
-## 📘 🧮 Artigos e Reflexões
-
-### [📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](beleza-matematica.qmd)
+## [📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte](beleza-matematica.qmd)
 Uma reflexão sobre o famoso ensaio de G. H. Hardy, destacando a conexão entre estética e matemática pura.
 
-### [📘 🧮 Por que \(0! = 1\)?](fatorial-zero.qmd)
+## [📘 🧮 Por que \(0! = 1\)?](fatorial-zero.qmd)
 Explicação intuitiva e formal sobre por que o fatorial de zero é igual a 1.
 
-### [📘 🧮 Equações Históricas](equacoes-historicas.qmd)
+## [📘 🧮 Equações Históricas](equacoes-historicas.qmd)
 Ao longo dos séculos, certas fórmulas se destacaram por sua beleza, profundidade e impacto. Este post celebra essas joias da matemática e da física.
 
-## 🎓 🧮 Cursos Disponíveis
 
-### [🎓 🧮 Curso de Cálculo Diferencial e Integral](../cursos/matematica/calculo/index.qmd)
+# 🎓 🧮 Cursos Disponíveis
+
+## [🎓 🧮 Curso de Cálculo Diferencial e Integral](../cursos/matematica/calculo/index.qmd)
 Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o Cálculo Diferencial e Integral de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento.
 
 ::: {.callout-tip} 
@@ -47,7 +44,7 @@ Além disso, todos os módulos incluem um **módulo extra de aprofundamento (AP)
 
 :::
 
-## 🧭 🧮 Guia de Leitura
+# 🧭 🧮 Guia de Leitura
 
 1. **[🧭 🧮 Guia de Leitura da Seção de Matemática](guia-matematica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender matemática passo a passo.
 

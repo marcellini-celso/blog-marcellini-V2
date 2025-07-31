@@ -106,14 +106,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../tags.html"> 
-<span class="menu-text">🏷️ Tags</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tags-e-📂-categorias" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🏷️ Tags e 📂 Categorias</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tags-e-📂-categorias">    
+        <li>
+    <a class="dropdown-item" href="../../../tags.html">
+ <span class="dropdown-text">🏷️ Tags</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../categories.html"> 
-<span class="menu-text">📂 Categorias</span></a>
+        <li>
+    <a class="dropdown-item" href="../../../categories.html">
+ <span class="dropdown-text">📂 Categorias</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ciências-exatas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">🧠 Ciências Exatas</span>
@@ -131,32 +138,9 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../../posts/fisica/index.html">
  <span class="dropdown-text">🔭 Física</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">💻 Programação</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">    
         <li>
     <a class="dropdown-item" href="../../../posts/programacao/index.html">
  <span class="dropdown-text">💻 Programação</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/quarto/index.html">
- <span class="dropdown-text">🧾 Quarto</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/latex/index.html">
- <span class="dropdown-text">✍️ LaTeX</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/python/index.html">
- <span class="dropdown-text">🐍 Python</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/r/index.html">
- <span class="dropdown-text">📊 R</span></a>
   </li>  
     </ul>
   </li>
@@ -190,6 +174,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../guia.html"> 
+<span class="menu-text">🗺️ Mapa do Site</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -213,15 +201,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#cursos-de-matemática" id="toc-cursos-de-matemática" class="nav-link active" data-scroll-target="#cursos-de-matemática"><span class="header-section-number">1</span> 🎓 🧮 Cursos de Matemática</a>
+  <li><a href="#cursos-disponíveis" id="toc-cursos-disponíveis" class="nav-link active" data-scroll-target="#cursos-disponíveis"><span class="header-section-number">1</span> 🎓 🧮 Cursos Disponíveis</a>
   <ul class="collapse">
-  <li><a href="#cursos-disponíveis" id="toc-cursos-disponíveis" class="nav-link" data-scroll-target="#cursos-disponíveis"><span class="header-section-number">1.1</span> 🎓 🧮 Cursos Disponíveis</a>
-  <ul class="collapse">
-  <li><a href="#curso-de-cálculo-diferencial-e-integral" id="toc-curso-de-cálculo-diferencial-e-integral" class="nav-link" data-scroll-target="#curso-de-cálculo-diferencial-e-integral"><span class="header-section-number">1.1.1</span> 🎓 🧮 Curso de Cálculo Diferencial e Integral</a></li>
+  <li><a href="#curso-de-cálculo-diferencial-e-integral" id="toc-curso-de-cálculo-diferencial-e-integral" class="nav-link" data-scroll-target="#curso-de-cálculo-diferencial-e-integral"><span class="header-section-number">1.1</span> 🎓 🧮 Curso de Cálculo Diferencial e Integral</a></li>
   </ul></li>
-  <li><a href="#guia-de-leitura" id="toc-guia-de-leitura" class="nav-link" data-scroll-target="#guia-de-leitura"><span class="header-section-number">1.2</span> 📖 🧮 Guia de Leitura</a></li>
-  </ul></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">2</span> 🔗 Links Úteis</a></li>
+  <li><a href="#guia-de-leitura" id="toc-guia-de-leitura" class="nav-link" data-scroll-target="#guia-de-leitura"><span class="header-section-number">2</span> 📖 🧮 Guia de Leitura</a></li>
+  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">3</span> 🔗 Links Úteis</a></li>
   </ul>
 </nav>
     </div>
@@ -272,13 +257,10 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <p><a href="../../../posts/matematica/">← Voltar para a Seção de Matemática 🧮</a></p>
 <hr>
-<section id="cursos-de-matemática" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 🎓 🧮 Cursos de Matemática</h1>
-<p>Esta seção reúne conteúdos completos de matemática organizados como cursos, com teoria clara, exemplos resolvidos e atividades práticas.</p>
-<section id="cursos-disponíveis" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="cursos-disponíveis"><span class="header-section-number">1.1</span> 🎓 🧮 Cursos Disponíveis</h2>
-<section id="curso-de-cálculo-diferencial-e-integral" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="curso-de-cálculo-diferencial-e-integral"><span class="header-section-number">1.1.1</span> <a href="../../../posts/cursos/matematica/calculo/index.html">🎓 🧮 Curso de Cálculo Diferencial e Integral</a></h3>
+<section id="cursos-disponíveis" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 🎓 🧮 Cursos Disponíveis</h1>
+<section id="curso-de-cálculo-diferencial-e-integral" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="curso-de-cálculo-diferencial-e-integral"><span class="header-section-number">1.1</span> <a href="../../../posts/cursos/matematica/calculo/index.html">🎓 🧮 Curso de Cálculo Diferencial e Integral</a></h2>
 <p>Este curso foi cuidadosamente desenvolvido para estudantes que desejam dominar o <strong>Cálculo Diferencial e Integral</strong> de forma clara, visual e aplicada. Aqui, você encontrará uma introdução sólida à teoria, acompanhada de exemplos práticos e diversas aplicações reais que facilitam o entendimento — com o apoio de ferramentas computacionais modernas para visualizações, simulações e resolução de problemas.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -295,8 +277,8 @@ Dica
 </div>
 </section>
 </section>
-<section id="guia-de-leitura" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="guia-de-leitura"><span class="header-section-number">1.2</span> 📖 🧮 Guia de Leitura</h2>
+<section id="guia-de-leitura" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 📖 🧮 Guia de Leitura</h1>
 <ol type="1">
 <li><strong><a href="../../../posts/cursos/matematica/calculo/index.html">🎓 🧮 Curso de Cálculo Diferencial e Integral</a></strong> — Teoria sólida, exemplos práticos e aplicações reais. Acesse o índice completo do curso.</li>
 </ol>
@@ -321,9 +303,8 @@ Nota
 </div>
 </div>
 </section>
-</section>
-<section id="links-úteis" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 🔗 Links Úteis</h1>
+<section id="links-úteis" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 🔗 Links Úteis</h1>
 <ul>
 <li>🧑‍🏫 <a href="../../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a></li>
 <li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a></li>

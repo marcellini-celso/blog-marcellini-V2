@@ -17,9 +17,9 @@
 - [🏷️ Tags](tags.qmd)
 - [🗂️ Categorias](categories.qmd)
 
-## 🧭 Mapa do Site
+## 🗺️ Mapa do Site
 
-- [🧭 Mapa do Site](guia.qmd)
+- [🗺️ Mapa do Site](guia.qmd)
 
 :::
 

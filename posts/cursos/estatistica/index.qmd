@@ -25,16 +25,12 @@ page-layout: full
 
 ---
 
-# 🎓 📊 Cursos de Estatística
+# 🎓 📊 Cursos Disponíveis
 
-Conteúdos completos para quem deseja aprender Estatística com exemplos práticos, visualizações, teoria acessível e exercícios aplicados.
-
-## 🎓 📊 Cursos Disponíveis
-
-### [🎓 📊 A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
+## [🎓 📊 A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
 
-## 📖 📊 Guia de Leitura
+# 📖 📊 Guia de Leitura
 
 1. **[🎓 📊 A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)** — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.
 
@@ -61,5 +57,4 @@ Curso completo sobre a distribuição normal: definição, propriedades, gráfic
 - 🧑‍🏫 [Sobre o Blog](../../../posts/pessoal/sobre-o-blog.qmd)
 - 💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a>
 - 📬 [Contato por E-mail](mailto:prof.marcellini@gmail.com)
-
 

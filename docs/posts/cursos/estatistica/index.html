@@ -106,14 +106,21 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../tags.html"> 
-<span class="menu-text">🏷️ Tags</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tags-e-📂-categorias" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">🏷️ Tags e 📂 Categorias</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-tags-e-📂-categorias">    
+        <li>
+    <a class="dropdown-item" href="../../../tags.html">
+ <span class="dropdown-text">🏷️ Tags</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../../categories.html"> 
-<span class="menu-text">📂 Categorias</span></a>
+        <li>
+    <a class="dropdown-item" href="../../../categories.html">
+ <span class="dropdown-text">📂 Categorias</span></a>
   </li>  
+    </ul>
+  </li>
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-ciências-exatas" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">🧠 Ciências Exatas</span>
@@ -131,32 +138,9 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../../../posts/fisica/index.html">
  <span class="dropdown-text">🔭 Física</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-programação" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">💻 Programação</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-programação">    
         <li>
     <a class="dropdown-item" href="../../../posts/programacao/index.html">
  <span class="dropdown-text">💻 Programação</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/quarto/index.html">
- <span class="dropdown-text">🧾 Quarto</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/latex/index.html">
- <span class="dropdown-text">✍️ LaTeX</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/python/index.html">
- <span class="dropdown-text">🐍 Python</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../posts/programacao/r/index.html">
- <span class="dropdown-text">📊 R</span></a>
   </li>  
     </ul>
   </li>
@@ -190,6 +174,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
     </ul>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../guia.html"> 
+<span class="menu-text">🗺️ Mapa do Site</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
@@ -213,15 +201,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#cursos-de-estatística" id="toc-cursos-de-estatística" class="nav-link active" data-scroll-target="#cursos-de-estatística"><span class="header-section-number">1</span> 🎓 📊 Cursos de Estatística</a>
+  <li><a href="#cursos-disponíveis" id="toc-cursos-disponíveis" class="nav-link active" data-scroll-target="#cursos-disponíveis"><span class="header-section-number">1</span> 🎓 📊 Cursos Disponíveis</a>
   <ul class="collapse">
-  <li><a href="#cursos-disponíveis" id="toc-cursos-disponíveis" class="nav-link" data-scroll-target="#cursos-disponíveis"><span class="header-section-number">1.1</span> 🎓 📊 Cursos Disponíveis</a>
-  <ul class="collapse">
-  <li><a href="#a-distribuição-normal" id="toc-a-distribuição-normal" class="nav-link" data-scroll-target="#a-distribuição-normal"><span class="header-section-number">1.1.1</span> 🎓 📊 A Distribuição Normal</a></li>
+  <li><a href="#a-distribuição-normal" id="toc-a-distribuição-normal" class="nav-link" data-scroll-target="#a-distribuição-normal"><span class="header-section-number">1.1</span> 🎓 📊 A Distribuição Normal</a></li>
   </ul></li>
-  <li><a href="#guia-de-leitura" id="toc-guia-de-leitura" class="nav-link" data-scroll-target="#guia-de-leitura"><span class="header-section-number">1.2</span> 📖 📊 Guia de Leitura</a></li>
-  </ul></li>
-  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">2</span> 🔗 Links Úteis</a></li>
+  <li><a href="#guia-de-leitura" id="toc-guia-de-leitura" class="nav-link" data-scroll-target="#guia-de-leitura"><span class="header-section-number">2</span> 📖 📊 Guia de Leitura</a></li>
+  <li><a href="#links-úteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-úteis"><span class="header-section-number">3</span> 🔗 Links Úteis</a></li>
   </ul>
 </nav>
     </div>
@@ -272,18 +257,15 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <p><a href="../../../posts/estatistica/">← Voltar para a Seção de Estatística 📊</a></p>
 <hr>
-<section id="cursos-de-estatística" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> 🎓 📊 Cursos de Estatística</h1>
-<p>Conteúdos completos para quem deseja aprender Estatística com exemplos práticos, visualizações, teoria acessível e exercícios aplicados.</p>
-<section id="cursos-disponíveis" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="cursos-disponíveis"><span class="header-section-number">1.1</span> 🎓 📊 Cursos Disponíveis</h2>
-<section id="a-distribuição-normal" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="a-distribuição-normal"><span class="header-section-number">1.1.1</span> <a href="../../../posts/cursos/estatistica/distribuicao_normal/index.html">🎓 📊 A Distribuição Normal</a></h3>
+<section id="cursos-disponíveis" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> 🎓 📊 Cursos Disponíveis</h1>
+<section id="a-distribuição-normal" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="a-distribuição-normal"><span class="header-section-number">1.1</span> <a href="../../../posts/cursos/estatistica/distribuicao_normal/index.html">🎓 📊 A Distribuição Normal</a></h2>
 <p>Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.</p>
 </section>
 </section>
-<section id="guia-de-leitura" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="guia-de-leitura"><span class="header-section-number">1.2</span> 📖 📊 Guia de Leitura</h2>
+<section id="guia-de-leitura" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> 📖 📊 Guia de Leitura</h1>
 <ol type="1">
 <li><strong><a href="../../../posts/cursos/estatistica/distribuicao_normal/index.html">🎓 📊 A Distribuição Normal</a></strong> — Recomendado como ponto de partida para o estudo de distribuições estatísticas. Ideal após conceitos iniciais de variáveis e gráficos.</li>
 </ol>
@@ -308,9 +290,8 @@ Nota
 </div>
 </div>
 </section>
-</section>
-<section id="links-úteis" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> 🔗 Links Úteis</h1>
+<section id="links-úteis" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> 🔗 Links Úteis</h1>
 <ul>
 <li>🧑‍🏫 <a href="../../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a></li>
 <li>💻 <a href="https://github.com/marcellini-celso/blog-marcellini-V2.git" target="_blank">GitHub do Projeto</a></li>

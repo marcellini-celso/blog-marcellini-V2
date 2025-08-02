@@ -29,16 +29,6 @@ page-layout: full
 
 ---
 
-# 🔗 Acesso Rápido às Partes do Curso
-
-🎯 [Parte 1: Introdução à Distribuição Normal](../parte-1/distribuicao-normal.qmd) (👉 Você está aqui!)
-
-🎯 [Parte 2: Escore-z e Tabela Z](../parte-2/distribuicao-normal-parte2.qmd)
-
-🎯 [Parte 3: Gráficos, TCL e Normalidade Aproximada](../parte-3/distribuicao-normal-parte3.qmd)
-
----
-
 ![Distribuição Normal](../images/curva-normal-fundo-preto.png){width=100% style="margin-bottom: 2rem;"}
 
 # 🎓 📊 A Distribuição Normal -- Parte 1

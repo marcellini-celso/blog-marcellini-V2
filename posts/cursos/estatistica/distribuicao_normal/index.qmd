@@ -27,14 +27,6 @@ page-layout: full
 
 ---
 
-# 🔗 Acesso Rápido às Partes do Curso
-
-🎯 [Parte 1: Introdução à Distribuição Normal](parte-1/distribuicao-normal.qmd)  
-🎯 [Parte 2: Escore-z e Tabela Z](parte-2/distribuicao-normal-parte2.qmd)  
-🎯 [Parte 3: Gráficos, TCL e Normalidade Aproximada](parte-3/distribuicao-normal-parte3.qmd)
-
----
-
 ::: {.callout-objectives title="🎯 Objetivos do Curso"}
 # 🎯 Objetivos do Curso
 
@@ -56,7 +48,7 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 # 📚 Conteúdo Programático — Parte 1: Introdução à Distribuição Normal
 
-🎯 [Parte 1: Introdução à Distribuição Normal](parte-1/distribuicao-normal.qmd)
+🎯 👉 [Parte 1: Introdução à Distribuição Normal](parte-1/distribuicao-normal.qmd)
 
 ## 🔍 Introdução
 
@@ -101,7 +93,7 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 # 📚 Conteúdo Programático — Parte 2: Escore-$z$ e Tabela Z
 
-🎯 [Parte 2: Escore-z e Tabela Z](parte-2/distribuicao-normal-parte2.qmd)
+🎯 👉 [Parte 2: Escore-z e Tabela Z](parte-2/distribuicao-normal-parte2.qmd)
 
 ## 🧠 Compreendendo o Escore-$z$
 
@@ -137,7 +129,7 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 # 📚 Conteúdo Programático — Parte 3: Gráficos, TCL e Normalidade Aproximada
 
-🎯 [Parte 3: Gráficos, TCL e Normalidade Aproximada](parte-3/distribuicao-normal-parte3.qmd)
+🎯 👉 [Parte 3: Gráficos, TCL e Normalidade Aproximada](parte-3/distribuicao-normal-parte3.qmd)
 
 ## 📉 Visualizando Distribuições
 
@@ -173,9 +165,9 @@ Este curso tem como propósito apresentar, de forma acessível e aplicada, os fu
 
 # 🔗 Acesso Rápido às Partes do Curso
 
-🎯 [Parte 1: Introdução à Distribuição Normal](parte-1/distribuicao-normal.qmd)  
-🎯 [Parte 2: Escore-z e Tabela Z](parte-2/distribuicao-normal-parte2.qmd)  
-🎯 [Parte 3: Gráficos, TCL e Normalidade Aproximada](parte-3/distribuicao-normal-parte3.qmd)
+🎯 👉 [Parte 1: Introdução à Distribuição Normal](parte-1/distribuicao-normal.qmd)  
+🎯 👉 [Parte 2: Escore-z e Tabela Z](parte-2/distribuicao-normal-parte2.qmd)  
+🎯 👉 [Parte 3: Gráficos, TCL e Normalidade Aproximada](parte-3/distribuicao-normal-parte3.qmd)
 
 ---
 

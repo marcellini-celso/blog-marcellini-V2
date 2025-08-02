@@ -30,6 +30,7 @@ Ainda não há artigos disponíveis nesta seção.
 ## [🎓 📊 A Distribuição Normal](/posts/cursos/estatistica/distribuicao_normal/index.qmd)
 Curso completo sobre a distribuição normal: definição, propriedades, gráficos, aplicações práticas e exercícios resolvidos com R e Excel.
 
+
 # 🧭 📊 Guia de Leitura
 
 1. **[🧭 📊 Guia de Leitura da Seção de Estatística](guia-estatistica.qmd)** — Uma trilha sugerida de leitura com ordem progressiva, interligando os principais conteúdos da seção. Ideal para quem quer aprender estatística passo a passo.

@@ -7,14 +7,14 @@ format: html
 
 ## Posts com a tag **física**
 
-- [📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)
-- [⚛️ Física](/posts/fisica/index.html)
+- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)
+- [📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/fisica/relatividade-especial.html)
+- [📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)
 - [🧭 🛰️ Guia de Leitura — Série Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
 - [📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica](/posts/fisica/relatividade-especial-academico.html)
-- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)
-- [📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade](/posts/fisica/relatividade-geral-parte1.html)
-- [📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz](/posts/fisica/relatividade-especial.html)
 - [🧭 ⚛️ Guia de Leitura — Física](/posts/fisica/guia-fisica.html)
-- [📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)
-- [📘 🧬 100 Anos da Mecânica Quântica (1925–2025)](/posts/fisica/100-anos-mecanica-quantica.html)
+- [📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade](/posts/fisica/relatividade-geral-parte1.html)
 - [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](/posts/fisica/guia-relatividade-geral.html)
+- [⚛️ Física](/posts/fisica/index.html)
+- [📘 🧬 100 Anos da Mecânica Quântica (1925–2025)](/posts/fisica/100-anos-mecanica-quantica.html)
+- [📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História](/posts/matematica/equacoes-historicas.html)

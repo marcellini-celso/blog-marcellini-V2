@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.24">
+<meta name="generator" content="quarto-1.7.32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Blog do Marcellini">
 <meta name="description" content="Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais.">
@@ -70,10 +70,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-b7eda2101a7a109d5067cba531cf9672.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../../site_libs/quarto-html/quarto-syntax-highlighting-234273d1456647dabc34a594ac50e507.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../../site_libs/bootstrap/bootstrap-2009ae1e4bc0b71a32727ad7f2a18ef9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../../../../site_libs/bootstrap/bootstrap-5762651256a8b94b9686b158db7693f7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -244,24 +244,23 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Nesta página</h2>
    
   <ul>
-<li><a href="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso" id="toc-acesso-rápido-às-partes-do-curso" class="nav-link active" data-scroll-target="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso"><span class="header-section-number">1</span> 🔗 Acesso Rápido às Partes do Curso</a></li>
-  <li>
-<a href="#a-distribui%C3%A7%C3%A3o-normal-parte-3" id="toc-a-distribuição-normal-parte-3" class="nav-link" data-scroll-target="#a-distribui%C3%A7%C3%A3o-normal-parte-3"><span class="header-section-number">2</span> 🎓 📊 A Distribuição Normal – Parte 3</a>
+<li>
+<a href="#a-distribui%C3%A7%C3%A3o-normal-parte-3" id="toc-a-distribuição-normal-parte-3" class="nav-link active" data-scroll-target="#a-distribui%C3%A7%C3%A3o-normal-parte-3"><span class="header-section-number">1</span> 🎓 📊 A Distribuição Normal – Parte 3</a>
   <ul class="collapse">
-<li><a href="#complementos-entendendo-a-normalidade-no-mundo-real" id="toc-complementos-entendendo-a-normalidade-no-mundo-real" class="nav-link" data-scroll-target="#complementos-entendendo-a-normalidade-no-mundo-real"><span class="header-section-number">2.1</span> 🧠 Complementos: Entendendo a Normalidade no Mundo Real</a></li>
-  <li><a href="#o-que-%C3%A9-uma-distribui%C3%A7%C3%A3o-aproximadamente-normal" id="toc-o-que-é-uma-distribuição-aproximadamente-normal" class="nav-link" data-scroll-target="#o-que-%C3%A9-uma-distribui%C3%A7%C3%A3o-aproximadamente-normal"><span class="header-section-number">2.2</span> 📈 ❓ O que é uma Distribuição Aproximadamente Normal?</a></li>
-  <li><a href="#o-que-%C3%A9-um-gr%C3%A1fico-q-q-plot" id="toc-o-que-é-um-gráfico-q-q-plot" class="nav-link" data-scroll-target="#o-que-%C3%A9-um-gr%C3%A1fico-q-q-plot"><span class="header-section-number">2.3</span> 📈 ❓ O que é um Gráfico Q-Q Plot?</a></li>
-  <li><a href="#passo-a-passo-para-gerar-os-gr%C3%A1ficos-no-rstudio" id="toc-passo-a-passo-para-gerar-os-gráficos-no-rstudio" class="nav-link" data-scroll-target="#passo-a-passo-para-gerar-os-gr%C3%A1ficos-no-rstudio"><span class="header-section-number">2.4</span> 🧭 Passo a Passo para Gerar os Gráficos no RStudio</a></li>
-  <li><a href="#passo-a-passo-para-gerar-gr%C3%A1ficos-no-excel" id="toc-passo-a-passo-para-gerar-gráficos-no-excel" class="nav-link" data-scroll-target="#passo-a-passo-para-gerar-gr%C3%A1ficos-no-excel"><span class="header-section-number">2.5</span> 🧭 Passo a Passo para Gerar Gráficos no Excel</a></li>
-  <li><a href="#lei-dos-grandes-n%C3%BAmeros-lgn" id="toc-lei-dos-grandes-números-lgn" class="nav-link" data-scroll-target="#lei-dos-grandes-n%C3%BAmeros-lgn"><span class="header-section-number">2.6</span> 🧠 Lei dos Grandes Números (LGN)</a></li>
-  <li><a href="#teorema-central-do-limite-tcl" id="toc-teorema-central-do-limite-tcl" class="nav-link" data-scroll-target="#teorema-central-do-limite-tcl"><span class="header-section-number">2.7</span> 🧠 Teorema Central do Limite (TCL)</a></li>
-  <li><a href="#variabilidade-e-forma-da-curva-normal" id="toc-variabilidade-e-forma-da-curva-normal" class="nav-link" data-scroll-target="#variabilidade-e-forma-da-curva-normal"><span class="header-section-number">2.8</span> 🧠 Variabilidade e Forma da Curva Normal</a></li>
-  <li><a href="#conclus%C3%A3o-da-parte-3-gr%C3%A1ficos-tcl-e-normalidade-aproximada" id="toc-conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada" class="nav-link" data-scroll-target="#conclus%C3%A3o-da-parte-3-gr%C3%A1ficos-tcl-e-normalidade-aproximada"><span class="header-section-number">2.9</span> 📌 Conclusão da Parte 3: Gráficos, TCL e Normalidade Aproximada</a></li>
+<li><a href="#complementos-entendendo-a-normalidade-no-mundo-real" id="toc-complementos-entendendo-a-normalidade-no-mundo-real" class="nav-link" data-scroll-target="#complementos-entendendo-a-normalidade-no-mundo-real"><span class="header-section-number">1.1</span> 🧠 Complementos: Entendendo a Normalidade no Mundo Real</a></li>
+  <li><a href="#o-que-%C3%A9-uma-distribui%C3%A7%C3%A3o-aproximadamente-normal" id="toc-o-que-é-uma-distribuição-aproximadamente-normal" class="nav-link" data-scroll-target="#o-que-%C3%A9-uma-distribui%C3%A7%C3%A3o-aproximadamente-normal"><span class="header-section-number">1.2</span> 📈 ❓ O que é uma Distribuição Aproximadamente Normal?</a></li>
+  <li><a href="#o-que-%C3%A9-um-gr%C3%A1fico-q-q-plot" id="toc-o-que-é-um-gráfico-q-q-plot" class="nav-link" data-scroll-target="#o-que-%C3%A9-um-gr%C3%A1fico-q-q-plot"><span class="header-section-number">1.3</span> 📈 ❓ O que é um Gráfico Q-Q Plot?</a></li>
+  <li><a href="#passo-a-passo-para-gerar-os-gr%C3%A1ficos-no-rstudio" id="toc-passo-a-passo-para-gerar-os-gráficos-no-rstudio" class="nav-link" data-scroll-target="#passo-a-passo-para-gerar-os-gr%C3%A1ficos-no-rstudio"><span class="header-section-number">1.4</span> 🧭 Passo a Passo para Gerar os Gráficos no RStudio</a></li>
+  <li><a href="#passo-a-passo-para-gerar-gr%C3%A1ficos-no-excel" id="toc-passo-a-passo-para-gerar-gráficos-no-excel" class="nav-link" data-scroll-target="#passo-a-passo-para-gerar-gr%C3%A1ficos-no-excel"><span class="header-section-number">1.5</span> 🧭 Passo a Passo para Gerar Gráficos no Excel</a></li>
+  <li><a href="#lei-dos-grandes-n%C3%BAmeros-lgn" id="toc-lei-dos-grandes-números-lgn" class="nav-link" data-scroll-target="#lei-dos-grandes-n%C3%BAmeros-lgn"><span class="header-section-number">1.6</span> 🧠 Lei dos Grandes Números (LGN)</a></li>
+  <li><a href="#teorema-central-do-limite-tcl" id="toc-teorema-central-do-limite-tcl" class="nav-link" data-scroll-target="#teorema-central-do-limite-tcl"><span class="header-section-number">1.7</span> 🧠 Teorema Central do Limite (TCL)</a></li>
+  <li><a href="#variabilidade-e-forma-da-curva-normal" id="toc-variabilidade-e-forma-da-curva-normal" class="nav-link" data-scroll-target="#variabilidade-e-forma-da-curva-normal"><span class="header-section-number">1.8</span> 🧠 Variabilidade e Forma da Curva Normal</a></li>
+  <li><a href="#conclus%C3%A3o-da-parte-3-gr%C3%A1ficos-tcl-e-normalidade-aproximada" id="toc-conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada" class="nav-link" data-scroll-target="#conclus%C3%A3o-da-parte-3-gr%C3%A1ficos-tcl-e-normalidade-aproximada"><span class="header-section-number">1.9</span> 📌 Conclusão da Parte 3: Gráficos, TCL e Normalidade Aproximada</a></li>
   </ul>
 </li>
-  <li><a href="#refer%C3%AAncias" id="toc-referências" class="nav-link" data-scroll-target="#refer%C3%AAncias"><span class="header-section-number">3</span> 📚 Referências</a></li>
-  <li><a href="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso-1" id="toc-acesso-rápido-às-partes-do-curso-1" class="nav-link" data-scroll-target="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso-1"><span class="header-section-number">4</span> 🔗 Acesso Rápido às Partes do Curso</a></li>
-  <li><a href="#links-%C3%BAteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-%C3%BAteis"><span class="header-section-number">5</span> 🔗 Links Úteis</a></li>
+  <li><a href="#refer%C3%AAncias" id="toc-referências" class="nav-link" data-scroll-target="#refer%C3%AAncias"><span class="header-section-number">2</span> 📚 Referências</a></li>
+  <li><a href="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso" id="toc-acesso-rápido-às-partes-do-curso" class="nav-link" data-scroll-target="#acesso-r%C3%A1pido-%C3%A0s-partes-do-curso"><span class="header-section-number">3</span> 🔗 Acesso Rápido às Partes do Curso</a></li>
+  <li><a href="#links-%C3%BAteis" id="toc-links-úteis" class="nav-link" data-scroll-target="#links-%C3%BAteis"><span class="header-section-number">4</span> 🔗 Links Úteis</a></li>
   </ul></nav>
     </div>
 <!-- main -->
@@ -311,18 +310,12 @@ window.Quarto = {
 <p><a href="../../../../../posts/cursos/estatistica/index.html">← Voltar para os Cursos de Estatística 🎓 📊</a></p>
 <p><a href="../../../../../posts/estatistica/">← Voltar para a Seção de Estatística 📊</a></p>
 <hr>
-<section id="acesso-rápido-às-partes-do-curso" class="level1" data-number="1"><h1 data-number="1">
-<span class="header-section-number">1</span> 🔗 Acesso Rápido às Partes do Curso</h1>
-<p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html">Parte 1: Introdução à Distribuição Normal</a></p>
-<p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html">Parte 2: Escore-z e Tabela Z</a></p>
-<p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html">Parte 3: Gráficos, TCL e Normalidade Aproximada</a>(👉 Você está aqui!)</p>
-<hr>
 <div class="quarto-figure quarto-figure-center" style="margin-bottom: 2rem;">
 <figure class="figure"><p><img src="../images/curva-normal-fundo-preto.png" class="img-fluid figure-img" style="width:100.0%"></p>
 <figcaption>Distribuição Normal</figcaption></figure>
 </div>
-</section><section id="a-distribuição-normal-parte-3" class="level1" data-number="2"><h1 data-number="2">
-<span class="header-section-number">2</span> 🎓 📊 A Distribuição Normal – Parte 3</h1>
+<section id="a-distribuição-normal-parte-3" class="level1" data-number="1"><h1 data-number="1">
+<span class="header-section-number">1</span> 🎓 📊 A Distribuição Normal – Parte 3</h1>
 <p>Este curso tem como propósito apresentar, de forma acessível e aplicada, os fundamentos da distribuição normal, também conhecida como distribuição de Gauss, com apoio de visualizações gráficas e ferramentas computacionais.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="📌 Objetivos do Post">
 <div class="callout-header d-flex align-content-center">
@@ -343,8 +336,8 @@ window.Quarto = {
 </div>
 </div>
 <hr>
-<section id="complementos-entendendo-a-normalidade-no-mundo-real" class="level2" data-number="2.1"><h2 data-number="2.1" class="anchored" data-anchor-id="complementos-entendendo-a-normalidade-no-mundo-real">
-<span class="header-section-number">2.1</span> 🧠 Complementos: Entendendo a Normalidade no Mundo Real</h2>
+<section id="complementos-entendendo-a-normalidade-no-mundo-real" class="level2" data-number="1.1"><h2 data-number="1.1" class="anchored" data-anchor-id="complementos-entendendo-a-normalidade-no-mundo-real">
+<span class="header-section-number">1.1</span> 🧠 Complementos: Entendendo a Normalidade no Mundo Real</h2>
 <p>Nesta parte, baseados no livro <strong>Statistics for Managers Using Microsoft Excel (Levine et al.)</strong>, exploraremos conceitos importantes sobre quando e como a distribuição normal pode ser utilizada como uma aproximação válida em contextos reais.</p>
 <p><strong>🎯 Objetivos:</strong></p>
 <ul>
@@ -353,8 +346,8 @@ window.Quarto = {
 <li><p>Utilizar critérios práticos e gráficos para avaliar a normalidade de dados.</p></li>
 </ul>
 <p>🧠 <strong>Vamos aprofundar nossa compreensão!</strong></p>
-<hr></section><section id="o-que-é-uma-distribuição-aproximadamente-normal" class="level2" data-number="2.2"><h2 data-number="2.2" class="anchored" data-anchor-id="o-que-é-uma-distribuição-aproximadamente-normal">
-<span class="header-section-number">2.2</span> 📈 ❓ O que é uma Distribuição Aproximadamente Normal?</h2>
+<hr></section><section id="o-que-é-uma-distribuição-aproximadamente-normal" class="level2" data-number="1.2"><h2 data-number="1.2" class="anchored" data-anchor-id="o-que-é-uma-distribuição-aproximadamente-normal">
+<span class="header-section-number">1.2</span> 📈 ❓ O que é uma Distribuição Aproximadamente Normal?</h2>
 <p><strong>Distribuições aproximadamente normais</strong> são variáveis que, mesmo sem seguirem perfeitamente a forma da curva normal, apresentam características suficientes para que métodos estatísticos baseados na normalidade sejam aplicáveis.</p>
 <p>👉 <strong>Principais características:</strong></p>
 <ul>
@@ -428,8 +421,8 @@ window.Quarto = {
 </div>
 </div>
 </div>
-</section><section id="o-que-é-um-gráfico-q-q-plot" class="level2" data-number="2.3"><h2 data-number="2.3" class="anchored" data-anchor-id="o-que-é-um-gráfico-q-q-plot">
-<span class="header-section-number">2.3</span> 📈 ❓ O que é um Gráfico Q-Q Plot?</h2>
+</section><section id="o-que-é-um-gráfico-q-q-plot" class="level2" data-number="1.3"><h2 data-number="1.3" class="anchored" data-anchor-id="o-que-é-um-gráfico-q-q-plot">
+<span class="header-section-number">1.3</span> 📈 ❓ O que é um Gráfico Q-Q Plot?</h2>
 <p>📈 <strong>Q-Q Plot (Quantile-Quantile Plot)</strong> é um gráfico utilizado para comparar a distribuição dos dados amostrais com uma distribuição teórica, geralmente a normal.</p>
 <p>🎯 <strong>Objetivos:</strong></p>
 <ul>
@@ -561,8 +554,8 @@ Gerando Gráficos em R: Histograma e Q-Q Plot
 </div>
 </div>
 </div>
-</section><section id="passo-a-passo-para-gerar-os-gráficos-no-rstudio" class="level2" data-number="2.4"><h2 data-number="2.4" class="anchored" data-anchor-id="passo-a-passo-para-gerar-os-gráficos-no-rstudio">
-<span class="header-section-number">2.4</span> 🧭 Passo a Passo para Gerar os Gráficos no RStudio</h2>
+</section><section id="passo-a-passo-para-gerar-os-gráficos-no-rstudio" class="level2" data-number="1.4"><h2 data-number="1.4" class="anchored" data-anchor-id="passo-a-passo-para-gerar-os-gráficos-no-rstudio">
+<span class="header-section-number">1.4</span> 🧭 Passo a Passo para Gerar os Gráficos no RStudio</h2>
 <p>🎯 <strong>Objetivo:</strong> Construir o Histograma e o Q-Q Plot da amostra de alturas usando o RStudio.</p>
 <p>👉 (1) Gerar a amostra:</p>
 <ul>
@@ -671,8 +664,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 </div>
 </div>
 </div>
-</section><section id="passo-a-passo-para-gerar-gráficos-no-excel" class="level2" data-number="2.5"><h2 data-number="2.5" class="anchored" data-anchor-id="passo-a-passo-para-gerar-gráficos-no-excel">
-<span class="header-section-number">2.5</span> 🧭 Passo a Passo para Gerar Gráficos no Excel</h2>
+</section><section id="passo-a-passo-para-gerar-gráficos-no-excel" class="level2" data-number="1.5"><h2 data-number="1.5" class="anchored" data-anchor-id="passo-a-passo-para-gerar-gráficos-no-excel">
+<span class="header-section-number">1.5</span> 🧭 Passo a Passo para Gerar Gráficos no Excel</h2>
 <p>🎯 <strong>Objetivo:</strong> Construir o Histograma e o Q-Q Plot da amostra de alturas usando o Excel.</p>
 <p>📈 <strong>Histograma no Excel:</strong></p>
 <ol type="1">
@@ -689,8 +682,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 <li><p>Adicione uma linha de tendência linear para referência.</p></li>
 </ol>
 <p>📌 <strong>Observação:</strong> O Q-Q Plot é manual no Excel, mas fácil de construir!</p>
-<hr></section><section id="lei-dos-grandes-números-lgn" class="level2" data-number="2.6"><h2 data-number="2.6" class="anchored" data-anchor-id="lei-dos-grandes-números-lgn">
-<span class="header-section-number">2.6</span> 🧠 Lei dos Grandes Números (LGN)</h2>
+<hr></section><section id="lei-dos-grandes-números-lgn" class="level2" data-number="1.6"><h2 data-number="1.6" class="anchored" data-anchor-id="lei-dos-grandes-números-lgn">
+<span class="header-section-number">1.6</span> 🧠 Lei dos Grandes Números (LGN)</h2>
 <ul>
 <li><p>Amostras grandes tendem a refletir a verdadeira média populacional.</p></li>
 <li><p>A variabilidade diminui conforme aumentamos o tamanho da amostra.</p></li>
@@ -698,8 +691,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 <blockquote class="blockquote">
 <p>📌 <strong>Resumo:</strong> A LGN assegura que médias amostrais se aproximam da média populacional.</p>
 </blockquote>
-<hr></section><section id="teorema-central-do-limite-tcl" class="level2" data-number="2.7"><h2 data-number="2.7" class="anchored" data-anchor-id="teorema-central-do-limite-tcl">
-<span class="header-section-number">2.7</span> 🧠 Teorema Central do Limite (TCL)</h2>
+<hr></section><section id="teorema-central-do-limite-tcl" class="level2" data-number="1.7"><h2 data-number="1.7" class="anchored" data-anchor-id="teorema-central-do-limite-tcl">
+<span class="header-section-number">1.7</span> 🧠 Teorema Central do Limite (TCL)</h2>
 <ul>
 <li><p>A média de amostras grandes tende a seguir uma distribuição normal.</p></li>
 <li><p>Independentemente da distribuição original!</p></li>
@@ -707,8 +700,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 <blockquote class="blockquote">
 <p><strong>Conclusão:</strong> O TCL é a base teórica para o uso da distribuição normal na prática.</p>
 </blockquote>
-<hr></section><section id="variabilidade-e-forma-da-curva-normal" class="level2" data-number="2.8"><h2 data-number="2.8" class="anchored" data-anchor-id="variabilidade-e-forma-da-curva-normal">
-<span class="header-section-number">2.8</span> 🧠 Variabilidade e Forma da Curva Normal</h2>
+<hr></section><section id="variabilidade-e-forma-da-curva-normal" class="level2" data-number="1.8"><h2 data-number="1.8" class="anchored" data-anchor-id="variabilidade-e-forma-da-curva-normal">
+<span class="header-section-number">1.8</span> 🧠 Variabilidade e Forma da Curva Normal</h2>
 <ul>
 <li><p><span class="math inline">\(\sigma\)</span> pequeno <span class="math inline">\(\rightarrow\)</span> curva mais estreita.</p></li>
 <li><p><span class="math inline">\(\sigma\)</span> grande <span class="math inline">\(\rightarrow\)</span> curva mais achatada.</p></li>
@@ -767,8 +760,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 </div>
 </div>
 </div>
-</section><section id="conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada" class="level2" data-number="2.9"><h2 data-number="2.9" class="anchored" data-anchor-id="conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada">
-<span class="header-section-number">2.9</span> 📌 Conclusão da Parte 3: Gráficos, TCL e Normalidade Aproximada</h2>
+</section><section id="conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada" class="level2" data-number="1.9"><h2 data-number="1.9" class="anchored" data-anchor-id="conclusão-da-parte-3-gráficos-tcl-e-normalidade-aproximada">
+<span class="header-section-number">1.9</span> 📌 Conclusão da Parte 3: Gráficos, TCL e Normalidade Aproximada</h2>
 <p>Nesta última parte do curso, você aprendeu:</p>
 <ul>
 <li><p>A identificar variáveis que seguem uma distribuição aproximadamente normal.</p></li>
@@ -776,8 +769,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 <li><p>A utilizar gráficos como histogramas e diagramas de probabilidade normal (Q-Q plots) para avaliar a normalidade dos dados.</p></li>
 <li><p>A interpretar os resultados da análise de normalidade de forma prática e aplicada.</p></li>
 </ul>
-<hr></section></section><section id="referências" class="level1" data-number="3"><h1 data-number="3">
-<span class="header-section-number">3</span> 📚 Referências</h1>
+<hr></section></section><section id="referências" class="level1" data-number="2"><h1 data-number="2">
+<span class="header-section-number">2</span> 📚 Referências</h1>
 <ul>
 <li>Schmuller, Joseph. <em>Statistical Analysis with Excel® For Dummies®</em>, <span class="math inline">\(5^{\underline{a}}\)</span> Edição. John Wiley &amp; Sons, 2016.<br>
 </li>
@@ -789,8 +782,8 @@ Atividade 1: Gerando e Interpretando Novos Gráficos no RStudio
 </li>
 <li>Morettin, Pedro Alberto; Bussab, Wilton de Oliveira. <em>Estatística Básica</em>, <span class="math inline">\(10^{\underline{a}}\)</span> Edição. São Paulo: SaraivaUni, 2023.</li>
 </ul>
-<hr></section><section id="acesso-rápido-às-partes-do-curso-1" class="level1" data-number="4"><h1 data-number="4">
-<span class="header-section-number">4</span> 🔗 Acesso Rápido às Partes do Curso</h1>
+<hr></section><section id="acesso-rápido-às-partes-do-curso" class="level1" data-number="3"><h1 data-number="3">
+<span class="header-section-number">3</span> 🔗 Acesso Rápido às Partes do Curso</h1>
 <p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html">Parte 1: Introdução à Distribuição Normal</a></p>
 <p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html">Parte 2: Escore-z e Tabela Z</a></p>
 <p>🎯 <a href="../../../../../posts/cursos/estatistica/distribuicao_normal/parte-3/distribuicao-normal-parte3.html">Parte 3: Gráficos, TCL e Normalidade Aproximada</a>(👉 Você está aqui!)</p>
@@ -815,8 +808,8 @@ Nota
 <p><em>Criado por Blog do Marcellini com ❤️ e código.</em></p>
 </div>
 </div>
-</section><section id="links-úteis" class="level1" data-number="5"><h1 data-number="5">
-<span class="header-section-number">5</span> 🔗 Links Úteis</h1>
+</section><section id="links-úteis" class="level1" data-number="4"><h1 data-number="4">
+<span class="header-section-number">4</span> 🔗 Links Úteis</h1>
 <ul>
 <li>🧑‍🏫 <a href="../../../../../posts/pessoal/sobre-o-blog.html">Sobre o Blog</a>
 </li>

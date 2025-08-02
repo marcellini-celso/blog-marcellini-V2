@@ -1,5 +1,281 @@
 [
   {
+    "title": "🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal",
+    "href": "posts/pessoal/guia-pessoal.html",
+    "tags": [
+      "blog pessoal",
+      "guia de leitura"
+    ]
+  },
+  {
+    "title": "🧑‍🏫 Blog Pessoal",
+    "href": "posts/pessoal/index.html",
+    "tags": [
+      "pessoal",
+      "sumário do blog pessoal",
+      "sumário",
+      "sobre",
+      "sobre o blog",
+      "sobre mim"
+    ]
+  },
+  {
+    "title": "📘 🧑‍💻 Sobre o Blog e Sobre Mim",
+    "href": "posts/pessoal/sobre-o-blog.html",
+    "tags": [
+      "pessoal",
+      "sobre",
+      "sobre o blog",
+      "sobre mim"
+    ]
+  },
+  {
+    "title": "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica",
+    "href": "posts/fisica/guia-100-anos-mecanica-quantica.html",
+    "tags": [
+      "física",
+      "mecânica quântica",
+      "guia de leitura",
+      "série"
+    ]
+  },
+  {
+    "title": "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
+    "href": "posts/fisica/relatividade-especial.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "einstein",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)",
+    "href": "posts/fisica/parte-1-mecanica-quantica.html",
+    "tags": [
+      "física",
+      "mecânica quântica",
+      "guia de leitura",
+      "série"
+    ]
+  },
+  {
+    "title": "🧭 🛰️ Guia de Leitura — Série Relatividade Especial",
+    "href": "posts/fisica/guia-relatividade-especial.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "guia de leitura",
+      "einstein",
+      "série"
+    ]
+  },
+  {
+    "title": "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
+    "href": "posts/fisica/relatividade-especial-academico.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade especial",
+      "einstein"
+    ]
+  },
+  {
+    "title": "🧭 ⚛️ Guia de Leitura — Física",
+    "href": "posts/fisica/guia-fisica.html",
+    "tags": [
+      "física",
+      "guia de leitura"
+    ]
+  },
+  {
+    "title": "📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade",
+    "href": "posts/fisica/relatividade-geral-parte1.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade geral",
+      "gravidade",
+      "einstein",
+      "princípio da equivalência",
+      "série"
+    ]
+  },
+  {
+    "title": "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral",
+    "href": "posts/fisica/guia-relatividade-geral.html",
+    "tags": [
+      "física",
+      "relatividade",
+      "relatividade geral",
+      "guia de leitura",
+      "einstein",
+      "série"
+    ]
+  },
+  {
+    "title": "⚛️ Física",
+    "href": "posts/fisica/index.html",
+    "tags": [
+      "física",
+      "sumário de física",
+      "sumário"
+    ]
+  },
+  {
+    "title": "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)",
+    "href": "posts/fisica/100-anos-mecanica-quantica.html",
+    "tags": [
+      "física",
+      "mecânica quântica",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2",
+    "href": "posts/programacao/outros-modelos-markdown.html",
+    "tags": [
+      "programação",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "🧭 👨‍💻 Guia de Leitura — Programação",
+    "href": "posts/programacao/guia-programacao.html",
+    "tags": [
+      "programação",
+      "guia de leitura"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 1",
+    "href": "posts/programacao/modelos-markdown.html",
+    "tags": [
+      "programação",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos",
+    "href": "posts/programacao/yaml-no-quarto.html",
+    "tags": [
+      "programação",
+      "YAML",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto",
+    "href": "posts/programacao/modelos-r-quarto.html",
+    "tags": [
+      "programação",
+      "R",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto",
+    "href": "posts/programacao/modelos-index-quarto.html",
+    "tags": [
+      "programação",
+      "Quarto",
+      "YAML",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto",
+    "href": "posts/programacao/modelos-latex-quarto.html",
+    "tags": [
+      "programação",
+      "LaTeX",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "👨‍💻 Programação",
+    "href": "posts/programacao/index.html",
+    "tags": [
+      "programação",
+      "sumário de programação",
+      "sumário",
+      "Python",
+      "R",
+      "LaTeX",
+      "Quarto",
+      "YAML"
+    ]
+  },
+  {
+    "title": "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto",
+    "href": "posts/programacao/modelos-python-quarto.html",
+    "tags": [
+      "programação",
+      "Python",
+      "Quarto",
+      "artigo"
+    ]
+  },
+  {
+    "title": "📄 📐 LaTeX",
+    "href": "posts/programacao/latex/index.html",
+    "tags": [
+      "programação",
+      "LaTeX",
+      "sumário de LaTeX",
+      "sumário",
+      "Quarto"
+    ]
+  },
+  {
+    "title": "📄 📊 R",
+    "href": "posts/programacao/r/index.html",
+    "tags": [
+      "programação",
+      "R",
+      "sumário de R",
+      "sumário",
+      "Quarto"
+    ]
+  },
+  {
+    "title": "📄 Quarto",
+    "href": "posts/programacao/quarto/index.html",
+    "tags": [
+      "programação",
+      "Quarto",
+      "sumário de Quarto",
+      "sumário",
+      "YAML"
+    ]
+  },
+  {
+    "title": "📄 🐍 Python",
+    "href": "posts/programacao/python/index.html",
+    "tags": [
+      "programação",
+      "Python",
+      "sumário de Python",
+      "sumário",
+      "Quarto"
+    ]
+  },
+  {
+    "title": "🧭 📊 Guia de Leitura — Estatística",
+    "href": "posts/estatistica/guia-estatistica.html",
+    "tags": [
+      "estatística",
+      "guia de leitura"
+    ]
+  },
+  {
     "title": "📊 Estatística",
     "href": "posts/estatistica/index.html",
     "tags": [
@@ -9,11 +285,50 @@
     ]
   },
   {
-    "title": "🧭 📊 Guia de Leitura — Estatística",
-    "href": "posts/estatistica/guia-estatistica.html",
+    "title": "📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
+    "href": "posts/matematica/beleza-matematica.html",
     "tags": [
-      "estatística",
+      "matemática",
+      "filosofia da matemática",
+      "artigo"
+    ]
+  },
+  {
+    "title": "🧭 🧮 Guia de Leitura — Matemática",
+    "href": "posts/matematica/guia-matematica.html",
+    "tags": [
+      "matemática",
       "guia de leitura"
+    ]
+  },
+  {
+    "title": "📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História",
+    "href": "posts/matematica/equacoes-historicas.html",
+    "tags": [
+      "matemática",
+      "física",
+      "história da ciência",
+      "artigo",
+      "fórmulas"
+    ]
+  },
+  {
+    "title": "📘 🧮 Por que 0! = 1?",
+    "href": "posts/matematica/fatorial-zero.html",
+    "tags": [
+      "matemática",
+      "análise combinatória",
+      "fatorial",
+      "artigo"
+    ]
+  },
+  {
+    "title": "🧮 Matemática",
+    "href": "posts/matematica/index.html",
+    "tags": [
+      "matemática",
+      "sumário de matemática",
+      "sumário"
     ]
   },
   {
@@ -35,13 +350,15 @@
     ]
   },
   {
-    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal",
-    "href": "posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html",
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z",
+    "href": "posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html",
     "tags": [
       "estatística",
       "distribuição normal",
       "cursos",
-      "exercícios"
+      "exercícios",
+      "escore-z",
+      "tabela Z"
     ]
   },
   {
@@ -58,15 +375,13 @@
     ]
   },
   {
-    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 2): Escore-z e Tabela Z",
-    "href": "posts/cursos/estatistica/distribuicao_normal/parte-2/distribuicao-normal-parte2.html",
+    "title": "🎓 📊 Curso de Estatística: A Distribuição Normal (Parte 1): Introdução à Distribuição Normal",
+    "href": "posts/cursos/estatistica/distribuicao_normal/parte-1/distribuicao-normal.html",
     "tags": [
       "estatística",
       "distribuição normal",
       "cursos",
-      "exercícios",
-      "escore-z",
-      "tabela Z"
+      "exercícios"
     ]
   },
   {
@@ -94,6 +409,21 @@
     ]
   },
   {
+    "title": "🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento",
+    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html",
+    "tags": [
+      "matemática",
+      "cálculo",
+      "conjuntos",
+      "conjuntos numéricos",
+      "enumerabilidade",
+      "Cantor",
+      "corpo",
+      "exercícios",
+      "cursos"
+    ]
+  },
+  {
     "title": "🔢 Módulo 1.2: Conjuntos Numéricos",
     "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html",
     "tags": [
@@ -114,336 +444,6 @@
       "história do cálculo",
       "aplicações",
       "cursos"
-    ]
-  },
-  {
-    "title": "🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento",
-    "href": "posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html",
-    "tags": [
-      "matemática",
-      "cálculo",
-      "conjuntos",
-      "conjuntos numéricos",
-      "enumerabilidade",
-      "Cantor",
-      "corpo",
-      "exercícios",
-      "cursos"
-    ]
-  },
-  {
-    "title": "🧮 Matemática",
-    "href": "posts/matematica/index.html",
-    "tags": [
-      "matemática",
-      "sumário de matemática",
-      "sumário"
-    ]
-  },
-  {
-    "title": "📘 ✨ 🧮 ⚛️ Fórmulas que Marcaram a História",
-    "href": "posts/matematica/equacoes-historicas.html",
-    "tags": [
-      "matemática",
-      "física",
-      "história da ciência",
-      "artigo",
-      "fórmulas"
-    ]
-  },
-  {
-    "title": "🧭 🧮 Guia de Leitura — Matemática",
-    "href": "posts/matematica/guia-matematica.html",
-    "tags": [
-      "matemática",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "📘 🧮 A Beleza é o Primeiro Teste — G. H. Hardy e a Matemática como Arte",
-    "href": "posts/matematica/beleza-matematica.html",
-    "tags": [
-      "matemática",
-      "filosofia da matemática",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 🧮 Por que 0! = 1?",
-    "href": "posts/matematica/fatorial-zero.html",
-    "tags": [
-      "matemática",
-      "análise combinatória",
-      "fatorial",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧑‍🏫 Blog Pessoal",
-    "href": "posts/pessoal/index.html",
-    "tags": [
-      "pessoal",
-      "sumário do blog pessoal",
-      "sumário",
-      "sobre",
-      "sobre o blog",
-      "sobre mim"
-    ]
-  },
-  {
-    "title": "🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal",
-    "href": "posts/pessoal/guia-pessoal.html",
-    "tags": [
-      "blog pessoal",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "📘 🧑‍💻 Sobre o Blog e Sobre Mim",
-    "href": "posts/pessoal/sobre-o-blog.html",
-    "tags": [
-      "pessoal",
-      "sobre",
-      "sobre o blog",
-      "sobre mim"
-    ]
-  },
-  {
-    "title": "⚛️ Física",
-    "href": "posts/fisica/index.html",
-    "tags": [
-      "física",
-      "sumário de física",
-      "sumário"
-    ]
-  },
-  {
-    "title": "🧭 🛰️ Guia de Leitura — Série Relatividade Especial",
-    "href": "posts/fisica/guia-relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "guia de leitura",
-      "einstein",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🛰️ A Teoria da Relatividade Especial — Uma Visão Mais Acadêmica",
-    "href": "posts/fisica/relatividade-especial-academico.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein"
-    ]
-  },
-  {
-    "title": "🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica",
-    "href": "posts/fisica/guia-100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "📚 🌠 Relatividade Geral — Parte 1: O Problema da Gravidade",
-    "href": "posts/fisica/relatividade-geral-parte1.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "gravidade",
-      "einstein",
-      "princípio da equivalência",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🛰️ Relatividade Especial: Einstein, o Tempo e a Velocidade da Luz",
-    "href": "posts/fisica/relatividade-especial.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade especial",
-      "einstein",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧭 ⚛️ Guia de Leitura — Física",
-    "href": "posts/fisica/guia-fisica.html",
-    "tags": [
-      "física",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)",
-    "href": "posts/fisica/parte-1-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "guia de leitura",
-      "série"
-    ]
-  },
-  {
-    "title": "📘 🧬 100 Anos da Mecânica Quântica (1925–2025)",
-    "href": "posts/fisica/100-anos-mecanica-quantica.html",
-    "tags": [
-      "física",
-      "mecânica quântica",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral",
-    "href": "posts/fisica/guia-relatividade-geral.html",
-    "tags": [
-      "física",
-      "relatividade",
-      "relatividade geral",
-      "guia de leitura",
-      "einstein",
-      "série"
-    ]
-  },
-  {
-    "title": "👨‍💻 Programação",
-    "href": "posts/programacao/index.html",
-    "tags": [
-      "programação",
-      "sumário de programação",
-      "sumário",
-      "Python",
-      "R",
-      "LaTeX",
-      "Quarto",
-      "YAML"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 📊 Modelos de Código em R para Usar com Quarto",
-    "href": "posts/programacao/modelos-r-quarto.html",
-    "tags": [
-      "programação",
-      "R",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 🐍 Modelos de Código em Python para Usar com Quarto",
-    "href": "posts/programacao/modelos-python-quarto.html",
-    "tags": [
-      "programação",
-      "Python",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 2",
-    "href": "posts/programacao/outros-modelos-markdown.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "🧭 👨‍💻 Guia de Leitura — Programação",
-    "href": "posts/programacao/guia-programacao.html",
-    "tags": [
-      "programação",
-      "guia de leitura"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelos de index.qmd para Projetos Quarto",
-    "href": "posts/programacao/modelos-index-quarto.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "YAML",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 YAML no Quarto: O Coração Invisível dos Seus Documentos",
-    "href": "posts/programacao/yaml-no-quarto.html",
-    "tags": [
-      "programação",
-      "YAML",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📄 Modelo de Markdown com Quarto -- Parte 1",
-    "href": "posts/programacao/modelos-markdown.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📘 👨‍💻 📐 Modelos de LaTeX para Usar com Quarto",
-    "href": "posts/programacao/modelos-latex-quarto.html",
-    "tags": [
-      "programação",
-      "LaTeX",
-      "Quarto",
-      "artigo"
-    ]
-  },
-  {
-    "title": "📄 📐 LaTeX",
-    "href": "posts/programacao/latex/index.html",
-    "tags": [
-      "programação",
-      "LaTeX",
-      "sumário de LaTeX",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 🐍 Python",
-    "href": "posts/programacao/python/index.html",
-    "tags": [
-      "programação",
-      "Python",
-      "sumário de Python",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 📊 R",
-    "href": "posts/programacao/r/index.html",
-    "tags": [
-      "programação",
-      "R",
-      "sumário de R",
-      "sumário",
-      "Quarto"
-    ]
-  },
-  {
-    "title": "📄 Quarto",
-    "href": "posts/programacao/quarto/index.html",
-    "tags": [
-      "programação",
-      "Quarto",
-      "sumário de Quarto",
-      "sumário",
-      "YAML"
     ]
   }
 ]

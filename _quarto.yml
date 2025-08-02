@@ -12,7 +12,7 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - text: "🏷️ Tags e 📂 Categorias"
+      - text: "🏷️ Tags 📂 Categorias"
         menu:
           - text: "🏷️ Tags"
             href: tags.qmd

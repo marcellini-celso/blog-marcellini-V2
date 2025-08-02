@@ -7,12 +7,12 @@ format: html
 
 ## Posts com a tag **guia de leitura**
 
-- [🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal](/posts/pessoal/guia-pessoal.html)
-- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)
-- [📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)
-- [🧭 🛰️ Guia de Leitura — Série Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
-- [🧭 ⚛️ Guia de Leitura — Física](/posts/fisica/guia-fisica.html)
-- [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](/posts/fisica/guia-relatividade-geral.html)
-- [🧭 👨‍💻 Guia de Leitura — Programação](/posts/programacao/guia-programacao.html)
 - [🧭 📊 Guia de Leitura — Estatística](/posts/estatistica/guia-estatistica.html)
 - [🧭 🧮 Guia de Leitura — Matemática](/posts/matematica/guia-matematica.html)
+- [🧭 🧑‍🏫 Guia de Leitura — Blog Pessoal](/posts/pessoal/guia-pessoal.html)
+- [🧭 🛰️ Guia de Leitura — Série Relatividade Especial](/posts/fisica/guia-relatividade-especial.html)
+- [🧭 📚 🧬 Guia de Leitura da Série 100 Anos da Mecânica Quântica](/posts/fisica/guia-100-anos-mecanica-quantica.html)
+- [🧭 ⚛️ Guia de Leitura — Física](/posts/fisica/guia-fisica.html)
+- [📚 🧬 Parte 1 — Antes da Revolução Quântica (Aprofundamento)](/posts/fisica/parte-1-mecanica-quantica.html)
+- [🧭 📚 🌠 Guia de Leitura da Série Relatividade Geral](/posts/fisica/guia-relatividade-geral.html)
+- [🧭 👨‍💻 Guia de Leitura — Programação](/posts/programacao/guia-programacao.html)

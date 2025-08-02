@@ -8,6 +8,6 @@ format: html
 ## Posts com a tag **cálculo**
 
 - [🎓 Curso de Cálculo Diferencial e Integral](/posts/cursos/matematica/calculo/index.html)
-- [🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)
 - [🔢 Módulo 1.2: Conjuntos Numéricos](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos.html)
 - [🧠 Módulo 1.1: O que é Cálculo? História e aplicações](/posts/cursos/matematica/calculo/modulo-1/1.1-introducao.html)
+- [🧠 🔢 Módulo 1.2 AP: Conjuntos Numéricos -- Aprofundamento](/posts/cursos/matematica/calculo/modulo-1/1.2-conjuntos-ap.html)

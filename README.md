@@ -2,6 +2,7 @@
 
 Este é o repositório do meu blog pessoal, criado com [Quarto](https://quarto.org/). Aqui compartilho conteúdos sobre estatística, matemática, programação e física, com foco em explicações didáticas e exemplos práticos.
 
+This is the repository for my personal blog, created with Quarto. Here, I share content on statistics, mathematics, programming, and physics, with a focus on clear explanations and practical examples.
 ---
 
 ## 📚 Publicações em destaque

@@ -122,7 +122,7 @@ format:
 
 ## 🌐 Acesse o blog
 
-➡️ [https://marcellini-celso.github.io/blog-marcellini-V2/](https://marcellini-celso.github.io/blog-marcellini-V2/)
+➡️ [https://marcellini-celso.github.io/blog-marcellini-V2/](https://marcellini-celso.github.io/blog-marcellini-pt/)
 
 ➡️ [https://blogdomarcellini.com.br)
 

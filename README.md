@@ -122,7 +122,7 @@ format:
 
 ## 🌐 Acesse o blog
 
-➡️ [https://marcellini-celso.github.io/blog-marcellini-V2/](https://marcellini-celso.github.io/blog-marcellini-pt/)
+➡️ [https://marcellini-celso.github.io/blog-marcellini-pt/](https://marcellini-celso.github.io/blog-marcellini-pt/)
 
 ➡️ [https://blogdomarcellini.com.br)
 
@@ -132,4 +132,4 @@ format:
 
 Para dúvidas, sugestões ou colaborações, entre em contato por e-mail:  
 ✉️ **[prof.marcellini@gmail.com](mailto:prof.marcellini@gmail.com)**
-# blog-marcellini-V2
+# blog-marcellini-pt
